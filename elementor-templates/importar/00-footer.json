@@ -133,7 +133,8 @@
                   "unit": "px",
                   "size": 13,
                   "sizes": []
-                }
+                },
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "text-editor"
@@ -185,7 +186,8 @@
                       "unit": "px",
                       "size": 13,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"

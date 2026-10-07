@@ -107,3 +107,10 @@ Generadas con `scripts/build_paginas.py`: `empresa.json`, `galeria.json` (20 fot
 - `plantes-exemplars`: la web actual no lista especies concretas, solo un texto genérico y dos fotos; no se inventó contenido.
 - `situacio-i-contacte`: usa el widget **Form** (Elementor Pro) con Nom / Correu / Missatge / Enviar, enviando a `info@newtree.cat`, y el widget Google Maps con la dirección (la web actual no da coordenadas ni horarios).
 - `empresa`: fundada en 1977, zonas de servicio y vocación de la empresa, todo del texto original.
+
+## Importar (carpeta `importar/`) — todo listo
+
+`importar/` contiene las 18 plantillas, una por archivo y numeradas, ya con **Nunito** fijada en cada widget de texto (no depende del Kit global). Regenerar todo: `cd scripts && python3 build_all.py`.
+
+- `00-header.json`, `00-footer.json` → Theme Builder (tipo Header / Footer, condición "Todo el sitio").
+- `01` a `16` → una plantilla de tipo **Página** cada una (Elementor → Plantillas → Importar plantillas, o dentro del editor de la página con la carpeta de importar).

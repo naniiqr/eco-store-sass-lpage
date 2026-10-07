@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "b3d95bc",
+      "id": "ceb39d8",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "5c9c283",
+          "id": "d472f59",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "821d36f",
+              "id": "dc92a16",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "42ce825",
+              "id": "bb1e063",
               "elType": "widget",
               "settings": {
                 "title": "Sistemes de <span style=\"color:#4E8C3F\">reg</span>",
@@ -97,7 +97,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "1a4b171",
+              "id": "9a5dd89",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Els podem assessorar en quin és el millor sistema de reg automàtic.</p>",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "e7e9b33",
+              "id": "381513d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "784bb81",
+                  "id": "f9b079a",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "d5500e2",
+      "id": "d874ce5",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "c777f59",
+          "id": "744e7d9",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "3b66a95",
+              "id": "893c9d2",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,7 +229,7 @@
               },
               "elements": [
                 {
-                  "id": "29dba03",
+                  "id": "5a6d61d",
                   "elType": "widget",
                   "settings": {
                     "title": "SISTEMES DE REG",
@@ -253,7 +253,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "93aa10a",
+                  "id": "1988540",
                   "elType": "widget",
                   "settings": {
                     "title": "New Tree convertim un desert en un jardí",
@@ -272,7 +272,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "341c8bb",
+                  "id": "d4c6cbe",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>El reg automàtic distribueix artificialment l'aigua necessària per al desenvolupament de les plantes, especialment en períodes de calor quan falten pluges.</p>",
@@ -289,7 +289,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "a90c973",
+                  "id": "315dd25",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Oferim serveis de disseny i instal·lació de sistemes de reg automàtic per a terrasses, parcs i jardins de diverses dimensions.</p>",
@@ -306,7 +306,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "8a81065",
+                  "id": "aabd7a0",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Programables i que funcionen de forma independent, els sistemes de reg automàtic són l'elecció perfecta per a aquells que volen regar el seu jardí en el moment que volen.</p>",
@@ -326,7 +326,7 @@
               "isInner": true
             },
             {
-              "id": "9138c7b",
+              "id": "720e7ef",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -337,7 +337,7 @@
               },
               "elements": [
                 {
-                  "id": "594353d",
+                  "id": "e30a618",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -360,7 +360,7 @@
       "isInner": false
     },
     {
-      "id": "863f0c2",
+      "id": "aa6b7db",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -382,7 +382,7 @@
       },
       "elements": [
         {
-          "id": "7f05407",
+          "id": "8b3fe23",
           "elType": "widget",
           "settings": {
             "title": "Reg automàtic",
@@ -401,7 +401,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "d27cd23",
+          "id": "40be8d0",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -418,7 +418,7 @@
           },
           "elements": [
             {
-              "id": "cc11918",
+              "id": "8f16ab8",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -429,7 +429,7 @@
               },
               "elements": [
                 {
-                  "id": "9756efd",
+                  "id": "0aae996",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -451,7 +451,7 @@
               "isInner": true
             },
             {
-              "id": "aa9404b",
+              "id": "d3d547e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -462,7 +462,7 @@
               },
               "elements": [
                 {
-                  "id": "8b7784a",
+                  "id": "f6cf85a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -484,7 +484,7 @@
               "isInner": true
             },
             {
-              "id": "6a2ea98",
+              "id": "dba9d54",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -495,7 +495,7 @@
               },
               "elements": [
                 {
-                  "id": "d19d716",
+                  "id": "0e7d2fc",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -523,7 +523,7 @@
       "isInner": false
     },
     {
-      "id": "58339b2",
+      "id": "5ccd7e0",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -545,7 +545,7 @@
       },
       "elements": [
         {
-          "id": "9416ee8",
+          "id": "cf455e6",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -562,7 +562,7 @@
           },
           "elements": [
             {
-              "id": "cb46661",
+              "id": "7e7d1cf",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -581,7 +581,7 @@
               },
               "elements": [
                 {
-                  "id": "f499d49",
+                  "id": "5412609",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -600,7 +600,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "dab414d",
+                  "id": "91a6043",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -617,7 +617,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "60c7fb5",
+                  "id": "645a5b4",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -651,7 +651,7 @@
               "isInner": true
             },
             {
-              "id": "6a71625",
+              "id": "24c6bc5",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -672,7 +672,7 @@
               },
               "elements": [
                 {
-                  "id": "20841fe",
+                  "id": "1817709",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -691,7 +691,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "20c4703",
+                  "id": "bbb6d29",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -710,7 +710,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "e510135",
+                  "id": "611d2b6",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {

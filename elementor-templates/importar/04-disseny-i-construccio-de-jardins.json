@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "53ba90a",
+      "id": "56eb5a9",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "d4697c6",
+          "id": "1a09bc4",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "2de62e1",
+              "id": "252f006",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -72,16 +72,17 @@
                   "unit": "px",
                   "size": 2,
                   "sizes": []
-                }
+                },
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "26bf43c",
+              "id": "7a41efa",
               "elType": "widget",
               "settings": {
-                "title": "Jardins <span style=\"color:#4E8C3F\">verticals</span>",
+                "title": "Disseny i construcció de <span style=\"color:#4E8C3F\">jardins</span>",
                 "header_size": "h1",
                 "align": "left",
                 "title_color": "#FFFFFF",
@@ -91,16 +92,17 @@
                   "size": 48,
                   "sizes": []
                 },
-                "typography_font_weight": "700"
+                "typography_font_weight": "700",
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "51cc2fa",
+              "id": "58d247f",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Una nova tendència per a interiors i exteriors.</p>",
+                "editor": "<p>Disseny i creació de jardins a mida.</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -108,13 +110,14 @@
                   "unit": "px",
                   "size": 18,
                   "sizes": []
-                }
+                },
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "text-editor"
             },
             {
-              "id": "846cb55",
+              "id": "ab7d236",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +134,7 @@
               },
               "elements": [
                 {
-                  "id": "6150b7d",
+                  "id": "424ca52",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -156,7 +159,9 @@
                       "is_external": "",
                       "nofollow": "",
                       "custom_attributes": ""
-                    }
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "button"
@@ -171,7 +176,7 @@
       "isInner": false
     },
     {
-      "id": "b230202",
+      "id": "419f461",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +198,7 @@
       },
       "elements": [
         {
-          "id": "be4b034",
+          "id": "1fbe426",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +215,7 @@
           },
           "elements": [
             {
-              "id": "ffbd80f",
+              "id": "c5fa4da",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,10 +234,10 @@
               },
               "elements": [
                 {
-                  "id": "82281aa",
+                  "id": "c4aae6e",
                   "elType": "widget",
                   "settings": {
-                    "title": "JARDINS VERTICALS",
+                    "title": "DISSENY I CONSTRUCCIÓ DE JARDINS",
                     "header_size": "p",
                     "align": "left",
                     "title_color": "#E14D5A",
@@ -247,13 +252,14 @@
                       "unit": "px",
                       "size": 2,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9b80bbc",
+                  "id": "bd4c9ad",
                   "elType": "widget",
                   "settings": {
                     "title": "New Tree convertim un desert en un jardí",
@@ -266,16 +272,17 @@
                       "size": 30,
                       "sizes": []
                     },
-                    "typography_font_weight": "700"
+                    "typography_font_weight": "700",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "8ee6cb5",
+                  "id": "398e3d2",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Una nova tendència són els jardins verticals: podeu donar un ambient diferent i acollidor tant en interior com en exteriors, restaurants, sales d'espera, escoles, empreses… Oferim infinitat de dissenys amb nombrosos beneficis a nivell econòmic, ecològic i social.</p>",
+                    "editor": "<p>Us oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder-vos oferir un servei totalment personalitzat.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
@@ -283,16 +290,17 @@
                       "unit": "px",
                       "size": 16,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "e206934",
+                  "id": "b948f9c",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Una façana vegetal ajuda a purificar l'aire, reduir la temperatura ambient, regular la temperatura i promou la biodiversitat a la ciutat. Els jardins verticals formen part de la construcció bioclimàtica. I, a més, la gent és més feliç en un entorn verd que en un entorn gris.</p>",
+                    "editor": "<p>Cada racó té les seves pròpies característiques: l'objectiu és dissenyar el jardí intentant ressaltar els seus punts forts.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
@@ -300,7 +308,62 @@
                       "unit": "px",
                       "size": 16,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "200928a",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Això vol dir tenir en compte tres conceptes importants: proporció, unitat i línies geomètriques.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_font_family": "Nunito"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "9890f1d",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>La proporció es refereix sobretot a la mida del que volem plantar, ha de ser proporcionat.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_font_family": "Nunito"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "2b5ab28",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Els elements naturals també contribueixen a aquesta funció: els arbres que es desenvolupen horitzontalment donen una sensació de tranquil·litat; els verticals, en canvi, donen una sensació d'ordre i dinamisme.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
@@ -309,7 +372,7 @@
               "isInner": true
             },
             {
-              "id": "4360dc8",
+              "id": "4fee83c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -320,15 +383,15 @@
               },
               "elements": [
                 {
-                  "id": "ffd6d19",
+                  "id": "c452e8b",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2021/08/vertical-jpg.jpeg",
+                      "url": "https://newtree.cat/wp-content/uploads/2021/08/Disseny-de-jardins.jpg",
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardins Verticals"
+                    "alt": "Disseny i Construcció de Jardins"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -343,7 +406,7 @@
       "isInner": false
     },
     {
-      "id": "4337376",
+      "id": "e0e8356",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -365,10 +428,10 @@
       },
       "elements": [
         {
-          "id": "6fcb571",
+          "id": "63ffb24",
           "elType": "widget",
           "settings": {
-            "title": "Beneficis",
+            "title": "Tres conceptes clau",
             "header_size": "h2",
             "align": "left",
             "title_color": "#1E2A22",
@@ -378,13 +441,14 @@
               "size": 30,
               "sizes": []
             },
-            "typography_font_weight": "700"
+            "typography_font_weight": "700",
+            "typography_font_family": "Nunito"
           },
           "elements": [],
           "widgetType": "heading"
         },
         {
-          "id": "aaaaa99",
+          "id": "33e6b35",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -401,7 +465,7 @@
           },
           "elements": [
             {
-              "id": "0b9779e",
+              "id": "c826f04",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -412,20 +476,24 @@
               },
               "elements": [
                 {
-                  "id": "f037e0d",
+                  "id": "2cd0303",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
-                      "value": "fas fa-seedling",
+                      "value": "fas fa-check-circle",
                       "library": "fa-solid"
                     },
-                    "title_text": "Purifica l'aire",
-                    "description_text": "",
+                    "title_text": "Proporció",
+                    "description_text": "La mida del que plantem ha de ser proporcionada.",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -434,7 +502,7 @@
               "isInner": true
             },
             {
-              "id": "55e1ab6",
+              "id": "9b780a8",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -445,20 +513,24 @@
               },
               "elements": [
                 {
-                  "id": "83f876f",
+                  "id": "e370d9a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
-                      "value": "fas fa-seedling",
+                      "value": "fas fa-check-circle",
                       "library": "fa-solid"
                     },
-                    "title_text": "Redueix i regula la temperatura",
+                    "title_text": "Unitat",
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -467,7 +539,7 @@
               "isInner": true
             },
             {
-              "id": "c96d9e9",
+              "id": "1bca082",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -478,53 +550,24 @@
               },
               "elements": [
                 {
-                  "id": "63b099a",
+                  "id": "e79890c",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
-                      "value": "fas fa-seedling",
+                      "value": "fas fa-check-circle",
                       "library": "fa-solid"
                     },
-                    "title_text": "Promou la biodiversitat",
+                    "title_text": "Línies geomètriques",
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "2a2f973",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "094e4fc",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-seedling",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Construcció bioclimàtica",
-                    "description_text": "",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -539,7 +582,7 @@
       "isInner": false
     },
     {
-      "id": "07a0af1",
+      "id": "be0e9f6",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -561,7 +604,7 @@
       },
       "elements": [
         {
-          "id": "b771ac9",
+          "id": "784c44e",
           "elType": "widget",
           "settings": {
             "title": "Galeria",
@@ -574,13 +617,14 @@
               "size": 30,
               "sizes": []
             },
-            "typography_font_weight": "700"
+            "typography_font_weight": "700",
+            "typography_font_family": "Nunito"
           },
           "elements": [],
           "widgetType": "heading"
         },
         {
-          "id": "a64db96",
+          "id": "2e3545f",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -597,26 +641,26 @@
           },
           "elements": [
             {
-              "id": "6c4c964",
+              "id": "4e41042",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 48
+                  "size": 31.5
                 }
               },
               "elements": [
                 {
-                  "id": "ad13c20",
+                  "id": "0b6f46d",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2021/08/vertical.jpg",
+                      "url": "https://newtree.cat/wp-content/uploads/2021/08/Disseny-de-jardins2.jpg",
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardins Verticals"
+                    "alt": "Disseny i Construcció de Jardins"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -625,26 +669,54 @@
               "isInner": true
             },
             {
-              "id": "de998a6",
+              "id": "6c3b6ad",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 48
+                  "size": 31.5
                 }
               },
               "elements": [
                 {
-                  "id": "2e02818",
+                  "id": "6f21896",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2021/08/vertical-j.jpg",
+                      "url": "https://newtree.cat/wp-content/uploads/2021/08/Disseny-de-jardins3.jpg",
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardins Verticals"
+                    "alt": "Disseny i Construcció de Jardins"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "b83e6a6",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "e0f43fd",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2021/07/gespa-artificial-6.jpeg",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Disseny i Construcció de Jardins"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -659,7 +731,7 @@
       "isInner": false
     },
     {
-      "id": "a0e523e",
+      "id": "a977593",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -681,7 +753,7 @@
       },
       "elements": [
         {
-          "id": "cc9cf50",
+          "id": "312f0fc",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -698,7 +770,7 @@
           },
           "elements": [
             {
-              "id": "20f53d3",
+              "id": "9687741",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -717,7 +789,7 @@
               },
               "elements": [
                 {
-                  "id": "f82f890",
+                  "id": "5484bfb",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -730,13 +802,14 @@
                       "size": 30,
                       "sizes": []
                     },
-                    "typography_font_weight": "700"
+                    "typography_font_weight": "700",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9621b41",
+                  "id": "33ea581",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -747,13 +820,14 @@
                       "unit": "px",
                       "size": 16,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "b19c5dd",
+                  "id": "746008e",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -778,7 +852,9 @@
                       "is_external": "",
                       "nofollow": "",
                       "custom_attributes": ""
-                    }
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "button"
@@ -787,7 +863,7 @@
               "isInner": true
             },
             {
-              "id": "c29e9f5",
+              "id": "791530c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -808,7 +884,7 @@
               },
               "elements": [
                 {
-                  "id": "83c112c",
+                  "id": "7d00a43",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -821,13 +897,17 @@
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "d221c66",
+                  "id": "f55f47a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -840,13 +920,17 @@
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "cda6db5",
+                  "id": "fb693f0",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -859,7 +943,11 @@
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -876,6 +964,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Jardins Verticals - New Tree",
+  "title": "Disseny i Construcció de Jardins - New Tree",
   "type": "page"
 }

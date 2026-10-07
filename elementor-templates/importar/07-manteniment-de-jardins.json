@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "53ba90a",
+      "id": "50be864",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "d4697c6",
+          "id": "e4eb816",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "2de62e1",
+              "id": "3408008",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -72,16 +72,17 @@
                   "unit": "px",
                   "size": 2,
                   "sizes": []
-                }
+                },
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "26bf43c",
+              "id": "4e30ead",
               "elType": "widget",
               "settings": {
-                "title": "Jardins <span style=\"color:#4E8C3F\">verticals</span>",
+                "title": "Manteniment de <span style=\"color:#4E8C3F\">jardins</span>",
                 "header_size": "h1",
                 "align": "left",
                 "title_color": "#FFFFFF",
@@ -91,16 +92,17 @@
                   "size": 48,
                   "sizes": []
                 },
-                "typography_font_weight": "700"
+                "typography_font_weight": "700",
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "51cc2fa",
+              "id": "aa7b5d4",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Una nova tendència per a interiors i exteriors.</p>",
+                "editor": "<p>Manteniment de jardins dels experts.</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -108,13 +110,14 @@
                   "unit": "px",
                   "size": 18,
                   "sizes": []
-                }
+                },
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "text-editor"
             },
             {
-              "id": "846cb55",
+              "id": "1d45fb2",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +134,7 @@
               },
               "elements": [
                 {
-                  "id": "6150b7d",
+                  "id": "3cb2599",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -156,7 +159,9 @@
                       "is_external": "",
                       "nofollow": "",
                       "custom_attributes": ""
-                    }
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "button"
@@ -171,7 +176,7 @@
       "isInner": false
     },
     {
-      "id": "b230202",
+      "id": "35e8566",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +198,7 @@
       },
       "elements": [
         {
-          "id": "be4b034",
+          "id": "5c5aabf",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +215,7 @@
           },
           "elements": [
             {
-              "id": "ffbd80f",
+              "id": "ec6d1fe",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,10 +234,10 @@
               },
               "elements": [
                 {
-                  "id": "82281aa",
+                  "id": "e37be47",
                   "elType": "widget",
                   "settings": {
-                    "title": "JARDINS VERTICALS",
+                    "title": "MANTENIMENT DE JARDINS",
                     "header_size": "p",
                     "align": "left",
                     "title_color": "#E14D5A",
@@ -247,13 +252,14 @@
                       "unit": "px",
                       "size": 2,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9b80bbc",
+                  "id": "3f74dda",
                   "elType": "widget",
                   "settings": {
                     "title": "New Tree convertim un desert en un jardí",
@@ -266,16 +272,17 @@
                       "size": 30,
                       "sizes": []
                     },
-                    "typography_font_weight": "700"
+                    "typography_font_weight": "700",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "8ee6cb5",
+                  "id": "2dff7b4",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Una nova tendència són els jardins verticals: podeu donar un ambient diferent i acollidor tant en interior com en exteriors, restaurants, sales d'espera, escoles, empreses… Oferim infinitat de dissenys amb nombrosos beneficis a nivell econòmic, ecològic i social.</p>",
+                    "editor": "<p>Els serveis de jardineria ofereixen un toc professional. Durant les estacions càlides, les plantes floreixen i embelleixen la propietat, però el manteniment pot resultar complicat. Us oferim assistència especialitzada.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
@@ -283,16 +290,17 @@
                       "unit": "px",
                       "size": 16,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "e206934",
+                  "id": "24b4584",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Una façana vegetal ajuda a purificar l'aire, reduir la temperatura ambient, regular la temperatura i promou la biodiversitat a la ciutat. Els jardins verticals formen part de la construcció bioclimàtica. I, a més, la gent és més feliç en un entorn verd que en un entorn gris.</p>",
+                    "editor": "<p>Podem arreglar vores de jardí descuidades, podar arbres, treure flors mortes, escampar fertilitzants, fer el manteniment de gespa i us assessorarem de quines accions són les millors en cada moment.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
@@ -300,7 +308,26 @@
                       "unit": "px",
                       "size": 16,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "c81787d",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>New Tree ofereix un manteniment expert per garantir que el jardí de casa tingui una vista impressionant.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
@@ -309,7 +336,7 @@
               "isInner": true
             },
             {
-              "id": "4360dc8",
+              "id": "c0c7299",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -320,15 +347,15 @@
               },
               "elements": [
                 {
-                  "id": "ffd6d19",
+                  "id": "ed69b42",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2021/08/vertical-jpg.jpeg",
+                      "url": "https://newtree.cat/wp-content/uploads/2021/08/mantenimet.jpg",
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardins Verticals"
+                    "alt": "Manteniment de Jardins"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -343,7 +370,7 @@
       "isInner": false
     },
     {
-      "id": "4337376",
+      "id": "ef3c989",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -365,10 +392,10 @@
       },
       "elements": [
         {
-          "id": "6fcb571",
+          "id": "bf60300",
           "elType": "widget",
           "settings": {
-            "title": "Beneficis",
+            "title": "Què inclou",
             "header_size": "h2",
             "align": "left",
             "title_color": "#1E2A22",
@@ -378,13 +405,14 @@
               "size": 30,
               "sizes": []
             },
-            "typography_font_weight": "700"
+            "typography_font_weight": "700",
+            "typography_font_family": "Nunito"
           },
           "elements": [],
           "widgetType": "heading"
         },
         {
-          "id": "aaaaa99",
+          "id": "d3ec1ed",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -401,7 +429,7 @@
           },
           "elements": [
             {
-              "id": "0b9779e",
+              "id": "fc360ec",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -412,20 +440,24 @@
               },
               "elements": [
                 {
-                  "id": "f037e0d",
+                  "id": "e0d6900",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
-                      "value": "fas fa-seedling",
+                      "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Purifica l'aire",
+                    "title_text": "Control de males herbes invasives",
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -434,7 +466,7 @@
               "isInner": true
             },
             {
-              "id": "55e1ab6",
+              "id": "8c9da79",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -445,20 +477,24 @@
               },
               "elements": [
                 {
-                  "id": "83f876f",
+                  "id": "7cf3ee8",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
-                      "value": "fas fa-seedling",
+                      "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Redueix i regula la temperatura",
+                    "title_text": "Prevenció de sòls compactats",
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -467,7 +503,7 @@
               "isInner": true
             },
             {
-              "id": "c96d9e9",
+              "id": "c676af2",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -478,20 +514,24 @@
               },
               "elements": [
                 {
-                  "id": "63b099a",
+                  "id": "07e8b38",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
-                      "value": "fas fa-seedling",
+                      "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Promou la biodiversitat",
+                    "title_text": "Serveis de cobertura",
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -500,7 +540,7 @@
               "isInner": true
             },
             {
-              "id": "2a2f973",
+              "id": "fdeefd2",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -511,20 +551,61 @@
               },
               "elements": [
                 {
-                  "id": "094e4fc",
+                  "id": "ac4817d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
-                      "value": "fas fa-seedling",
+                      "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Construcció bioclimàtica",
+                    "title_text": "Serveis de reg",
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "379deaf",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                }
+              },
+              "elements": [
+                {
+                  "id": "739f946",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Prevenció de danys per neu o gel",
+                    "description_text": "",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#1E2A22",
+                    "description_color": "#6B7280",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -539,127 +620,7 @@
       "isInner": false
     },
     {
-      "id": "07a0af1",
-      "elType": "container",
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "background_background": "classic",
-        "background_color": "#FFFFFF",
-        "padding": {
-          "unit": "px",
-          "top": "70",
-          "right": "40",
-          "bottom": "70",
-          "left": "40",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "b771ac9",
-          "elType": "widget",
-          "settings": {
-            "title": "Galeria",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "a64db96",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_gap": {
-              "column": "24",
-              "row": "24",
-              "unit": "px",
-              "isLinked": true
-            },
-            "flex_justify_content": "flex-start",
-            "flex_align_items": "flex-start"
-          },
-          "elements": [
-            {
-              "id": "6c4c964",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 48
-                }
-              },
-              "elements": [
-                {
-                  "id": "ad13c20",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2021/08/vertical.jpg",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Jardins Verticals"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "de998a6",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 48
-                }
-              },
-              "elements": [
-                {
-                  "id": "2e02818",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2021/08/vertical-j.jpg",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Jardins Verticals"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            }
-          ],
-          "isInner": true
-        }
-      ],
-      "isInner": false
-    },
-    {
-      "id": "a0e523e",
+      "id": "cef2d68",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -681,7 +642,7 @@
       },
       "elements": [
         {
-          "id": "cc9cf50",
+          "id": "67696b6",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -698,7 +659,7 @@
           },
           "elements": [
             {
-              "id": "20f53d3",
+              "id": "9fd5e0d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -717,7 +678,7 @@
               },
               "elements": [
                 {
-                  "id": "f82f890",
+                  "id": "c62f08f",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -730,13 +691,14 @@
                       "size": 30,
                       "sizes": []
                     },
-                    "typography_font_weight": "700"
+                    "typography_font_weight": "700",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9621b41",
+                  "id": "d957aa5",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -747,13 +709,14 @@
                       "unit": "px",
                       "size": 16,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "b19c5dd",
+                  "id": "73bbaa2",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -778,7 +741,9 @@
                       "is_external": "",
                       "nofollow": "",
                       "custom_attributes": ""
-                    }
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "button"
@@ -787,7 +752,7 @@
               "isInner": true
             },
             {
-              "id": "c29e9f5",
+              "id": "ce47b75",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -808,7 +773,7 @@
               },
               "elements": [
                 {
-                  "id": "83c112c",
+                  "id": "3ff6ea0",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -821,13 +786,17 @@
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "d221c66",
+                  "id": "eecc4a9",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -840,13 +809,17 @@
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "cda6db5",
+                  "id": "7c0f241",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -859,7 +832,11 @@
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -876,6 +853,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Jardins Verticals - New Tree",
+  "title": "Manteniment de Jardins - New Tree",
   "type": "page"
 }

@@ -122,7 +122,8 @@
                       "unit": "px",
                       "size": 13,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
@@ -142,7 +143,9 @@
                       "left": "6",
                       "isLinked": true
                     },
-                    "size": "sm"
+                    "size": "sm",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "button"

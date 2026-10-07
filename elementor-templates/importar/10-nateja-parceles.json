@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "53ba90a",
+      "id": "1eb511c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "d4697c6",
+          "id": "cb7c5dc",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "2de62e1",
+              "id": "dc025b3",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -72,16 +72,17 @@
                   "unit": "px",
                   "size": 2,
                   "sizes": []
-                }
+                },
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "26bf43c",
+              "id": "d2cef1c",
               "elType": "widget",
               "settings": {
-                "title": "Jardins <span style=\"color:#4E8C3F\">verticals</span>",
+                "title": "Neteja de <span style=\"color:#4E8C3F\">parcel·les</span>",
                 "header_size": "h1",
                 "align": "left",
                 "title_color": "#FFFFFF",
@@ -91,16 +92,17 @@
                   "size": 48,
                   "sizes": []
                 },
-                "typography_font_weight": "700"
+                "typography_font_weight": "700",
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "51cc2fa",
+              "id": "edd692c",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Una nova tendència per a interiors i exteriors.</p>",
+                "editor": "<p>Oferim el servei de neteja de parcel·les.</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -108,13 +110,14 @@
                   "unit": "px",
                   "size": 18,
                   "sizes": []
-                }
+                },
+                "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "text-editor"
             },
             {
-              "id": "846cb55",
+              "id": "ccff989",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +134,7 @@
               },
               "elements": [
                 {
-                  "id": "6150b7d",
+                  "id": "b570f42",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -156,7 +159,9 @@
                       "is_external": "",
                       "nofollow": "",
                       "custom_attributes": ""
-                    }
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "button"
@@ -171,7 +176,7 @@
       "isInner": false
     },
     {
-      "id": "b230202",
+      "id": "62c8d64",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +198,7 @@
       },
       "elements": [
         {
-          "id": "be4b034",
+          "id": "b6bdad9",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +215,7 @@
           },
           "elements": [
             {
-              "id": "ffbd80f",
+              "id": "9dfbc2b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,10 +234,10 @@
               },
               "elements": [
                 {
-                  "id": "82281aa",
+                  "id": "1558bac",
                   "elType": "widget",
                   "settings": {
-                    "title": "JARDINS VERTICALS",
+                    "title": "NETEJA DE PARCEL·LES",
                     "header_size": "p",
                     "align": "left",
                     "title_color": "#E14D5A",
@@ -247,13 +252,14 @@
                       "unit": "px",
                       "size": 2,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9b80bbc",
+                  "id": "c1406ad",
                   "elType": "widget",
                   "settings": {
                     "title": "New Tree convertim un desert en un jardí",
@@ -266,16 +272,17 @@
                       "size": 30,
                       "sizes": []
                     },
-                    "typography_font_weight": "700"
+                    "typography_font_weight": "700",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "8ee6cb5",
+                  "id": "38ba8cf",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Una nova tendència són els jardins verticals: podeu donar un ambient diferent i acollidor tant en interior com en exteriors, restaurants, sales d'espera, escoles, empreses… Oferim infinitat de dissenys amb nombrosos beneficis a nivell econòmic, ecològic i social.</p>",
+                    "editor": "<p>Oferim el servei de neteja de parcel·les. Contacteu-nos i us farem arribar un pressupost.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
@@ -283,24 +290,8 @@
                       "unit": "px",
                       "size": 16,
                       "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "text-editor"
-                },
-                {
-                  "id": "e206934",
-                  "elType": "widget",
-                  "settings": {
-                    "editor": "<p>Una façana vegetal ajuda a purificar l'aire, reduir la temperatura ambient, regular la temperatura i promou la biodiversitat a la ciutat. Els jardins verticals formen part de la construcció bioclimàtica. I, a més, la gent és més feliç en un entorn verd que en un entorn gris.</p>",
-                    "text_color": "#6B7280",
-                    "align": "left",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16,
-                      "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
@@ -309,7 +300,7 @@
               "isInner": true
             },
             {
-              "id": "4360dc8",
+              "id": "152d696",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -320,15 +311,15 @@
               },
               "elements": [
                 {
-                  "id": "ffd6d19",
+                  "id": "e520c69",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2021/08/vertical-jpg.jpeg",
+                      "url": "https://newtree.cat/wp-content/uploads/2021/08/neteja-de-parcelles-1.jpeg",
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardins Verticals"
+                    "alt": "Neteja de Parcel·les"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -343,203 +334,7 @@
       "isInner": false
     },
     {
-      "id": "4337376",
-      "elType": "container",
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "background_background": "classic",
-        "background_color": "#F6F7F5",
-        "padding": {
-          "unit": "px",
-          "top": "70",
-          "right": "40",
-          "bottom": "70",
-          "left": "40",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "6fcb571",
-          "elType": "widget",
-          "settings": {
-            "title": "Beneficis",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "aaaaa99",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_gap": {
-              "column": "24",
-              "row": "24",
-              "unit": "px",
-              "isLinked": true
-            },
-            "flex_justify_content": "flex-start",
-            "flex_align_items": "flex-start"
-          },
-          "elements": [
-            {
-              "id": "0b9779e",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "f037e0d",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-seedling",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Purifica l'aire",
-                    "description_text": "",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "55e1ab6",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "83f876f",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-seedling",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Redueix i regula la temperatura",
-                    "description_text": "",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "c96d9e9",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "63b099a",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-seedling",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Promou la biodiversitat",
-                    "description_text": "",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "2a2f973",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "094e4fc",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-seedling",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Construcció bioclimàtica",
-                    "description_text": "",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            }
-          ],
-          "isInner": true
-        }
-      ],
-      "isInner": false
-    },
-    {
-      "id": "07a0af1",
+      "id": "ea72d1a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -561,7 +356,7 @@
       },
       "elements": [
         {
-          "id": "b771ac9",
+          "id": "ab6b4b4",
           "elType": "widget",
           "settings": {
             "title": "Galeria",
@@ -574,13 +369,14 @@
               "size": 30,
               "sizes": []
             },
-            "typography_font_weight": "700"
+            "typography_font_weight": "700",
+            "typography_font_family": "Nunito"
           },
           "elements": [],
           "widgetType": "heading"
         },
         {
-          "id": "a64db96",
+          "id": "ce3d6ae",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -597,7 +393,7 @@
           },
           "elements": [
             {
-              "id": "6c4c964",
+              "id": "c98ff08",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -608,43 +404,15 @@
               },
               "elements": [
                 {
-                  "id": "ad13c20",
+                  "id": "5c91e76",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2021/08/vertical.jpg",
+                      "url": "https://newtree.cat/wp-content/uploads/2021/08/neteja-de-parcelles-1-1.jpeg",
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardins Verticals"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "de998a6",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 48
-                }
-              },
-              "elements": [
-                {
-                  "id": "2e02818",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2021/08/vertical-j.jpg",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Jardins Verticals"
+                    "alt": "Neteja de Parcel·les"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -659,7 +427,7 @@
       "isInner": false
     },
     {
-      "id": "a0e523e",
+      "id": "836fe6d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -681,7 +449,7 @@
       },
       "elements": [
         {
-          "id": "cc9cf50",
+          "id": "06ab800",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -698,7 +466,7 @@
           },
           "elements": [
             {
-              "id": "20f53d3",
+              "id": "4e8d0dd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -717,7 +485,7 @@
               },
               "elements": [
                 {
-                  "id": "f82f890",
+                  "id": "a28f020",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -730,13 +498,14 @@
                       "size": 30,
                       "sizes": []
                     },
-                    "typography_font_weight": "700"
+                    "typography_font_weight": "700",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9621b41",
+                  "id": "b6bb547",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -747,13 +516,14 @@
                       "unit": "px",
                       "size": 16,
                       "sizes": []
-                    }
+                    },
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "b19c5dd",
+                  "id": "eeb3b34",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -778,7 +548,9 @@
                       "is_external": "",
                       "nofollow": "",
                       "custom_attributes": ""
-                    }
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "button"
@@ -787,7 +559,7 @@
               "isInner": true
             },
             {
-              "id": "c29e9f5",
+              "id": "8b5aefe",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -808,7 +580,7 @@
               },
               "elements": [
                 {
-                  "id": "83c112c",
+                  "id": "c4ade7f",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -821,13 +593,17 @@
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "d221c66",
+                  "id": "07975da",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -840,13 +616,17 @@
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "cda6db5",
+                  "id": "93d9217",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -859,7 +639,11 @@
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Nunito",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -876,6 +660,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Jardins Verticals - New Tree",
+  "title": "Neteja de Parcel·les - New Tree",
   "type": "page"
 }

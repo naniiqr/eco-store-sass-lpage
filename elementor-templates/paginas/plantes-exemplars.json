@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "2dde1a7",
+      "id": "b3fe505",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "ca6dfba",
+          "id": "912f4e3",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "75b9cea",
+              "id": "798cdb0",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "9362015",
+              "id": "52a5f68",
               "elType": "widget",
               "settings": {
                 "title": "Plantes <span style=\"color:#4E8C3F\">exemplars</span>",
@@ -97,7 +97,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "a95c3da",
+              "id": "76b3b96",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "c19bdfe",
+              "id": "642a255",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "a190abd",
+                  "id": "f7d2e3e",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "a586d04",
+      "id": "7882824",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "a48ae17",
+          "id": "d8411c1",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "0d60935",
+              "id": "54fe44a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,7 +229,7 @@
               },
               "elements": [
                 {
-                  "id": "52fb6db",
+                  "id": "610ea3b",
                   "elType": "widget",
                   "settings": {
                     "title": "PLANTES EXEMPLARS",
@@ -253,7 +253,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "b5389f4",
+                  "id": "178fea7",
                   "elType": "widget",
                   "settings": {
                     "title": "New Tree convertim un desert en un jardí",
@@ -272,7 +272,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "d8ba03e",
+                  "id": "f87f9d2",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Us oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder-vos oferir un servei totalment personalitzat.</p>",
@@ -292,7 +292,7 @@
               "isInner": true
             },
             {
-              "id": "fa20aae",
+              "id": "351d19e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -303,7 +303,7 @@
               },
               "elements": [
                 {
-                  "id": "2556fa8",
+                  "id": "4a6a27a",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -326,7 +326,7 @@
       "isInner": false
     },
     {
-      "id": "c731692",
+      "id": "785b810",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -348,7 +348,7 @@
       },
       "elements": [
         {
-          "id": "8592e59",
+          "id": "7151d79",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -365,7 +365,7 @@
           },
           "elements": [
             {
-              "id": "e5576a2",
+              "id": "4837d70",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -376,7 +376,7 @@
               },
               "elements": [
                 {
-                  "id": "eaf3a35",
+                  "id": "0f61150",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -393,7 +393,7 @@
               "isInner": true
             },
             {
-              "id": "fcce5c0",
+              "id": "9391942",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -412,7 +412,7 @@
               },
               "elements": [
                 {
-                  "id": "9af445b",
+                  "id": "d3395f6",
                   "elType": "widget",
                   "settings": {
                     "title": "Vols veure els nostres exemplars?",
@@ -431,7 +431,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "1622063",
+                  "id": "905f5eb",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Visita'ns a Calabuig – Bàscara o contacta amb nosaltres.</p>",
@@ -448,7 +448,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "11ab4a6",
+                  "id": "852b672",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA INFORMACIÓ",
@@ -488,7 +488,7 @@
       "isInner": false
     },
     {
-      "id": "0190e6b",
+      "id": "a440f9e",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -510,7 +510,7 @@
       },
       "elements": [
         {
-          "id": "fd53ca3",
+          "id": "0267f11",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -527,7 +527,7 @@
           },
           "elements": [
             {
-              "id": "e57c5ba",
+              "id": "f0c0e5d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -546,7 +546,7 @@
               },
               "elements": [
                 {
-                  "id": "5dd80bd",
+                  "id": "c5db6b3",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -565,7 +565,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "e0862d9",
+                  "id": "9b5c1cb",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -582,7 +582,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "8cecf2f",
+                  "id": "9abd3d9",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -616,7 +616,7 @@
               "isInner": true
             },
             {
-              "id": "b12c6d5",
+              "id": "4d3113a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -637,7 +637,7 @@
               },
               "elements": [
                 {
-                  "id": "82f8ab8",
+                  "id": "2051b34",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -656,7 +656,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "584a16c",
+                  "id": "f7d603b",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -675,7 +675,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "b73cf31",
+                  "id": "3a9885c",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {

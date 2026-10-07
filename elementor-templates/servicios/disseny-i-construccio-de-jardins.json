@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "0eafc7f",
+      "id": "56eb5a9",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "afb7bbb",
+          "id": "1a09bc4",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "0714cbd",
+              "id": "252f006",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "e170ae5",
+              "id": "7a41efa",
               "elType": "widget",
               "settings": {
                 "title": "Disseny i construcció de <span style=\"color:#4E8C3F\">jardins</span>",
@@ -97,7 +97,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "446b9d7",
+              "id": "58d247f",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Disseny i creació de jardins a mida.</p>",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "2d5b8f4",
+              "id": "ab7d236",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "61966a5",
+                  "id": "424ca52",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "854a323",
+      "id": "419f461",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "359eec8",
+          "id": "1fbe426",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "c2c8e18",
+              "id": "c5fa4da",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,7 +229,7 @@
               },
               "elements": [
                 {
-                  "id": "2bbc7b4",
+                  "id": "c4aae6e",
                   "elType": "widget",
                   "settings": {
                     "title": "DISSENY I CONSTRUCCIÓ DE JARDINS",
@@ -253,7 +253,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "32a9a20",
+                  "id": "bd4c9ad",
                   "elType": "widget",
                   "settings": {
                     "title": "New Tree convertim un desert en un jardí",
@@ -272,7 +272,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "89335aa",
+                  "id": "398e3d2",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Us oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder-vos oferir un servei totalment personalitzat.</p>",
@@ -289,7 +289,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "ce06707",
+                  "id": "b948f9c",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Cada racó té les seves pròpies característiques: l'objectiu és dissenyar el jardí intentant ressaltar els seus punts forts.</p>",
@@ -306,7 +306,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "95ef9ff",
+                  "id": "200928a",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Això vol dir tenir en compte tres conceptes importants: proporció, unitat i línies geomètriques.</p>",
@@ -323,7 +323,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "a1c4bd4",
+                  "id": "9890f1d",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>La proporció es refereix sobretot a la mida del que volem plantar, ha de ser proporcionat.</p>",
@@ -340,7 +340,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "b814227",
+                  "id": "2b5ab28",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Els elements naturals també contribueixen a aquesta funció: els arbres que es desenvolupen horitzontalment donen una sensació de tranquil·litat; els verticals, en canvi, donen una sensació d'ordre i dinamisme.</p>",
@@ -360,7 +360,7 @@
               "isInner": true
             },
             {
-              "id": "f726200",
+              "id": "4fee83c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -371,7 +371,7 @@
               },
               "elements": [
                 {
-                  "id": "dda1808",
+                  "id": "c452e8b",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -394,7 +394,7 @@
       "isInner": false
     },
     {
-      "id": "56db14e",
+      "id": "e0e8356",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -416,7 +416,7 @@
       },
       "elements": [
         {
-          "id": "48f1332",
+          "id": "63ffb24",
           "elType": "widget",
           "settings": {
             "title": "Tres conceptes clau",
@@ -435,7 +435,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "b25ae1c",
+          "id": "33e6b35",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -452,7 +452,7 @@
           },
           "elements": [
             {
-              "id": "6b389e9",
+              "id": "c826f04",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -463,7 +463,7 @@
               },
               "elements": [
                 {
-                  "id": "f8e9090",
+                  "id": "2cd0303",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -485,7 +485,7 @@
               "isInner": true
             },
             {
-              "id": "2c13862",
+              "id": "9b780a8",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -496,7 +496,7 @@
               },
               "elements": [
                 {
-                  "id": "ea62e7c",
+                  "id": "e370d9a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -518,7 +518,7 @@
               "isInner": true
             },
             {
-              "id": "8110035",
+              "id": "1bca082",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -529,7 +529,7 @@
               },
               "elements": [
                 {
-                  "id": "7735984",
+                  "id": "e79890c",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -557,7 +557,7 @@
       "isInner": false
     },
     {
-      "id": "85c7731",
+      "id": "be0e9f6",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -579,7 +579,7 @@
       },
       "elements": [
         {
-          "id": "4584f62",
+          "id": "784c44e",
           "elType": "widget",
           "settings": {
             "title": "Galeria",
@@ -598,7 +598,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "e52e484",
+          "id": "2e3545f",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -615,7 +615,7 @@
           },
           "elements": [
             {
-              "id": "828f5b0",
+              "id": "4e41042",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -626,7 +626,7 @@
               },
               "elements": [
                 {
-                  "id": "1006c1e",
+                  "id": "0b6f46d",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -643,7 +643,7 @@
               "isInner": true
             },
             {
-              "id": "481a718",
+              "id": "6c3b6ad",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -654,7 +654,7 @@
               },
               "elements": [
                 {
-                  "id": "f6008ca",
+                  "id": "6f21896",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -671,7 +671,7 @@
               "isInner": true
             },
             {
-              "id": "2b7b292",
+              "id": "b83e6a6",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -682,7 +682,7 @@
               },
               "elements": [
                 {
-                  "id": "74800a0",
+                  "id": "e0f43fd",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -705,7 +705,7 @@
       "isInner": false
     },
     {
-      "id": "a8c2dd2",
+      "id": "a977593",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -727,7 +727,7 @@
       },
       "elements": [
         {
-          "id": "536a6b5",
+          "id": "312f0fc",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -744,7 +744,7 @@
           },
           "elements": [
             {
-              "id": "acdd7c3",
+              "id": "9687741",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -763,7 +763,7 @@
               },
               "elements": [
                 {
-                  "id": "bfe9669",
+                  "id": "5484bfb",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -782,7 +782,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "98e0f63",
+                  "id": "33ea581",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -799,7 +799,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "43a2bdb",
+                  "id": "746008e",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -833,7 +833,7 @@
               "isInner": true
             },
             {
-              "id": "8f279ef",
+              "id": "791530c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -854,7 +854,7 @@
               },
               "elements": [
                 {
-                  "id": "1a05be3",
+                  "id": "7d00a43",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -873,7 +873,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "cccce92",
+                  "id": "f55f47a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -892,7 +892,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "0dd779e",
+                  "id": "fb693f0",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
