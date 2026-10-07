@@ -163,7 +163,7 @@ location = row(
     elements=[
         W("icon", {"selected_icon": {"value": "fas fa-map-marker-alt", "library": "fa-solid"},
                    "primary_color": GRAY, "size": {"unit": "px", "size": 14, "sizes": []}}),
-        text("Figueres (Girona)", color=GRAY, font_size=13),
+        text("Calabuig – Bàscara (Girona)", color=GRAY, font_size=13),
     ],
     gap="6", justify="flex-start", wrap="nowrap",
 )

@@ -342,7 +342,7 @@ about_section = section(
 # SECTION F - BOTTOM CTA BANNER (black)
 # =========================================================
 contact_items = [
-    ("phone", "Truca'ns", "972 50 00 00"),
+    ("phone", "Truca'ns", "(+34) 972 560 033"),
     ("whatsapp", "WhatsApp", "Envia'ns un missatge"),
     ("envelope", "Escriu-nos", "info@newtree.cat"),
 ]

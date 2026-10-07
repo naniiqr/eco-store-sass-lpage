@@ -251,7 +251,7 @@ projects_section = section(
 # SECTION E - WHY TRUST (dark green, 2x2 perks)
 # =========================================================
 perks = [
-    ("award", "Experiència i professionalitat", "Més de 15 anys creant jardins"),
+    ("award", "Experiència i professionalitat", "Fundats l'any 1977"),
     ("drafting-compass", "Projectes personalitzats", "Ens adaptem a tu"),
     ("recycle", "Compromís amb el medi ambient", "Solucions sostenibles"),
     ("heart", "Passió per la natura", "Fem créixer espais, fem créixer persones"),
@@ -261,7 +261,7 @@ trust_left = col(
     settings={"width": {"unit": "%", "size": 40}}, gap="20",
     elements=[
         heading("Per què confiar en Newtree?", size="h2", color=WHITE, font_size=32, weight="700"),
-        text("Som una empresa de jardineria i paisatgisme amb més de 15 anys d'experiència a l'Empordà. "
+        text("Som una empresa de jardineria i paisatgisme fundada l'any 1977, amb més de 50 anys d'experiència a l'Empordà. "
              "Ens apassiona la natura i treballem per crear espais verds que generin benestar, bellesa i valor.",
              color="#D7DED9", font_size=16),
         button("CONEIX NOSALTRES", border=WHITE),
@@ -324,7 +324,7 @@ process_section = section(
 # SECTION G - BOTTOM CTA BANNER (same as home)
 # =========================================================
 contact_items = [
-    ("phone", "Truca'ns", "972 50 00 00"),
+    ("phone", "Truca'ns", "(+34) 972 560 033"),
     ("whatsapp", "WhatsApp", "Envia'ns un missatge"),
     ("envelope", "Escriu-nos", "info@newtree.cat"),
 ]

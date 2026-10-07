@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "aa7a5ec",
+      "id": "4cb033f",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -23,7 +23,7 @@
       },
       "elements": [
         {
-          "id": "d29cb4b",
+          "id": "90f93bb",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -44,7 +44,7 @@
           },
           "elements": [
             {
-              "id": "4ad3b18",
+              "id": "f5dfccd",
               "elType": "widget",
               "settings": {
                 "width": {
@@ -58,7 +58,7 @@
               "widgetType": "theme-site-logo"
             },
             {
-              "id": "4040709",
+              "id": "1699ef0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -75,7 +75,7 @@
               },
               "elements": [
                 {
-                  "id": "29cf0fd",
+                  "id": "59f074d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -97,7 +97,7 @@
                   "widgetType": "icon"
                 },
                 {
-                  "id": "d950c5d",
+                  "id": "e150b66",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -122,7 +122,7 @@
               "isInner": true
             },
             {
-              "id": "a2f1e4d",
+              "id": "a992fe7",
               "elType": "widget",
               "settings": {
                 "editor": "<p><a href=\"#\" style=\"color:#B9BFB9\">Avís legal</a> &nbsp;|&nbsp; <a href=\"#\" style=\"color:#B9BFB9\">Política de privacitat</a> &nbsp;|&nbsp; <a href=\"#\" style=\"color:#B9BFB9\">Cookies</a></p>",
@@ -140,7 +140,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "9c8bc1c",
+              "id": "f6bf276",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -157,7 +157,7 @@
               },
               "elements": [
                 {
-                  "id": "80e4c13",
+                  "id": "69aae9d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -175,10 +175,10 @@
                   "widgetType": "icon"
                 },
                 {
-                  "id": "e7bcbd5",
+                  "id": "a36e045",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Figueres (Girona)</p>",
+                    "editor": "<p>Calabuig – Bàscara (Girona)</p>",
                     "text_color": "#B9BFB9",
                     "align": "left",
                     "typography_typography": "custom",
