@@ -85,9 +85,9 @@ Cada imagen del JSON apunta a un placeholder visual (`placehold.co`) con una eti
 5. Revisa los colores/tipografías contra tu Kit global y ajusta si hace falta.
 6. Comprueba el responsive (móvil/tablet) — los `flex_gap` y anchos en `%` están pensados para que Elementor apile las columnas automáticamente en pantallas pequeñas, pero conviene revisar cada sección.
 
-## Siguiente paso
+## Estado
 
-Inici y Jardineria (las 2 páginas con diseño en el PDF) ya están cubiertas. El resto de páginas del menú (Empresa, Galeria, Plantes exemplars, Situació i contacte) no tienen mockup en el PDF — se construirán con la misma línea visual (colores, tipografía, botones, estilo de tarjetas) pero necesitan el contenido real de la web actual. Ver la conversación para qué se necesita de cada una.
+Inici y Jardineria (las 2 únicas páginas del PDF) más todas las demás páginas del menú están cubiertas. Las páginas sin mockup toman de newtree.cat **solo contenido e imágenes**; el diseño es el del PDF.
 
 ## Páginas de servicio (`servicios/`) — contenido real de newtree.cat
 
@@ -99,3 +99,12 @@ Inici y Jardineria (las 2 páginas con diseño en el PDF) ya están cubiertas. E
 - Las imágenes apuntan a `newtree.cat/wp-content/uploads/...` (hotlink). Tras importar, súbelas a la biblioteca de medios del nuevo sitio y reemplázalas.
 - Los botones "DEMANA PRESSUPOST" usan `mailto:info@newtree.cat`; cámbialos por la página de contacto cuando exista.
 - Regenerar: `cd scripts && python3 build_servicios.py`.
+
+## Resto de páginas (`paginas/`)
+
+Generadas con `scripts/build_paginas.py`: `empresa.json`, `galeria.json` (20 fotos), `plantes-exemplars.json`, `situacio-i-contacte.json`.
+
+- Los textos de Galeria, Plantes exemplars y Situació i contacte están en castellano en la web actual; aquí se usan los títulos y el lema en catalán (como el resto del sitio).
+- `plantes-exemplars`: la web actual no lista especies concretas, solo un texto genérico y dos fotos; no se inventó contenido.
+- `situacio-i-contacte`: usa el widget **Form** (Elementor Pro) con Nom / Correu / Missatge / Enviar, enviando a `info@newtree.cat`, y el widget Google Maps con la dirección (la web actual no da coordenadas ni horarios).
+- `empresa`: fundada en 1977, zonas de servicio y vocación de la empresa, todo del texto original.

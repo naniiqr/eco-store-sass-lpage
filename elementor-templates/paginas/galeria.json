@@ -1,0 +1,1041 @@
+{
+  "content": [
+    {
+      "id": "a8c1227",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://newtree.cat/wp-content/uploads/2020/04/f3.jpg",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(10,20,15,0.55)",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "40",
+          "bottom": "120",
+          "left": "40",
+          "isLinked": false
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 420,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "3307458",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "20",
+              "row": "20",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 60
+            }
+          },
+          "elements": [
+            {
+              "id": "4a385e0",
+              "elType": "widget",
+              "settings": {
+                "title": "NEW TREE · JARDINERIA",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "letter_spacing": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "de6a70b",
+              "elType": "widget",
+              "settings": {
+                "title": "<span style=\"color:#4E8C3F\">Galeria</span>",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "132672a",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>New Tree convertim un desert en un jardí</p>",
+                "text_color": "#E5E5E5",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "0a67d43",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "column": "16",
+                  "row": "16",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "2eeba58",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "DEMANA PRESSUPOST",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "6",
+                      "right": "6",
+                      "bottom": "6",
+                      "left": "6",
+                      "isLinked": true
+                    },
+                    "size": "md",
+                    "icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "link": {
+                      "url": "mailto:info@newtree.cat",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "1300497",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "0b68c4f",
+          "elType": "widget",
+          "settings": {
+            "title": "PROJECTES",
+            "header_size": "p",
+            "align": "left",
+            "title_color": "#E14D5A",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 13,
+              "sizes": []
+            },
+            "typography_font_weight": "600",
+            "letter_spacing": {
+              "unit": "px",
+              "size": 2,
+              "sizes": []
+            }
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "fd867d2",
+          "elType": "widget",
+          "settings": {
+            "title": "Galeria",
+            "header_size": "h2",
+            "align": "left",
+            "title_color": "#1E2A22",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 32,
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "e93f467",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "20",
+              "row": "20",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start"
+          },
+          "elements": [
+            {
+              "id": "cafee19",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "ff9122b",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/11.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "5012204",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "f61747b",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/10.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "6ebdd6d",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "0922861",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/9.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "9e4197f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "c1035c7",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/12.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "202cd0f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "09d17f3",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/13.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "70cbe52",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "4bbe202",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/14.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "78dda59",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "c6383e4",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/15.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "2bed6b2",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "d54dd4e",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/16.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "1581391",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "13835fb",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/17.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "754c3a6",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "508179f",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/2.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "c5933b2",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "2894906",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/1.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e367d3e",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "22d2404",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/4.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "3cdb480",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "ee16550",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/3.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "ceb4315",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "8333b5e",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/18.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "c497b31",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "b8453e6",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/20.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "904f54f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "0b992e2",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/19.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "71c838b",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "afd192e",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/5.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "74f00bc",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "ac28f02",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/7.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "dd2eac8",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "5733c01",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/8.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "136d5f0",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "4eff459",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/5-2.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria New Tree"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "796ee89",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#0B0B0B",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "19de430",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "20",
+              "row": "20",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ccdc28a",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "16",
+                  "row": "16",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_align_items": "flex-start",
+                "width": {
+                  "unit": "%",
+                  "size": 45
+                }
+              },
+              "elements": [
+                {
+                  "id": "9da483c",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Tens un projecte de jardí?",
+                    "header_size": "h2",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "195ba31",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
+                    "text_color": "#D7DED9",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "8cc01b9",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "DEMANA PRESSUPOST",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "6",
+                      "right": "6",
+                      "bottom": "6",
+                      "left": "6",
+                      "isLinked": true
+                    },
+                    "size": "md",
+                    "icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "link": {
+                      "url": "mailto:info@newtree.cat",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0afb90a",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "column": "20",
+                  "row": "20",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "center",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                }
+              },
+              "elements": [
+                {
+                  "id": "4f93b9f",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-phone",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Truca'ns",
+                    "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#FFFFFF",
+                    "description_color": "#D7DED9"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                },
+                {
+                  "id": "81f05cc",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-envelope",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Escriu-nos",
+                    "description_text": "info@newtree.cat",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#FFFFFF",
+                    "description_color": "#D7DED9"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                },
+                {
+                  "id": "937fa77",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-map-marker-alt",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Visita'ns",
+                    "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#FFFFFF",
+                    "description_color": "#D7DED9"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Galeria - New Tree",
+  "type": "page"
+}
