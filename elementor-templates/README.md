@@ -33,9 +33,8 @@ Confirmado que aún no existen como plantillas globales, así que van aparte par
    - Verde muy oscuro (secciones destacadas): `#122318`
    - Negro (banner final): `#0B0B0B`
    - Ajusta estos valores en **Site Settings → Global Colors** tras importar, si tienes los hex reales de marca.
-3. **Tipografías**: ningún widget fuerza una familia tipográfica — todos heredan tu **Kit global** de Elementor (Site Settings → Global Fonts). Analizando el PDF al detalle (zoom por letra), la fuente del diseño es una sans-serif redondeada con "a" de una sola forma — el candidato más parecido es **Baloo 2** (Google Fonts, gratis, con varios pesos). Para aplicarla a todo el sitio de una vez: Site Settings → Global Fonts → cambia Primary/Secondary/Text a "Baloo 2" — como ningún widget de estos JSON la sobreescribe, se propaga automáticamente sin tocar los archivos.
-   - Si Baloo 2 te resulta demasiado "redondeada", alternativas más sobrias con el mismo espíritu: **Varela Round** (redondeo muy sutil, un solo peso) o **Nunito** (redondeo mínimo, rango completo de pesos).
-   - Los dos textos decorativos en cursiva ("Natura Benestar Vida" y "Fem créixer espais, fem créixer persones") van marcados en itálica simple como placeholder — si quieres una fuente script distinta para ellos, aplícala manualmente a esos dos widgets en concreto.
+3. **Tipografía: Nunito** (decidido). Ningún widget fuerza familia, todos heredan el **Kit global**. Para aplicarla en todo el sitio: Site Settings → Global Fonts → pon **Nunito** en Primary, Secondary, Text y Accent (pesos usados: 400 texto, 600 subtítulos/etiquetas, 700 títulos). Elementor la carga desde Google Fonts; para RGPD puedes activar "Cargar Google Fonts en local" en Elementor → Ajustes → Avanzado.
+   - Los dos textos decorativos en cursiva ("Natura Benestar Vida" y "Fem créixer espais, fem créixer persones") van en itálica simple como placeholder; si quieres una fuente script distinta, aplícala a esos dos widgets.
 4. **Iconos**: Font Awesome (incluido con Elementor/Pro), elegidos por significado (hoja, gota, reciclaje, etc.) — cámbialos si tienes un set de iconos de marca distinto.
 
 ## Imágenes a reemplazar (18 placeholders)
