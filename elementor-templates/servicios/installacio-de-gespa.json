@@ -1,0 +1,860 @@
+{
+  "content": [
+    {
+      "id": "87081ad",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://newtree.cat/wp-content/uploads/2020/04/f3.jpg",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(10,20,15,0.55)",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "40",
+          "bottom": "120",
+          "left": "40",
+          "isLinked": false
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 420,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "b8b1e3d",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "20",
+              "row": "20",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 60
+            }
+          },
+          "elements": [
+            {
+              "id": "e36cc42",
+              "elType": "widget",
+              "settings": {
+                "title": "NEW TREE · JARDINERIA",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "letter_spacing": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "94da6d7",
+              "elType": "widget",
+              "settings": {
+                "title": "Instal·lació de <span style=\"color:#4E8C3F\">gespa</span>",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "e873290",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Instal·lació de gespa natural i artificial.</p>",
+                "text_color": "#E5E5E5",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "f085e6c",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "column": "16",
+                  "row": "16",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "c7e4626",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "DEMANA PRESSUPOST",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "6",
+                      "right": "6",
+                      "bottom": "6",
+                      "left": "6",
+                      "isLinked": true
+                    },
+                    "size": "md",
+                    "icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "link": {
+                      "url": "mailto:info@newtree.cat",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "0b39a34",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "1161e3a",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "40",
+              "row": "40",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "space-between",
+            "flex_align_items": "flex-start"
+          },
+          "elements": [
+            {
+              "id": "73ba47b",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "18",
+                  "row": "18",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_align_items": "flex-start",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                }
+              },
+              "elements": [
+                {
+                  "id": "5725c11",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "INSTAL·LACIÓ DE GESPA",
+                    "header_size": "p",
+                    "align": "left",
+                    "title_color": "#E14D5A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "letter_spacing": {
+                      "unit": "px",
+                      "size": 2,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "96ed146",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "New Tree convertim un desert en un jardí",
+                    "header_size": "h2",
+                    "align": "left",
+                    "title_color": "#1E2A22",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "44a8e61",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>La gespa és una de les parts més importants de qualsevol jardí i la primera impressió. Més enllà de l'aspecte estètic, ofereix un espai adequat perquè hi juguin els infants i les mascotes.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "bccefc6",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Gràcies als avenços tecnològics, és possible disposar de gespa natural o gespa artificial de molt bona qualitat.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "f3961ec",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Us recomanem demanar assessorament professional per triar entre gespa artificial o natural, ja que la decisió depèn de les circumstàncies de cada cas. Us expliquem els avantatges de cada opció.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "9b099bc",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 45
+                }
+              },
+              "elements": [
+                {
+                  "id": "f9a6cb9",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2021/07/gespa-artificial-6.jpeg",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Instal·lació de Gespa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "0541f31",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#F6F7F5",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "f580fca",
+          "elType": "widget",
+          "settings": {
+            "title": "Natural o artificial",
+            "header_size": "h2",
+            "align": "left",
+            "title_color": "#1E2A22",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "162e8d9",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "24",
+              "row": "24",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start"
+          },
+          "elements": [
+            {
+              "id": "c60e9a2",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                }
+              },
+              "elements": [
+                {
+                  "id": "b2d87fe",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-leaf",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Gespa natural",
+                    "description_text": "Avantatges segons cada cas",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#1E2A22",
+                    "description_color": "#6B7280"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "4e5f3c0",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                }
+              },
+              "elements": [
+                {
+                  "id": "ce75d43",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-leaf",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Gespa artificial",
+                    "description_text": "De molt bona qualitat",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#1E2A22",
+                    "description_color": "#6B7280"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "996227d",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "68b348f",
+          "elType": "widget",
+          "settings": {
+            "title": "Galeria",
+            "header_size": "h2",
+            "align": "left",
+            "title_color": "#1E2A22",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "a733ef7",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "24",
+              "row": "24",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start"
+          },
+          "elements": [
+            {
+              "id": "e933628",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "9b2a0ee",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2021/07/gespa-artificial-3.jpeg",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Instal·lació de Gespa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "d12fad3",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "a15c3a4",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2021/07/gespa-artificial-4.jpeg",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Instal·lació de Gespa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "7d28937",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "4530eef",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2021/07/gespa-artificial-5.jpeg",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Instal·lació de Gespa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "f5c4ee8",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#0B0B0B",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "89885e9",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "20",
+              "row": "20",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "c056f6d",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "16",
+                  "row": "16",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_align_items": "flex-start",
+                "width": {
+                  "unit": "%",
+                  "size": 45
+                }
+              },
+              "elements": [
+                {
+                  "id": "c79f0b1",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Tens un projecte de jardí?",
+                    "header_size": "h2",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "7d1f7e0",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
+                    "text_color": "#D7DED9",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "ddbe6f5",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "DEMANA PRESSUPOST",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "6",
+                      "right": "6",
+                      "bottom": "6",
+                      "left": "6",
+                      "isLinked": true
+                    },
+                    "size": "md",
+                    "icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "link": {
+                      "url": "mailto:info@newtree.cat",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "4c51f98",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "column": "20",
+                  "row": "20",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "center",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                }
+              },
+              "elements": [
+                {
+                  "id": "76a97c1",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-phone",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Truca'ns",
+                    "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#FFFFFF",
+                    "description_color": "#D7DED9"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                },
+                {
+                  "id": "1be912b",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-envelope",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Escriu-nos",
+                    "description_text": "info@newtree.cat",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#FFFFFF",
+                    "description_color": "#D7DED9"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                },
+                {
+                  "id": "6df107e",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-map-marker-alt",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Visita'ns",
+                    "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#FFFFFF",
+                    "description_color": "#D7DED9"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Instal·lació de Gespa - New Tree",
+  "type": "page"
+}

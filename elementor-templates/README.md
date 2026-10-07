@@ -88,3 +88,14 @@ Cada imagen del JSON apunta a un placeholder visual (`placehold.co`) con una eti
 ## Siguiente paso
 
 Inici y Jardineria (las 2 páginas con diseño en el PDF) ya están cubiertas. El resto de páginas del menú (Empresa, Galeria, Plantes exemplars, Situació i contacte) no tienen mockup en el PDF — se construirán con la misma línea visual (colores, tipografía, botones, estilo de tarjetas) pero necesitan el contenido real de la web actual. Ver la conversación para qué se necesita de cada una.
+
+## Páginas de servicio (`servicios/`) — contenido real de newtree.cat
+
+10 plantillas generadas con `scripts/build_servicios.py` (helpers compartidos en `scripts/lib_elementor.py`), reutilizando la línea visual de `jardineria.json` pero con los textos reales de la web actual (corregidas erratas evidentes del original). Estructura: hero → texto + imagen → lista (si aplica) → galería (si hay fotos) → banner de contacto con teléfonos, email y dirección reales.
+
+`disseny-i-construccio-de-jardins`, `sistemes-de-reg`, `installacio-de-gespa`, `manteniment-de-jardins`, `jardins-verticals`, `terres-i-substrats`, `nateja-parceles`, `tanques-murs`, `podes`, `obra-publica`.
+
+- `obra-publica.json` corresponde a `newtree.cat/jardineria-2/` (hub con botones a los 9 servicios). Su foto es un placeholder: la web actual no expone la URL.
+- Las imágenes apuntan a `newtree.cat/wp-content/uploads/...` (hotlink). Tras importar, súbelas a la biblioteca de medios del nuevo sitio y reemplázalas.
+- Los botones "DEMANA PRESSUPOST" usan `mailto:info@newtree.cat`; cámbialos por la página de contacto cuando exista.
+- Regenerar: `cd scripts && python3 build_servicios.py`.

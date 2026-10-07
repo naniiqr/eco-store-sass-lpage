@@ -1,0 +1,930 @@
+{
+  "content": [
+    {
+      "id": "917e2fd",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://newtree.cat/wp-content/uploads/2020/04/f3.jpg",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(10,20,15,0.55)",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "40",
+          "bottom": "120",
+          "left": "40",
+          "isLinked": false
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 420,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "98f7e97",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "20",
+              "row": "20",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 60
+            }
+          },
+          "elements": [
+            {
+              "id": "7e16ed0",
+              "elType": "widget",
+              "settings": {
+                "title": "NEW TREE · JARDINERIA",
+                "header_size": "p",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "letter_spacing": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "750e044",
+              "elType": "widget",
+              "settings": {
+                "title": "Servei de <span style=\"color:#4E8C3F\">podes</span>",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": []
+                },
+                "typography_font_weight": "700"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "39ed8d4",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Per allargar la vida dels arbres.</p>",
+                "text_color": "#E5E5E5",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "0ec67e6",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "column": "16",
+                  "row": "16",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "75b1933",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "DEMANA PRESSUPOST",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "6",
+                      "right": "6",
+                      "bottom": "6",
+                      "left": "6",
+                      "isLinked": true
+                    },
+                    "size": "md",
+                    "icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "link": {
+                      "url": "mailto:info@newtree.cat",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "0b668c0",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "e8468aa",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "40",
+              "row": "40",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "space-between",
+            "flex_align_items": "flex-start"
+          },
+          "elements": [
+            {
+              "id": "4121980",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "18",
+                  "row": "18",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_align_items": "flex-start",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                }
+              },
+              "elements": [
+                {
+                  "id": "37c6c54",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "PODES",
+                    "header_size": "p",
+                    "align": "left",
+                    "title_color": "#E14D5A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "letter_spacing": {
+                      "unit": "px",
+                      "size": 2,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "8fb9d78",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "New Tree convertim un desert en un jardí",
+                    "header_size": "h2",
+                    "align": "left",
+                    "title_color": "#1E2A22",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "c3093d4",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>La poda d'arbres és fonamental, si es realitza correctament, per allargar-ne la vida; ara bé, s'ha de fer només si és necessari.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "c6cc60d",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 45
+                }
+              },
+              "elements": [
+                {
+                  "id": "abe4991",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/Poda.jpg",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Podes"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "33fb534",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#F6F7F5",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "9212969",
+          "elType": "widget",
+          "settings": {
+            "title": "Objectius de la poda",
+            "header_size": "h2",
+            "align": "left",
+            "title_color": "#1E2A22",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "8bd7d0a",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "24",
+              "row": "24",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start"
+          },
+          "elements": [
+            {
+              "id": "134828f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                }
+              },
+              "elements": [
+                {
+                  "id": "b74c7b4",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Desenvolupament correcte",
+                    "description_text": "Millora de la salut i l'estructura dels arbres",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#1E2A22",
+                    "description_color": "#6B7280"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "16ce1f8",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                }
+              },
+              "elements": [
+                {
+                  "id": "2a1d253",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Adequar l'arbre a l'espai",
+                    "description_text": "On es desenvolupa",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#1E2A22",
+                    "description_color": "#6B7280"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "d2447e2",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                }
+              },
+              "elements": [
+                {
+                  "id": "b0ce458",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Evitar la caiguda de branques",
+                    "description_text": "Que podrien fer mal a les persones o als béns",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#1E2A22",
+                    "description_color": "#6B7280"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "7a837fa",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                }
+              },
+              "elements": [
+                {
+                  "id": "165b67f",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Evitar afectacions",
+                    "description_text": "Al pas de vianants, vehicles i senyals viàries",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#1E2A22",
+                    "description_color": "#6B7280"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "8dfa938",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                }
+              },
+              "elements": [
+                {
+                  "id": "9568d26",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Reequilibrar",
+                    "description_text": "Arbres o copes mal formades",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#1E2A22",
+                    "description_color": "#6B7280"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "912c0d1",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                }
+              },
+              "elements": [
+                {
+                  "id": "3a80e27",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Evitar malalties",
+                    "description_text": "Que no s'estenguin",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#1E2A22",
+                    "description_color": "#6B7280"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "d2a6a0a",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "21d9c2a",
+          "elType": "widget",
+          "settings": {
+            "title": "Galeria",
+            "header_size": "h2",
+            "align": "left",
+            "title_color": "#1E2A22",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "d4233ac",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "24",
+              "row": "24",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start"
+          },
+          "elements": [
+            {
+              "id": "b403bb0",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                }
+              },
+              "elements": [
+                {
+                  "id": "59ff9c8",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/19.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Podes"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "12e99d7",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                }
+              },
+              "elements": [
+                {
+                  "id": "e538b65",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/20.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Podes"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "03c16bc",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#0B0B0B",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "ed0a1b1",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "20",
+              "row": "20",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "eae7201",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "16",
+                  "row": "16",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_align_items": "flex-start",
+                "width": {
+                  "unit": "%",
+                  "size": 45
+                }
+              },
+              "elements": [
+                {
+                  "id": "f7b05cb",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Tens un projecte de jardí?",
+                    "header_size": "h2",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "1747abc",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
+                    "text_color": "#D7DED9",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "0cb3d7f",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "DEMANA PRESSUPOST",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "6",
+                      "right": "6",
+                      "bottom": "6",
+                      "left": "6",
+                      "isLinked": true
+                    },
+                    "size": "md",
+                    "icon": {
+                      "value": "fas fa-arrow-right",
+                      "library": "fa-solid"
+                    },
+                    "icon_align": "right",
+                    "link": {
+                      "url": "mailto:info@newtree.cat",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "ad918e1",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "column": "20",
+                  "row": "20",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "center",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                }
+              },
+              "elements": [
+                {
+                  "id": "92c241e",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-phone",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Truca'ns",
+                    "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#FFFFFF",
+                    "description_color": "#D7DED9"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                },
+                {
+                  "id": "a9884e9",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-envelope",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Escriu-nos",
+                    "description_text": "info@newtree.cat",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#FFFFFF",
+                    "description_color": "#D7DED9"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                },
+                {
+                  "id": "cec08a8",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-map-marker-alt",
+                      "library": "fa-solid"
+                    },
+                    "title_text": "Visita'ns",
+                    "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
+                    "position": "left",
+                    "title_size": "h4",
+                    "icon_color": "#4E8C3F",
+                    "title_color": "#FFFFFF",
+                    "description_color": "#D7DED9"
+                  },
+                  "elements": [],
+                  "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Podes - New Tree",
+  "type": "page"
+}
