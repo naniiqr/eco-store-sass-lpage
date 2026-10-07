@@ -5,6 +5,7 @@ Generadas a partir de `Proposta_web_New_tree_compressed.pdf` para importar en `w
 ## Archivos
 
 - `inici-home.json` — página **Inici (Home)**, cuerpo completo de la página (6 secciones).
+- `jardineria.json` — página **Jardineria** (disseny de jardins), cuerpo completo (7 secciones).
 - `header.json` — plantilla de **Header** (Theme Builder), para usar en todo el sitio.
 - `footer.json` — plantilla de **Footer** (Theme Builder), para usar en todo el sitio.
 
@@ -32,7 +33,9 @@ Confirmado que aún no existen como plantillas globales, así que van aparte par
    - Verde muy oscuro (secciones destacadas): `#122318`
    - Negro (banner final): `#0B0B0B`
    - Ajusta estos valores en **Site Settings → Global Colors** tras importar, si tienes los hex reales de marca.
-3. **Tipografías**: no se fuerza ninguna familia tipográfica — hereda tu Kit global de Elementor. Si usas fuentes específicas (p. ej. una script/cursiva para "Natura Benestar Vida" o "Fem créixer espais, fem créixer persones"), añádela en Global Fonts y aplícala manualmente a esos dos textos decorativos (van marcados en cursiva simple como placeholder).
+3. **Tipografías**: ningún widget fuerza una familia tipográfica — todos heredan tu **Kit global** de Elementor (Site Settings → Global Fonts). Analizando el PDF al detalle (zoom por letra), la fuente del diseño es una sans-serif redondeada con "a" de una sola forma — el candidato más parecido es **Baloo 2** (Google Fonts, gratis, con varios pesos). Para aplicarla a todo el sitio de una vez: Site Settings → Global Fonts → cambia Primary/Secondary/Text a "Baloo 2" — como ningún widget de estos JSON la sobreescribe, se propaga automáticamente sin tocar los archivos.
+   - Si Baloo 2 te resulta demasiado "redondeada", alternativas más sobrias con el mismo espíritu: **Varela Round** (redondeo muy sutil, un solo peso) o **Nunito** (redondeo mínimo, rango completo de pesos).
+   - Los dos textos decorativos en cursiva ("Natura Benestar Vida" y "Fem créixer espais, fem créixer persones") van marcados en itálica simple como placeholder — si quieres una fuente script distinta para ellos, aplícala manualmente a esos dos widgets en concreto.
 4. **Iconos**: Font Awesome (incluido con Elementor/Pro), elegidos por significado (hoja, gota, reciclaje, etc.) — cámbialos si tienes un set de iconos de marca distinto.
 
 ## Imágenes a reemplazar (18 placeholders)
@@ -60,7 +63,20 @@ Cada imagen del JSON apunta a un placeholder visual (`placehold.co`) con una eti
 | Proyectos | Zona de piscina |
 | A Newtree / CTA | Foto jardí ampli (imagen grande junto al texto "les teves Idees") |
 
-## Cómo importar `inici-home.json`
+### Placeholders de `jardineria.json` (8)
+
+| Sección | Placeholder / etiqueta |
+|---|---|
+| Hero | Foto hero disseny jardí |
+| "Molt més que un jardí" | Foto jardí disseny detall (con la cita superpuesta) |
+| Proyectos | Jardí mediterrani |
+| Proyectos | Jardí amb piscina |
+| Proyectos | Jardí contemporani |
+| Proyectos | Racó chill out |
+| Proyectos | Jardí amb oliveres |
+| Proyectos | Jardí amb desnivells |
+
+## Cómo importar `inici-home.json` / `jardineria.json`
 
 1. WordPress → **Plantillas → Todas las plantillas → Añadir nueva** (o directamente en una página nueva/existente con Elementor).
 2. Opción A (recomendada): crea una plantilla de tipo **Página** en la Biblioteca de Elementor, ábrela en el editor, y usa **Importar plantilla** (icono de carpeta abajo a la izquierda del panel) → sube `inici-home.json`.
@@ -71,4 +87,4 @@ Cada imagen del JSON apunta a un placeholder visual (`placehold.co`) con una eti
 
 ## Siguiente paso
 
-Cuando confirmes que esto importa y se ve bien, seguimos con la página **Jardineria** (página 2 del PDF).
+Inici y Jardineria (las 2 páginas con diseño en el PDF) ya están cubiertas. El resto de páginas del menú (Empresa, Galeria, Plantes exemplars, Situació i contacte) no tienen mockup en el PDF — se construirán con la misma línea visual (colores, tipografía, botones, estilo de tarjetas) pero necesitan el contenido real de la web actual. Ver la conversación para qué se necesita de cada una.
