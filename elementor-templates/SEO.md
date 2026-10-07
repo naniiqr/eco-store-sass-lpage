@@ -1,196 +1,202 @@
-# Fichas SEO — New Tree (newtree.cat)
+# Fichas SEO (Yoast) — New Tree
 
-Una ficha por página: URL, title (≤60 car.), meta description (≤160 car.), H1 y palabras clave. Pensado para pegar en Rank Math / Yoast / SEOPress en cada página. Idioma: catalán. Enfoque: SEO local (Girona, Empordà, Figueres, Bàscara).
+Criterios Yoast aplicados: keyphrase exacta al **inicio** del title y de la meta description, y también en slug, H1, primera frase del contenido y alt de la imagen principal. Title ≤58 car., description 120–156 car. Idioma: catalán.
 
 ## Inici
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/` |
-| Title (42) | Jardineria a l'Empordà i Girona | New Tree |
-| Meta description (151) | Empresa de jardineria fundada el 1977. Disseny, construcció i manteniment de jardins a Figueres, Girona i l'Empordà. Demana pressupost sense compromís. |
-| H1 | Convertim un desert en un jardí |
-| Keyword principal | jardineria Empordà |
-| Keywords secundarias | empresa de jardineria Girona, jardiner Figueres, disseny de jardins, manteniment de jardins |
+```
+Keyphrase: jardineria a l'Empordà
+URL: /
+Title (42): Jardineria a l'Empordà i Girona | New Tree
+Meta description (142): Jardineria a l'Empordà amb més de 50 anys d'experiència. Disseny, construcció i manteniment de jardins a Figueres i Girona. Demana pressupost.
+H1: Jardineria a l'Empordà: convertim un desert en un jardí
+Primera frase: New Tree és una empresa de jardineria a l'Empordà fundada l'any 1977, dedicada a la jardineria privada i pública.
+Alt imagen: Jardí dissenyat per New Tree, jardineria a l'Empordà
+```
 
 ## Empresa
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/empresa/` |
-| Title (44) | Empresa de jardineria des de 1977 | New Tree |
-| Meta description (129) | New Tree, empresa de jardineria privada i pública fundada el 1977. Equip, maquinària i experiència a tota la província de Girona. |
-| H1 | Una empresa de jardineria |
-| Keyword principal | empresa de jardineria Girona |
-| Keywords secundarias | jardineria pública i privada, gestió del paisatge, jardiner Figueres, jardineria Empuriabrava |
+```
+Keyphrase: empresa de jardineria
+URL: /empresa-de-jardineria/   (actual: /empresa/ → 301)
+Title (51): Empresa de jardineria des de 1977 | New Tree Girona
+Meta description (147): Empresa de jardineria privada i pública fundada el 1977. Disseny, execució i manteniment de jardins a tota la província de Girona. Coneix New Tree.
+H1: Una empresa de jardineria a Girona
+Primera frase: New Tree és una empresa de jardineria fundada l'any 1977, dedicada a la jardineria privada i pública.
+Alt imagen: Equip de l'empresa de jardineria New Tree a Girona
+```
 
 ## Jardineria
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/jardineria/` |
-| URL actual | `(nova; menú del PDF)` → redirección 301 |
-| Title (46) | Serveis de jardineria i paisatgisme | New Tree |
-| Meta description (126) | Disseny, reg, gespa, manteniment, podes i molt més. Tots els serveis de jardineria de New Tree a Figueres, Girona i l'Empordà. |
-| H1 | Dissenyem jardins amb ànima |
-| Keyword principal | serveis de jardineria |
-| Keywords secundarias | paisatgisme Empordà, disseny de jardins, jardiner Girona |
+```
+Keyphrase: serveis de jardineria
+URL: /serveis-de-jardineria/   (actual: (nova; menú del PDF) → 301)
+Title (46): Serveis de jardineria i paisatgisme | New Tree
+Meta description (151): Serveis de jardineria a Figueres, Girona i l'Empordà: disseny, reg, gespa, manteniment, podes i molt més. Demana pressupost a New Tree sense compromís.
+H1: Serveis de jardineria: dissenyem jardins amb ànima
+Primera frase: Els serveis de jardineria de New Tree cobreixen des del disseny fins al manteniment del teu jardí.
+Alt imagen: Serveis de jardineria de New Tree a l'Empordà
+```
 
-## Disseny i construcció de jardins
+## Disseny de jardins
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/disseny-i-construccio-de-jardins/` |
-| Title (50) | Disseny i construcció de jardins a mida | New Tree |
-| Meta description (130) | Dissenyem i construïm jardins a mida a l'Empordà i Girona: proporció, unitat i línies que ressalten els punts forts de cada espai. |
-| H1 | Disseny i construcció de jardins |
-| Keyword principal | disseny de jardins |
-| Keywords secundarias | construcció de jardins Girona, paisatgista Empordà, jardí a mida |
+```
+Keyphrase: disseny de jardins
+URL: /disseny-de-jardins/   (actual: /disseny-i-construccio-de-jardins/ → 301)
+Title (48): Disseny de jardins a mida a l'Empordà | New Tree
+Meta description (149): Disseny de jardins a mida a l'Empordà i Girona: proporció, unitat i línies que ressalten els punts forts de cada espai. Demana pressupost a New Tree.
+H1: Disseny de jardins i construcció a mida
+Primera frase: Us oferim un servei de disseny de jardins a mida, per adaptar-nos a les vostres necessitats i oferir-vos un servei totalment personalitzat.
+Alt imagen: Disseny de jardins a mida fet per New Tree
+```
 
 ## Sistemes de reg
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/sistemes-de-reg/` |
-| Title (36) | Sistemes de reg automàtic | New Tree |
-| Meta description (136) | Disseny i instal·lació de reg automàtic per a terrasses, parcs i jardins. Programable i independent. Assessorament a Girona i l'Empordà. |
-| H1 | Sistemes de reg |
-| Keyword principal | reg automàtic jardí |
-| Keywords secundarias | instal·lació de reg Girona, reg automàtic Figueres, estalvi d'aigua jardí |
+```
+Keyphrase: sistemes de reg
+URL: /sistemes-de-reg/
+Title (50): Sistemes de reg automàtic per a jardins | New Tree
+Meta description (145): Sistemes de reg automàtic per a terrasses, parcs i jardins: disseny i instal·lació programable i independent. Assessorament a Girona i l'Empordà.
+H1: Sistemes de reg automàtic
+Primera frase: Els sistemes de reg automàtic distribueixen l'aigua que necessiten les plantes, sobretot quan falten pluges.
+Alt imagen: Instal·lació de sistemes de reg automàtic en un jardí
+```
 
 ## Instal·lació de gespa
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/installacio-de-gespa/` |
-| URL actual | `/instal%c2%b7lacio-de-gespa/` → redirección 301 |
-| Title (53) | Instal·lació de gespa natural i artificial | New Tree |
-| Meta description (146) | Instal·lem gespa natural i artificial de qualitat per a jardins amb infants i mascotes. T'assessorem sobre quina opció et convé. Girona i Empordà. |
-| H1 | Instal·lació de gespa |
-| Keyword principal | instal·lació de gespa |
-| Keywords secundarias | gespa artificial Girona, gespa natural Empordà, gespa artificial Figueres |
+```
+Keyphrase: instal·lació de gespa
+URL: /installacio-de-gespa/   (actual: /instal%c2%b7lacio-de-gespa/ → 301)
+Title (53): Instal·lació de gespa natural i artificial | New Tree
+Meta description (146): Instal·lació de gespa natural i artificial de qualitat per a jardins amb infants i mascotes. T'assessorem a Girona i l'Empordà. Demana pressupost.
+H1: Instal·lació de gespa natural i artificial
+Primera frase: La instal·lació de gespa és una de les parts més importants de qualsevol jardí i la primera impressió.
+Alt imagen: Instal·lació de gespa artificial en un jardí de l'Empordà
+```
 
 ## Manteniment de jardins
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/manteniment-de-jardins/` |
-| Title (46) | Manteniment de jardins professional | New Tree |
-| Meta description (131) | Manteniment expert de jardins: males herbes, podes, fertilitzants, gespa i reg. Mantén el teu jardí impecable a Girona i l'Empordà. |
-| H1 | Manteniment de jardins |
-| Keyword principal | manteniment de jardins |
-| Keywords secundarias | jardiner Girona, manteniment jardí Figueres, cura de jardins |
+```
+Keyphrase: manteniment de jardins
+URL: /manteniment-de-jardins/
+Title (53): Manteniment de jardins professional | New Tree Girona
+Meta description (152): Manteniment de jardins amb experts: males herbes, podes, fertilitzants, gespa i reg. Jardí impecable a Girona i l'Empordà. Demana pressupost a New Tree.
+H1: Manteniment de jardins dels experts
+Primera frase: El manteniment de jardins amb un toc professional fa que el teu jardí llueixi tot l'any.
+Alt imagen: Manteniment de jardins professional fet per New Tree
+```
 
 ## Jardins verticals
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/jardins-verticals/` |
-| Title (47) | Jardins verticals i façanes vegetals | New Tree |
-| Meta description (144) | Jardins verticals per a interior i exterior: purifiquen l'aire, regulen la temperatura i aporten biodiversitat. Dissenys per a cases i empreses. |
-| H1 | Jardins verticals |
-| Keyword principal | jardins verticals |
-| Keywords secundarias | façana vegetal, jardí vertical Girona, construcció bioclimàtica |
+```
+Keyphrase: jardins verticals
+URL: /jardins-verticals/
+Title (47): Jardins verticals i façanes vegetals | New Tree
+Meta description (144): Jardins verticals per a interior i exterior: purifiquen l'aire, regulen la temperatura i aporten biodiversitat. Dissenys per a cases i empreses.
+H1: Jardins verticals
+Primera frase: Els jardins verticals són una nova tendència que dona un ambient diferent i acollidor a interiors i exteriors.
+Alt imagen: Jardins verticals instal·lats per New Tree
+```
 
 ## Terres i substrats
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/terres-i-substrats/` |
-| Title (50) | Terres, substrats i grava per a jardins | New Tree |
-| Meta description (142) | Subministrament de terra i grava en sacs, box o camió per a jardins sostenibles. Millora el drenatge i protegeix les arrels. Girona i Empordà. |
-| H1 | Terres i substrats |
-| Keyword principal | terra per a jardins |
-| Keywords secundarias | grava jardí Girona, substrats, terra en sacs o camió |
+```
+Keyphrase: terres i substrats
+URL: /terres-i-substrats/
+Title (50): Terres i substrats per a jardins | New Tree Girona
+Meta description (137): Terres i substrats en sacs, box o camió, i grava per a jardins sostenibles. Millora el drenatge i protegeix les arrels. Girona i Empordà.
+H1: Terres i substrats
+Primera frase: Les terres i substrats són essencials per a un jardí sostenible i es poden aportar en sacs, box o camions.
+Alt imagen: Terres i substrats per a jardins en sacs i box
+```
 
 ## Neteja de parcel·les
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/neteja-de-parcelles/` |
-| URL actual | `/nateja-parceles/` → redirección 301 |
-| Title (52) | Neteja de parcel·les a Girona i l'Empordà | New Tree |
-| Meta description (119) | Servei de neteja de parcel·les a Girona i l'Empordà. Demana pressupost a New Tree i deixem el teu terreny net i a punt. |
-| H1 | Neteja de parcel·les |
-| Keyword principal | neteja de parcel·les |
-| Keywords secundarias | netejar parcel·la Girona, neteja de terrenys Figueres, desbrossament |
+```
+Keyphrase: neteja de parcel·les
+URL: /neteja-de-parcelles/   (actual: /nateja-parceles/ → 301)
+Title (52): Neteja de parcel·les a Girona i l'Empordà | New Tree
+Meta description (135): Neteja de parcel·les a Girona i l'Empordà. Demana pressupost a New Tree i deixem el teu terreny net, segur i a punt per a qualsevol ús.
+H1: Neteja de parcel·les
+Primera frase: Oferim el servei de neteja de parcel·les a Girona i l'Empordà.
+Alt imagen: Neteja de parcel·les feta per New Tree
+```
 
 ## Tanques i murs de contenció
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/tanques-i-murs/` |
-| URL actual | `/tanques-murs/` → redirección 301 |
-| Title (38) | Tanques i murs de contenció | New Tree |
-| Meta description (135) | Tanques metàl·liques i de fusta adaptades a l'entorn i murs de contenció per anivellar terrenys. Girona i l'Empordà. Demana pressupost. |
-| H1 | Tanques i murs de contenció |
-| Keyword principal | murs de contenció |
-| Keywords secundarias | tanques de fusta Girona, tanques metàl·liques, anivellar terrenys |
+```
+Keyphrase: tanques i murs de contenció
+URL: /tanques-i-murs-de-contencio/   (actual: /tanques-murs/ → 301)
+Title (45): Tanques i murs de contenció | New Tree Girona
+Meta description (144): Tanques i murs de contenció per anivellar terrenys, i tanques metàl·liques o de fusta adaptades a l'entorn. Girona i Empordà. Demana pressupost.
+H1: Tanques i murs de contenció
+Primera frase: Fem tot tipus de tanques i murs de contenció, totalment adaptats a l'entorn per minimitzar-ne l'impacte visual.
+Alt imagen: Tanques i murs de contenció instal·lats per New Tree
+```
 
 ## Podes
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/podes/` |
-| Title (35) | Servei de podes d'arbres | New Tree |
-| Meta description (141) | Poda professional d'arbres per millorar-ne la salut, evitar caigudes de branques i reequilibrar copes. Girona i l'Empordà. Demana pressupost. |
-| H1 | Servei de podes |
-| Keyword principal | poda d'arbres |
-| Keywords secundarias | podes Girona, podador Figueres, poda de copes |
+```
+Keyphrase: servei de podes
+URL: /servei-de-podes/   (actual: /podes/ → 301)
+Title (44): Servei de podes d'arbres a Girona | New Tree
+Meta description (150): Servei de podes d'arbres professional per millorar-ne la salut, evitar caigudes de branques i reequilibrar copes. Girona i Empordà. Demana pressupost.
+H1: Servei de podes
+Primera frase: El servei de podes és fonamental, si es realitza correctament, per allargar la vida dels arbres.
+Alt imagen: Servei de podes d'arbres fet per New Tree
+```
 
 ## Obra pública
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/obra-publica/` |
-| URL actual | `/jardineria-2/` → redirección 301 |
-| Title (54) | Jardineria per a obra pública i ajuntaments | New Tree |
-| Meta description (126) | Molts ajuntaments confien en New Tree per a la seva obra pública. Més de 50 anys d'experiència en jardineria pública a Girona. |
-| H1 | Obra pública |
-| Keyword principal | jardineria obra pública |
-| Keywords secundarias | jardineria per a ajuntaments, jardineria municipal Girona |
+```
+Keyphrase: obra pública
+URL: /obra-publica/   (actual: /jardineria-2/ → 301)
+Title (55): Obra pública de jardineria per a ajuntaments | New Tree
+Meta description (135): Obra pública de jardineria amb més de 50 anys d'experiència. Molts ajuntaments de Girona confien en New Tree per a les seves solucions.
+H1: Obra pública
+Primera frase: Molts ajuntaments confien en New Tree a l'hora de fer la seva obra pública.
+Alt imagen: Obra pública de jardineria feta per New Tree
+```
 
 ## Galeria
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/galeria/` |
-| URL actual | `/galeria-esp/` → redirección 301 |
-| Title (41) | Galeria de jardins i projectes | New Tree |
-| Meta description (130) | Descobreix la galeria de jardins i projectes de New Tree: disseny, gespa, murs, jardins verticals i molt més a Girona i l'Empordà. |
-| H1 | Galeria |
-| Keyword principal | galeria de jardins |
-| Keywords secundarias | projectes de jardineria Girona, fotos de jardins, treballs New Tree |
+```
+Keyphrase: galeria de jardins
+URL: /galeria-de-jardins/   (actual: /galeria-esp/ → 301)
+Title (48): Galeria de jardins i projectes | New Tree Girona
+Meta description (152): Galeria de jardins i projectes de New Tree: disseny, gespa, murs, jardins verticals i molt més a Girona i l'Empordà. Inspira't amb els nostres treballs.
+H1: Galeria de jardins
+Primera frase: Aquesta galeria de jardins reuneix alguns dels projectes que hem fet a Girona i l'Empordà.
+Alt imagen: Galeria de jardins, projecte de New Tree
+```
 
 ## Plantes exemplars
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/plantes-exemplars/` |
-| URL actual | `/plantas-ejemplares/` → redirección 301 |
-| Title (45) | Plantes exemplars per al teu jardí | New Tree |
-| Meta description (133) | Plantes i arbres exemplars per donar personalitat al teu jardí. Visita New Tree a Calabuig – Bàscara (Girona) o demana'ns informació. |
-| H1 | Plantes exemplars |
-| Keyword principal | plantes exemplars |
-| Keywords secundarias | arbres exemplars Girona, viver Bàscara, plantes per a jardí |
+```
+Keyphrase: plantes exemplars
+URL: /plantes-exemplars/   (actual: /plantas-ejemplares/ → 301)
+Title (52): Plantes exemplars per al teu jardí | New Tree Girona
+Meta description (149): Plantes exemplars i arbres per donar personalitat al teu jardí. Visita New Tree a Calabuig – Bàscara (Girona) o demana'ns informació sense compromís.
+H1: Plantes exemplars
+Primera frase: Les plantes exemplars donen personalitat a un jardí; us oferim un disseny a mida adaptat a les vostres necessitats.
+Alt imagen: Plantes exemplars per a jardins de New Tree
+```
 
 ## Situació i contacte
 
-| Campo | Valor |
-|---|---|
-| URL nueva | `/situacio-i-contacte/` |
-| URL actual | `/situacion-y-contacto/` → redirección 301 |
-| Title (48) | Contacte i ubicació | New Tree a Bàscara, Girona |
-| Meta description (136) | Contacta amb New Tree: Camí de Reg de la Vinya s/n, Calabuig – Bàscara (Girona). Tel. 972 560 033 · info@newtree.cat. Demana pressupost. |
-| H1 | Situació i contacte |
-| Keyword principal | New Tree jardineria contacte |
-| Keywords secundarias | jardineria Bàscara, jardiner Girona telèfon, pressupost jardineria |
+```
+Keyphrase: situació i contacte
+URL: /situacio-i-contacte/   (actual: /situacion-y-contacto/ → 301)
+Title (51): Situació i contacte | New Tree jardineria a Bàscara
+Meta description (146): Situació i contacte de New Tree: Camí de Reg de la Vinya s/n, Calabuig – Bàscara (Girona). Tel. 972 560 033 · info@newtree.cat. Demana pressupost.
+H1: Situació i contacte
+Primera frase: Aquesta és la situació i contacte de New Tree, a Calabuig – Bàscara (Girona).
+Alt imagen: Situació i contacte de New Tree a Bàscara
+```
 
-## Notas generales
+## Notas
 
-- **Redirecciones 301**: las URLs actuales de Galeria, Plantes exemplars, Situació i contacte, Neteja de parcel·les, Tanques i murs, Obra pública y Instal·lació de gespa (caracteres raros como `%c2%b7`) mezclan castellano/catalán o son poco claras. Si las cambias a las nuevas, crea la redirección 301 desde la antigua para no perder posicionamiento. Si prefieres no tocar URLs, deja las actuales y usa solo title/description.
-- **Hechos usados**: fundada en 1977, más de 50 años de experiencia, zonas (Girona, Figueres, Roses, L'Escala, Empuriabrava, Peralada, Castelló d'Empúries, Llançà, Port de la Selva), teléfono (+34) 972 560 033 / 607 484 646, info@newtree.cat. Nada inventado.
-- **Alt de imágenes**: describe la foto + servicio + zona. Ej.: «Jardí amb gespa artificial instal·lat per New Tree a l'Empordà».
-- **Datos estructurados**: añade `LocalBusiness` (o `LandscapingBusiness`) en Inici y Contacte con dirección, teléfonos y zonas de servicio; mejora el SEO local.
-- **Google Business Profile**: usa la misma dirección y teléfono que la web (consistencia NAP).
-- **Horarios**: la web actual no los publica; añádelos al perfil de Google cuando los tengas.
+- La primera frase debe ser el primer párrafo visible de la página (Yoast comprueba «keyphrase en la introducción»). Añádela como primer texto bajo el hero.
+- Usa la keyphrase en al menos un H2 y reparte 2–3 menciones más en el texto.
+- Si no cambias las URLs, Yoast marcará el slug en naranja; es opcional, pero recomendable con redirección 301.
+- Yoast no analiza bien el catalán (sin palabras funcionales), por eso se usa la keyphrase exacta tal cual.
