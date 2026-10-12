@@ -6,6 +6,34 @@ from design import *
 from build_servicios import (img, hero_section, intro_section, gallery_section, acc_last)
 
 
+# Miniaturas de 300 px (el servidor las genera): Elementor descarga a la biblioteca de medios cada imagen
+# de la plantilla al importar; con las PNG originales (1,5-1,9 MB) la importación agotaba el tiempo.
+THUMB = {
+    "11": "11-300x225.png",
+    "10": "10-300x220.png",
+    "9": "9-300x218.png",
+    "12": "12-300x225.png",
+    "13": "13-300x224.png",
+    "14": "14-300x222.png",
+    "15": "15-300x225.png",
+    "16": "16-300x223.png",
+    "17": "17-300x220.png",
+    "2": "2-300x200.png",
+    "1": "1-300x200.png",
+    "4": "4-300x200.png",
+    "3": "3-300x200.png",
+    "20": "20-300x255.png",
+    "19": "19-300x254.png",
+    "5": "5-300x200.png",
+    "8": "8-300x200.png",
+    "5-2": "5-2-300x200.png"
+}
+
+
+def thumb(n):
+    return "2020/04/" + THUMB.get(n, n + ".png")
+
+
 def wrap(title, secs):
     return page(title, secs)
 
@@ -28,9 +56,7 @@ def empresa():
                 ("leaf", "Poder portar part de la natura a cada jardí que dissenyem", ""),
                 ("smile", "I, el més important, crear espais per poder gaudir", "")]
     vocation_sec = perks_dark(vocation, title="La nostra principal vocació")
-    strip = dict(title="Empresa", gallery=["2020/04/11.png", "2020/04/10.png", "2020/04/9.png",
-                                           "2020/04/12.png", "2020/04/13.png", "2020/04/14.png",
-                                           "2020/04/15.png", "2020/04/16.png", "2020/04/17.png"])
+    strip = dict(title="Empresa", gallery=[thumb(n) for n in ["11", "10", "9", "12", "13", "14", "15", "16", "17"]])
     return wrap("Empresa", [hero_section(p), features_strip(), intro_section(p), vocation_sec,
                             gallery_section(strip), cta_banner()])
 
@@ -40,7 +66,7 @@ def galeria():
     nums = ["11", "10", "9", "12", "13", "14", "15", "16", "17", "2", "1", "4", "3",
             "18", "20", "19", "5", "7", "8", "5-2"]
     cells = [C({"content_width": "full", "width": {"unit": "%", "size": 23}},
-               [pic(img("2020/04/%s.png" % n), "Galeria New Tree", radius=10, height=210)]) for n in nums]
+               [pic(img(thumb(n)), "Galeria New Tree", radius=10, height=210)]) for n in nums]
     grid = section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
                              "padding": pad(80, 40, 80, 40)},
                    elements=[row(elements=cells, gap="18", justify="center", align="flex-start")])

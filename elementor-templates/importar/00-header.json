@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "6d0cc7e",
+      "id": "55b26fd",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -42,7 +42,7 @@
       },
       "elements": [
         {
-          "id": "4d9a953",
+          "id": "ced1352",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -63,7 +63,7 @@
           },
           "elements": [
             {
-              "id": "2956cc5",
+              "id": "b741197",
               "elType": "widget",
               "settings": {
                 "editor": "<p>(+34) 972 560 033 &nbsp;·&nbsp; (+34) 607 484 646 &nbsp;·&nbsp; info@newtree.cat</p>",
@@ -82,7 +82,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "ec18081",
+              "id": "883aaaa",
               "elType": "widget",
               "settings": {
                 "editor": "<p><a href=\"https://newtree.cat/\" style=\"color:#FFFFFF\">CA</a> &nbsp;<a href=\"https://newtree.cat/es/inicio/\" style=\"color:#FFFFFF\">ES</a> &nbsp;<a href=\"https://newtree.cat/fr/inici-fr/\" style=\"color:#FFFFFF\">FR</a> &nbsp;<a href=\"https://newtree.cat/en/inici-angl/\" style=\"color:#FFFFFF\">ENG</a></p>",
@@ -107,7 +107,7 @@
       "isInner": false
     },
     {
-      "id": "0417316",
+      "id": "97a25cd",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -161,7 +161,7 @@
       },
       "elements": [
         {
-          "id": "78a987c",
+          "id": "2ba43b4",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -180,7 +180,7 @@
           },
           "elements": [
             {
-              "id": "e757b97",
+              "id": "d8b8567",
               "elType": "widget",
               "settings": {
                 "width": {
@@ -195,7 +195,7 @@
               "widgetType": "theme-site-logo"
             },
             {
-              "id": "17f38d9",
+              "id": "47d08ad",
               "elType": "widget",
               "settings": {
                 "layout": "horizontal",
@@ -217,7 +217,7 @@
               "widgetType": "nav-menu"
             },
             {
-              "id": "bd3baf1",
+              "id": "a2f6a6e",
               "elType": "widget",
               "settings": {
                 "text": "DEMANA PRESSUPOST",

@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "d2dbba4",
+      "id": "1c68174",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -42,7 +42,7 @@
       },
       "elements": [
         {
-          "id": "7e3f6b4",
+          "id": "db1930d",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -59,7 +59,7 @@
           },
           "elements": [
             {
-              "id": "b1f4102",
+              "id": "8722955",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -78,7 +78,7 @@
               },
               "elements": [
                 {
-                  "id": "51a65ab",
+                  "id": "fd50632",
                   "elType": "widget",
                   "settings": {
                     "title": "NEW TREE · JARDINERIA",
@@ -102,7 +102,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "ad7caf4",
+                  "id": "591319f",
                   "elType": "widget",
                   "settings": {
                     "title": "Manteniment de <span style=\"color:#6EA83C\">jardins</span>",
@@ -121,7 +121,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "aadde2d",
+                  "id": "1eae825",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -138,7 +138,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "65f82ca",
+                  "id": "2e12a5b",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -155,7 +155,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3d576fa",
+                      "id": "7b243f8",
                       "elType": "widget",
                       "settings": {
                         "text": "DEMANA PRESSUPOST",
@@ -186,7 +186,7 @@
                       "widgetType": "button"
                     },
                     {
-                      "id": "c2f3509",
+                      "id": "9a6fce2",
                       "elType": "widget",
                       "settings": {
                         "text": "VEURE PROJECTES",
@@ -233,7 +233,7 @@
               "isInner": true
             },
             {
-              "id": "20aa4ab",
+              "id": "f4595c4",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -254,7 +254,7 @@
               },
               "elements": [
                 {
-                  "id": "917e55b",
+                  "id": "f16ca64",
                   "elType": "widget",
                   "settings": {
                     "title": "Natura<br>Benestar<br>Vida",
@@ -275,7 +275,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "644d8cd",
+                  "id": "bb0b1e0",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -313,7 +313,7 @@
       "isInner": false
     },
     {
-      "id": "d5472d1",
+      "id": "024261f",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -345,7 +345,7 @@
       },
       "elements": [
         {
-          "id": "8cc9a76",
+          "id": "f8b1531",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -362,7 +362,7 @@
           },
           "elements": [
             {
-              "id": "578e5c0",
+              "id": "dab7921",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -399,7 +399,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "edc8410",
+              "id": "41d41c9",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -436,7 +436,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "ccd430d",
+              "id": "c66002c",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -473,7 +473,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "d3571f1",
+              "id": "a05a2f5",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -510,7 +510,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "bd21b9a",
+              "id": "4f57319",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -553,7 +553,7 @@
       "isInner": false
     },
     {
-      "id": "c17bc92",
+      "id": "5640bb8",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -575,7 +575,7 @@
       },
       "elements": [
         {
-          "id": "4d3669a",
+          "id": "83bfad5",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -592,7 +592,7 @@
           },
           "elements": [
             {
-              "id": "eac1b1c",
+              "id": "58e823d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -611,7 +611,7 @@
               },
               "elements": [
                 {
-                  "id": "65aa67c",
+                  "id": "4ad6ffb",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Una de les millors formes de donar-li a la seva propietat un toc professional és amb els serveis de jardineria. Durant la primavera i l'estiu, les flors fragants i saludables faran que la seva propietat sigui encara més agradable i atractiva. Potser ja tingui excel·lents flors, però de vegades el manteniment de jardí és més fàcil de dir que de fer. New Tree són aquí per ajudar.</p>",
@@ -628,7 +628,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "fad5f8e",
+                  "id": "37e9c7d",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -662,7 +662,7 @@
               "isInner": true
             },
             {
-              "id": "5316747",
+              "id": "7e780dc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -673,7 +673,7 @@
               },
               "elements": [
                 {
-                  "id": "aa618d5",
+                  "id": "7d00bf1",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -718,7 +718,7 @@
       "isInner": false
     },
     {
-      "id": "52822fd",
+      "id": "02c87c2",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -753,7 +753,7 @@
       },
       "elements": [
         {
-          "id": "985254c",
+          "id": "2e93d55",
           "elType": "widget",
           "settings": {
             "title": "Manteniment de jardins dels <span style=\"color:#FC2144\">experts</span>",
@@ -772,7 +772,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "dc311de",
+          "id": "55ee6a3",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -789,7 +789,7 @@
           },
           "elements": [
             {
-              "id": "57a68fb",
+              "id": "fbe979f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -800,7 +800,7 @@
               },
               "elements": [
                 {
-                  "id": "48c8fa5",
+                  "id": "3cdd808",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -847,7 +847,7 @@
               "isInner": true
             },
             {
-              "id": "5b73da4",
+              "id": "6b04567",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -858,7 +858,7 @@
               },
               "elements": [
                 {
-                  "id": "13119f9",
+                  "id": "ec4dbf4",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -905,7 +905,7 @@
               "isInner": true
             },
             {
-              "id": "817ae4e",
+              "id": "819003d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -916,7 +916,7 @@
               },
               "elements": [
                 {
-                  "id": "f6ba622",
+                  "id": "780a10e",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -963,7 +963,7 @@
               "isInner": true
             },
             {
-              "id": "f7abdb4",
+              "id": "21df54a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -974,7 +974,7 @@
               },
               "elements": [
                 {
-                  "id": "112a61c",
+                  "id": "da48437",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1021,7 +1021,7 @@
               "isInner": true
             },
             {
-              "id": "e100448",
+              "id": "221681c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1032,7 +1032,7 @@
               },
               "elements": [
                 {
-                  "id": "6659132",
+                  "id": "f7301b0",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1082,7 +1082,7 @@
           "isInner": true
         },
         {
-          "id": "d7d1a7b",
+          "id": "91b0bc5",
           "elType": "widget",
           "settings": {
             "editor": "<p>Podem arreglar vores de jardí descuidats, podar arbres, flors mortes, escampar fertilitzants, manteniment de gespa i donarem assessorament de quines accions són les millors en cada moment.</p>",
@@ -1099,7 +1099,7 @@
           "widgetType": "text-editor"
         },
         {
-          "id": "0604c1d",
+          "id": "1730f5a",
           "elType": "widget",
           "settings": {
             "editor": "<p>New Tree ofereix un manteniment expert per garantir que el jardí de casa tingui una vista impressionant.</p>",
@@ -1119,7 +1119,7 @@
       "isInner": false
     },
     {
-      "id": "ede7d45",
+      "id": "98efd89",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1141,7 +1141,7 @@
       },
       "elements": [
         {
-          "id": "32172f2",
+          "id": "a1eeb0a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1158,7 +1158,7 @@
           },
           "elements": [
             {
-              "id": "7357863",
+              "id": "05513de",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1169,7 +1169,7 @@
               },
               "elements": [
                 {
-                  "id": "655b812",
+                  "id": "d97e4b4",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1206,7 +1206,7 @@
       "isInner": false
     },
     {
-      "id": "9dcc05e",
+      "id": "e5e22e1",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1235,7 +1235,7 @@
       },
       "elements": [
         {
-          "id": "fe3b4ea",
+          "id": "05b30d6",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1252,7 +1252,7 @@
           },
           "elements": [
             {
-              "id": "258b12f",
+              "id": "ee4b9bd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1271,7 +1271,7 @@
               },
               "elements": [
                 {
-                  "id": "740d084",
+                  "id": "d48f9ed",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1290,7 +1290,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "93251d3",
+                  "id": "1ff025d",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1307,7 +1307,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "29e0cfb",
+                  "id": "d27c922",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1341,7 +1341,7 @@
               "isInner": true
             },
             {
-              "id": "15cc325",
+              "id": "d60eee3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1362,7 +1362,7 @@
               },
               "elements": [
                 {
-                  "id": "0e62c46",
+                  "id": "b7bbb69",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1399,7 +1399,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "f2fd39d",
+                  "id": "a2afc64",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1439,7 +1439,7 @@
               "isInner": true
             },
             {
-              "id": "79ae3d9",
+              "id": "e5b9cab",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1460,7 +1460,7 @@
               },
               "elements": [
                 {
-                  "id": "61a1671",
+                  "id": "5bc9cdc",
                   "elType": "widget",
                   "settings": {
                     "title": "Fem créixer espais,<br>fem créixer persones",
@@ -1481,7 +1481,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "ac35c74",
+                  "id": "60ea7a0",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",

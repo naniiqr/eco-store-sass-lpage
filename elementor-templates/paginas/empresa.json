@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "b2bbc38",
+      "id": "16bf79d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -42,7 +42,7 @@
       },
       "elements": [
         {
-          "id": "4aa210e",
+          "id": "3c17d86",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -59,7 +59,7 @@
           },
           "elements": [
             {
-              "id": "8695b5e",
+              "id": "2236233",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -78,7 +78,7 @@
               },
               "elements": [
                 {
-                  "id": "8d5c94a",
+                  "id": "48f8570",
                   "elType": "widget",
                   "settings": {
                     "title": "NEW TREE · JARDINERIA",
@@ -102,7 +102,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "0a7fb79",
+                  "id": "bf3e2c1",
                   "elType": "widget",
                   "settings": {
                     "title": "<span style=\"color:#6EA83C\">Empresa</span>",
@@ -121,7 +121,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "083abef",
+                  "id": "531ca21",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -138,7 +138,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "9d4af15",
+                  "id": "038b216",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -155,7 +155,7 @@
                   },
                   "elements": [
                     {
-                      "id": "554ee5d",
+                      "id": "d446f21",
                       "elType": "widget",
                       "settings": {
                         "text": "DEMANA PRESSUPOST",
@@ -186,7 +186,7 @@
                       "widgetType": "button"
                     },
                     {
-                      "id": "4dd01ed",
+                      "id": "1308384",
                       "elType": "widget",
                       "settings": {
                         "text": "VEURE PROJECTES",
@@ -233,7 +233,7 @@
               "isInner": true
             },
             {
-              "id": "aacee8a",
+              "id": "6c1ca16",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -254,7 +254,7 @@
               },
               "elements": [
                 {
-                  "id": "715237a",
+                  "id": "14f8a5b",
                   "elType": "widget",
                   "settings": {
                     "title": "Natura<br>Benestar<br>Vida",
@@ -275,7 +275,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "21e82c0",
+                  "id": "375515b",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -313,7 +313,7 @@
       "isInner": false
     },
     {
-      "id": "8e0db3f",
+      "id": "192c5ce",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -345,7 +345,7 @@
       },
       "elements": [
         {
-          "id": "b5a3b33",
+          "id": "4431b09",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -362,7 +362,7 @@
           },
           "elements": [
             {
-              "id": "f3b7754",
+              "id": "7cef6c2",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -399,7 +399,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "2ff79cd",
+              "id": "1cfe8b5",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -436,7 +436,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "9b13c3b",
+              "id": "9ec4aaf",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -473,7 +473,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "be818e7",
+              "id": "8ceb1e0",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -510,7 +510,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "b7ded55",
+              "id": "21e995c",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -553,7 +553,7 @@
       "isInner": false
     },
     {
-      "id": "650d15a",
+      "id": "9ad765d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -575,7 +575,7 @@
       },
       "elements": [
         {
-          "id": "8a5e7a4",
+          "id": "46edfae",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -592,7 +592,7 @@
           },
           "elements": [
             {
-              "id": "3dbaea9",
+              "id": "b81cea7",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -611,7 +611,7 @@
               },
               "elements": [
                 {
-                  "id": "693017b",
+                  "id": "f7717dc",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Empresa de jardineria privada i pública oferim servei a tota la província de Girona: Figueres, Roses, L'Escala, Empuriabrava, Peralada, Castelló d'Empúries, Llançà.</p>",
@@ -628,7 +628,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "a7fe97d",
+                  "id": "9b3ba8e",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. New Tree, empresa fundada l'any 1977 dedicada a la jardineria privada i pública.</p>",
@@ -645,7 +645,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "572ed36",
+                  "id": "1f892e0",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Ofereix serveis que van des de l'assessorament i disseny de jardins fins a l'execució i el manteniment d'aquests.</p>",
@@ -662,7 +662,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "9b7fb4c",
+                  "id": "78a227b",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Disposem dels recursos humans, tècnics i de maquinària necessaris per a la realització de qualsevol feina de jardineria pública, privada o de gestió del paisatge.</p>",
@@ -679,7 +679,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "d8cc38b",
+                  "id": "aca382f",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Oferim serveis a tot Girona, Figueres, Empuriabrava, Castelló d'Empúries, Port de la Selva.</p>",
@@ -696,7 +696,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "b07a44d",
+                  "id": "452bdf6",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -730,7 +730,7 @@
               "isInner": true
             },
             {
-              "id": "245a394",
+              "id": "54e27de",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -741,7 +741,7 @@
               },
               "elements": [
                 {
-                  "id": "0c52dcc",
+                  "id": "e672076",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -786,7 +786,7 @@
       "isInner": false
     },
     {
-      "id": "dd5d01e",
+      "id": "b06e72b",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -815,7 +815,7 @@
       },
       "elements": [
         {
-          "id": "c7458e7",
+          "id": "b559183",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -832,7 +832,7 @@
           },
           "elements": [
             {
-              "id": "1059018",
+              "id": "464ae0a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -851,7 +851,7 @@
               },
               "elements": [
                 {
-                  "id": "da5792b",
+                  "id": "a2ebd48",
                   "elType": "widget",
                   "settings": {
                     "title": "La nostra principal vocació",
@@ -873,7 +873,7 @@
               "isInner": true
             },
             {
-              "id": "c2c146c",
+              "id": "88153ad",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -894,7 +894,7 @@
               },
               "elements": [
                 {
-                  "id": "bdf70ed",
+                  "id": "2148ddf",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -905,7 +905,7 @@
                   },
                   "elements": [
                     {
-                      "id": "fe5e5b7",
+                      "id": "7b257dc",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -952,7 +952,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "5aac121",
+                  "id": "1a94bb2",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -963,7 +963,7 @@
                   },
                   "elements": [
                     {
-                      "id": "7f05cb7",
+                      "id": "78b715a",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1010,7 +1010,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "59602b4",
+                  "id": "bceaf70",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1021,7 +1021,7 @@
                   },
                   "elements": [
                     {
-                      "id": "6c3027e",
+                      "id": "8a9df79",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1068,7 +1068,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "abce75f",
+                  "id": "6e9dec2",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1079,7 +1079,7 @@
                   },
                   "elements": [
                     {
-                      "id": "83b9886",
+                      "id": "6c5e938",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1135,7 +1135,7 @@
       "isInner": false
     },
     {
-      "id": "1f5c9c1",
+      "id": "c03cb23",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1157,7 +1157,7 @@
       },
       "elements": [
         {
-          "id": "e857786",
+          "id": "c8326d3",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1174,7 +1174,7 @@
           },
           "elements": [
             {
-              "id": "738a849",
+              "id": "619aecb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1185,11 +1185,11 @@
               },
               "elements": [
                 {
-                  "id": "9efe249",
+                  "id": "4b85fa7",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/11.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/11-300x225.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -1216,7 +1216,7 @@
               "isInner": true
             },
             {
-              "id": "3f76fa3",
+              "id": "b888450",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1227,11 +1227,11 @@
               },
               "elements": [
                 {
-                  "id": "0a63fae",
+                  "id": "d0f5e90",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/10.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/10-300x220.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -1258,7 +1258,7 @@
               "isInner": true
             },
             {
-              "id": "2313c6b",
+              "id": "19eef72",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1269,11 +1269,11 @@
               },
               "elements": [
                 {
-                  "id": "81040b3",
+                  "id": "53768b9",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/9.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/9-300x218.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -1300,7 +1300,7 @@
               "isInner": true
             },
             {
-              "id": "476bb78",
+              "id": "ec5a81c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1311,11 +1311,11 @@
               },
               "elements": [
                 {
-                  "id": "8a7734a",
+                  "id": "37b5983",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/12.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/12-300x225.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -1342,7 +1342,7 @@
               "isInner": true
             },
             {
-              "id": "a0dc636",
+              "id": "dba3f01",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1353,11 +1353,11 @@
               },
               "elements": [
                 {
-                  "id": "1b24309",
+                  "id": "f1a81f0",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/13.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/13-300x224.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -1384,7 +1384,7 @@
               "isInner": true
             },
             {
-              "id": "c22d5d7",
+              "id": "38bf79d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1395,11 +1395,11 @@
               },
               "elements": [
                 {
-                  "id": "4622735",
+                  "id": "197ec64",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/14.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/14-300x222.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -1426,7 +1426,7 @@
               "isInner": true
             },
             {
-              "id": "fcb95a1",
+              "id": "45242dd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1437,11 +1437,11 @@
               },
               "elements": [
                 {
-                  "id": "c5e8b19",
+                  "id": "86f303e",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/15.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/15-300x225.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -1468,7 +1468,7 @@
               "isInner": true
             },
             {
-              "id": "405d6af",
+              "id": "a6964cd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1479,11 +1479,11 @@
               },
               "elements": [
                 {
-                  "id": "95d2215",
+                  "id": "c58f50a",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/16.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/16-300x223.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -1510,7 +1510,7 @@
               "isInner": true
             },
             {
-              "id": "0830417",
+              "id": "6f8203f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1521,11 +1521,11 @@
               },
               "elements": [
                 {
-                  "id": "1e55302",
+                  "id": "c42b481",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/17.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/17-300x220.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -1558,7 +1558,7 @@
       "isInner": false
     },
     {
-      "id": "056ac61",
+      "id": "305ab81",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1587,7 +1587,7 @@
       },
       "elements": [
         {
-          "id": "14dc62d",
+          "id": "d482d8c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1604,7 +1604,7 @@
           },
           "elements": [
             {
-              "id": "ccfaaf2",
+              "id": "6289cfe",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1623,7 +1623,7 @@
               },
               "elements": [
                 {
-                  "id": "b2dce7c",
+                  "id": "724a578",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1642,7 +1642,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "d1495d7",
+                  "id": "334ac7a",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1659,7 +1659,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "aa926f9",
+                  "id": "a6bdd37",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1693,7 +1693,7 @@
               "isInner": true
             },
             {
-              "id": "b88c0c6",
+              "id": "3a5c310",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1714,7 +1714,7 @@
               },
               "elements": [
                 {
-                  "id": "57becc9",
+                  "id": "7427df8",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1751,7 +1751,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "98aadcc",
+                  "id": "f1346b6",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1791,7 +1791,7 @@
               "isInner": true
             },
             {
-              "id": "ed777b1",
+              "id": "44f8c6c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1812,7 +1812,7 @@
               },
               "elements": [
                 {
-                  "id": "70515b4",
+                  "id": "7273a93",
                   "elType": "widget",
                   "settings": {
                     "title": "Fem créixer espais,<br>fem créixer persones",
@@ -1833,7 +1833,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "97c92c9",
+                  "id": "58e9ce9",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",

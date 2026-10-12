@@ -162,3 +162,7 @@ Todas las páginas se construyen con los mismos componentes (`design.py`), fiele
 - Foto de «Murs de contenció»: el servidor guarda la «ó» como `o` + acento combinado (`mur-de-contencio%CC%81.jpeg`); con la codificación normal daba 404.
 - Inici y Jardineria usan fotos reales del sitio en portada y bloques; los nombres de proyectos (Jardí residencial…) siguen siendo placeholders del PDF.
 - El enlace de Instagram del footer y los de Avís legal / Política de privacitat quedan en `#`: la web actual no los expone en su HTML.
+
+## Peso de las imágenes al importar
+
+Al importar una plantilla, Elementor descarga a la biblioteca de medios **todas** las imágenes que lleva. Con las PNG originales de la galería (1,5-1,9 MB cada una) Empresa sumaba 15 MB y Galeria 24 MB, y la importación podía agotar el tiempo del servidor. Empresa y Galeria usan ahora las miniaturas de 300 px que genera WordPress (`9-300x218.png`, etc.). Si una importación falla por tiempo, comprueba el peso con `grep -o 'wp-content/uploads[^"]*'` y usa miniaturas.

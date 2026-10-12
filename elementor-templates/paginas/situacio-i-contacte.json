@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "281ef5e",
+      "id": "33910e0",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -42,7 +42,7 @@
       },
       "elements": [
         {
-          "id": "16c91f9",
+          "id": "0acdd9e",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -59,7 +59,7 @@
           },
           "elements": [
             {
-              "id": "5a1f687",
+              "id": "bfeb8bf",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -78,7 +78,7 @@
               },
               "elements": [
                 {
-                  "id": "b43c152",
+                  "id": "e8403f1",
                   "elType": "widget",
                   "settings": {
                     "title": "NEW TREE · JARDINERIA",
@@ -102,7 +102,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "6ee8e91",
+                  "id": "6ea984b",
                   "elType": "widget",
                   "settings": {
                     "title": "Situació i <span style=\"color:#6EA83C\">contacte</span>",
@@ -121,7 +121,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "d91385b",
+                  "id": "43a360d",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -138,7 +138,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "1582cf4",
+                  "id": "239b4c2",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -155,7 +155,7 @@
                   },
                   "elements": [
                     {
-                      "id": "9953866",
+                      "id": "dadf2f1",
                       "elType": "widget",
                       "settings": {
                         "text": "DEMANA PRESSUPOST",
@@ -186,7 +186,7 @@
                       "widgetType": "button"
                     },
                     {
-                      "id": "3bea66e",
+                      "id": "eb0f990",
                       "elType": "widget",
                       "settings": {
                         "text": "VEURE PROJECTES",
@@ -233,7 +233,7 @@
               "isInner": true
             },
             {
-              "id": "94d7a95",
+              "id": "a71f841",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -254,7 +254,7 @@
               },
               "elements": [
                 {
-                  "id": "6827bb8",
+                  "id": "d15c56a",
                   "elType": "widget",
                   "settings": {
                     "title": "Natura<br>Benestar<br>Vida",
@@ -275,7 +275,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "8706342",
+                  "id": "8923a08",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -313,7 +313,7 @@
       "isInner": false
     },
     {
-      "id": "9532aa9",
+      "id": "caa8ee8",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -335,7 +335,7 @@
       },
       "elements": [
         {
-          "id": "5c21046",
+          "id": "5df56be",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -369,7 +369,7 @@
           },
           "elements": [
             {
-              "id": "0f8b010",
+              "id": "62708ba",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -414,7 +414,7 @@
               },
               "elements": [
                 {
-                  "id": "15d345c",
+                  "id": "cdf70ba",
                   "elType": "widget",
                   "settings": {
                     "title": "CONTACTE",
@@ -438,7 +438,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "b888f4e",
+                  "id": "c4f21b4",
                   "elType": "widget",
                   "settings": {
                     "title": "New Tree convertim un desert en un jardí",
@@ -457,7 +457,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "f2714cb",
+                  "id": "6e61e86",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -472,7 +472,7 @@
                   },
                   "elements": [
                     {
-                      "id": "c0e2acd",
+                      "id": "22b2cbd",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -517,7 +517,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "64cf28f",
+                      "id": "7190b9f",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -562,7 +562,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "e5e17f7",
+                      "id": "f491fc0",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -613,7 +613,7 @@
               "isInner": true
             },
             {
-              "id": "266e560",
+              "id": "a74b158",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -659,7 +659,7 @@
               },
               "elements": [
                 {
-                  "id": "7e94d9b",
+                  "id": "38ff80f",
                   "elType": "widget",
                   "settings": {
                     "form_name": "Contacte",
@@ -763,7 +763,7 @@
       "isInner": false
     },
     {
-      "id": "32ac547",
+      "id": "c0228ca",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -785,7 +785,7 @@
       },
       "elements": [
         {
-          "id": "90be707",
+          "id": "21f2d4c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -817,7 +817,7 @@
           },
           "elements": [
             {
-              "id": "b7da224",
+              "id": "717db1f",
               "elType": "widget",
               "settings": {
                 "address": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
