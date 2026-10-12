@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "3605b9a",
+      "id": "1f7b43b",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -31,11 +31,33 @@
           "unit": "px",
           "size": 420,
           "sizes": []
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "96",
+          "right": "24",
+          "bottom": "96",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "78",
+          "right": "20",
+          "bottom": "78",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center",
+        "min_height_mobile": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
         }
       },
       "elements": [
         {
-          "id": "810c795",
+          "id": "797ec5b",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -50,11 +72,22 @@
             "width": {
               "unit": "%",
               "size": 60
-            }
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "4481a72",
+              "id": "eac2ca3",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -73,13 +106,15 @@
                   "size": 2,
                   "sizes": []
                 },
+                "_element_width": "inherit",
+                "align_mobile": "center",
                 "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "ec775ca",
+              "id": "4fe623f",
               "elType": "widget",
               "settings": {
                 "title": "Plantes <span style=\"color:#4E8C3F\">exemplars</span>",
@@ -93,13 +128,15 @@
                   "sizes": []
                 },
                 "typography_font_weight": "700",
+                "_element_width": "inherit",
+                "align_mobile": "center",
                 "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "d8a3b07",
+              "id": "cec26ee",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -111,13 +148,15 @@
                   "size": 18,
                   "sizes": []
                 },
+                "_element_width": "inherit",
+                "align_mobile": "center",
                 "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "text-editor"
             },
             {
-              "id": "a388dce",
+              "id": "25892a5",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -130,11 +169,15 @@
                   "isLinked": true
                 },
                 "flex_justify_content": "flex-start",
-                "flex_align_items": "center"
+                "flex_align_items": "center",
+                "flex_direction_mobile": "column",
+                "flex_wrap_mobile": "wrap",
+                "flex_justify_content_mobile": "center",
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "1f6a299",
+                  "id": "c3ab29a",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -160,6 +203,7 @@
                       "nofollow": "",
                       "custom_attributes": ""
                     },
+                    "align_mobile": "center",
                     "typography_typography": "custom",
                     "typography_font_family": "Nunito"
                   },
@@ -176,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "1d9b5cb",
+      "id": "7d6248a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -194,11 +238,28 @@
           "bottom": "80",
           "left": "40",
           "isLinked": false
-        }
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "52",
+          "right": "20",
+          "bottom": "52",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
       },
       "elements": [
         {
-          "id": "3a45ab5",
+          "id": "9d08c35",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -211,11 +272,15 @@
               "isLinked": true
             },
             "flex_justify_content": "space-between",
-            "flex_align_items": "flex-start"
+            "flex_align_items": "flex-start",
+            "flex_direction_mobile": "column",
+            "flex_wrap_mobile": "wrap",
+            "flex_justify_content_mobile": "center",
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "683dc65",
+              "id": "54e19a5",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -230,11 +295,22 @@
                 "width": {
                   "unit": "%",
                   "size": 50
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "c284531",
+                  "id": "8a57b30",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder oferir un servei totalment personalitzat.</p>",
@@ -246,6 +322,8 @@
                       "size": 17,
                       "sizes": []
                     },
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -255,18 +333,29 @@
               "isInner": true
             },
             {
-              "id": "99da735",
+              "id": "efe5c91",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
                   "size": 45
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "fb035fb",
+                  "id": "93a4375",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -274,7 +363,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Plantes exemplars"
+                    "alt": "Plantes exemplars",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -289,7 +379,7 @@
       "isInner": false
     },
     {
-      "id": "2471f33",
+      "id": "315b8f0",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -307,11 +397,28 @@
           "bottom": "70",
           "left": "40",
           "isLinked": false
-        }
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "46",
+          "right": "20",
+          "bottom": "46",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
       },
       "elements": [
         {
-          "id": "4f67d5d",
+          "id": "23ddb46",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -324,11 +431,15 @@
               "isLinked": true
             },
             "flex_justify_content": "space-between",
-            "flex_align_items": "center"
+            "flex_align_items": "center",
+            "flex_direction_mobile": "column",
+            "flex_wrap_mobile": "wrap",
+            "flex_justify_content_mobile": "center",
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "589f5c5",
+              "id": "31589a7",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -343,11 +454,22 @@
                 "width": {
                   "unit": "%",
                   "size": 45
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "cb7ff71",
+                  "id": "86005d9",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -361,13 +483,15 @@
                       "sizes": []
                     },
                     "typography_font_weight": "700",
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9303ad8",
+                  "id": "7f20ce0",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -379,13 +503,15 @@
                       "size": 16,
                       "sizes": []
                     },
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "ad40166",
+                  "id": "d634861",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -411,6 +537,7 @@
                       "nofollow": "",
                       "custom_attributes": ""
                     },
+                    "align_mobile": "center",
                     "typography_typography": "custom",
                     "typography_font_family": "Nunito"
                   },
@@ -421,7 +548,7 @@
               "isInner": true
             },
             {
-              "id": "fab1a22",
+              "id": "3084024",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -438,11 +565,25 @@
                 "width": {
                   "unit": "%",
                   "size": 50
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction_mobile": "column",
+                "flex_wrap_mobile": "wrap",
+                "flex_justify_content_mobile": "center",
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "3d91231",
+                  "id": "71bda4a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -456,6 +597,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -465,7 +608,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "3fc3dee",
+                  "id": "86779c6",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -479,6 +622,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -488,7 +633,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "4c31f02",
+                  "id": "0db42d2",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -502,6 +647,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",

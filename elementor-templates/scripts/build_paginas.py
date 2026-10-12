@@ -54,7 +54,7 @@ def galeria():
                [image(img("2020/04/%s.png" % n), alt="Galeria New Tree")]) for n in nums]
     grid = section(settings={"background_background": "classic", "background_color": WHITE,
                              "padding": pad(80, 40, 80, 40)},
-                   elements=[row(elements=cells, gap="20", justify="flex-start", align="flex-start")])
+                   elements=[row(elements=cells, gap="20", justify="center", align="flex-start")])
     return wrap("Galeria", [hero_section(dict(title="Galeria")), grid, cta_section()])
 
 

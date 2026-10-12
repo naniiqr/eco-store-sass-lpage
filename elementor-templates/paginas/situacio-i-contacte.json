@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "9a6db03",
+      "id": "2404df5",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "858a31a",
+          "id": "82e4731",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "297a2fd",
+              "id": "3ba214c",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "651416a",
+              "id": "5b4801f",
               "elType": "widget",
               "settings": {
                 "title": "Situació i <span style=\"color:#4E8C3F\">contacte</span>",
@@ -97,7 +97,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "2db2389",
+              "id": "fbbb0a3",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "6e48b64",
+              "id": "e4df5c3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "1889c14",
+                  "id": "57a638d",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "3746aa6",
+      "id": "9194f9c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "c3ff5c7",
+          "id": "976f352",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "bf32e78",
+              "id": "76f55fc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,7 +229,7 @@
               },
               "elements": [
                 {
-                  "id": "1217b64",
+                  "id": "cb49280",
                   "elType": "widget",
                   "settings": {
                     "title": "CONTACTE",
@@ -253,7 +253,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "3ac700d",
+                  "id": "063e8f5",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -268,7 +268,7 @@
                   },
                   "elements": [
                     {
-                      "id": "e46050d",
+                      "id": "3b6bd3d",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -287,7 +287,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "a2dce4a",
+                      "id": "425d8b0",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -306,7 +306,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "ca588c5",
+                      "id": "2510d6b",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -331,7 +331,7 @@
               "isInner": true
             },
             {
-              "id": "33d8a93",
+              "id": "c62705a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -350,7 +350,7 @@
               },
               "elements": [
                 {
-                  "id": "080e2de",
+                  "id": "ca4c3e2",
                   "elType": "widget",
                   "settings": {
                     "form_name": "Contacte",
@@ -404,7 +404,7 @@
       "isInner": false
     },
     {
-      "id": "781225e",
+      "id": "3f2017d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -426,7 +426,7 @@
       },
       "elements": [
         {
-          "id": "3d82f2d",
+          "id": "fec4965",
           "elType": "widget",
           "settings": {
             "address": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",

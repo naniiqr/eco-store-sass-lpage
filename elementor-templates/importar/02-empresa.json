@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "56695f8",
+      "id": "a40ee7a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -31,11 +31,33 @@
           "unit": "px",
           "size": 420,
           "sizes": []
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "96",
+          "right": "24",
+          "bottom": "96",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "78",
+          "right": "20",
+          "bottom": "78",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center",
+        "min_height_mobile": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
         }
       },
       "elements": [
         {
-          "id": "af82730",
+          "id": "47036ca",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -50,11 +72,22 @@
             "width": {
               "unit": "%",
               "size": 60
-            }
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "64564e2",
+              "id": "c783798",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -73,13 +106,15 @@
                   "size": 2,
                   "sizes": []
                 },
+                "_element_width": "inherit",
+                "align_mobile": "center",
                 "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "8b9a6e3",
+              "id": "915cf57",
               "elType": "widget",
               "settings": {
                 "title": "<span style=\"color:#4E8C3F\">Empresa</span>",
@@ -93,13 +128,15 @@
                   "sizes": []
                 },
                 "typography_font_weight": "700",
+                "_element_width": "inherit",
+                "align_mobile": "center",
                 "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "56f8944",
+              "id": "f7c3265",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -111,13 +148,15 @@
                   "size": 18,
                   "sizes": []
                 },
+                "_element_width": "inherit",
+                "align_mobile": "center",
                 "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "text-editor"
             },
             {
-              "id": "bd8116e",
+              "id": "561773b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -130,11 +169,15 @@
                   "isLinked": true
                 },
                 "flex_justify_content": "flex-start",
-                "flex_align_items": "center"
+                "flex_align_items": "center",
+                "flex_direction_mobile": "column",
+                "flex_wrap_mobile": "wrap",
+                "flex_justify_content_mobile": "center",
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "0176edc",
+                  "id": "3970bff",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -160,6 +203,7 @@
                       "nofollow": "",
                       "custom_attributes": ""
                     },
+                    "align_mobile": "center",
                     "typography_typography": "custom",
                     "typography_font_family": "Nunito"
                   },
@@ -176,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "1a996eb",
+      "id": "837eb71",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -194,11 +238,28 @@
           "bottom": "80",
           "left": "40",
           "isLinked": false
-        }
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "52",
+          "right": "20",
+          "bottom": "52",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
       },
       "elements": [
         {
-          "id": "b06152d",
+          "id": "a7598e7",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -211,11 +272,15 @@
               "isLinked": true
             },
             "flex_justify_content": "space-between",
-            "flex_align_items": "flex-start"
+            "flex_align_items": "flex-start",
+            "flex_direction_mobile": "column",
+            "flex_wrap_mobile": "wrap",
+            "flex_justify_content_mobile": "center",
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "07e45ea",
+              "id": "54d0bc0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -230,11 +295,22 @@
                 "width": {
                   "unit": "%",
                   "size": 50
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "520f196",
+                  "id": "b981c18",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Empresa de jardineria privada i pública oferim servei a tota la província de Girona: Figueres, Roses, L'Escala, Empuriabrava, Peralada, Castelló d'Empúries, Llançà.</p>",
@@ -246,13 +322,15 @@
                       "size": 17,
                       "sizes": []
                     },
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "f53676b",
+                  "id": "abbdf73",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. New Tree, empresa fundada l'any 1977 dedicada a la jardineria privada i pública.</p>",
@@ -264,13 +342,15 @@
                       "size": 17,
                       "sizes": []
                     },
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "2ae711b",
+                  "id": "7ef4d54",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Ofereix serveis que van des de l'assessorament i disseny de jardins fins a l'execució i el manteniment d'aquests.</p>",
@@ -282,13 +362,15 @@
                       "size": 17,
                       "sizes": []
                     },
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "e732e29",
+                  "id": "f58dcb2",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Disposem dels recursos humans, tècnics i de maquinària necessaris per a la realització de qualsevol feina de jardineria pública, privada o de gestió del paisatge.</p>",
@@ -300,13 +382,15 @@
                       "size": 17,
                       "sizes": []
                     },
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "1c07d14",
+                  "id": "cf2860f",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Oferim serveis a tot Girona, Figueres, Empuriabrava, Castelló d'Empúries, Port de la Selva.</p>",
@@ -318,6 +402,8 @@
                       "size": 17,
                       "sizes": []
                     },
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -327,18 +413,29 @@
               "isInner": true
             },
             {
-              "id": "3ee4553",
+              "id": "8206d84",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
                   "size": 45
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "3db85ed",
+                  "id": "78b682d",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -346,7 +443,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -361,7 +459,7 @@
       "isInner": false
     },
     {
-      "id": "0d10115",
+      "id": "84ce65e",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -379,11 +477,28 @@
           "bottom": "80",
           "left": "40",
           "isLinked": false
-        }
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "52",
+          "right": "20",
+          "bottom": "52",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
       },
       "elements": [
         {
-          "id": "7c2fd3b",
+          "id": "e20ad3e",
           "elType": "widget",
           "settings": {
             "title": "La nostra principal vocació",
@@ -397,13 +512,15 @@
               "sizes": []
             },
             "typography_font_weight": "700",
+            "_element_width": "inherit",
+            "align_mobile": "center",
             "typography_font_family": "Nunito"
           },
           "elements": [],
           "widgetType": "heading"
         },
         {
-          "id": "038ada1",
+          "id": "5e182b0",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -416,22 +533,37 @@
               "isLinked": true
             },
             "flex_justify_content": "space-between",
-            "flex_align_items": "flex-start"
+            "flex_align_items": "flex-start",
+            "flex_direction_mobile": "column",
+            "flex_wrap_mobile": "wrap",
+            "flex_justify_content_mobile": "center",
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "f88e030",
+              "id": "30517cd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
                   "size": 23
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "db81914",
+                  "id": "46709ae",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -445,6 +577,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#6B7280",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -457,18 +591,29 @@
               "isInner": true
             },
             {
-              "id": "252ca5c",
+              "id": "78316b5",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
                   "size": 23
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "2565244",
+                  "id": "9dd3d00",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -482,6 +627,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#6B7280",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -494,18 +641,29 @@
               "isInner": true
             },
             {
-              "id": "ac8c114",
+              "id": "1a8d450",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
                   "size": 23
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "9150d7a",
+                  "id": "5e5d930",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -519,6 +677,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#6B7280",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -531,18 +691,29 @@
               "isInner": true
             },
             {
-              "id": "8aff1d6",
+              "id": "45cb9b7",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
                   "size": 23
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "6e688d3",
+                  "id": "a7dacc0",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -556,6 +727,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#6B7280",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -574,7 +747,7 @@
       "isInner": false
     },
     {
-      "id": "d04c81a",
+      "id": "a47d2a1",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -592,11 +765,28 @@
           "bottom": "70",
           "left": "40",
           "isLinked": false
-        }
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "46",
+          "right": "20",
+          "bottom": "46",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
       },
       "elements": [
         {
-          "id": "02da794",
+          "id": "7e17d8b",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -608,23 +798,38 @@
               "unit": "px",
               "isLinked": true
             },
-            "flex_justify_content": "flex-start",
-            "flex_align_items": "flex-start"
+            "flex_justify_content": "center",
+            "flex_align_items": "flex-start",
+            "flex_direction_mobile": "column",
+            "flex_wrap_mobile": "wrap",
+            "flex_justify_content_mobile": "center",
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "fbb2789",
+              "id": "117a157",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
-                }
+                  "size": 31
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "f0ca249",
+                  "id": "de1f21d",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -632,7 +837,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -641,18 +847,29 @@
               "isInner": true
             },
             {
-              "id": "15780fa",
+              "id": "d39b41e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
-                }
+                  "size": 31
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "a48cdaf",
+                  "id": "d8d6d27",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -660,7 +877,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -669,18 +887,29 @@
               "isInner": true
             },
             {
-              "id": "22c9fca",
+              "id": "e1c46a3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
-                }
+                  "size": 31
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "4142e4b",
+                  "id": "3690e60",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -688,7 +917,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -697,18 +927,29 @@
               "isInner": true
             },
             {
-              "id": "dc151ce",
+              "id": "541b65f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
-                }
+                  "size": 31
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "c36cad0",
+                  "id": "fc0755f",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -716,7 +957,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -725,18 +967,29 @@
               "isInner": true
             },
             {
-              "id": "8e6dbd9",
+              "id": "7d2191f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
-                }
+                  "size": 31
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "a3cbfd6",
+                  "id": "c8e6e76",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -744,7 +997,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -753,18 +1007,29 @@
               "isInner": true
             },
             {
-              "id": "1db3902",
+              "id": "4e8d97e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
-                }
+                  "size": 31
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "530f7db",
+                  "id": "378b1d7",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -772,7 +1037,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -781,18 +1047,29 @@
               "isInner": true
             },
             {
-              "id": "701e945",
+              "id": "55797da",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
-                }
+                  "size": 31
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "497d551",
+                  "id": "d8dc82c",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -800,7 +1077,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -809,18 +1087,29 @@
               "isInner": true
             },
             {
-              "id": "3845054",
+              "id": "b0eb50e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
-                }
+                  "size": 31
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "0ff5d6d",
+                  "id": "a2cd59e",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -828,7 +1117,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -837,18 +1127,29 @@
               "isInner": true
             },
             {
-              "id": "c5c7982",
+              "id": "e1df914",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
-                }
+                  "size": 31
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "3ba2bf3",
+                  "id": "10a491f",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -856,7 +1157,8 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Empresa"
+                    "alt": "Empresa",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -871,7 +1173,7 @@
       "isInner": false
     },
     {
-      "id": "ba2b945",
+      "id": "8d5516a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -889,11 +1191,28 @@
           "bottom": "70",
           "left": "40",
           "isLinked": false
-        }
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "46",
+          "right": "20",
+          "bottom": "46",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
       },
       "elements": [
         {
-          "id": "81dee5d",
+          "id": "748f2a7",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -906,11 +1225,15 @@
               "isLinked": true
             },
             "flex_justify_content": "space-between",
-            "flex_align_items": "center"
+            "flex_align_items": "center",
+            "flex_direction_mobile": "column",
+            "flex_wrap_mobile": "wrap",
+            "flex_justify_content_mobile": "center",
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "ccb2b73",
+              "id": "bb0c0eb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -925,11 +1248,22 @@
                 "width": {
                   "unit": "%",
                   "size": 45
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "5a82ac0",
+                  "id": "3d4c8cc",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -943,13 +1277,15 @@
                       "sizes": []
                     },
                     "typography_font_weight": "700",
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "490e932",
+                  "id": "8dff6bb",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -961,13 +1297,15 @@
                       "size": 16,
                       "sizes": []
                     },
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "f01cfdd",
+                  "id": "6b925a9",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -993,6 +1331,7 @@
                       "nofollow": "",
                       "custom_attributes": ""
                     },
+                    "align_mobile": "center",
                     "typography_typography": "custom",
                     "typography_font_family": "Nunito"
                   },
@@ -1003,7 +1342,7 @@
               "isInner": true
             },
             {
-              "id": "d08d3b3",
+              "id": "6252e69",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1020,11 +1359,25 @@
                 "width": {
                   "unit": "%",
                   "size": 50
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_direction_mobile": "column",
+                "flex_wrap_mobile": "wrap",
+                "flex_justify_content_mobile": "center",
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "781f5ab",
+                  "id": "0ce21a2",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1038,6 +1391,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -1047,7 +1402,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "84456e4",
+                  "id": "94c6090",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1061,6 +1416,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -1070,7 +1427,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "7889aa3",
+                  "id": "108f3b9",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1084,6 +1441,8 @@
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "position_mobile": "top",
+                    "text_align_mobile": "center",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",

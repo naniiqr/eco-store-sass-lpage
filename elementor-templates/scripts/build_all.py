@@ -2,7 +2,9 @@
 
 Uso: python3 build_all.py
 """
-import json, os, runpy, shutil
+import json, os, runpy, shutil, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import responsive
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
@@ -60,6 +62,7 @@ def main():
     for src, dst in FILES:
         with open(os.path.join(ROOT, src), encoding="utf-8") as f:
             data = json.load(f)
+        data = responsive.apply(data)
         set_font(data["content"])
         assert data["content"] and data.get("type"), src
         with open(os.path.join(OUT, dst), "w", encoding="utf-8") as f:

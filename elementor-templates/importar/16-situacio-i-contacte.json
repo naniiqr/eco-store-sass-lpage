@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "9a6db03",
+      "id": "2404df5",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -31,11 +31,33 @@
           "unit": "px",
           "size": 420,
           "sizes": []
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "96",
+          "right": "24",
+          "bottom": "96",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "78",
+          "right": "20",
+          "bottom": "78",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center",
+        "min_height_mobile": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
         }
       },
       "elements": [
         {
-          "id": "858a31a",
+          "id": "82e4731",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -50,11 +72,22 @@
             "width": {
               "unit": "%",
               "size": 60
-            }
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "297a2fd",
+              "id": "3ba214c",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -73,13 +106,15 @@
                   "size": 2,
                   "sizes": []
                 },
+                "_element_width": "inherit",
+                "align_mobile": "center",
                 "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "651416a",
+              "id": "5b4801f",
               "elType": "widget",
               "settings": {
                 "title": "Situació i <span style=\"color:#4E8C3F\">contacte</span>",
@@ -93,13 +128,15 @@
                   "sizes": []
                 },
                 "typography_font_weight": "700",
+                "_element_width": "inherit",
+                "align_mobile": "center",
                 "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "heading"
             },
             {
-              "id": "2db2389",
+              "id": "fbbb0a3",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -111,13 +148,15 @@
                   "size": 18,
                   "sizes": []
                 },
+                "_element_width": "inherit",
+                "align_mobile": "center",
                 "typography_font_family": "Nunito"
               },
               "elements": [],
               "widgetType": "text-editor"
             },
             {
-              "id": "6e48b64",
+              "id": "e4df5c3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -130,11 +169,15 @@
                   "isLinked": true
                 },
                 "flex_justify_content": "flex-start",
-                "flex_align_items": "center"
+                "flex_align_items": "center",
+                "flex_direction_mobile": "column",
+                "flex_wrap_mobile": "wrap",
+                "flex_justify_content_mobile": "center",
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "1889c14",
+                  "id": "57a638d",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -160,6 +203,7 @@
                       "nofollow": "",
                       "custom_attributes": ""
                     },
+                    "align_mobile": "center",
                     "typography_typography": "custom",
                     "typography_font_family": "Nunito"
                   },
@@ -176,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "3746aa6",
+      "id": "9194f9c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -194,11 +238,28 @@
           "bottom": "40",
           "left": "40",
           "isLinked": false
-        }
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "52",
+          "right": "20",
+          "bottom": "26",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
       },
       "elements": [
         {
-          "id": "c3ff5c7",
+          "id": "976f352",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -211,11 +272,15 @@
               "isLinked": true
             },
             "flex_justify_content": "space-between",
-            "flex_align_items": "flex-start"
+            "flex_align_items": "flex-start",
+            "flex_direction_mobile": "column",
+            "flex_wrap_mobile": "wrap",
+            "flex_justify_content_mobile": "center",
+            "flex_align_items_mobile": "center"
           },
           "elements": [
             {
-              "id": "bf32e78",
+              "id": "76f55fc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -230,11 +295,22 @@
                 "width": {
                   "unit": "%",
                   "size": 45
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "1217b64",
+                  "id": "cb49280",
                   "elType": "widget",
                   "settings": {
                     "title": "CONTACTE",
@@ -253,13 +329,15 @@
                       "size": 2,
                       "sizes": []
                     },
+                    "_element_width": "inherit",
+                    "align_mobile": "center",
                     "typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "3ac700d",
+                  "id": "063e8f5",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -270,11 +348,12 @@
                       "unit": "px",
                       "isLinked": true
                     },
-                    "flex_align_items": "flex-start"
+                    "flex_align_items": "flex-start",
+                    "flex_align_items_mobile": "center"
                   },
                   "elements": [
                     {
-                      "id": "e46050d",
+                      "id": "3b6bd3d",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -288,6 +367,8 @@
                         "icon_color": "#4E8C3F",
                         "title_color": "#1E2A22",
                         "description_color": "#6B7280",
+                        "position_mobile": "top",
+                        "text_align_mobile": "center",
                         "title_typography_typography": "custom",
                         "title_typography_font_family": "Nunito",
                         "description_typography_typography": "custom",
@@ -297,7 +378,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "a2dce4a",
+                      "id": "425d8b0",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -311,6 +392,8 @@
                         "icon_color": "#4E8C3F",
                         "title_color": "#1E2A22",
                         "description_color": "#6B7280",
+                        "position_mobile": "top",
+                        "text_align_mobile": "center",
                         "title_typography_typography": "custom",
                         "title_typography_font_family": "Nunito",
                         "description_typography_typography": "custom",
@@ -320,7 +403,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "ca588c5",
+                      "id": "2510d6b",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -334,6 +417,8 @@
                         "icon_color": "#4E8C3F",
                         "title_color": "#1E2A22",
                         "description_color": "#6B7280",
+                        "position_mobile": "top",
+                        "text_align_mobile": "center",
                         "title_typography_typography": "custom",
                         "title_typography_font_family": "Nunito",
                         "description_typography_typography": "custom",
@@ -349,7 +434,7 @@
               "isInner": true
             },
             {
-              "id": "33d8a93",
+              "id": "c62705a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -364,11 +449,22 @@
                 "width": {
                   "unit": "%",
                   "size": 50
-                }
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
               },
               "elements": [
                 {
-                  "id": "080e2de",
+                  "id": "ca4c3e2",
                   "elType": "widget",
                   "settings": {
                     "form_name": "Contacte",
@@ -407,7 +503,8 @@
                     "button_text_color": "#FFFFFF",
                     "email_to": "info@newtree.cat",
                     "email_subject": "Nou missatge des de newtree.cat",
-                    "success_message": "Missatge enviat. Gràcies!"
+                    "success_message": "Missatge enviat. Gràcies!",
+                    "_element_width": "inherit"
                   },
                   "elements": [],
                   "widgetType": "form"
@@ -422,7 +519,7 @@
       "isInner": false
     },
     {
-      "id": "781225e",
+      "id": "3f2017d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -440,11 +537,28 @@
           "bottom": "80",
           "left": "40",
           "isLinked": false
-        }
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "16",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "13",
+          "right": "20",
+          "bottom": "52",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
       },
       "elements": [
         {
-          "id": "3d82f2d",
+          "id": "fec4965",
           "elType": "widget",
           "settings": {
             "address": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
@@ -457,7 +571,8 @@
               "unit": "px",
               "size": 380,
               "sizes": []
-            }
+            },
+            "_element_width": "inherit"
           },
           "elements": [],
           "widgetType": "google_maps"

@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "fca65fa",
+      "id": "cea9885",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "76571f1",
+          "id": "950ba80",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "341b2cb",
+              "id": "b244e76",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "ade5876",
+              "id": "41ae571",
               "elType": "widget",
               "settings": {
                 "title": "Neteja de <span style=\"color:#4E8C3F\">parcel·les</span>",
@@ -97,7 +97,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "f50eed1",
+              "id": "7f74f5f",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "e01a960",
+              "id": "05277df",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "fb7e6f9",
+                  "id": "a88ef4b",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "3bff045",
+      "id": "6341b6a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "156daa1",
+          "id": "1b01a9e",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "fb03f4f",
+              "id": "ec03cb1",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,7 +229,7 @@
               },
               "elements": [
                 {
-                  "id": "fc407e1",
+                  "id": "7fcc2b9",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Oferim el servei de neteja de parcel·les.</p>",
@@ -249,7 +249,7 @@
               "isInner": true
             },
             {
-              "id": "17601dd",
+              "id": "ac3f614",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -260,7 +260,7 @@
               },
               "elements": [
                 {
-                  "id": "a6eb642",
+                  "id": "e31cf19",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -283,7 +283,7 @@
       "isInner": false
     },
     {
-      "id": "cde7cc3",
+      "id": "1a6e77d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -305,7 +305,7 @@
       },
       "elements": [
         {
-          "id": "8ef58b7",
+          "id": "4ee5a41",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -317,12 +317,12 @@
               "unit": "px",
               "isLinked": true
             },
-            "flex_justify_content": "flex-start",
+            "flex_justify_content": "center",
             "flex_align_items": "flex-start"
           },
           "elements": [
             {
-              "id": "13ff38f",
+              "id": "ea42a04",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -333,7 +333,7 @@
               },
               "elements": [
                 {
-                  "id": "0b474de",
+                  "id": "a1cbde8",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -356,7 +356,7 @@
       "isInner": false
     },
     {
-      "id": "0eacd03",
+      "id": "6ecafdf",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -378,7 +378,7 @@
       },
       "elements": [
         {
-          "id": "62aa54e",
+          "id": "1910904",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -395,7 +395,7 @@
           },
           "elements": [
             {
-              "id": "b55b3b0",
+              "id": "b787020",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -414,7 +414,7 @@
               },
               "elements": [
                 {
-                  "id": "bee4fd3",
+                  "id": "0250b47",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -433,7 +433,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9445c88",
+                  "id": "c8023c8",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -450,7 +450,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "dae514f",
+                  "id": "5cd0868",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -484,7 +484,7 @@
               "isInner": true
             },
             {
-              "id": "f01575c",
+              "id": "b3955fd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -505,7 +505,7 @@
               },
               "elements": [
                 {
-                  "id": "768d755",
+                  "id": "021741c",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -524,7 +524,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "fea53f3",
+                  "id": "2a0b351",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -543,7 +543,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "54f902d",
+                  "id": "b86d7b1",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {

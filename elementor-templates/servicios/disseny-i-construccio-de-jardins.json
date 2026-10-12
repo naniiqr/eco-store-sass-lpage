@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "c5e9aa2",
+      "id": "2162993",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "6252a92",
+          "id": "46318f2",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "9a4b326",
+              "id": "fd0f1b7",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "7adbb24",
+              "id": "d969edd",
               "elType": "widget",
               "settings": {
                 "title": "Disseny i Construcció de <span style=\"color:#4E8C3F\">Jardins</span>",
@@ -97,7 +97,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "80f6912",
+              "id": "e255f15",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "54da0f6",
+              "id": "af70a87",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "869e925",
+                  "id": "759a26b",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "9f2dcdc",
+      "id": "50982f3",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "83d87df",
+          "id": "bbf32d2",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "6ba2810",
+              "id": "8260bbe",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,7 +229,7 @@
               },
               "elements": [
                 {
-                  "id": "af8a82a",
+                  "id": "6f762ec",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Us oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder-vos oferir un servei totalment personalitzat.</p>",
@@ -246,7 +246,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "84d3e03",
+                  "id": "9a028bc",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Cada racó té les seves pròpies característiques: l'objectiu és dissenyar el jardí intentant ressaltar els seus punts forts.</p>",
@@ -263,7 +263,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "5849bf6",
+                  "id": "0cb7436",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Això vol dir tenir en compte tres conceptes importants: proporció, unitat i línies geomètriques.</p>",
@@ -280,7 +280,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "0372bbd",
+                  "id": "b5ec614",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>La proporció es refereix sobretot a la mida del que volem plantar, ha de ser proporcionat. Mai inserir plantes que siguin massa petites o massa grans.</p>",
@@ -297,7 +297,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "0dbc6d8",
+                  "id": "378e8c6",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Els elements naturals també contribueixen a aquesta funció: els arbres que es desenvolupen horitzontalment donen una sensació de tranquil·litat; els verticals, en canvi, donen una sensació d'ordre i dinamisme.</p>",
@@ -317,7 +317,7 @@
               "isInner": true
             },
             {
-              "id": "7f35e0b",
+              "id": "3df1ff4",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -328,7 +328,7 @@
               },
               "elements": [
                 {
-                  "id": "5b87551",
+                  "id": "55c2062",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -351,7 +351,7 @@
       "isInner": false
     },
     {
-      "id": "3d30a05",
+      "id": "67cbd3e",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -373,7 +373,7 @@
       },
       "elements": [
         {
-          "id": "1770841",
+          "id": "300b103",
           "elType": "widget",
           "settings": {
             "title": "Tres conceptes importants",
@@ -392,7 +392,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "922a3ab",
+          "id": "620420a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -404,12 +404,12 @@
               "unit": "px",
               "isLinked": true
             },
-            "flex_justify_content": "flex-start",
+            "flex_justify_content": "center",
             "flex_align_items": "flex-start"
           },
           "elements": [
             {
-              "id": "266da50",
+              "id": "3023177",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -420,7 +420,7 @@
               },
               "elements": [
                 {
-                  "id": "6bb8489",
+                  "id": "85ba645",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -442,7 +442,7 @@
               "isInner": true
             },
             {
-              "id": "58f1a3e",
+              "id": "d668624",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -453,7 +453,7 @@
               },
               "elements": [
                 {
-                  "id": "398fa3f",
+                  "id": "f898ab2",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -475,7 +475,7 @@
               "isInner": true
             },
             {
-              "id": "5114d22",
+              "id": "8f4891f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -486,7 +486,7 @@
               },
               "elements": [
                 {
-                  "id": "90a4263",
+                  "id": "c63479c",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -514,7 +514,7 @@
       "isInner": false
     },
     {
-      "id": "e27c242",
+      "id": "6fbbf3d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -536,7 +536,7 @@
       },
       "elements": [
         {
-          "id": "b1d59d9",
+          "id": "e6ad3cd",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -548,23 +548,23 @@
               "unit": "px",
               "isLinked": true
             },
-            "flex_justify_content": "flex-start",
+            "flex_justify_content": "center",
             "flex_align_items": "flex-start"
           },
           "elements": [
             {
-              "id": "3335590",
+              "id": "e7cf6dd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "2ee4b7e",
+                  "id": "f45180d",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -581,18 +581,18 @@
               "isInner": true
             },
             {
-              "id": "52d66de",
+              "id": "e285966",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "b525e64",
+                  "id": "8527834",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -609,18 +609,18 @@
               "isInner": true
             },
             {
-              "id": "868c5a3",
+              "id": "26e8f43",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "70d0659",
+                  "id": "6f7c42d",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -637,18 +637,18 @@
               "isInner": true
             },
             {
-              "id": "96f899d",
+              "id": "ea29625",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "6f16e95",
+                  "id": "698d17b",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -665,18 +665,18 @@
               "isInner": true
             },
             {
-              "id": "525dfb5",
+              "id": "f8d5ba0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "d9f740c",
+                  "id": "aaad1f2",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -693,18 +693,18 @@
               "isInner": true
             },
             {
-              "id": "4c5fc10",
+              "id": "dd6d37c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "0808a6a",
+                  "id": "6d62e73",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -727,7 +727,7 @@
       "isInner": false
     },
     {
-      "id": "b32cfc3",
+      "id": "6415470",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -749,7 +749,7 @@
       },
       "elements": [
         {
-          "id": "f784afd",
+          "id": "76a34ee",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -766,7 +766,7 @@
           },
           "elements": [
             {
-              "id": "9c7140f",
+              "id": "ef277bb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -785,7 +785,7 @@
               },
               "elements": [
                 {
-                  "id": "adb523c",
+                  "id": "14977ac",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -804,7 +804,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "625cf52",
+                  "id": "a26e2e1",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -821,7 +821,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "014161e",
+                  "id": "300fe9d",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -855,7 +855,7 @@
               "isInner": true
             },
             {
-              "id": "ba4d964",
+              "id": "9c504b2",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -876,7 +876,7 @@
               },
               "elements": [
                 {
-                  "id": "399c4f6",
+                  "id": "13fa0a5",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -895,7 +895,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "b004fb4",
+                  "id": "64312f7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -914,7 +914,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "03ff759",
+                  "id": "7d7eb53",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {

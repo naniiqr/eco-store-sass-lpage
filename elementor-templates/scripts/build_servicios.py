@@ -169,7 +169,7 @@ def list_section(p):
     boxes = [icon_box(p["list_icon"], t, d, position="left") for t, d in p["items"]]
     els = [heading(p["list_title"], size="h2", font_size=30),
            row(elements=[C({"content_width": "full", "width": {"unit": "%", "size": 31}}, [b]) for b in boxes],
-               gap="24", justify="flex-start", align="flex-start")]
+               gap="24", justify="center", align="flex-start")]
     els += [text(t, font_size=17) for t in p.get("after", [])]
     return section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
                              "padding": pad(70, 40, 70, 40)}, elements=els)
@@ -177,21 +177,21 @@ def list_section(p):
 
 def gallery_section(p):
     n = len(p["gallery"])
-    w = 31.5 if n >= 3 else 48
+    w = 31 if n >= 3 else 48
     cells = [C({"content_width": "full", "width": {"unit": "%", "size": w}}, [image(img(g), alt=p["title"])])
              for g in p["gallery"]]
     return section(settings={"background_background": "classic", "background_color": WHITE,
                              "padding": pad(70, 40, 70, 40)},
-                   elements=[row(elements=cells, gap="24", justify="flex-start", align="flex-start")])
+                   elements=[row(elements=cells, gap="24", justify="center", align="flex-start")])
 
 
 def hub_section(p):
-    cards = [C({"content_width": "full", "width": {"unit": "%", "size": 31.5}},
+    cards = [C({"content_width": "full", "width": {"unit": "%", "size": 31}},
                [button(t, bg=GREEN, link="https://newtree.cat/%s/" % slug)]) for t, slug in p["hub"]]
     return section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
                              "padding": pad(70, 40, 70, 40)},
                    elements=[heading("Jardineria", size="h2", font_size=30),
-                             row(elements=cards, gap="20", justify="flex-start", align="flex-start")])
+                             row(elements=cards, gap="20", justify="center", align="flex-start")])
 
 
 def cta_section():

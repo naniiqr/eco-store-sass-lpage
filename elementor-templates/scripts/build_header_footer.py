@@ -1,193 +1,128 @@
-import json, random
+"""Plantillas de Theme Builder (Elementor Pro): header.json y footer.json, con datos reales de newtree.cat.
+Uso: python3 build_header_footer.py   (escribe ../header.json y ../footer.json)
+"""
+import json, os
+from lib_elementor import *
 
-def wid():
-    return ''.join(random.choices('0123456789abcdef', k=7))
-
-def W(widgetType, settings):
-    return {"id": wid(), "elType": "widget", "settings": settings, "elements": [], "widgetType": widgetType}
-
-def C(settings, elements, isInner=True):
-    return {"id": wid(), "elType": "container", "settings": settings, "elements": elements, "isInner": isInner}
-
-RED = "#E14D5A"
-GREEN = "#4E8C3F"
-BLACKBG = "#0B0B0B"
-TEXT_DARK = "#1E2A22"
-WHITE = "#FFFFFF"
+ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 GRAY = "#B9BFB9"
-
-def pad(t, r, b, l):
-    return {"unit": "px", "top": str(t), "right": str(r), "bottom": str(b), "left": str(l), "isLinked": False}
-
-def heading(title, size="p", align="left", color=TEXT_DARK, font_size=14, weight="500"):
-    return W("heading", {
-        "title": title, "header_size": size, "align": align, "title_color": color,
-        "typography_typography": "custom",
-        "typography_font_size": {"unit": "px", "size": font_size, "sizes": []},
-        "typography_font_weight": weight,
-    })
-
-def text(content, color=GRAY, font_size=13, align="left"):
-    return W("text-editor", {
-        "editor": f"<p>{content}</p>", "text_color": color, "align": align,
-        "typography_typography": "custom",
-        "typography_font_size": {"unit": "px", "size": font_size, "sizes": []},
-    })
-
-def button(txt, bg=RED, color=WHITE):
-    return W("button", {
-        "text": txt, "button_text_color": color, "background_color": bg,
-        "border_radius": {"unit": "px", "top": "6", "right": "6", "bottom": "6", "left": "6", "isLinked": True},
-        "size": "sm",
-    })
-
-def icon(name, color=WHITE, size=16, link=""):
-    s = {
-        "selected_icon": {"value": f"fab fa-{name}", "library": "fa-brands"},
-        "primary_color": color,
-        "size": {"unit": "px", "size": size, "sizes": []},
-    }
-    if link:
-        s["link"] = {"url": link, "is_external": "true"}
-    return W("icon", s)
-
-def row(settings=None, elements=None, gap="16", justify="flex-start", align="center", wrap="wrap"):
-    base = {
-        "content_width": "full", "flex_direction": "row", "flex_wrap": wrap,
-        "flex_gap": {"column": gap, "row": gap, "unit": "px", "isLinked": True},
-        "flex_justify_content": justify, "flex_align_items": align,
-    }
-    if settings:
-        base.update(settings)
-    return C(base, elements or [])
-
-def col(settings=None, elements=None, gap="8", align="flex-start"):
-    base = {
-        "content_width": "full", "flex_direction": "column",
-        "flex_gap": {"column": gap, "row": gap, "unit": "px", "isLinked": True},
-        "flex_align_items": align,
-    }
-    if settings:
-        base.update(settings)
-    return C(base, elements or [])
-
-def top_section(settings=None, elements=None):
-    base = {"content_width": "boxed", "flex_direction": "column", "width": {"unit": "%", "size": 100}}
-    if settings:
-        base.update(settings)
-    return C(base, elements or [], isInner=False)
-
-def dump(page, out_path):
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(page, f, ensure_ascii=False, indent=2)
-    with open(out_path, encoding="utf-8") as f:
-        json.load(f)
-    print("written + validated:", out_path)
+MAIL = "mailto:info@newtree.cat"
+SITE = "https://newtree.cat/"
+LOGO_W = 120
 
 
-# =========================================================
-# HEADER
-# =========================================================
-logo = W("theme-site-logo", {"width": {"unit": "px", "size": 140, "sizes": []}, "align": "left"})
+def link_icon(name, color, size, url):
+    w = icon(name, color=color, size=size)
+    w["settings"]["link"] = {"url": url, "is_external": "on", "nofollow": "", "custom_attributes": ""}
+    return w
 
-nav_menu = W("nav-menu", {
-    "menu": "",
-    "layout": "horizontal",
-    "pointer": "underline",
+
+def logo(width, align="left"):
+    return W("theme-site-logo", {"width": {"unit": "px", "size": width, "sizes": []}, "align": align})
+
+
+# ------------------------------- HEADER -------------------------------
+nav = W("nav-menu", {
+    "layout": "horizontal", "menu": "",            # asignar el menú de WordPress tras importar
+    "dropdown": "tablet", "toggle": "burger", "pointer": "underline",
+    "menu_color_text": TEXT_DARK, "color_menu_item_hover": GREEN,
     "menu_typography_typography": "custom",
-    "menu_typography_font_size": {"unit": "px", "size": 15, "sizes": []},
-    "menu_typography_font_weight": "500",
-    "menu_color_text": TEXT_DARK,
+    "menu_typography_font_size": {"unit": "px", "size": 14, "sizes": []},
+    "menu_typography_font_weight": "600",
 })
-
-lang_switch = text('<a href="#">CA</a> <a href="#">ES</a> <a href="#">FR</a> <a href="#">ENG</a>',
-                    color=TEXT_DARK, font_size=13)
-
-header_right = row(
-    elements=[lang_switch, button("DEMANA PRESSUPOST", bg=RED, color=WHITE)],
-    gap="16", justify="flex-end", wrap="nowrap",
+lang = text('<a href="#" style="color:%s">CA</a> &nbsp;<a href="#" style="color:%s">ES</a> &nbsp;'
+            '<a href="#" style="color:%s">FR</a> &nbsp;<a href="#" style="color:%s">ENG</a>' % ((WHITE,) * 4),
+            color=WHITE, font_size=12)
+top_info = text('(+34) 972 560 033 &nbsp;·&nbsp; (+34) 607 484 646 &nbsp;·&nbsp; info@newtree.cat',
+                color="#D7DED9", font_size=12)
+topbar = section(
+    settings={"background_background": "classic", "background_color": DARKGREEN,
+              "padding": pad(8, 40, 8, 40), "hide_tablet": "hidden-tablet", "hide_mobile": "hidden-mobile"},
+    elements=[row(settings={"flex_wrap": "nowrap"}, elements=[top_info, lang], gap="16",
+                  justify="space-between", align="center")],
 )
 
-header_bar = row(
-    settings={"width": {"unit": "%", "size": 100}},
-    elements=[logo, nav_menu, header_right],
-    gap="24", justify="space-between", wrap="nowrap",
+cta = button("DEMANA PRESSUPOST", bg=RED, color=WHITE, link=MAIL)
+cta["settings"]["hide_mobile"] = "hidden-mobile"
+header_row = row(
+    settings={"flex_wrap": "nowrap", "_keep_row": True},   # en móvil: logo + hamburguesa en una sola fila
+    elements=[logo(LOGO_W), nav, cta],
+    gap="16", justify="space-between", align="center",
+)
+header = section(
+    settings={"background_background": "classic", "background_color": WHITE, "padding": pad(14, 40, 14, 40),
+              "sticky": "top", "sticky_on": ["desktop", "tablet", "mobile"], "z_index": 100,
+              "box_shadow_box_shadow_type": "yes",
+              "box_shadow_box_shadow": {"horizontal": 0, "vertical": 2, "blur": 12, "spread": 0,
+                                        "color": "rgba(0,0,0,0.08)"}},
+    elements=[header_row],
 )
 
-header_root = top_section(
-    settings={
-        "background_background": "classic",
-        "background_color": WHITE,
-        "padding": pad(16, 40, 16, 40),
-        "sticky": "top",
-        "sticky_offset": {"unit": "px", "size": 0, "sizes": []},
-        "z_index": 999,
-        "border_border": "solid",
-        "border_width": {"unit": "px", "top": "0", "right": "0", "bottom": "1", "left": "0", "isLinked": False},
-        "border_color": "#EDEDED",
-    },
-    elements=[header_bar],
+# ------------------------------- FOOTER -------------------------------
+def foot_title(t):
+    return heading(t, size="h4", color=WHITE, font_size=16)
+
+
+def foot_text(html_, color=GRAY):
+    return text(html_, color=color, font_size=14)
+
+
+logo_box = col(settings={"background_background": "classic", "background_color": WHITE,
+                         "padding": pad(8, 8, 8, 8), "width": {"unit": "px", "size": LOGO_W + 16},
+                         "border_radius": {"unit": "px", "top": "10", "right": "10", "bottom": "10",
+                                           "left": "10", "isLinked": True}},
+               elements=[logo(LOGO_W, "center")])
+
+col_brand = col(settings={"width": {"unit": "%", "size": 25}}, gap="16", elements=[
+    logo_box,
+    foot_text("New Tree convertim un desert en un jardí"),
+])
+
+col_contact = col(settings={"width": {"unit": "%", "size": 36}}, gap="14", elements=[
+    foot_title("Contacte"),
+    icon_box("map-marker-alt", "Adreça", "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
+             icon_color=GREEN, title_color=WHITE, desc_color=GRAY, position="left"),
+    icon_box("phone", "Telèfons", "(+34) 972 560 033 · (+34) 607 484 646",
+             icon_color=GREEN, title_color=WHITE, desc_color=GRAY, position="left"),
+    icon_box("envelope", "Correu electrònic", "info@newtree.cat",
+             icon_color=GREEN, title_color=WHITE, desc_color=GRAY, position="left"),
+])
+
+services = [("Disseny i Construcció de Jardins", "disseny-i-construccio-de-jardins"),
+            ("Sistemes de Reg", "sistemes-de-reg"),
+            ("Instal·lació de Gespa", "instal%c2%b7lacio-de-gespa"),
+            ("Manteniment de jardins", "manteniment-de-jardins"),
+            ("Jardins verticals", "jardins-verticals"),
+            ("Obra pública", "jardineria-2"),
+            ("Terres i substrats", "terres-i-substrats"),
+            ("Nateja Parcel·les", "nateja-parceles"),
+            ("Tanques i Murs", "tanques-murs"),
+            ("Podes", "podes")]
+col_links = col(settings={"width": {"unit": "%", "size": 25}}, gap="10", elements=[
+    foot_title("Jardineria"),
+    foot_text("<br>".join('<a href="%s%s/" style="color:%s">%s</a>' % (SITE, s, GRAY, t) for t, s in services)),
+])
+
+top = row(elements=[col_brand, col_contact, col_links], gap="40", justify="space-between", align="flex-start")
+
+legal = foot_text('<a href="#" style="color:%s">Avís legal</a> &nbsp;|&nbsp; '
+                  '<a href="#" style="color:%s">Política de privacitat</a>' % (GRAY, GRAY))
+bottom = row(
+    settings={"border_border": "solid",
+              "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": False},
+              "border_color": "rgba(255,255,255,0.15)", "padding": pad(20, 0, 0, 0)},
+    elements=[legal, link_icon("instagram", WHITE, 18, "#")],  # sustituir # por el Instagram real
+    gap="16", justify="space-between", align="center",
+)
+footer = section(
+    settings={"background_background": "classic", "background_color": BLACKBG, "padding": pad(60, 40, 28, 40)},
+    elements=[col(settings={"flex_gap": {"column": "40", "row": "40", "unit": "px", "isLinked": True}},
+                  elements=[top, bottom], gap="40")],
 )
 
-header_page = {
-    "content": [header_root],
-    "page_settings": [],
-    "version": "0.4",
-    "title": "Header - New Tree",
-    "type": "header",
-}
-dump(header_page, "/home/user/eco-store-sass-lpage/elementor-templates/header.json")
-
-
-# =========================================================
-# FOOTER
-# =========================================================
-footer_logo = W("theme-site-logo", {"width": {"unit": "px", "size": 120, "sizes": []}, "align": "left"})
-
-social_row = row(
-    elements=[
-        icon("instagram", color=WHITE, size=18, link="https://instagram.com/"),
-        icon("facebook", color=WHITE, size=18, link="https://facebook.com/"),
-    ],
-    gap="16", justify="flex-start", wrap="nowrap",
-)
-
-legal_links = text(
-    '<a href="#" style="color:%s">Avís legal</a> &nbsp;|&nbsp; '
-    '<a href="#" style="color:%s">Política de privacitat</a> &nbsp;|&nbsp; '
-    '<a href="#" style="color:%s">Cookies</a>' % (GRAY, GRAY, GRAY),
-    color=GRAY, font_size=13,
-)
-
-location = row(
-    elements=[
-        W("icon", {"selected_icon": {"value": "fas fa-map-marker-alt", "library": "fa-solid"},
-                   "primary_color": GRAY, "size": {"unit": "px", "size": 14, "sizes": []}}),
-        text("Calabuig – Bàscara (Girona)", color=GRAY, font_size=13),
-    ],
-    gap="6", justify="flex-start", wrap="nowrap",
-)
-
-footer_bar = row(
-    settings={"width": {"unit": "%", "size": 100}},
-    elements=[footer_logo, social_row, legal_links, location],
-    gap="20", justify="space-between", align="center", wrap="wrap",
-)
-
-footer_root = top_section(
-    settings={
-        "background_background": "classic",
-        "background_color": BLACKBG,
-        "padding": pad(28, 40, 28, 40),
-    },
-    elements=[footer_bar],
-)
-
-footer_page = {
-    "content": [footer_root],
-    "page_settings": [],
-    "version": "0.4",
-    "title": "Footer - New Tree",
-    "type": "footer",
-}
-dump(footer_page, "/home/user/eco-store-sass-lpage/elementor-templates/footer.json")
+for name, title, ttype, els in [("header", "Header - New Tree", "header", [topbar, header]),
+                                ("footer", "Footer - New Tree", "footer", [footer])]:
+    doc = {"content": els, "page_settings": [], "version": "0.4", "title": title, "type": ttype}
+    with open(os.path.join(ROOT, name + ".json"), "w", encoding="utf-8") as f:
+        json.dump(doc, f, ensure_ascii=False, indent=2)
+    print(name + ".json ok")

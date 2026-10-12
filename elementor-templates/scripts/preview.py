@@ -12,6 +12,47 @@ MENU = ["Inici", "Empresa", "Jardineria", "Galeria", "Plantes exemplars", "Situa
 HSIZE = {"h1": 40, "h2": 32, "h3": 26, "h4": 20, "h5": 18, "h6": 16, "p": 16}
 
 
+RULES = []
+_K = [0]
+
+
+def bp_rules(settings, mapping, deep=False):
+    """Convierte claves *_tablet / *_mobile del JSON en reglas @container."""
+    cls, out = "", {"tablet": [], "mobile": []}
+    for bp in ("tablet", "mobile"):
+        for key, fn in mapping.items():
+            v = settings.get(f"{key}_{bp}")
+            if v not in (None, ""):
+                out[bp] += fn(v)
+    if out["tablet"] or out["mobile"]:
+        _K[0] += 1
+        cls = f"k{_K[0]}"
+        if out["tablet"]:
+            sel = f".{cls},.{cls}>*" if deep else f".{cls}"
+            RULES.append(f"@container pv (max-width:1024px){{{sel}{{{';'.join(x + '!important' for x in out['tablet'])}}}}}")
+        if out["mobile"]:
+            sel = f".{cls},.{cls}>*" if deep else f".{cls}"
+            RULES.append(f"@container pv (max-width:767px){{{sel}{{{';'.join(x + '!important' for x in out['mobile'])}}}}}")
+    return cls
+
+
+C_MAP = {
+    "padding": lambda v: [f"padding:{box(v)}"],
+    "width": lambda v: [f"width:{px(v)}"],
+    "flex_direction": lambda v: [f"flex-direction:{v}"],
+    "flex_wrap": lambda v: [f"flex-wrap:{v}"],
+    "flex_justify_content": lambda v: [f"justify-content:{v}"],
+    "flex_align_items": lambda v: [f"align-items:{v}"],
+    "min_height": lambda v: [f"min-height:{px(v)}"],
+    "hide": lambda v: ["display:none"],
+}
+W_MAP = {
+    "align": lambda v: [f"text-align:{v}", f"justify-content:{v if v != 'left' else 'flex-start'}"],
+    "text_align": lambda v: [f"text-align:{v}"],
+    "position": lambda v: ["flex-direction:column", "align-items:center"] if v == "top" else [],
+}
+
+
 def px(d):
     if not isinstance(d, dict) or d.get("size") in (None, ""):
         return None
@@ -31,6 +72,9 @@ def container(c, top=False):
     direction = s.get("flex_direction", "column")
     st.append(f"flex-direction:{direction}")
     cls = "c row" if direction.startswith("row") else "c"
+    kc = bp_rules(s, C_MAP)
+    if kc:
+        cls += " " + kc
     st.append(f"flex-wrap:{s.get('flex_wrap', 'nowrap')}")
     g = s.get("flex_gap") or {"row": 20, "column": 20, "unit": "px"}  # 20px: gap por defecto de Elementor
     if g:
@@ -74,7 +118,7 @@ def container(c, top=False):
         outer = [x for x in st if not x.startswith(("flex-", "gap", "justify", "align", "display", "padding"))]
         pad = f"padding:{box(s['padding'])};" if s.get("padding") else ""
         inner_st = [x for x in st if x.startswith(("flex-", "gap", "justify", "align", "display"))]
-        return (f'<div class="c" style="{";".join(outer)};{pad}"><div class="c in" '
+        return (f'<div class="{cls}" style="{";".join(outer)};{pad}"><div class="c in" '
                 f'style="{";".join(inner_st)};max-width:1140px;margin:0 auto;width:100%;box-sizing:border-box">{inner}</div></div>')
     return f'<div class="{cls}" style="{";".join(st)}">{inner}</div>'
 
@@ -148,8 +192,9 @@ def widget(w):
     if t == "theme-site-logo":
         return f'<img src="{LOGO}" alt="New Tree" style="width:{(s.get("width") or {}).get("size", 120)}px">'
     if t == "nav-menu":
-        return ('<nav style="display:flex;gap:22px;flex-wrap:wrap">' +
-                "".join(f'<a href="#" style="color:{s.get("menu_color_text", "#1e2a22")};text-decoration:none;font-weight:600;font-size:15px">{m}</a>' for m in MENU) +
+        return ('<i class="fas fa-bars burger" style="font-size:22px;display:none;cursor:pointer"></i>'
+                '<nav class="navl" style="display:flex;gap:18px;flex-wrap:nowrap">' +
+                "".join(f'<a href="#" style="color:{s.get("menu_color_text", "#1e2a22")};text-decoration:none;font-weight:600;font-size:14px;white-space:nowrap">{m}</a>' for m in MENU) +
                 '</nav>')
     return f'<div style="border:1px dashed #999;padding:8px;font-size:12px">[{t}]</div>'
 
@@ -157,7 +202,10 @@ def widget(w):
 def node(n):
     if n.get("elType") == "container":
         return container(n, top=not n.get("isInner", True))
-    return f'<div class="w">{widget(n)}</div>'
+    s = n["settings"]
+    kc = bp_rules(s, W_MAP, deep=True)
+    st = "width:100%" if s.get("_element_width") == "inherit" else ""
+    return f'<div class="w {kc}" style="{st}">{widget(n)}</div>'
 
 
 def render(path):
@@ -173,20 +221,17 @@ CSS = """
 #frame{margin:0 auto;background:#fff;container-type:inline-size;container-name:pv;transition:max-width .2s;max-width:100%}
 .w{flex:0 1 auto;min-width:0}.in>.w,.c>.w{max-width:100%}.te p{margin:0 0 .6em}.te p:last-child{margin:0}
 a{cursor:pointer}
-@container pv (max-width:1024px){.c{padding-left:min(var(--pl,40px),24px)}}
-@container pv (max-width:767px){.c{width:100%!important}.c.row{flex-direction:column!important;align-items:stretch!important}
- .c.row>.w a{width:100%}h1{font-size:32px!important}h2{font-size:26px!important}.c[style*="min-height"]{min-height:0!important}
- .c{padding-left:20px!important;padding-right:20px!important}}
+@container pv (max-width:1024px){.navl{display:none!important}.burger{display:block!important}}
 """
 
 
-def page_html(name, body, title, pages):
+def page_html(name, body, title, pages, rules=""):
     opts = "".join(f'<option value="{p}.html"{" selected" if p == name else ""}>{lab}</option>' for p, lab in pages)
     return f"""<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Previsualització – {H.escape(title)}</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<style>{CSS}</style></head><body>
+<style>{CSS}{rules}</style></head><body>
 <div class="bar"><strong>Vista prèvia</strong><select onchange="location=this.value">{opts}</select>
 <button data-w="100%" class="on">Escriptori</button><button data-w="820px">Tauleta</button><button data-w="390px">Mòbil</button>
 <span class="sp"></span><small>Aproximació del JSON; Elementor pot diferir lleugerament.</small></div>
@@ -201,15 +246,17 @@ def main():
         os.remove(old)
     header, _ = render(os.path.join(SRC, "00-header.json"))
     footer, _ = render(os.path.join(SRC, "00-footer.json"))
+    hf_rules = list(RULES)
     files = [f for f in sorted(glob.glob(os.path.join(SRC, "*.json"))) if not os.path.basename(f).startswith("00-")]
     pages = []
     for f in files:
         stem = os.path.splitext(os.path.basename(f))[0]
         pages.append((stem, stem[3:].replace("-", " ").capitalize()))
     for f, (stem, _) in zip(files, pages):
+        del RULES[:]
         body, title = render(f)
         open(os.path.join(OUT, stem + ".html"), "w", encoding="utf-8").write(
-            page_html(stem, header + body + footer, title, pages))
+            page_html(stem, header + body + footer, title, pages, "".join(hf_rules + RULES)))
     idx = "".join(f'<li><a href="{s}.html">{l}</a></li>' for s, l in pages)
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(
         f"""<!doctype html><html lang="ca"><meta charset="utf-8"><title>Previsualització New Tree</title>

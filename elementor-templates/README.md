@@ -122,3 +122,16 @@ Las páginas de servicio, Empresa, Galeria, Plantes exemplars y Situació i cont
 ## Vista previa HTML (`preview/`)
 
 `python3 scripts/preview.py` lee los JSON de `importar/` y genera una página HTML por plantilla (con header y footer) más un `index.html`. Abre `preview/index.html` en el navegador (necesita internet para fotos, tipografía e iconos). Tiene botones Escritorio / Tauleta / Mòbil. Es una aproximación: Elementor puede diferir ligeramente en espaciados.
+
+## Header y Footer (Theme Builder, requiere Elementor Pro)
+
+`header.json` y `footer.json` (también como `importar/00-header.json` y `00-footer.json`) son plantillas **separadas** de tipo Header y Footer; no están incluidas dentro de las páginas.
+
+1. WordPress → Plantillas → Theme Builder → Header → Añadir nuevo → Importar → `header.json`. Publicar con condición «Todo el sitio». Repetir con Footer.
+2. Header: barra superior (teléfonos, email, idiomas; solo escritorio) + logo, menú y botón «DEMANA PRESSUPOST». Tras importar, **asigna tu menú de WordPress** en el widget Nav Menu (en tablet/móvil se convierte en hamburguesa). Sticky activado.
+3. Footer: logo, contacto real, enlaces a los servicios, avís legal y política de privacitat. El enlace de Instagram apunta a `#`: pon el real.
+4. El logo (`Site Logo`) lo toma del logo del tema; el actual de newtree.cat tiene fondo blanco, por eso en el footer va dentro de una caja blanca redondeada. Con un logo transparente o blanco, quita la caja.
+
+## Responsive
+
+Revisión final aplicada a todas las plantillas (`scripts/responsive.py`): márgenes laterales siempre simétricos (40 px escritorio, 24 tablet, 20 móvil), tarjetas de 2 en 2 en tablet, una columna y contenido centrado en móvil, adornos flotantes ocultos en móvil.
