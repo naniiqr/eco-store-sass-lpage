@@ -60,18 +60,14 @@ header = section(
 
 # ------------------------------- FOOTER -------------------------------
 def foot_title(t):
-    return heading(t, size="h4", color=WHITE, font_size=16)
+    return heading(t, size="h4", color=TEXT_DARK, font_size=16)
 
 
-def foot_text(html_, color=GRAY):
+def foot_text(html_, color=TEXT_GRAY):
     return text(html_, color=color, font_size=14)
 
 
-logo_box = col(settings={"background_background": "classic", "background_color": WHITE,
-                         "padding": pad(8, 8, 8, 8), "width": {"unit": "px", "size": LOGO_W + 16},
-                         "border_radius": {"unit": "px", "top": "10", "right": "10", "bottom": "10",
-                                           "left": "10", "isLinked": True}},
-               elements=[logo(LOGO_W, "center")])
+logo_box = logo(LOGO_W)
 
 col_brand = col(settings={"width": {"unit": "%", "size": 25}}, gap="16", elements=[
     logo_box,
@@ -81,11 +77,11 @@ col_brand = col(settings={"width": {"unit": "%", "size": 25}}, gap="16", element
 col_contact = col(settings={"width": {"unit": "%", "size": 36}}, gap="14", elements=[
     foot_title("Contacte"),
     icon_box("map-marker-alt", "Adreça", "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
-             icon_color=GREEN, title_color=WHITE, desc_color=GRAY, position="left"),
+             icon_color=GREEN, title_color=TEXT_DARK, desc_color=TEXT_GRAY, position="left"),
     icon_box("phone", "Telèfons", "(+34) 972 560 033 · (+34) 607 484 646",
-             icon_color=GREEN, title_color=WHITE, desc_color=GRAY, position="left"),
+             icon_color=GREEN, title_color=TEXT_DARK, desc_color=TEXT_GRAY, position="left"),
     icon_box("envelope", "Correu electrònic", "info@newtree.cat",
-             icon_color=GREEN, title_color=WHITE, desc_color=GRAY, position="left"),
+             icon_color=GREEN, title_color=TEXT_DARK, desc_color=TEXT_GRAY, position="left"),
 ])
 
 services = [("Disseny i Construcció de Jardins", "disseny-i-construccio-de-jardins"),
@@ -100,22 +96,22 @@ services = [("Disseny i Construcció de Jardins", "disseny-i-construccio-de-jard
             ("Podes", "podes")]
 col_links = col(settings={"width": {"unit": "%", "size": 25}}, gap="10", elements=[
     foot_title("Jardineria"),
-    foot_text("<br>".join('<a href="%s%s/" style="color:%s">%s</a>' % (SITE, s, GRAY, t) for t, s in services)),
+    foot_text("<br>".join('<a href="%s%s/" style="color:%s">%s</a>' % (SITE, s, TEXT_GRAY, t) for t, s in services)),
 ])
 
 top = row(elements=[col_brand, col_contact, col_links], gap="40", justify="space-between", align="flex-start")
 
 legal = foot_text('<a href="#" style="color:%s">Avís legal</a> &nbsp;|&nbsp; '
-                  '<a href="#" style="color:%s">Política de privacitat</a>' % (GRAY, GRAY))
+                  '<a href="#" style="color:%s">Política de privacitat</a>' % (TEXT_GRAY, TEXT_GRAY))
 bottom = row(
     settings={"border_border": "solid",
               "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": False},
-              "border_color": "rgba(255,255,255,0.15)", "padding": pad(20, 0, 0, 0)},
-    elements=[legal, link_icon("instagram", WHITE, 18, "#")],  # sustituir # por el Instagram real
+              "border_color": "rgba(18,35,24,0.12)", "padding": pad(20, 0, 0, 0)},
+    elements=[legal, link_icon("instagram", TEXT_DARK, 20, "#")],  # sustituir # por el Instagram real
     gap="16", justify="space-between", align="center",
 )
 footer = section(
-    settings={"background_background": "classic", "background_color": BLACKBG, "padding": pad(60, 40, 28, 40)},
+    settings={"background_background": "classic", "background_color": LIGHTGRAY_BG, "padding": pad(60, 40, 28, 40)},
     elements=[col(settings={"flex_gap": {"column": "40", "row": "40", "unit": "px", "isLinked": True}},
                   elements=[top, bottom], gap="40")],
 )

@@ -38,8 +38,8 @@ def _container(c, top):
     w = s.get("width") or {}
     if w.get("unit") == "%" and 0 < float(w.get("size", 100)) < 100:
         size = float(w["size"])
-        s["width_tablet"] = {"unit": "%", "size": 48 if size <= 35 else 100, "sizes": []}
-        s["width_mobile"] = {"unit": "%", "size": 100, "sizes": []}
+        s.setdefault("width_tablet", {"unit": "%", "size": 48 if size <= 35 else 100, "sizes": []})
+        s.setdefault("width_mobile", {"unit": "%", "size": 100, "sizes": []})
     elif w.get("unit") == "px" and float(w.get("size", 0)) <= 32:       # flechas decorativas entre pasos
         els = c.get("elements", [])
         if len(els) == 1 and els[0].get("widgetType") == "icon":
@@ -60,7 +60,10 @@ def _container(c, top):
     if s.get("_position") == "absolute":                                 # adornos flotantes
         s["hide_mobile"] = "hidden-mobile"
     if s.get("min_height"):
-        s["min_height_mobile"] = {"unit": "px", "size": 0, "sizes": []}
+        base = float(s["min_height"].get("size", 0))
+        # los contenedores con foto (tarjetas, hero, bloques) conservan un alto mínimo en móvil
+        keep = max(200, round(base * 0.55)) if s.get("background_image") else 0
+        s["min_height_mobile"] = {"unit": "px", "size": keep, "sizes": []}
     if s.get("height") and s["height"].get("unit") == "px" and float(s["height"].get("size", 0)) > 60:
         pass
 

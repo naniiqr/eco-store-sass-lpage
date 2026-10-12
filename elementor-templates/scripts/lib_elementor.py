@@ -39,7 +39,7 @@ def text(content, color=TEXT_GRAY, font_size=16, align="left"):
         "typography_font_size": {"unit": "px", "size": font_size, "sizes": []},
     })
 
-def button(txt, bg=GREEN, color=WHITE, border=None, link=None):
+def button(txt, bg=GREEN, color=WHITE, border=None, link=None, full=False):
     s = {
         "text": txt, "button_text_color": color, "background_color": bg,
         "border_radius": {"unit": "px", "top": "6", "right": "6", "bottom": "6", "left": "6", "isLinked": True},
@@ -51,6 +51,8 @@ def button(txt, bg=GREEN, color=WHITE, border=None, link=None):
         s["border_width"] = {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True}
         s["border_color"] = border
         s["button_text_color"] = border
+    if full:
+        s["align"] = "justify"
     if link:
         s["link"] = {"url": link, "is_external": "", "nofollow": "", "custom_attributes": ""}
     return W("button", s)

@@ -44,7 +44,7 @@ def set_font(node):
         if prefixes:
             for p in prefixes:
                 node["settings"][p + "typography_typography"] = "custom"
-                node["settings"][p + "typography_font_family"] = FONT
+                node["settings"].setdefault(p + "typography_font_family", FONT)
         for v in node.values():
             set_font(v)
     elif isinstance(node, list):

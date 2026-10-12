@@ -141,3 +141,12 @@ Revisión final aplicada a todas las plantillas (`scripts/responsive.py`): márg
 Los JSON fijan los colores de marca en cada widget (incluidos iconos y formulario). Para que **todo lo que no está en los JSON** (enlaces, menú, selector de idioma, tipografías heredadas) también respete la marca, define los **Global Colors** en Site Settings: Primary `#4E8C3F` (verde), Secondary `#122318` (verde oscuro), Text `#1E2A22`, Accent `#E14D5A` (rojo). Los enlaces rojos que se ven por defecto vienen del color Accent/enlaces del Kit del tema.
 
 **Contacte** (`situacio-i-contacte.json`): tarjeta en dos mitades — panel verde oscuro con los datos (iconos en círculo verde) y panel verde de marca con el formulario (campos blancos redondeados, botón verde oscuro a ancho completo) — y mapa debajo con esquinas redondeadas. El formulario es el widget Form de Elementor Pro.
+
+## Diseño (identidad del PDF) — `scripts/design.py`
+
+Todas las páginas se construyen con los mismos componentes (`design.py`), fieles al PDF: hero con foto, degradado y rótulo manuscrito («Natura Benestar Vida», fuente **Caveat** de Google Fonts), franja de 5 iconos, tarjetas con foto y degradado, bloques verde oscuro con iconos en círculo, banner final con eslogan manuscrito y footer claro. Colores: verde `#4E8C3F`, verde oscuro `#122318`, rojo `#E14D5A`, negro `#0B0B0B`; tipografía Nunito.
+
+- Sin posicionamientos absolutos frágiles: todo va en flujo (salvo la tarjeta de cita de Jardineria, anclada abajo a la derecha de su foto con desplazamiento «desde el final»).
+- Los iconos de «Caja de icono» usan `primary_color` (la clave correcta de Elementor); antes usaba `icon_color`, que Elementor ignoraba y dejaba los iconos en azul por defecto.
+- Inici usa las fotos reales de newtree.cat en las tarjetas de servicio donde existen; el resto (hero, proyectos, jardí ampli) son placeholders a reemplazar.
+- Regenerar todo: `cd scripts && python3 build_all.py && python3 preview.py`.

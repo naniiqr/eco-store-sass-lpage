@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "a193654",
+      "id": "a91e41d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -17,8 +17,6 @@
         },
         "background_position": "center center",
         "background_size": "cover",
-        "background_overlay_background": "classic",
-        "background_overlay_color": "rgba(10,20,15,0.55)",
         "padding": {
           "unit": "px",
           "top": "120",
@@ -29,137 +27,281 @@
         },
         "min_height": {
           "unit": "px",
-          "size": 420,
+          "size": 460,
+          "sizes": []
+        },
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(10,20,15,0.80)",
+        "background_overlay_color_b": "rgba(10,20,15,0.18)",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 90,
           "sizes": []
         }
       },
       "elements": [
         {
-          "id": "8287c7e",
+          "id": "180cbf2",
           "elType": "container",
           "settings": {
             "content_width": "full",
-            "flex_direction": "column",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
             "flex_gap": {
-              "column": "20",
-              "row": "20",
+              "column": "24",
+              "row": "24",
               "unit": "px",
               "isLinked": true
             },
-            "flex_align_items": "flex-start",
-            "width": {
-              "unit": "%",
-              "size": 60
-            }
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center"
           },
           "elements": [
             {
-              "id": "1cff096",
-              "elType": "widget",
-              "settings": {
-                "title": "NEW TREE · JARDINERIA",
-                "header_size": "p",
-                "align": "left",
-                "title_color": "#FFFFFF",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "letter_spacing": {
-                  "unit": "px",
-                  "size": 2,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "heading"
-            },
-            {
-              "id": "125c393",
-              "elType": "widget",
-              "settings": {
-                "title": "<span style=\"color:#4E8C3F\">Galeria</span>",
-                "header_size": "h1",
-                "align": "left",
-                "title_color": "#FFFFFF",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 48,
-                  "sizes": []
-                },
-                "typography_font_weight": "700"
-              },
-              "elements": [],
-              "widgetType": "heading"
-            },
-            {
-              "id": "4d643d1",
-              "elType": "widget",
-              "settings": {
-                "editor": "<p>New Tree convertim un desert en un jardí</p>",
-                "text_color": "#E5E5E5",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "text-editor"
-            },
-            {
-              "id": "a9f0f28",
+              "id": "3c66d47",
               "elType": "container",
               "settings": {
                 "content_width": "full",
-                "flex_direction": "row",
-                "flex_wrap": "wrap",
+                "flex_direction": "column",
                 "flex_gap": {
-                  "column": "16",
-                  "row": "16",
+                  "column": "22",
+                  "row": "22",
                   "unit": "px",
                   "isLinked": true
                 },
-                "flex_justify_content": "flex-start",
-                "flex_align_items": "center"
+                "flex_align_items": "flex-start",
+                "width": {
+                  "unit": "%",
+                  "size": 62
+                }
               },
               "elements": [
                 {
-                  "id": "7704560",
+                  "id": "368191c",
                   "elType": "widget",
                   "settings": {
-                    "text": "DEMANA PRESSUPOST",
-                    "button_text_color": "#FFFFFF",
-                    "background_color": "#4E8C3F",
-                    "border_radius": {
+                    "title": "NEW TREE · JARDINERIA",
+                    "header_size": "p",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
                       "unit": "px",
-                      "top": "6",
-                      "right": "6",
-                      "bottom": "6",
-                      "left": "6",
-                      "isLinked": true
+                      "size": 13,
+                      "sizes": []
                     },
-                    "size": "md",
-                    "icon": {
-                      "value": "fas fa-arrow-right",
-                      "library": "fa-solid"
-                    },
-                    "icon_align": "right",
-                    "link": {
-                      "url": "mailto:info@newtree.cat",
-                      "is_external": "",
-                      "nofollow": "",
-                      "custom_attributes": ""
+                    "typography_font_weight": "600",
+                    "letter_spacing": {
+                      "unit": "px",
+                      "size": 2,
+                      "sizes": []
                     }
                   },
                   "elements": [],
-                  "widgetType": "button"
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "29662b0",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "<span style=\"color:#4E8C3F\">Galeria</span>",
+                    "header_size": "h1",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 56,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "564c952",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>New Tree convertim un desert en un jardí</p>",
+                    "text_color": "#E5E5E5",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "201c038",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "column": "16",
+                      "row": "16",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "flex_justify_content": "flex-start",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "7ce7bb0",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "DEMANA PRESSUPOST",
+                        "button_text_color": "#FFFFFF",
+                        "background_color": "#4E8C3F",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "6",
+                          "bottom": "6",
+                          "left": "6",
+                          "isLinked": true
+                        },
+                        "size": "md",
+                        "icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "icon_align": "right",
+                        "link": {
+                          "url": "mailto:info@newtree.cat",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    },
+                    {
+                      "id": "629be7b",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "VEURE PROJECTES",
+                        "button_text_color": "#FFFFFF",
+                        "background_color": "transparent",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "6",
+                          "bottom": "6",
+                          "left": "6",
+                          "isLinked": true
+                        },
+                        "size": "md",
+                        "icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "icon_align": "right",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#FFFFFF",
+                        "link": {
+                          "url": "https://newtree.cat/galeria-esp/",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "1a97d83",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "10",
+                  "row": "10",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_align_items": "flex-end",
+                "width": {
+                  "unit": "%",
+                  "size": 28
+                },
+                "hide_tablet": "hidden-tablet",
+                "hide_mobile": "hidden-mobile"
+              },
+              "elements": [
+                {
+                  "id": "48effc5",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Natura<br>Benestar<br>Vida",
+                    "header_size": "p",
+                    "align": "right",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 38,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "typography_font_family": "Caveat",
+                    "typography_font_style": "italic"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "0961e83",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 90,
+                      "sizes": []
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 4,
+                      "sizes": []
+                    },
+                    "background_background": "classic",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "4",
+                      "bottom": "4",
+                      "left": "4",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": true
                 }
               ],
               "isInner": true
@@ -171,7 +313,7 @@
       "isInner": false
     },
     {
-      "id": "1320ce9",
+      "id": "2b895c4",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -181,7 +323,7 @@
           "size": 100
         },
         "background_background": "classic",
-        "background_color": "#FFFFFF",
+        "background_color": "#F6F7F5",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -193,15 +335,15 @@
       },
       "elements": [
         {
-          "id": "00a6581",
+          "id": "3eaccd0",
           "elType": "container",
           "settings": {
             "content_width": "full",
             "flex_direction": "row",
             "flex_wrap": "wrap",
             "flex_gap": {
-              "column": "20",
-              "row": "20",
+              "column": "18",
+              "row": "18",
               "unit": "px",
               "isLinked": true
             },
@@ -210,18 +352,18 @@
           },
           "elements": [
             {
-              "id": "068d9b0",
+              "id": "dc6f4d9",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "f388cbc",
+                  "id": "a1c2107",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -229,7 +371,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -238,18 +394,18 @@
               "isInner": true
             },
             {
-              "id": "1c653e9",
+              "id": "3555c77",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "b11c3a1",
+                  "id": "bd9d9eb",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -257,7 +413,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -266,18 +436,18 @@
               "isInner": true
             },
             {
-              "id": "811e811",
+              "id": "0e6f3ab",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "40adffe",
+                  "id": "10807a5",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -285,7 +455,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -294,18 +478,18 @@
               "isInner": true
             },
             {
-              "id": "e05fe6d",
+              "id": "5fc073a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "225bf31",
+                  "id": "e8610de",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -313,7 +497,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -322,18 +520,18 @@
               "isInner": true
             },
             {
-              "id": "89ca9f3",
+              "id": "f1cdea8",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "9053368",
+                  "id": "6403a53",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -341,7 +539,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -350,18 +562,18 @@
               "isInner": true
             },
             {
-              "id": "d286bfe",
+              "id": "cca0bae",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "149597b",
+                  "id": "1e06b32",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -369,7 +581,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -378,18 +604,18 @@
               "isInner": true
             },
             {
-              "id": "fd6e806",
+              "id": "0969d3b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "70d35aa",
+                  "id": "ec9db92",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -397,7 +623,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -406,18 +646,18 @@
               "isInner": true
             },
             {
-              "id": "90c0a1d",
+              "id": "a16cbc8",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "7607c1c",
+                  "id": "7e60aa3",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -425,7 +665,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -434,18 +688,18 @@
               "isInner": true
             },
             {
-              "id": "a619f63",
+              "id": "bb397a7",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "1fe5c36",
+                  "id": "f4ff9e4",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -453,7 +707,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -462,18 +730,18 @@
               "isInner": true
             },
             {
-              "id": "3afaaa0",
+              "id": "55c1590",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "48f233f",
+                  "id": "950f659",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -481,7 +749,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -490,18 +772,18 @@
               "isInner": true
             },
             {
-              "id": "7cc9ef8",
+              "id": "ed1e11c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "6310a10",
+                  "id": "eb1f863",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -509,7 +791,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -518,18 +814,18 @@
               "isInner": true
             },
             {
-              "id": "af2c8b9",
+              "id": "6fab24b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "e2b93bc",
+                  "id": "319b485",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -537,7 +833,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -546,18 +856,18 @@
               "isInner": true
             },
             {
-              "id": "08827f5",
+              "id": "f569e02",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "48ca02a",
+                  "id": "ff8101a",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -565,7 +875,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -574,18 +898,18 @@
               "isInner": true
             },
             {
-              "id": "8c40e82",
+              "id": "89615e4",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "3528505",
+                  "id": "1b4ef29",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -593,7 +917,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -602,18 +940,18 @@
               "isInner": true
             },
             {
-              "id": "03c6f5c",
+              "id": "51fc4bf",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "e154979",
+                  "id": "d1acd70",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -621,7 +959,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -630,18 +982,18 @@
               "isInner": true
             },
             {
-              "id": "646f9e3",
+              "id": "d840b14",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "2e03d03",
+                  "id": "b8c88a4",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -649,7 +1001,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -658,18 +1024,18 @@
               "isInner": true
             },
             {
-              "id": "716048b",
+              "id": "a955db3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "ea16cac",
+                  "id": "7ac1300",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -677,7 +1043,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -686,18 +1066,18 @@
               "isInner": true
             },
             {
-              "id": "2004f8c",
+              "id": "876af92",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "2aea654",
+                  "id": "1beeddd",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -705,7 +1085,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -714,18 +1108,18 @@
               "isInner": true
             },
             {
-              "id": "fb75987",
+              "id": "fe5efe8",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "b107da3",
+                  "id": "5f20b6b",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -733,7 +1127,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -742,18 +1150,18 @@
               "isInner": true
             },
             {
-              "id": "a50afcb",
+              "id": "cca888f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 23.5
+                  "size": 23
                 }
               },
               "elements": [
                 {
-                  "id": "cdbaae2",
+                  "id": "af54098",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -761,7 +1169,21 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree"
+                    "alt": "Galeria New Tree",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 210,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -776,7 +1198,7 @@
       "isInner": false
     },
     {
-      "id": "69e50df",
+      "id": "7cc5068",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -785,8 +1207,15 @@
           "unit": "%",
           "size": 100
         },
-        "background_background": "classic",
-        "background_color": "#0B0B0B",
+        "background_background": "gradient",
+        "background_color": "#122318",
+        "background_color_b": "#0B0B0B",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135,
+          "sizes": []
+        },
         "padding": {
           "unit": "px",
           "top": "70",
@@ -798,15 +1227,15 @@
       },
       "elements": [
         {
-          "id": "9a072ed",
+          "id": "7955e8d",
           "elType": "container",
           "settings": {
             "content_width": "full",
             "flex_direction": "row",
             "flex_wrap": "wrap",
             "flex_gap": {
-              "column": "20",
-              "row": "20",
+              "column": "24",
+              "row": "24",
               "unit": "px",
               "isLinked": true
             },
@@ -815,7 +1244,7 @@
           },
           "elements": [
             {
-              "id": "5fb635f",
+              "id": "646453b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -829,12 +1258,12 @@
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 45
+                  "size": 34
                 }
               },
               "elements": [
                 {
-                  "id": "ed80680",
+                  "id": "86b516c",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -844,7 +1273,7 @@
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 30,
+                      "size": 32,
                       "sizes": []
                     },
                     "typography_font_weight": "700"
@@ -853,7 +1282,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "1f0a9a3",
+                  "id": "ebc7413",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -870,7 +1299,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "0391ca9",
+                  "id": "320cc19",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -904,7 +1333,7 @@
               "isInner": true
             },
             {
-              "id": "5997abb",
+              "id": "f005503",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -917,44 +1346,44 @@
                   "isLinked": true
                 },
                 "flex_justify_content": "flex-start",
-                "flex_align_items": "center",
+                "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 50
+                  "size": 42
                 }
               },
               "elements": [
                 {
-                  "id": "5d7d545",
+                  "id": "266fce1",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-phone",
                       "library": "fa-solid"
                     },
-                    "title_text": "Telèfons",
-                    "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
-                    "position": "left",
+                    "title_text": "Truca'ns",
+                    "description_text": "(+34) 972 560 033",
+                    "position": "top",
                     "title_size": "h4",
-                    "primary_color": "#4E8C3F",
+                    "primary_color": "#FFFFFF",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
                     "icon_size": {
                       "unit": "px",
-                      "size": 26,
+                      "size": 24,
                       "sizes": []
                     },
                     "title_typography_typography": "custom",
                     "title_typography_font_size": {
                       "unit": "px",
-                      "size": 18,
+                      "size": 16,
                       "sizes": []
                     },
                     "title_typography_font_weight": "700",
                     "description_typography_typography": "custom",
                     "description_typography_font_size": {
                       "unit": "px",
-                      "size": 14,
+                      "size": 13,
                       "sizes": []
                     }
                   },
@@ -962,78 +1391,115 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "3188112",
+                  "id": "edcfc70",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-envelope",
                       "library": "fa-solid"
                     },
-                    "title_text": "Correu electrònic",
+                    "title_text": "Escriu-nos",
                     "description_text": "info@newtree.cat",
-                    "position": "left",
+                    "position": "top",
                     "title_size": "h4",
-                    "primary_color": "#4E8C3F",
+                    "primary_color": "#FFFFFF",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
                     "icon_size": {
                       "unit": "px",
-                      "size": 26,
+                      "size": 24,
                       "sizes": []
                     },
                     "title_typography_typography": "custom",
                     "title_typography_font_size": {
                       "unit": "px",
-                      "size": 18,
+                      "size": 16,
                       "sizes": []
                     },
                     "title_typography_font_weight": "700",
                     "description_typography_typography": "custom",
                     "description_typography_font_size": {
                       "unit": "px",
-                      "size": 14,
+                      "size": 13,
                       "sizes": []
                     }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "17bdce0",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "8",
+                  "row": "8",
+                  "unit": "px",
+                  "isLinked": true
                 },
+                "flex_align_items": "flex-end",
+                "width": {
+                  "unit": "%",
+                  "size": 16
+                },
+                "hide_tablet": "hidden-tablet",
+                "hide_mobile": "hidden-mobile"
+              },
+              "elements": [
                 {
-                  "id": "95a8264",
+                  "id": "18425f0",
                   "elType": "widget",
                   "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-map-marker-alt",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Adreça",
-                    "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
-                    "position": "left",
-                    "title_size": "h4",
-                    "primary_color": "#4E8C3F",
+                    "title": "Fem créixer espais,<br>fem créixer persones",
+                    "header_size": "p",
+                    "align": "right",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9",
-                    "icon_size": {
+                    "typography_typography": "custom",
+                    "typography_font_size": {
                       "unit": "px",
                       "size": 26,
                       "sizes": []
                     },
-                    "title_typography_typography": "custom",
-                    "title_typography_font_size": {
+                    "typography_font_weight": "600",
+                    "typography_font_family": "Caveat",
+                    "typography_font_style": "italic"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "c2cf024",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
                       "unit": "px",
-                      "size": 18,
+                      "size": 90,
                       "sizes": []
                     },
-                    "title_typography_font_weight": "700",
-                    "description_typography_typography": "custom",
-                    "description_typography_font_size": {
+                    "height": {
                       "unit": "px",
-                      "size": 14,
+                      "size": 4,
                       "sizes": []
+                    },
+                    "background_background": "classic",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "4",
+                      "bottom": "4",
+                      "left": "4",
+                      "isLinked": true
                     }
                   },
                   "elements": [],
-                  "widgetType": "icon-box"
+                  "isInner": true
                 }
               ],
               "isInner": true

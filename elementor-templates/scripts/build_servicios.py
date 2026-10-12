@@ -4,12 +4,9 @@ dentro del diseño del rediseño (mismos colores, hero, tarjetas y banner del PD
 Uso: python3 build_servicios.py   (escribe en ../servicios/)
 """
 import json, os
-from lib_elementor import *
+from design import *
 
-BASE = "https://newtree.cat/wp-content/uploads/"
-HERO_IMG = {"url": BASE + "2020/04/f3.jpg", "id": ""}
-MAIL = "mailto:info@newtree.cat"
-SLOGAN = "New Tree convertim un desert en un jardí"
+HERO_IMG = real("2020/04/f3.jpg")
 
 
 def img(path, label=None):
@@ -132,95 +129,76 @@ OBRA_PUBLICA = dict(
 
 
 # ---------------------------------------------------------------
-# Secciones (diseño del rediseño)
+# Secciones (identidad del rediseño: ver design.py)
 # ---------------------------------------------------------------
-def eyebrow(t, color=RED):
-    return heading(t, size="p", color=color, font_size=13,
-                   extra={"typography_typography": "custom", "typography_font_weight": "600",
-                          "letter_spacing": {"unit": "px", "size": 2, "sizes": []}})
+def acc_last(title, color=RED):
+    head, _, last = title.rpartition(" ")
+    return acc(head, last, color) if head else '<span style="color:%s">%s</span>' % (color, last)
 
 
 def hero_section(p):
     h1 = p.get("h1") or h1_green(p["title"])
-    inner = col(settings={"width": {"unit": "%", "size": 60}}, gap="20", elements=[
-        eyebrow("NEW TREE · JARDINERIA", color=WHITE),
-        heading(h1, size="h1", color=WHITE, font_size=48),
-        text(p.get("lead", SLOGAN), color="#E5E5E5", font_size=18),
-        row(elements=[button("DEMANA PRESSUPOST", bg=GREEN, link=MAIL)], gap="16"),
-    ])
-    return section(settings={
-        "background_background": "classic", "background_image": HERO_IMG,
-        "background_position": "center center", "background_size": "cover",
-        "background_overlay_background": "classic", "background_overlay_color": "rgba(10,20,15,0.55)",
-        "padding": pad(120, 40, 120, 40), "min_height": {"unit": "px", "size": 420, "sizes": []},
-    }, elements=[inner])
+    return hero("NEW TREE · JARDINERIA", h1, p.get("lead", SLOGAN), HERO_IMG, min_h=460)
 
 
 def intro_section(p):
+    paras = p["paras"]
     left = col(settings={"width": {"unit": "%", "size": 50}}, gap="18",
-               elements=[text(t, font_size=17) for t in p["paras"]])
-    right = C({"content_width": "full", "width": {"unit": "%", "size": 45}}, [image(p["side"], alt=p["title"])])
+               elements=[text(paras[0], color=TEXT_DARK, font_size=20)] + [text(t, font_size=16) for t in paras[1:]] +
+                        [button("DEMANA PRESSUPOST", bg=RED, color=WHITE, link=MAIL)])
+    right = C({"content_width": "full", "width": {"unit": "%", "size": 45}},
+              [pic(p["side"], p["title"], radius=12, shadow=True)])
     return section(settings={"background_background": "classic", "background_color": WHITE,
                              "padding": pad(80, 40, 80, 40)},
                    elements=[row(elements=[left, right], gap="40", justify="space-between", align="flex-start")])
 
 
 def list_section(p):
-    boxes = [icon_box(p["list_icon"], t, d, position="left") for t, d in p["items"]]
-    els = [heading(p["list_title"], size="h2", font_size=30),
-           row(elements=[C({"content_width": "full", "width": {"unit": "%", "size": 31}}, [b]) for b in boxes],
-               gap="24", justify="center", align="flex-start")]
-    els += [text(t, font_size=17) for t in p.get("after", [])]
-    return section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
-                             "padding": pad(70, 40, 70, 40)}, elements=els)
+    boxes = [C({"content_width": "full", "width": {"unit": "%", "size": 31}},
+               [ibox(p["list_icon"], t, d, icon_color=WHITE, title_color=WHITE, desc_color=SOFT, framed=True,
+                     title_px=17, desc_px=14)]) for t, d in p["items"]]
+    els = [heading(acc_last(p["list_title"]).replace('color:%s' % RED, 'color:%s' % RED), size="h2", color=WHITE, font_size=34),
+           row(elements=boxes, gap="28", justify="center", align="flex-start")]
+    els += [text(t, color=SOFT, font_size=17) for t in p.get("after", [])]
+    return section(settings={"background_background": "gradient", "background_color": DARKGREEN,
+                             "background_color_b": "#1F3D28", "background_gradient_type": "linear",
+                             "background_gradient_angle": {"unit": "deg", "size": 135, "sizes": []},
+                             "flex_gap": {"column": "36", "row": "36", "unit": "px", "isLinked": True},
+                             "padding": pad(80, 40, 80, 40)}, elements=els)
 
 
 def gallery_section(p):
     n = len(p["gallery"])
-    w = 31 if n >= 3 else 48
-    cells = [C({"content_width": "full", "width": {"unit": "%", "size": w}}, [image(img(g), alt=p["title"])])
-             for g in p["gallery"]]
-    return section(settings={"background_background": "classic", "background_color": WHITE,
+    w, h = (31, 240) if n >= 3 else ((48, 320) if n == 2 else (100, 380))
+    cells = [C({"content_width": "full", "width": {"unit": "%", "size": w}},
+               [pic(img(g), p["title"], radius=10, height=h)]) for g in p["gallery"]]
+    return section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
                              "padding": pad(70, 40, 70, 40)},
-                   elements=[row(elements=cells, gap="24", justify="center", align="flex-start")])
+                   elements=[row(elements=cells, gap="22", justify="center", align="flex-start")])
 
 
 def hub_section(p):
     cards = [C({"content_width": "full", "width": {"unit": "%", "size": 31}},
-               [button(t, bg=GREEN, link="https://newtree.cat/%s/" % slug)]) for t, slug in p["hub"]]
-    return section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
+               [button(t, bg=GREEN, link="https://newtree.cat/%s/" % slug, full=True)]) for t, slug in p["hub"]]
+    return section(settings={"background_background": "classic", "background_color": WHITE,
                              "padding": pad(70, 40, 70, 40)},
-                   elements=[heading("Jardineria", size="h2", font_size=30),
+                   elements=[heading(acc("Els nostres", "serveis"), size="h2", font_size=34),
                              row(elements=cards, gap="20", justify="center", align="flex-start")])
 
 
 def cta_section():
-    contact = [("phone", "Telèfons", "(+34) 972 560 033 · (+34) 607 484 646"),
-               ("envelope", "Correu electrònic", "info@newtree.cat"),
-               ("map-marker-alt", "Adreça", "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483")]
-    left = col(settings={"width": {"unit": "%", "size": 45}}, gap="16", elements=[
-        heading("Tens un projecte de jardí?", size="h2", color=WHITE, font_size=30),
-        text("Parlem-ne i t'ajudem a fer-lo realitat.", color="#D7DED9", font_size=16),
-        button("DEMANA PRESSUPOST", bg=GREEN, link=MAIL),
-    ])
-    right = row(settings={"width": {"unit": "%", "size": 50}},
-                elements=[icon_box(i, t, d, icon_color=GREEN, title_color=WHITE, desc_color="#D7DED9",
-                                   position="left") for i, t, d in contact],
-                gap="20", justify="flex-start", wrap="wrap")
-    return section(settings={"background_background": "classic", "background_color": BLACKBG,
-                             "padding": pad(70, 40, 70, 40)},
-                   elements=[row(elements=[left, right], justify="space-between", align="center")])
+    return cta_banner()
 
 
 def build(p):
-    secs = [hero_section(p), intro_section(p)]
+    secs = [hero_section(p), features_strip(), intro_section(p)]
     if p["items"]:
         secs.append(list_section(p))
     if p["gallery"]:
         secs.append(gallery_section(p))
     if p.get("hub"):
         secs.append(hub_section(p))
-    secs.append(cta_section())
+    secs.append(cta_banner())
     return {"content": secs, "page_settings": [], "version": "0.4",
             "title": p["title"] + " - New Tree", "type": "page"}
 

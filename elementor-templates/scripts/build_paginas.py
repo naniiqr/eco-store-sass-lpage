@@ -2,16 +2,12 @@
 (solo erratas corregidas) dentro del diseño del rediseño. Escribe en ../paginas/.
 """
 import json, os
-from lib_elementor import *
-from build_servicios import (img, eyebrow, hero_section, intro_section, gallery_section,
-                             cta_section, h1_green, MAIL, SLOGAN)
-
-ADDRESS = "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483"
+from design import *
+from build_servicios import (img, hero_section, intro_section, gallery_section, acc_last)
 
 
 def wrap(title, secs):
-    return {"content": secs, "page_settings": [], "version": "0.4",
-            "title": title + " - New Tree", "type": "page"}
+    return page(title, secs)
 
 
 # ---------------- EMPRESA ----------------
@@ -27,35 +23,28 @@ def empresa():
         ],
         side=img("2020/04/arbret.png"),
     )
-    vocation = [("tree", "Crear espais integrats amb l'entorn natural de la zona"),
-                ("tint", "Crear jardins de baix manteniment, sostenibles amb els recursos hídrics"),
-                ("leaf", "Poder portar part de la natura a cada jardí que dissenyem"),
-                ("smile", "I, el més important, crear espais per poder gaudir")]
-    vocation_sec = section(
-        settings={"background_background": "classic", "background_color": DARKGREEN,
-                  "padding": pad(80, 40, 80, 40)},
-        elements=[
-            heading("La nostra principal vocació", size="h2", color=WHITE, font_size=32),
-            row(elements=[C({"content_width": "full", "width": {"unit": "%", "size": 23}},
-                            [icon_box(i, t, "", icon_color=GREEN, title_color=WHITE)])
-                          for i, t in vocation], gap="24", justify="space-between", align="flex-start"),
-        ])
+    vocation = [("tree", "Crear espais integrats amb l'entorn natural de la zona", ""),
+                ("tint", "Crear jardins de baix manteniment, sostenibles amb els recursos hídrics", ""),
+                ("leaf", "Poder portar part de la natura a cada jardí que dissenyem", ""),
+                ("smile", "I, el més important, crear espais per poder gaudir", "")]
+    vocation_sec = perks_dark(vocation, title="La nostra principal vocació")
     strip = dict(title="Empresa", gallery=["2020/04/11.png", "2020/04/10.png", "2020/04/9.png",
                                            "2020/04/12.png", "2020/04/13.png", "2020/04/14.png",
                                            "2020/04/15.png", "2020/04/16.png", "2020/04/17.png"])
-    return wrap("Empresa", [hero_section(p), intro_section(p), vocation_sec, gallery_section(strip), cta_section()])
+    return wrap("Empresa", [hero_section(p), features_strip(), intro_section(p), vocation_sec,
+                            gallery_section(strip), cta_banner()])
 
 
 # ---------------- GALERIA ----------------
 def galeria():
     nums = ["11", "10", "9", "12", "13", "14", "15", "16", "17", "2", "1", "4", "3",
             "18", "20", "19", "5", "7", "8", "5-2"]
-    cells = [C({"content_width": "full", "width": {"unit": "%", "size": 23.5}},
-               [image(img("2020/04/%s.png" % n), alt="Galeria New Tree")]) for n in nums]
-    grid = section(settings={"background_background": "classic", "background_color": WHITE,
+    cells = [C({"content_width": "full", "width": {"unit": "%", "size": 23}},
+               [pic(img("2020/04/%s.png" % n), "Galeria New Tree", radius=10, height=210)]) for n in nums]
+    grid = section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
                              "padding": pad(80, 40, 80, 40)},
-                   elements=[row(elements=cells, gap="20", justify="center", align="flex-start")])
-    return wrap("Galeria", [hero_section(dict(title="Galeria")), grid, cta_section()])
+                   elements=[row(elements=cells, gap="18", justify="center", align="flex-start")])
+    return wrap("Galeria", [hero_section(dict(title="Galeria")), grid, cta_banner()])
 
 
 # ---------------- PLANTES EXEMPLARS ----------------
@@ -66,12 +55,11 @@ def plantes():
         paras=["Oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder oferir un servei totalment personalitzat."],
         side=img("2020/04/plantes.jpg"),
     )
-    return wrap("Plantes exemplars", [hero_section(p), intro_section(p), cta_section()])
+    return wrap("Plantes exemplars", [hero_section(p), features_strip(), intro_section(p), cta_banner()])
 
 
 # ---------------- SITUACIÓ I CONTACTE ----------------
-def _radius(r):
-    return {"unit": "px", "top": str(r), "right": str(r), "bottom": str(r), "left": str(r), "isLinked": True}
+_radius = R
 
 
 def badge_item(ic, title, desc):

@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "5f13202",
+      "id": "cfba6b3",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -17,13 +17,11 @@
         },
         "background_position": "center center",
         "background_size": "cover",
-        "background_overlay_background": "classic",
-        "background_overlay_color": "rgba(10,20,15,0.45)",
         "padding": {
           "unit": "px",
-          "top": "140",
+          "top": "120",
           "right": "40",
-          "bottom": "140",
+          "bottom": "120",
           "left": "40",
           "isLinked": false
         },
@@ -32,259 +30,19 @@
           "size": 560,
           "sizes": []
         },
-        "position": "relative"
-      },
-      "elements": [
-        {
-          "id": "72a3469",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "column",
-            "flex_gap": {
-              "column": "24",
-              "row": "24",
-              "unit": "px",
-              "isLinked": true
-            },
-            "flex_align_items": "flex-start",
-            "width": {
-              "unit": "%",
-              "size": 60
-            }
-          },
-          "elements": [
-            {
-              "id": "621bcf8",
-              "elType": "widget",
-              "settings": {
-                "title": "DISSENY DE JARDINS",
-                "header_size": "p",
-                "align": "left",
-                "title_color": "#FFFFFF",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 14,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "letter_spacing": {
-                  "unit": "px",
-                  "size": 2,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "heading"
-            },
-            {
-              "id": "a754bb2",
-              "elType": "widget",
-              "settings": {
-                "title": "Dissenyem<br>jardins <span style=\"color:#4E8C3F\">amb ànima</span>",
-                "header_size": "h1",
-                "align": "left",
-                "title_color": "#FFFFFF",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 52,
-                  "sizes": []
-                },
-                "typography_font_weight": "700"
-              },
-              "elements": [],
-              "widgetType": "heading"
-            },
-            {
-              "id": "715cc72",
-              "elType": "widget",
-              "settings": {
-                "editor": "<p>Espais únics, funcionals i sostenibles que connecten amb la natura i milloren la teva qualitat de vida.</p>",
-                "text_color": "#E5E5E5",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                }
-              },
-              "elements": [],
-              "widgetType": "text-editor"
-            },
-            {
-              "id": "b485c23",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "row",
-                "flex_wrap": "wrap",
-                "flex_gap": {
-                  "column": "16",
-                  "row": "16",
-                  "unit": "px",
-                  "isLinked": true
-                },
-                "flex_justify_content": "flex-start",
-                "flex_align_items": "center"
-              },
-              "elements": [
-                {
-                  "id": "0e177bd",
-                  "elType": "widget",
-                  "settings": {
-                    "text": "DEMANA PRESSUPOST",
-                    "button_text_color": "#FFFFFF",
-                    "background_color": "#4E8C3F",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "6",
-                      "right": "6",
-                      "bottom": "6",
-                      "left": "6",
-                      "isLinked": true
-                    },
-                    "size": "md",
-                    "icon": {
-                      "value": "fas fa-arrow-right",
-                      "library": "fa-solid"
-                    },
-                    "icon_align": "right"
-                  },
-                  "elements": [],
-                  "widgetType": "button"
-                },
-                {
-                  "id": "69757df",
-                  "elType": "widget",
-                  "settings": {
-                    "text": "VEURE PROJECTES",
-                    "button_text_color": "#FFFFFF",
-                    "background_color": "transparent",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "6",
-                      "right": "6",
-                      "bottom": "6",
-                      "left": "6",
-                      "isLinked": true
-                    },
-                    "size": "md",
-                    "icon": {
-                      "value": "fas fa-arrow-right",
-                      "library": "fa-solid"
-                    },
-                    "icon_align": "right",
-                    "border_border": "solid",
-                    "border_width": {
-                      "unit": "px",
-                      "top": "1",
-                      "right": "1",
-                      "bottom": "1",
-                      "left": "1",
-                      "isLinked": true
-                    },
-                    "border_color": "#FFFFFF"
-                  },
-                  "elements": [],
-                  "widgetType": "button"
-                }
-              ],
-              "isInner": true
-            }
-          ],
-          "isInner": true
-        },
-        {
-          "id": "82a3e4d",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "column",
-            "flex_gap": {
-              "column": "16",
-              "row": "16",
-              "unit": "px",
-              "isLinked": true
-            },
-            "flex_align_items": "flex-end",
-            "width": {
-              "unit": "%",
-              "size": 100
-            },
-            "_position": "absolute",
-            "_offset_x": {
-              "unit": "px",
-              "size": 0
-            },
-            "_offset_y": {
-              "unit": "px",
-              "size": 40
-            }
-          },
-          "elements": [
-            {
-              "id": "87e79c2",
-              "elType": "widget",
-              "settings": {
-                "title": "Natura<br>Benestar<br>Vida",
-                "header_size": "p",
-                "align": "right",
-                "title_color": "#FFFFFF",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 20,
-                  "sizes": []
-                },
-                "typography_font_weight": "700",
-                "typography_font_style": "italic"
-              },
-              "elements": [],
-              "widgetType": "heading"
-            }
-          ],
-          "isInner": true
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(10,20,15,0.80)",
+        "background_overlay_color_b": "rgba(10,20,15,0.18)",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 90,
+          "sizes": []
         }
-      ],
-      "isInner": false
-    },
-    {
-      "id": "06a10d8",
-      "elType": "container",
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "background_background": "classic",
-        "background_color": "#FFFFFF",
-        "padding": {
-          "unit": "px",
-          "top": "32",
-          "right": "40",
-          "bottom": "32",
-          "left": "40",
-          "isLinked": false
-        },
-        "border_border": "solid",
-        "border_width": {
-          "unit": "px",
-          "top": "1",
-          "right": "0",
-          "bottom": "1",
-          "left": "0",
-          "isLinked": false
-        },
-        "border_color": "#E5E7EB"
       },
       "elements": [
         {
-          "id": "834ad83",
+          "id": "253698a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -301,7 +59,310 @@
           },
           "elements": [
             {
-              "id": "16527e3",
+              "id": "01bdcdc",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "22",
+                  "row": "22",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_align_items": "flex-start",
+                "width": {
+                  "unit": "%",
+                  "size": 62
+                }
+              },
+              "elements": [
+                {
+                  "id": "c935b69",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "DISSENY DE JARDINS",
+                    "header_size": "p",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "letter_spacing": {
+                      "unit": "px",
+                      "size": 2,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "8e183ff",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Dissenyem<br>jardins <span style=\"color:#4E8C3F\">amb ànima</span>",
+                    "header_size": "h1",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 56,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "bcf150d",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Espais únics, funcionals i sostenibles que connecten amb la natura i milloren la teva qualitat de vida.</p>",
+                    "text_color": "#E5E5E5",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "dcc54a7",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "column": "16",
+                      "row": "16",
+                      "unit": "px",
+                      "isLinked": true
+                    },
+                    "flex_justify_content": "flex-start",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "a6dacb4",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "DEMANA PRESSUPOST",
+                        "button_text_color": "#FFFFFF",
+                        "background_color": "#4E8C3F",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "6",
+                          "bottom": "6",
+                          "left": "6",
+                          "isLinked": true
+                        },
+                        "size": "md",
+                        "icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "icon_align": "right",
+                        "link": {
+                          "url": "mailto:info@newtree.cat",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    },
+                    {
+                      "id": "5f18843",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "VEURE PROJECTES",
+                        "button_text_color": "#FFFFFF",
+                        "background_color": "transparent",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "6",
+                          "bottom": "6",
+                          "left": "6",
+                          "isLinked": true
+                        },
+                        "size": "md",
+                        "icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "icon_align": "right",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#FFFFFF",
+                        "link": {
+                          "url": "https://newtree.cat/galeria-esp/",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "4f3c89d",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "10",
+                  "row": "10",
+                  "unit": "px",
+                  "isLinked": true
+                },
+                "flex_align_items": "flex-end",
+                "width": {
+                  "unit": "%",
+                  "size": 28
+                },
+                "hide_tablet": "hidden-tablet",
+                "hide_mobile": "hidden-mobile"
+              },
+              "elements": [
+                {
+                  "id": "35a2157",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Natura<br>Benestar<br>Vida",
+                    "header_size": "p",
+                    "align": "right",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 38,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "typography_font_family": "Caveat",
+                    "typography_font_style": "italic"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "6493ad4",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 90,
+                      "sizes": []
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 4,
+                      "sizes": []
+                    },
+                    "background_background": "classic",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "4",
+                      "bottom": "4",
+                      "left": "4",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "056423d",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "40",
+          "bottom": "30",
+          "left": "40",
+          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_color": "#E5E7EB",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "1e640aa",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "column": "24",
+              "row": "24",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "25db92d",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -310,17 +371,35 @@
                 },
                 "title_text": "Disseny personalitzat",
                 "description_text": "Projectes únics i a mida",
-                "position": "top",
+                "position": "left",
                 "title_size": "h4",
                 "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
-                "description_color": "#6B7280"
+                "description_color": "#6B7280",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 28,
+                  "sizes": []
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "title_typography_font_weight": "700",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                }
               },
               "elements": [],
               "widgetType": "icon-box"
             },
             {
-              "id": "e711e4f",
+              "id": "901ec15",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -329,17 +408,35 @@
                 },
                 "title_text": "Solucions sostenibles",
                 "description_text": "Respecte pel medi ambient",
-                "position": "top",
+                "position": "left",
                 "title_size": "h4",
                 "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
-                "description_color": "#6B7280"
+                "description_color": "#6B7280",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 28,
+                  "sizes": []
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "title_typography_font_weight": "700",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                }
               },
               "elements": [],
               "widgetType": "icon-box"
             },
             {
-              "id": "0361b29",
+              "id": "3eee909",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -348,17 +445,35 @@
                 },
                 "title_text": "Estalvi d'aigua",
                 "description_text": "Espais més eficients",
-                "position": "top",
+                "position": "left",
                 "title_size": "h4",
                 "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
-                "description_color": "#6B7280"
+                "description_color": "#6B7280",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 28,
+                  "sizes": []
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "title_typography_font_weight": "700",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                }
               },
               "elements": [],
               "widgetType": "icon-box"
             },
             {
-              "id": "ebdc860",
+              "id": "435e1ff",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -367,17 +482,35 @@
                 },
                 "title_text": "Més de 50 anys d'experiència",
                 "description_text": "Confiança i resultats",
-                "position": "top",
+                "position": "left",
                 "title_size": "h4",
                 "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
-                "description_color": "#6B7280"
+                "description_color": "#6B7280",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 28,
+                  "sizes": []
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "title_typography_font_weight": "700",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                }
               },
               "elements": [],
               "widgetType": "icon-box"
             },
             {
-              "id": "942931d",
+              "id": "4ebc0ad",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -386,11 +519,29 @@
                 },
                 "title_text": "Acompanyament integral",
                 "description_text": "De la idea a la realitat",
-                "position": "top",
+                "position": "left",
                 "title_size": "h4",
                 "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
-                "description_color": "#6B7280"
+                "description_color": "#6B7280",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 28,
+                  "sizes": []
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 15,
+                  "sizes": []
+                },
+                "title_typography_font_weight": "700",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12,
+                  "sizes": []
+                }
               },
               "elements": [],
               "widgetType": "icon-box"
@@ -402,7 +553,7 @@
       "isInner": false
     },
     {
-      "id": "d4454e4",
+      "id": "f5db5ee",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -424,7 +575,7 @@
       },
       "elements": [
         {
-          "id": "5f363a5",
+          "id": "7b1280f",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -441,7 +592,7 @@
           },
           "elements": [
             {
-              "id": "e79bfa7",
+              "id": "9ebb641",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -455,12 +606,12 @@
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 45
+                  "size": 42
                 }
               },
               "elements": [
                 {
-                  "id": "233c8f7",
+                  "id": "f441ae1",
                   "elType": "widget",
                   "settings": {
                     "title": "DISSENY DE JARDINS",
@@ -484,17 +635,17 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "2dc0811",
+                  "id": "478b73d",
                   "elType": "widget",
                   "settings": {
-                    "title": "Molt més <span style=\"color:#E14D5A\">que un jardí</span>",
+                    "title": "Molt més<br> <span style=\"color:#E14D5A\">que un jardí</span>",
                     "header_size": "h2",
                     "align": "left",
                     "title_color": "#1E2A22",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 34,
+                      "size": 40,
                       "sizes": []
                     },
                     "typography_font_weight": "700"
@@ -503,7 +654,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "ddb0d01",
+                  "id": "aa3c91b",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Dissenyem i construïm jardins que s'adapten al teu espai, al teu estil de vida i a l'entorn. Cada projecte és únic, combinant estètica, funcionalitat i sostenibilitat per crear espais verds que perdurin en el temps.</p>",
@@ -520,14 +671,14 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "3bdeca2",
+                  "id": "8eb9344",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
                     "flex_direction": "column",
                     "flex_gap": {
-                      "column": "12",
-                      "row": "12",
+                      "column": "14",
+                      "row": "14",
                       "unit": "px",
                       "isLinked": true
                     },
@@ -535,7 +686,7 @@
                   },
                   "elements": [
                     {
-                      "id": "b7911d9",
+                      "id": "a86e372",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -548,13 +699,38 @@
                         "title_size": "h4",
                         "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
-                        "description_color": "#6B7280"
+                        "description_color": "#6B7280",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "framed",
+                        "shape": "circle",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        }
                       },
                       "elements": [],
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "c7869aa",
+                      "id": "b7195bf",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -567,13 +743,38 @@
                         "title_size": "h4",
                         "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
-                        "description_color": "#6B7280"
+                        "description_color": "#6B7280",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "framed",
+                        "shape": "circle",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        }
                       },
                       "elements": [],
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "95febc7",
+                      "id": "49e95fd",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -586,13 +787,38 @@
                         "title_size": "h4",
                         "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
-                        "description_color": "#6B7280"
+                        "description_color": "#6B7280",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "framed",
+                        "shape": "circle",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        }
                       },
                       "elements": [],
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "682d419",
+                      "id": "f93807b",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -605,13 +831,38 @@
                         "title_size": "h4",
                         "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
-                        "description_color": "#6B7280"
+                        "description_color": "#6B7280",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "framed",
+                        "shape": "circle",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        }
                       },
                       "elements": [],
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "8d725d4",
+                      "id": "c904c8a",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -624,7 +875,32 @@
                         "title_size": "h4",
                         "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
-                        "description_color": "#6B7280"
+                        "description_color": "#6B7280",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "framed",
+                        "shape": "circle",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        }
                       },
                       "elements": [],
                       "widgetType": "icon-box"
@@ -633,7 +909,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "c96fa0d",
+                  "id": "f616e33",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -652,7 +928,13 @@
                       "value": "fas fa-arrow-right",
                       "library": "fa-solid"
                     },
-                    "icon_align": "right"
+                    "icon_align": "right",
+                    "link": {
+                      "url": "mailto:info@newtree.cat",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
                   },
                   "elements": [],
                   "widgetType": "button"
@@ -661,33 +943,41 @@
               "isInner": true
             },
             {
-              "id": "f4fcdfc",
+              "id": "f4d78cc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "width": {
                   "unit": "%",
-                  "size": 55
+                  "size": 52
                 },
                 "position": "relative"
               },
               "elements": [
                 {
-                  "id": "a67c93f",
+                  "id": "ef6e9cb",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://placehold.co/900x700/2f4a3a/ffffff?text=Foto+jardí+disseny+detall",
+                      "url": "https://placehold.co/900x780/2f4a3a/ffffff?text=Foto+jardí+disseny+detall",
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": ""
+                    "alt": "Disseny de jardins",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    }
                   },
                   "elements": [],
                   "widgetType": "image"
                 },
                 {
-                  "id": "f322775",
+                  "id": "5861ec6",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -700,56 +990,62 @@
                     },
                     "flex_align_items": "flex-start",
                     "background_background": "classic",
-                    "background_color": "rgba(10,20,15,0.6)",
+                    "background_color": "rgba(18,35,24,0.88)",
                     "padding": {
                       "unit": "px",
-                      "top": "24",
-                      "right": "24",
-                      "bottom": "24",
-                      "left": "24",
+                      "top": "26",
+                      "right": "26",
+                      "bottom": "26",
+                      "left": "26",
                       "isLinked": false
-                    },
-                    "_position": "absolute",
-                    "_offset_x": {
-                      "unit": "px",
-                      "size": -16
-                    },
-                    "_offset_y": {
-                      "unit": "px",
-                      "size": -16
                     },
                     "width": {
                       "unit": "%",
-                      "size": 70
-                    }
+                      "size": 62
+                    },
+                    "_position": "absolute",
+                    "_offset_orientation_h": "end",
+                    "_offset_x_end": {
+                      "unit": "px",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "_offset_orientation_v": "end",
+                    "_offset_y_end": {
+                      "unit": "px",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "hide_mobile": "hidden-mobile"
                   },
                   "elements": [
                     {
-                      "id": "bb50567",
+                      "id": "9e5e038",
                       "elType": "widget",
                       "settings": {
                         "title": "\"Jardins que<br>milloren vides\"",
-                        "header_size": "h3",
+                        "header_size": "p",
                         "align": "left",
                         "title_color": "#FFFFFF",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "px",
-                          "size": 22,
+                          "size": 34,
                           "sizes": []
                         },
-                        "typography_font_weight": "700",
+                        "typography_font_weight": "600",
+                        "typography_font_family": "Caveat",
                         "typography_font_style": "italic"
                       },
                       "elements": [],
                       "widgetType": "heading"
                     },
                     {
-                      "id": "23ec026",
+                      "id": "accf05f",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Disseny, natura i emoció en equilibri perfecte.</p>",
-                        "text_color": "#E5E5E5",
+                        "text_color": "#D7DED9",
                         "align": "left",
                         "typography_typography": "custom",
                         "typography_font_size": {
@@ -774,7 +1070,7 @@
       "isInner": false
     },
     {
-      "id": "09eeef7",
+      "id": "a947b2d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -796,12 +1092,12 @@
       },
       "elements": [
         {
-          "id": "3039708",
+          "id": "26ae615",
           "elType": "container",
           "settings": {
             "content_width": "full",
             "flex_direction": "row",
-            "flex_wrap": "nowrap",
+            "flex_wrap": "wrap",
             "flex_gap": {
               "column": "20",
               "row": "20",
@@ -813,7 +1109,7 @@
           },
           "elements": [
             {
-              "id": "0f20a63",
+              "id": "a071466",
               "elType": "widget",
               "settings": {
                 "title": "Projectes de <span style=\"color:#E14D5A\">disseny de jardins</span>",
@@ -823,7 +1119,7 @@
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 32,
+                  "size": 36,
                   "sizes": []
                 },
                 "typography_font_weight": "700"
@@ -832,11 +1128,11 @@
               "widgetType": "heading"
             },
             {
-              "id": "d6fffc1",
+              "id": "0fb382b",
               "elType": "widget",
               "settings": {
-                "editor": "<p>VEURE TOTS ELS PROJECTES →</p>",
-                "text_color": "#1E2A22",
+                "editor": "<p><a href=\"https://newtree.cat/galeria-esp/\" style=\"color:#1E2A22;font-weight:700\">VEURE TOTS ELS PROJECTES →</a></p>",
+                "text_color": "#6B7280",
                 "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
@@ -852,43 +1148,43 @@
           "isInner": true
         },
         {
-          "id": "9d68841",
+          "id": "cc4a4b5",
           "elType": "container",
           "settings": {
             "content_width": "full",
             "flex_direction": "row",
             "flex_wrap": "wrap",
             "flex_gap": {
-              "column": "24",
-              "row": "24",
+              "column": "22",
+              "row": "22",
               "unit": "px",
               "isLinked": true
             },
-            "flex_justify_content": "flex-start",
-            "flex_align_items": "center"
+            "flex_justify_content": "center",
+            "flex_align_items": "flex-start"
           },
           "elements": [
             {
-              "id": "ac89f17",
+              "id": "573de60",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
                 "flex_gap": {
-                  "column": "8",
-                  "row": "8",
+                  "column": "10",
+                  "row": "10",
                   "unit": "px",
                   "isLinked": true
                 },
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "4c1b5f5",
+                  "id": "894f183",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -896,13 +1192,27 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardí mediterrani"
+                    "alt": "Jardí mediterrani",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
                 },
                 {
-                  "id": "9ffb605",
+                  "id": "dd1b285",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -919,7 +1229,7 @@
                   },
                   "elements": [
                     {
-                      "id": "1220603",
+                      "id": "3d0af04",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -930,11 +1240,15 @@
                           "unit": "px",
                           "isLinked": true
                         },
-                        "flex_align_items": "flex-start"
+                        "flex_align_items": "flex-start",
+                        "width": {
+                          "unit": "%",
+                          "size": 80
+                        }
                       },
                       "elements": [
                         {
-                          "id": "63d3124",
+                          "id": "93a85df",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí mediterrani",
@@ -947,13 +1261,13 @@
                               "size": 18,
                               "sizes": []
                             },
-                            "typography_font_weight": "600"
+                            "typography_font_weight": "700"
                           },
                           "elements": [],
                           "widgetType": "heading"
                         },
                         {
-                          "id": "94eac76",
+                          "id": "b18f883",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Figueres</p>",
@@ -973,7 +1287,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "5af5e41",
+                      "id": "966272d",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -997,26 +1311,26 @@
               "isInner": true
             },
             {
-              "id": "6e34b29",
+              "id": "82c5e89",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
                 "flex_gap": {
-                  "column": "8",
-                  "row": "8",
+                  "column": "10",
+                  "row": "10",
                   "unit": "px",
                   "isLinked": true
                 },
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "dac8d49",
+                  "id": "e926ca4",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1024,13 +1338,27 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardí amb piscina"
+                    "alt": "Jardí amb piscina",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
                 },
                 {
-                  "id": "997b2ca",
+                  "id": "669cb53",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1047,7 +1375,7 @@
                   },
                   "elements": [
                     {
-                      "id": "eccefca",
+                      "id": "7795ae2",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1058,11 +1386,15 @@
                           "unit": "px",
                           "isLinked": true
                         },
-                        "flex_align_items": "flex-start"
+                        "flex_align_items": "flex-start",
+                        "width": {
+                          "unit": "%",
+                          "size": 80
+                        }
                       },
                       "elements": [
                         {
-                          "id": "226ce10",
+                          "id": "e00aa1a",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí amb piscina",
@@ -1075,13 +1407,13 @@
                               "size": 18,
                               "sizes": []
                             },
-                            "typography_font_weight": "600"
+                            "typography_font_weight": "700"
                           },
                           "elements": [],
                           "widgetType": "heading"
                         },
                         {
-                          "id": "db40000",
+                          "id": "76cefb3",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Empuriabrava</p>",
@@ -1101,7 +1433,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "edba75c",
+                      "id": "be4c6cf",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1125,26 +1457,26 @@
               "isInner": true
             },
             {
-              "id": "9c3bb48",
+              "id": "78e2a19",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
                 "flex_gap": {
-                  "column": "8",
-                  "row": "8",
+                  "column": "10",
+                  "row": "10",
                   "unit": "px",
                   "isLinked": true
                 },
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "08e4d55",
+                  "id": "4986716",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1152,13 +1484,27 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardí contemporani"
+                    "alt": "Jardí contemporani",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
                 },
                 {
-                  "id": "db15fc0",
+                  "id": "a984af5",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1175,7 +1521,7 @@
                   },
                   "elements": [
                     {
-                      "id": "9caffc4",
+                      "id": "87547d8",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1186,11 +1532,15 @@
                           "unit": "px",
                           "isLinked": true
                         },
-                        "flex_align_items": "flex-start"
+                        "flex_align_items": "flex-start",
+                        "width": {
+                          "unit": "%",
+                          "size": 80
+                        }
                       },
                       "elements": [
                         {
-                          "id": "e7586c2",
+                          "id": "ce00867",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí contemporani",
@@ -1203,13 +1553,13 @@
                               "size": 18,
                               "sizes": []
                             },
-                            "typography_font_weight": "600"
+                            "typography_font_weight": "700"
                           },
                           "elements": [],
                           "widgetType": "heading"
                         },
                         {
-                          "id": "7ca2e03",
+                          "id": "d6b1f3e",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Peralada</p>",
@@ -1229,7 +1579,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "3b62234",
+                      "id": "ec66f25",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1253,26 +1603,26 @@
               "isInner": true
             },
             {
-              "id": "0f6741d",
+              "id": "a65892c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
                 "flex_gap": {
-                  "column": "8",
-                  "row": "8",
+                  "column": "10",
+                  "row": "10",
                   "unit": "px",
                   "isLinked": true
                 },
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "71a7560",
+                  "id": "b417d92",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1280,13 +1630,27 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Racó chill out"
+                    "alt": "Racó chill out",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
                 },
                 {
-                  "id": "a3e6cb6",
+                  "id": "076083d",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1303,7 +1667,7 @@
                   },
                   "elements": [
                     {
-                      "id": "26f29bb",
+                      "id": "f9a68a0",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1314,11 +1678,15 @@
                           "unit": "px",
                           "isLinked": true
                         },
-                        "flex_align_items": "flex-start"
+                        "flex_align_items": "flex-start",
+                        "width": {
+                          "unit": "%",
+                          "size": 80
+                        }
                       },
                       "elements": [
                         {
-                          "id": "e378ccd",
+                          "id": "41a1085",
                           "elType": "widget",
                           "settings": {
                             "title": "Racó chill out",
@@ -1331,13 +1699,13 @@
                               "size": 18,
                               "sizes": []
                             },
-                            "typography_font_weight": "600"
+                            "typography_font_weight": "700"
                           },
                           "elements": [],
                           "widgetType": "heading"
                         },
                         {
-                          "id": "82cf6a6",
+                          "id": "1fa4b14",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Empuriabrava</p>",
@@ -1357,7 +1725,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "047bfa3",
+                      "id": "11d5f29",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1381,26 +1749,26 @@
               "isInner": true
             },
             {
-              "id": "42bfb8f",
+              "id": "3f29f3d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
                 "flex_gap": {
-                  "column": "8",
-                  "row": "8",
+                  "column": "10",
+                  "row": "10",
                   "unit": "px",
                   "isLinked": true
                 },
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "327ef92",
+                  "id": "fe276f2",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1408,13 +1776,27 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardí amb oliveres"
+                    "alt": "Jardí amb oliveres",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
                 },
                 {
-                  "id": "04501e7",
+                  "id": "604a3c4",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1431,7 +1813,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3590c4f",
+                      "id": "530ed22",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1442,11 +1824,15 @@
                           "unit": "px",
                           "isLinked": true
                         },
-                        "flex_align_items": "flex-start"
+                        "flex_align_items": "flex-start",
+                        "width": {
+                          "unit": "%",
+                          "size": 80
+                        }
                       },
                       "elements": [
                         {
-                          "id": "c3a33c7",
+                          "id": "95af0e9",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí amb oliveres",
@@ -1459,13 +1845,13 @@
                               "size": 18,
                               "sizes": []
                             },
-                            "typography_font_weight": "600"
+                            "typography_font_weight": "700"
                           },
                           "elements": [],
                           "widgetType": "heading"
                         },
                         {
-                          "id": "a42c234",
+                          "id": "b09c3c2",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>L'Escala</p>",
@@ -1485,7 +1871,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "514067f",
+                      "id": "64e48bf",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1509,26 +1895,26 @@
               "isInner": true
             },
             {
-              "id": "33645b3",
+              "id": "5098c55",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
                 "flex_gap": {
-                  "column": "8",
-                  "row": "8",
+                  "column": "10",
+                  "row": "10",
                   "unit": "px",
                   "isLinked": true
                 },
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 31.5
+                  "size": 31
                 }
               },
               "elements": [
                 {
-                  "id": "d6e149f",
+                  "id": "b92cb64",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1536,13 +1922,27 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Jardí amb desnivells"
+                    "alt": "Jardí amb desnivells",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover"
                   },
                   "elements": [],
                   "widgetType": "image"
                 },
                 {
-                  "id": "9875198",
+                  "id": "b9d14f6",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1559,7 +1959,7 @@
                   },
                   "elements": [
                     {
-                      "id": "88d16ac",
+                      "id": "6bc5d79",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1570,11 +1970,15 @@
                           "unit": "px",
                           "isLinked": true
                         },
-                        "flex_align_items": "flex-start"
+                        "flex_align_items": "flex-start",
+                        "width": {
+                          "unit": "%",
+                          "size": 80
+                        }
                       },
                       "elements": [
                         {
-                          "id": "83c9a72",
+                          "id": "c32c41d",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí amb desnivells",
@@ -1587,13 +1991,13 @@
                               "size": 18,
                               "sizes": []
                             },
-                            "typography_font_weight": "600"
+                            "typography_font_weight": "700"
                           },
                           "elements": [],
                           "widgetType": "heading"
                         },
                         {
-                          "id": "0dcc71c",
+                          "id": "cf13521",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Girona</p>",
@@ -1613,7 +2017,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "2b50924",
+                      "id": "ca9c922",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1643,7 +2047,7 @@
       "isInner": false
     },
     {
-      "id": "1ed9fd3",
+      "id": "b8f3942",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1652,8 +2056,15 @@
           "unit": "%",
           "size": 100
         },
-        "background_background": "classic",
+        "background_background": "gradient",
         "background_color": "#122318",
+        "background_color_b": "#1F3D28",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135,
+          "sizes": []
+        },
         "padding": {
           "unit": "px",
           "top": "90",
@@ -1665,7 +2076,7 @@
       },
       "elements": [
         {
-          "id": "23feb39",
+          "id": "c6b34bf",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1678,11 +2089,11 @@
               "isLinked": true
             },
             "flex_justify_content": "space-between",
-            "flex_align_items": "flex-start"
+            "flex_align_items": "center"
           },
           "elements": [
             {
-              "id": "9cfa57d",
+              "id": "9a09f8d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1696,12 +2107,12 @@
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 40
+                  "size": 38
                 }
               },
               "elements": [
                 {
-                  "id": "af7cdc0",
+                  "id": "abe8b1c",
                   "elType": "widget",
                   "settings": {
                     "title": "Per què confiar en Newtree?",
@@ -1720,7 +2131,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "fc1cac4",
+                  "id": "622684c",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Som una empresa de jardineria i paisatgisme fundada l'any 1977, amb més de 50 anys d'experiència a l'Empordà. Ens apassiona la natura i treballem per crear espais verds que generin benestar, bellesa i valor.</p>",
@@ -1737,12 +2148,12 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "f841e7e",
+                  "id": "e6ae03c",
                   "elType": "widget",
                   "settings": {
                     "text": "CONEIX NOSALTRES",
                     "button_text_color": "#FFFFFF",
-                    "background_color": "transparent",
+                    "background_color": "#4E8C3F",
                     "border_radius": {
                       "unit": "px",
                       "top": "6",
@@ -1757,16 +2168,12 @@
                       "library": "fa-solid"
                     },
                     "icon_align": "right",
-                    "border_border": "solid",
-                    "border_width": {
-                      "unit": "px",
-                      "top": "1",
-                      "right": "1",
-                      "bottom": "1",
-                      "left": "1",
-                      "isLinked": true
-                    },
-                    "border_color": "#FFFFFF"
+                    "link": {
+                      "url": "https://newtree.cat/empresa/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
                   },
                   "elements": [],
                   "widgetType": "button"
@@ -1775,7 +2182,7 @@
               "isInner": true
             },
             {
-              "id": "939f3dc",
+              "id": "088f34c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1788,88 +2195,244 @@
                   "isLinked": true
                 },
                 "flex_justify_content": "flex-start",
-                "flex_align_items": "center",
+                "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 55
+                  "size": 56
                 }
               },
               "elements": [
                 {
-                  "id": "50215f7",
-                  "elType": "widget",
+                  "id": "4f93b4e",
+                  "elType": "container",
                   "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-award",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Experiència i professionalitat",
-                    "description_text": "Fundats l'any 1977",
-                    "position": "left",
-                    "title_size": "h4",
-                    "primary_color": "#4E8C3F",
-                    "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 47
+                    }
                   },
-                  "elements": [],
-                  "widgetType": "icon-box"
+                  "elements": [
+                    {
+                      "id": "674706d",
+                      "elType": "widget",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-award",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Experiència i professionalitat",
+                        "description_text": "Fundats l'any 1977",
+                        "position": "left",
+                        "title_size": "h4",
+                        "primary_color": "#FFFFFF",
+                        "title_color": "#FFFFFF",
+                        "description_color": "#D7DED9",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "framed",
+                        "shape": "circle",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "icon-box"
+                    }
+                  ],
+                  "isInner": true
                 },
                 {
-                  "id": "a98bc89",
-                  "elType": "widget",
+                  "id": "49cf13e",
+                  "elType": "container",
                   "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-drafting-compass",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Projectes personalitzats",
-                    "description_text": "Ens adaptem a tu",
-                    "position": "left",
-                    "title_size": "h4",
-                    "primary_color": "#4E8C3F",
-                    "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 47
+                    }
                   },
-                  "elements": [],
-                  "widgetType": "icon-box"
+                  "elements": [
+                    {
+                      "id": "93e5e0e",
+                      "elType": "widget",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-drafting-compass",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Projectes personalitzats",
+                        "description_text": "Ens adaptem a tu",
+                        "position": "left",
+                        "title_size": "h4",
+                        "primary_color": "#FFFFFF",
+                        "title_color": "#FFFFFF",
+                        "description_color": "#D7DED9",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "framed",
+                        "shape": "circle",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "icon-box"
+                    }
+                  ],
+                  "isInner": true
                 },
                 {
-                  "id": "3eebe21",
-                  "elType": "widget",
+                  "id": "5fe6ddb",
+                  "elType": "container",
                   "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-recycle",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Compromís amb el medi ambient",
-                    "description_text": "Solucions sostenibles",
-                    "position": "left",
-                    "title_size": "h4",
-                    "primary_color": "#4E8C3F",
-                    "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 47
+                    }
                   },
-                  "elements": [],
-                  "widgetType": "icon-box"
+                  "elements": [
+                    {
+                      "id": "a23fb95",
+                      "elType": "widget",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-recycle",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Compromís amb el medi ambient",
+                        "description_text": "Solucions sostenibles",
+                        "position": "left",
+                        "title_size": "h4",
+                        "primary_color": "#FFFFFF",
+                        "title_color": "#FFFFFF",
+                        "description_color": "#D7DED9",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "framed",
+                        "shape": "circle",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "icon-box"
+                    }
+                  ],
+                  "isInner": true
                 },
                 {
-                  "id": "c7c7c6a",
-                  "elType": "widget",
+                  "id": "cb29cf7",
+                  "elType": "container",
                   "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-heart",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Passió per la natura",
-                    "description_text": "Fem créixer espais, fem créixer persones",
-                    "position": "left",
-                    "title_size": "h4",
-                    "primary_color": "#4E8C3F",
-                    "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 47
+                    }
                   },
-                  "elements": [],
-                  "widgetType": "icon-box"
+                  "elements": [
+                    {
+                      "id": "33429c3",
+                      "elType": "widget",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-heart",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Passió per la natura",
+                        "description_text": "Fem créixer espais, fem créixer persones",
+                        "position": "left",
+                        "title_size": "h4",
+                        "primary_color": "#FFFFFF",
+                        "title_color": "#FFFFFF",
+                        "description_color": "#D7DED9",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 26,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "framed",
+                        "shape": "circle",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "icon-box"
+                    }
+                  ],
+                  "isInner": true
                 }
               ],
               "isInner": true
@@ -1881,7 +2444,7 @@
       "isInner": false
     },
     {
-      "id": "c726b93",
+      "id": "a98095a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1903,7 +2466,7 @@
       },
       "elements": [
         {
-          "id": "1c50648",
+          "id": "500e01c",
           "elType": "widget",
           "settings": {
             "title": "Com treballem",
@@ -1913,7 +2476,7 @@
             "typography_typography": "custom",
             "typography_font_size": {
               "unit": "px",
-              "size": 32,
+              "size": 34,
               "sizes": []
             },
             "typography_font_weight": "700"
@@ -1922,7 +2485,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "09ba3af",
+          "id": "3132dcf",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1939,7 +2502,7 @@
           },
           "elements": [
             {
-              "id": "7cf555c",
+              "id": "3b81945",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1958,7 +2521,7 @@
               },
               "elements": [
                 {
-                  "id": "2dcab40",
+                  "id": "6ce2a71",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1967,26 +2530,28 @@
                     "flex_align_items": "center",
                     "width": {
                       "unit": "px",
-                      "size": 48
+                      "size": 52,
+                      "sizes": []
                     },
                     "height": {
                       "unit": "px",
-                      "size": 48
+                      "size": 52,
+                      "sizes": []
                     },
                     "background_background": "classic",
                     "background_color": "#4E8C3F",
                     "border_radius": {
-                      "unit": "%",
-                      "top": "50",
-                      "right": "50",
-                      "bottom": "50",
-                      "left": "50",
+                      "unit": "px",
+                      "top": "26",
+                      "right": "26",
+                      "bottom": "26",
+                      "left": "26",
                       "isLinked": true
                     }
                   },
                   "elements": [
                     {
-                      "id": "1e0149d",
+                      "id": "a4e1c87",
                       "elType": "widget",
                       "settings": {
                         "title": "01",
@@ -2008,7 +2573,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "51a3b47",
+                  "id": "1463b44",
                   "elType": "widget",
                   "settings": {
                     "title": "Escoltem les teves idees",
@@ -2021,13 +2586,13 @@
                       "size": 18,
                       "sizes": []
                     },
-                    "typography_font_weight": "600"
+                    "typography_font_weight": "700"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9286633",
+                  "id": "0858fef",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Entenem les teves necessitats i l'espai disponible.</p>",
@@ -2047,7 +2612,7 @@
               "isInner": true
             },
             {
-              "id": "2ea4c2e",
+              "id": "abe6b86",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2056,12 +2621,13 @@
                 "flex_align_items": "center",
                 "width": {
                   "unit": "px",
-                  "size": 24
+                  "size": 24,
+                  "sizes": []
                 }
               },
               "elements": [
                 {
-                  "id": "8131fc6",
+                  "id": "a62d5cc",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2082,7 +2648,7 @@
               "isInner": true
             },
             {
-              "id": "5451768",
+              "id": "169decb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2101,7 +2667,7 @@
               },
               "elements": [
                 {
-                  "id": "fe34004",
+                  "id": "ffd7ed6",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -2110,26 +2676,28 @@
                     "flex_align_items": "center",
                     "width": {
                       "unit": "px",
-                      "size": 48
+                      "size": 52,
+                      "sizes": []
                     },
                     "height": {
                       "unit": "px",
-                      "size": 48
+                      "size": 52,
+                      "sizes": []
                     },
                     "background_background": "classic",
                     "background_color": "#4E8C3F",
                     "border_radius": {
-                      "unit": "%",
-                      "top": "50",
-                      "right": "50",
-                      "bottom": "50",
-                      "left": "50",
+                      "unit": "px",
+                      "top": "26",
+                      "right": "26",
+                      "bottom": "26",
+                      "left": "26",
                       "isLinked": true
                     }
                   },
                   "elements": [
                     {
-                      "id": "5af0be4",
+                      "id": "8e5d9b7",
                       "elType": "widget",
                       "settings": {
                         "title": "02",
@@ -2151,7 +2719,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "b65c066",
+                  "id": "b62fbd4",
                   "elType": "widget",
                   "settings": {
                     "title": "Dissenyem la proposta",
@@ -2164,13 +2732,13 @@
                       "size": 18,
                       "sizes": []
                     },
-                    "typography_font_weight": "600"
+                    "typography_font_weight": "700"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "f0932c6",
+                  "id": "a09b358",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Et presentem un projecte personalitzat.</p>",
@@ -2190,7 +2758,7 @@
               "isInner": true
             },
             {
-              "id": "1378d9e",
+              "id": "8c76e61",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2199,12 +2767,13 @@
                 "flex_align_items": "center",
                 "width": {
                   "unit": "px",
-                  "size": 24
+                  "size": 24,
+                  "sizes": []
                 }
               },
               "elements": [
                 {
-                  "id": "16aa0c2",
+                  "id": "18fae09",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2225,7 +2794,7 @@
               "isInner": true
             },
             {
-              "id": "05a7ee4",
+              "id": "158048c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2244,7 +2813,7 @@
               },
               "elements": [
                 {
-                  "id": "9076ce0",
+                  "id": "8664203",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -2253,26 +2822,28 @@
                     "flex_align_items": "center",
                     "width": {
                       "unit": "px",
-                      "size": 48
+                      "size": 52,
+                      "sizes": []
                     },
                     "height": {
                       "unit": "px",
-                      "size": 48
+                      "size": 52,
+                      "sizes": []
                     },
                     "background_background": "classic",
                     "background_color": "#4E8C3F",
                     "border_radius": {
-                      "unit": "%",
-                      "top": "50",
-                      "right": "50",
-                      "bottom": "50",
-                      "left": "50",
+                      "unit": "px",
+                      "top": "26",
+                      "right": "26",
+                      "bottom": "26",
+                      "left": "26",
                       "isLinked": true
                     }
                   },
                   "elements": [
                     {
-                      "id": "2e5a4aa",
+                      "id": "da16216",
                       "elType": "widget",
                       "settings": {
                         "title": "03",
@@ -2294,7 +2865,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "a6bed39",
+                  "id": "ed7b68e",
                   "elType": "widget",
                   "settings": {
                     "title": "Executem el jardí",
@@ -2307,13 +2878,13 @@
                       "size": 18,
                       "sizes": []
                     },
-                    "typography_font_weight": "600"
+                    "typography_font_weight": "700"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "53bd0d7",
+                  "id": "c9fbc69",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Amb un equip expert i materials de qualitat.</p>",
@@ -2333,7 +2904,7 @@
               "isInner": true
             },
             {
-              "id": "0399539",
+              "id": "bfc597a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2342,12 +2913,13 @@
                 "flex_align_items": "center",
                 "width": {
                   "unit": "px",
-                  "size": 24
+                  "size": 24,
+                  "sizes": []
                 }
               },
               "elements": [
                 {
-                  "id": "dfafde6",
+                  "id": "f2fcd4f",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2368,7 +2940,7 @@
               "isInner": true
             },
             {
-              "id": "88b0354",
+              "id": "97fff56",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2387,7 +2959,7 @@
               },
               "elements": [
                 {
-                  "id": "2586c9e",
+                  "id": "40a93d0",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -2396,26 +2968,28 @@
                     "flex_align_items": "center",
                     "width": {
                       "unit": "px",
-                      "size": 48
+                      "size": 52,
+                      "sizes": []
                     },
                     "height": {
                       "unit": "px",
-                      "size": 48
+                      "size": 52,
+                      "sizes": []
                     },
                     "background_background": "classic",
                     "background_color": "#4E8C3F",
                     "border_radius": {
-                      "unit": "%",
-                      "top": "50",
-                      "right": "50",
-                      "bottom": "50",
-                      "left": "50",
+                      "unit": "px",
+                      "top": "26",
+                      "right": "26",
+                      "bottom": "26",
+                      "left": "26",
                       "isLinked": true
                     }
                   },
                   "elements": [
                     {
-                      "id": "3e23c5f",
+                      "id": "402e6c0",
                       "elType": "widget",
                       "settings": {
                         "title": "04",
@@ -2437,7 +3011,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "f431c8c",
+                  "id": "eda2be4",
                   "elType": "widget",
                   "settings": {
                     "title": "Gaudeixes del resultat",
@@ -2450,13 +3024,13 @@
                       "size": 18,
                       "sizes": []
                     },
-                    "typography_font_weight": "600"
+                    "typography_font_weight": "700"
                   },
                   "elements": [],
                   "widgetType": "heading"
                 },
                 {
-                  "id": "da6a886",
+                  "id": "1364b7e",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Un espai verd per viure i compartir.</p>",
@@ -2482,7 +3056,7 @@
       "isInner": false
     },
     {
-      "id": "8f1090a",
+      "id": "bdb34c6",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -2491,8 +3065,15 @@
           "unit": "%",
           "size": 100
         },
-        "background_background": "classic",
-        "background_color": "#0B0B0B",
+        "background_background": "gradient",
+        "background_color": "#122318",
+        "background_color_b": "#0B0B0B",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135,
+          "sizes": []
+        },
         "padding": {
           "unit": "px",
           "top": "70",
@@ -2500,20 +3081,19 @@
           "bottom": "70",
           "left": "40",
           "isLinked": false
-        },
-        "position": "relative"
+        }
       },
       "elements": [
         {
-          "id": "3010c2e",
+          "id": "7e9ade6",
           "elType": "container",
           "settings": {
             "content_width": "full",
             "flex_direction": "row",
             "flex_wrap": "wrap",
             "flex_gap": {
-              "column": "20",
-              "row": "20",
+              "column": "24",
+              "row": "24",
               "unit": "px",
               "isLinked": true
             },
@@ -2522,7 +3102,7 @@
           },
           "elements": [
             {
-              "id": "23da178",
+              "id": "d247181",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2536,12 +3116,12 @@
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 50
+                  "size": 34
                 }
               },
               "elements": [
                 {
-                  "id": "01fcc38",
+                  "id": "8052635",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -2551,7 +3131,7 @@
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 30,
+                      "size": 32,
                       "sizes": []
                     },
                     "typography_font_weight": "700"
@@ -2560,7 +3140,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "ca96459",
+                  "id": "1590762",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -2577,7 +3157,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "ba661cb",
+                  "id": "dbd9964",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -2596,7 +3176,13 @@
                       "value": "fas fa-arrow-right",
                       "library": "fa-solid"
                     },
-                    "icon_align": "right"
+                    "icon_align": "right",
+                    "link": {
+                      "url": "mailto:info@newtree.cat",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
                   },
                   "elements": [],
                   "widgetType": "button"
@@ -2605,7 +3191,7 @@
               "isInner": true
             },
             {
-              "id": "aedbb9b",
+              "id": "99e6004",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2618,15 +3204,15 @@
                   "isLinked": true
                 },
                 "flex_justify_content": "flex-start",
-                "flex_align_items": "center",
+                "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 45
+                  "size": 42
                 }
               },
               "elements": [
                 {
-                  "id": "26c4b93",
+                  "id": "6c40de3",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2637,34 +3223,33 @@
                     "description_text": "(+34) 972 560 033",
                     "position": "top",
                     "title_size": "h4",
-                    "primary_color": "#4E8C3F",
+                    "primary_color": "#FFFFFF",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                },
-                {
-                  "id": "462cba6",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-whatsapp",
-                      "library": "fa-solid"
+                    "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
                     },
-                    "title_text": "WhatsApp",
-                    "description_text": "Envia'ns un missatge",
-                    "position": "top",
-                    "title_size": "h4",
-                    "primary_color": "#4E8C3F",
-                    "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "f3405b7",
+                  "id": "09d300e",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2675,62 +3260,107 @@
                     "description_text": "info@newtree.cat",
                     "position": "top",
                     "title_size": "h4",
-                    "primary_color": "#4E8C3F",
+                    "primary_color": "#FFFFFF",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 13,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 }
               ],
               "isInner": true
-            }
-          ],
-          "isInner": true
-        },
-        {
-          "id": "0df14fe",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "column",
-            "flex_gap": {
-              "column": "16",
-              "row": "16",
-              "unit": "px",
-              "isLinked": true
             },
-            "flex_align_items": "flex-end",
-            "_position": "absolute",
-            "_offset_x": {
-              "unit": "px",
-              "size": 0
-            },
-            "_offset_y": {
-              "unit": "px",
-              "size": -30
-            }
-          },
-          "elements": [
             {
-              "id": "01b42fe",
-              "elType": "widget",
+              "id": "49015f3",
+              "elType": "container",
               "settings": {
-                "title": "Fem créixer espais,<br>fem créixer persones",
-                "header_size": "p",
-                "align": "right",
-                "title_color": "#FFFFFF",
-                "typography_typography": "custom",
-                "typography_font_size": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "8",
+                  "row": "8",
                   "unit": "px",
-                  "size": 16,
-                  "sizes": []
+                  "isLinked": true
                 },
-                "typography_font_weight": "700",
-                "typography_font_style": "italic"
+                "flex_align_items": "flex-end",
+                "width": {
+                  "unit": "%",
+                  "size": 16
+                },
+                "hide_tablet": "hidden-tablet",
+                "hide_mobile": "hidden-mobile"
               },
-              "elements": [],
-              "widgetType": "heading"
+              "elements": [
+                {
+                  "id": "16cb058",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Fem créixer espais,<br>fem créixer persones",
+                    "header_size": "p",
+                    "align": "right",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "typography_font_family": "Caveat",
+                    "typography_font_style": "italic"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "7589ab3",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 90,
+                      "sizes": []
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 4,
+                      "sizes": []
+                    },
+                    "background_background": "classic",
+                    "background_color": "#4E8C3F",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "4",
+                      "right": "4",
+                      "bottom": "4",
+                      "left": "4",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
             }
           ],
           "isInner": true
@@ -2741,6 +3371,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Jardineria (Disseny de jardins) - New Tree",
+  "title": "Jardineria - New Tree",
   "type": "page"
 }

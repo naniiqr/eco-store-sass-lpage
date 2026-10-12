@@ -89,15 +89,21 @@ def container(c, top=False):
     if s.get("padding"):
         st.append(f"padding:{box(s['padding'])}")
     bg = []
-    if s.get("background_overlay_color"):
+    if s.get("background_overlay_background") == "gradient":
+        ang = (s.get("background_overlay_gradient_angle") or {}).get("size", 180)
+        bg.append(f"linear-gradient({ang}deg,{s.get('background_overlay_color')},{s.get('background_overlay_color_b')})")
+    elif s.get("background_overlay_color"):
         oc = s["background_overlay_color"]
         bg.append(f"linear-gradient({oc},{oc})")
+    if s.get("background_background") == "gradient":
+        ang = (s.get("background_gradient_angle") or {}).get("size", 180)
+        bg.append(f"linear-gradient({ang}deg,{s.get('background_color')},{s.get('background_color_b')})")
     img = (s.get("background_image") or {}).get("url")
     if img:
         bg.append(f"url('{img}')")
     if bg:
         st.append(f"background-image:{','.join(bg)};background-size:cover;background-position:center")
-    if s.get("background_color"):
+    if s.get("background_color") and s.get("background_background") != "gradient":
         st.append(f"background-color:{s['background_color']}")
     if px(s.get("min_height")):
         st.append(f"min-height:{px(s['min_height'])}")
@@ -114,8 +120,12 @@ def container(c, top=False):
     if bs and s.get("box_shadow_box_shadow_type") == "yes":
         st.append(f"box-shadow:{bs.get('horizontal', 0)}px {bs.get('vertical', 0)}px {bs.get('blur', 0)}px {bs.get('spread', 0)}px {bs.get('color', 'rgba(0,0,0,.1)')}")
     if s.get("_position") == "absolute":
-        st = [x for x in st if not x.startswith(("position", "width"))]
-        st += ["position:absolute", f"top:{px(s.get('_offset_y')) or '0'}", "right:0", "z-index:2"]
+        st = [x for x in st if not x.startswith("position")]
+        st.append("position:absolute;z-index:2")
+        h_end = s.get("_offset_orientation_h") == "end"
+        v_end = s.get("_offset_orientation_v") == "end"
+        st.append(("right:" + (px(s.get("_offset_x_end")) or "0")) if h_end else ("left:" + (px(s.get("_offset_x")) or "0")))
+        st.append(("bottom:" + (px(s.get("_offset_y_end")) or "0")) if v_end else ("top:" + (px(s.get("_offset_y")) or "0")))
     if s.get("z_index") not in (None, ""):
         st.append(f"z-index:{s['z_index']}")
     inner = "".join(node(e) for e in c.get("elements", []))
@@ -142,7 +152,8 @@ def widget(w):
         tag = s.get("header_size", "h2")
         tag = "div" if tag == "p" else tag
         size = (s.get("typography_font_size") or {}).get("size") or HSIZE.get(s.get("header_size", "h2"), 32)
-        st = [f"font-size:{size}px", f"color:{s.get('title_color', '#1e2a22')}", "margin:0",
+        fam = s.get("typography_font_family") or "Nunito"
+        st = [f"font-family:'{fam}',sans-serif", f"font-size:{size}px", f"color:{s.get('title_color', '#1e2a22')}", "margin:0",
               f"font-weight:{s.get('typography_font_weight', 700)}", f"text-align:{s.get('align', 'left')}", "line-height:1.2"]
         if s.get("typography_font_style"):
             st.append(f"font-style:{s['typography_font_style']}")
@@ -161,12 +172,20 @@ def widget(w):
               "font-size:14px", "letter-spacing:.5px", "white-space:nowrap"]
         if s.get("border_border"):
             st.append(f"border:{(s.get('border_width') or {}).get('top', 1)}px solid {s.get('border_color', col)}")
+        if s.get("align") == "justify":
+            st += ["width:100%", "justify-content:center", "box-sizing:border-box"]
         href = (s.get("link") or {}).get("url", "#")
         ic = ' <i class="fas fa-arrow-right"></i>' if s.get("icon") else ""
         return f'<a href="{H.escape(href)}" style="{";".join(st)}">{H.escape(s.get("text", ""))}{ic}</a>'
     if t == "icon-box":
         val = (s.get("selected_icon") or {}).get("value", "fas fa-leaf")
-        if s.get("view") == "stacked":
+        if s.get("view") == "framed":
+            pd = (s.get("icon_padding") or {}).get("size", 12)
+            c = s.get("primary_color", "#4E8C3F")
+            sz = (s.get("icon_size") or {}).get("size", 26)
+            ic = (f'<span style="display:inline-flex;align-items:center;justify-content:center;border-radius:50%;'
+                  f'border:2px solid {c};width:{sz + 2 * pd + 4}px;height:{sz + 2 * pd + 4}px">{icon_html(val, c, sz)}</span>')
+        elif s.get("view") == "stacked":
             pd = (s.get("icon_padding") or {}).get("size", 14)
             ic = (f'<span style="display:inline-flex;align-items:center;justify-content:center;border-radius:50%;'
                   f'background:{s.get("primary_color", "#4E8C3F")};width:{18 + 2 * pd}px;height:{18 + 2 * pd}px">'
@@ -184,7 +203,13 @@ def widget(w):
                          (s.get("size") or {}).get("size", 18))
     if t == "image":
         u = (s.get("image") or {}).get("url", "")
-        return f'<img src="{H.escape(u)}" alt="{H.escape(s.get("alt", ""))}" style="width:100%;display:block;border-radius:6px;object-fit:cover">'
+        r = (s.get("image_border_radius") or {}).get("top", 6)
+        h = (s.get("height") or {}).get("size")
+        sh = s.get("image_box_shadow_box_shadow") if s.get("image_box_shadow_box_shadow_type") == "yes" else None
+        st = f"width:100%;display:block;border-radius:{r}px;" + (f"height:{h}px;object-fit:cover;" if h else "")
+        if sh:
+            st += f"box-shadow:{sh['horizontal']}px {sh['vertical']}px {sh['blur']}px {sh['spread']}px {sh['color']};"
+        return f'<img src="{H.escape(u)}" alt="{H.escape(s.get("alt", ""))}" style="{st}">'
     if t == "form":
         rad = (s.get("field_border_radius") or {}).get("top", 6)
         fst = (f"padding:14px 16px;border:0;border-radius:{rad}px;font:inherit;width:100%;box-sizing:border-box;"
@@ -247,7 +272,7 @@ def page_html(name, body, title, pages, rules=""):
     opts = "".join(f'<option value="{p}.html"{" selected" if p == name else ""}>{lab}</option>' for p, lab in pages)
     return f"""<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Previsualització – {H.escape(title)}</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Caveat:wght@600&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <style>{CSS}{rules}</style></head><body>
 <div class="bar"><strong>Vista prèvia</strong><select onchange="location=this.value">{opts}</select>
