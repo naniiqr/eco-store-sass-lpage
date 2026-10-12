@@ -30,7 +30,7 @@ Alt imagen: Equip d'empresa de jardineria Girona New Tree
 
 ```
 Keyphrase: serveis de jardineria Girona
-URL: /serveis-de-jardineria-girona/   (actual: (nova; menú del PDF) → 301)
+URL: /serveis-de-jardineria-girona/   (actual: /jardineria/ → 301)
 Title (51): Serveis de jardineria Girona i l'Empordà | New Tree
 Meta description (137): Serveis de jardineria Girona i Empordà: disseny, reg, gespa, manteniment, podes i molt més. Demana pressupost a New Tree sense compromís.
 H1: Serveis de jardineria Girona: dissenyem jardins amb ànima
@@ -162,7 +162,7 @@ Alt imagen: Obra pública Girona de jardineria feta per New Tree
 
 ```
 Keyphrase: galeria de jardins Girona
-URL: /galeria-de-jardins-girona/   (actual: /galeria-esp/ → 301)
+URL: /galeria-de-jardins-girona/   (actual: /galeria/ → 301)
 Title (48): Galeria de jardins Girona i projectes | New Tree
 Meta description (151): Galeria de jardins Girona i l'Empordà: projectes de disseny, gespa, murs, jardins verticals i molt més de New Tree. Inspira't amb els nostres treballs.
 H1: Galeria de jardins Girona
@@ -174,7 +174,7 @@ Alt imagen: Galeria de jardins Girona, projecte de New Tree
 
 ```
 Keyphrase: plantes exemplars Girona
-URL: /plantes-exemplars-girona/   (actual: /plantas-ejemplares/ → 301)
+URL: /plantes-exemplars-girona/   (actual: /plantes-exemplars/ → 301)
 Title (52): Plantes exemplars Girona per al teu jardí | New Tree
 Meta description (147): Plantes exemplars Girona i arbres per donar personalitat al teu jardí. Visita New Tree a Calabuig – Bàscara o demana'ns informació sense compromís.
 H1: Plantes exemplars Girona
@@ -186,7 +186,7 @@ Alt imagen: Plantes exemplars Girona per a jardins de New Tree
 
 ```
 Keyphrase: contacte jardineria Girona
-URL: /contacte-jardineria-girona/   (actual: /situacion-y-contacto/ → 301)
+URL: /contacte-jardineria-girona/   (actual: /situacio-i-contacte/ → 301)
 Title (47): Contacte jardineria Girona | New Tree a Bàscara
 Meta description (143): Contacte jardineria Girona: Camí de Reg de la Vinya s/n, Calabuig – Bàscara. Tel. 972 560 033 · info@newtree.cat. Demana pressupost a New Tree.
 H1: Contacte jardineria Girona: on som
