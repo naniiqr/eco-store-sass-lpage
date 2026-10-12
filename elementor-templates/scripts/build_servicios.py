@@ -18,7 +18,7 @@ def img(path, label=None):
 def h1_green(title):
     """Título original con la última palabra en verde."""
     head, _, last = title.rpartition(" ")
-    return (head + " " if head else "") + '<span style="color:%s">%s</span>' % (GREEN, last)
+    return (head + " " if head else "") + '<span style="color:%s">%s</span>' % (GREEN_ACCENT, last)
 
 
 # ---------------------------------------------------------------
@@ -96,7 +96,7 @@ PAGES = [
                 "Murs de contenció per anivellar terrenys."],
          side=img("2021/08/tancaments.jpeg"),
          list_title=None, items=[],
-         gallery=["2021/08/tancaments-2.jpeg", "2021/08/mur-de-contenci%C3%B3.jpeg"]),
+         gallery=["2021/08/tancaments-2.jpeg", "2021/08/mur-de-contencio%CC%81.jpeg"]),
     dict(file="podes", title="Servei de podes",
          paras=["La poda d'arbres és fonamental, si es realitza correctament, per allargar la vida dels mateixos, ara bé s'ha de fer només si és necessari."],
          side=img("2020/04/Poda.jpg"),
@@ -147,7 +147,7 @@ def intro_section(p):
                elements=[text(paras[0], color=TEXT_DARK, font_size=20)] + [text(t, font_size=16) for t in paras[1:]] +
                         [button("DEMANA PRESSUPOST", bg=RED, color=WHITE, link=MAIL)])
     right = C({"content_width": "full", "width": {"unit": "%", "size": 45}},
-              [pic(p["side"], p["title"], radius=12, shadow=True)])
+              [pic(p["side"], p["title"], radius=12, height=480, shadow=True)])
     return section(settings={"background_background": "classic", "background_color": WHITE,
                              "padding": pad(80, 40, 80, 40)},
                    elements=[row(elements=[left, right], gap="40", justify="space-between", align="flex-start")])
@@ -161,7 +161,7 @@ def list_section(p):
            row(elements=boxes, gap="28", justify="center", align="flex-start")]
     els += [text(t, color=SOFT, font_size=17) for t in p.get("after", [])]
     return section(settings={"background_background": "gradient", "background_color": DARKGREEN,
-                             "background_color_b": "#1F3D28", "background_gradient_type": "linear",
+                             "background_color_b": DARKGREEN2, "background_gradient_type": "linear",
                              "background_gradient_angle": {"unit": "deg", "size": 135, "sizes": []},
                              "flex_gap": {"column": "36", "row": "36", "unit": "px", "isLinked": True},
                              "padding": pad(80, 40, 80, 40)}, elements=els)
@@ -179,7 +179,7 @@ def gallery_section(p):
 
 def hub_section(p):
     cards = [C({"content_width": "full", "width": {"unit": "%", "size": 31}},
-               [button(t, bg=GREEN, link="https://newtree.cat/%s/" % slug, full=True)]) for t, slug in p["hub"]]
+               [button(t, bg=GREEN, link=SITE + "%s/" % slug, full=True)]) for t, slug in p["hub"]]
     return section(settings={"background_background": "classic", "background_color": WHITE,
                              "padding": pad(70, 40, 70, 40)},
                    elements=[heading(acc("Els nostres", "serveis"), size="h2", font_size=34),

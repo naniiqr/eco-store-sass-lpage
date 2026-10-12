@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "e722a95",
+      "id": "6d0cc7e",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -11,7 +11,7 @@
           "size": 100
         },
         "background_background": "classic",
-        "background_color": "#122318",
+        "background_color": "#1B271D",
         "padding": {
           "unit": "px",
           "top": "8",
@@ -42,7 +42,7 @@
       },
       "elements": [
         {
-          "id": "b2ff5ee",
+          "id": "4d9a953",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -63,7 +63,7 @@
           },
           "elements": [
             {
-              "id": "d42e6f2",
+              "id": "2956cc5",
               "elType": "widget",
               "settings": {
                 "editor": "<p>(+34) 972 560 033 &nbsp;·&nbsp; (+34) 607 484 646 &nbsp;·&nbsp; info@newtree.cat</p>",
@@ -82,10 +82,10 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "b467e98",
+              "id": "ec18081",
               "elType": "widget",
               "settings": {
-                "editor": "<p><a href=\"#\" style=\"color:#FFFFFF\">CA</a> &nbsp;<a href=\"#\" style=\"color:#FFFFFF\">ES</a> &nbsp;<a href=\"#\" style=\"color:#FFFFFF\">FR</a> &nbsp;<a href=\"#\" style=\"color:#FFFFFF\">ENG</a></p>",
+                "editor": "<p><a href=\"https://newtree.cat/\" style=\"color:#FFFFFF\">CA</a> &nbsp;<a href=\"https://newtree.cat/es/inicio/\" style=\"color:#FFFFFF\">ES</a> &nbsp;<a href=\"https://newtree.cat/fr/inici-fr/\" style=\"color:#FFFFFF\">FR</a> &nbsp;<a href=\"https://newtree.cat/en/inici-angl/\" style=\"color:#FFFFFF\">ENG</a></p>",
                 "text_color": "#FFFFFF",
                 "align": "left",
                 "typography_typography": "custom",
@@ -107,7 +107,7 @@
       "isInner": false
     },
     {
-      "id": "16b7f2f",
+      "id": "0417316",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -161,7 +161,7 @@
       },
       "elements": [
         {
-          "id": "a4b7f79",
+          "id": "78a987c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -180,7 +180,7 @@
           },
           "elements": [
             {
-              "id": "5c4571e",
+              "id": "e757b97",
               "elType": "widget",
               "settings": {
                 "width": {
@@ -195,7 +195,7 @@
               "widgetType": "theme-site-logo"
             },
             {
-              "id": "8d17c74",
+              "id": "17f38d9",
               "elType": "widget",
               "settings": {
                 "layout": "horizontal",
@@ -203,8 +203,8 @@
                 "dropdown": "tablet",
                 "toggle": "burger",
                 "pointer": "underline",
-                "menu_color_text": "#1E2A22",
-                "color_menu_item_hover": "#4E8C3F",
+                "menu_color_text": "#111111",
+                "color_menu_item_hover": "#659246",
                 "menu_typography_typography": "custom",
                 "menu_typography_font_size": {
                   "unit": "px",
@@ -217,12 +217,12 @@
               "widgetType": "nav-menu"
             },
             {
-              "id": "7528756",
+              "id": "bd3baf1",
               "elType": "widget",
               "settings": {
                 "text": "DEMANA PRESSUPOST",
                 "button_text_color": "#FFFFFF",
-                "background_color": "#E14D5A",
+                "background_color": "#FC2144",
                 "border_radius": {
                   "unit": "px",
                   "top": "6",
@@ -238,7 +238,7 @@
                 },
                 "icon_align": "right",
                 "link": {
-                  "url": "mailto:info@newtree.cat",
+                  "url": "https://newtree.cat/situacio-i-contacte/",
                   "is_external": "",
                   "nofollow": "",
                   "custom_attributes": ""

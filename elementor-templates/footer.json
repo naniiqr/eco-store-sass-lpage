@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "1f8faf0",
+      "id": "7a56020",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -11,7 +11,7 @@
           "size": 100
         },
         "background_background": "classic",
-        "background_color": "#F6F7F5",
+        "background_color": "#F5F5F5",
         "padding": {
           "unit": "px",
           "top": "60",
@@ -40,7 +40,7 @@
       },
       "elements": [
         {
-          "id": "e7c141b",
+          "id": "600dea1",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -56,7 +56,7 @@
           },
           "elements": [
             {
-              "id": "7c0f6c1",
+              "id": "93a1e3a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -77,7 +77,7 @@
               },
               "elements": [
                 {
-                  "id": "cf52e2c",
+                  "id": "931ef8f",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -107,7 +107,7 @@
                   },
                   "elements": [
                     {
-                      "id": "6d08078",
+                      "id": "a346ecb",
                       "elType": "widget",
                       "settings": {
                         "width": {
@@ -122,11 +122,11 @@
                       "widgetType": "theme-site-logo"
                     },
                     {
-                      "id": "a981ff1",
+                      "id": "800ddff",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>New Tree convertim un desert en un jardí</p>",
-                        "text_color": "#6B7280",
+                        "text_color": "#4A4A4A",
                         "align": "left",
                         "typography_typography": "custom",
                         "typography_font_size": {
@@ -145,7 +145,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "185d543",
+                  "id": "ccaa077",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -175,13 +175,13 @@
                   },
                   "elements": [
                     {
-                      "id": "99d259a",
+                      "id": "297d921",
                       "elType": "widget",
                       "settings": {
                         "title": "Contacte",
                         "header_size": "h4",
                         "align": "left",
-                        "title_color": "#1E2A22",
+                        "title_color": "#111111",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "px",
@@ -197,7 +197,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "cddaa3f",
+                      "id": "b1de6db",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -208,9 +208,9 @@
                         "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                         "position": "left",
                         "title_size": "h4",
-                        "primary_color": "#4E8C3F",
-                        "title_color": "#1E2A22",
-                        "description_color": "#6B7280",
+                        "primary_color": "#659246",
+                        "title_color": "#111111",
+                        "description_color": "#4A4A4A",
                         "icon_size": {
                           "unit": "px",
                           "size": 26,
@@ -238,7 +238,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "e9ed2a5",
+                      "id": "6fad759",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -249,9 +249,9 @@
                         "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                         "position": "left",
                         "title_size": "h4",
-                        "primary_color": "#4E8C3F",
-                        "title_color": "#1E2A22",
-                        "description_color": "#6B7280",
+                        "primary_color": "#659246",
+                        "title_color": "#111111",
+                        "description_color": "#4A4A4A",
                         "icon_size": {
                           "unit": "px",
                           "size": 26,
@@ -279,7 +279,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "21de8e4",
+                      "id": "1e07553",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -290,9 +290,9 @@
                         "description_text": "info@newtree.cat",
                         "position": "left",
                         "title_size": "h4",
-                        "primary_color": "#4E8C3F",
-                        "title_color": "#1E2A22",
-                        "description_color": "#6B7280",
+                        "primary_color": "#659246",
+                        "title_color": "#111111",
+                        "description_color": "#4A4A4A",
                         "icon_size": {
                           "unit": "px",
                           "size": 26,
@@ -323,7 +323,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "a672edd",
+                  "id": "2c47ea8",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -353,13 +353,13 @@
                   },
                   "elements": [
                     {
-                      "id": "c49ac7e",
+                      "id": "d506f1a",
                       "elType": "widget",
                       "settings": {
                         "title": "Jardineria",
                         "header_size": "h4",
                         "align": "left",
-                        "title_color": "#1E2A22",
+                        "title_color": "#111111",
                         "typography_typography": "custom",
                         "typography_font_size": {
                           "unit": "px",
@@ -375,11 +375,11 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "20772ec",
+                      "id": "5c25786",
                       "elType": "widget",
                       "settings": {
-                        "editor": "<p><a href=\"https://newtree.cat/disseny-i-construccio-de-jardins/\" style=\"color:#6B7280\">Disseny i Construcció de Jardins</a><br><a href=\"https://newtree.cat/sistemes-de-reg/\" style=\"color:#6B7280\">Sistemes de Reg</a><br><a href=\"https://newtree.cat/instal%c2%b7lacio-de-gespa/\" style=\"color:#6B7280\">Instal·lació de Gespa</a><br><a href=\"https://newtree.cat/manteniment-de-jardins/\" style=\"color:#6B7280\">Manteniment de jardins</a><br><a href=\"https://newtree.cat/jardins-verticals/\" style=\"color:#6B7280\">Jardins verticals</a><br><a href=\"https://newtree.cat/jardineria-2/\" style=\"color:#6B7280\">Obra pública</a><br><a href=\"https://newtree.cat/terres-i-substrats/\" style=\"color:#6B7280\">Terres i substrats</a><br><a href=\"https://newtree.cat/nateja-parceles/\" style=\"color:#6B7280\">Nateja Parcel·les</a><br><a href=\"https://newtree.cat/tanques-murs/\" style=\"color:#6B7280\">Tanques i Murs</a><br><a href=\"https://newtree.cat/podes/\" style=\"color:#6B7280\">Podes</a></p>",
-                        "text_color": "#6B7280",
+                        "editor": "<p><a href=\"https://newtree.cat/disseny-i-construccio-de-jardins/\" style=\"color:#4A4A4A\">Disseny i Construcció de Jardins</a><br><a href=\"https://newtree.cat/sistemes-de-reg/\" style=\"color:#4A4A4A\">Sistemes de Reg</a><br><a href=\"https://newtree.cat/instal%c2%b7lacio-de-gespa/\" style=\"color:#4A4A4A\">Instal·lació de Gespa</a><br><a href=\"https://newtree.cat/manteniment-de-jardins/\" style=\"color:#4A4A4A\">Manteniment de jardins</a><br><a href=\"https://newtree.cat/jardins-verticals/\" style=\"color:#4A4A4A\">Jardins verticals</a><br><a href=\"https://newtree.cat/jardineria-2/\" style=\"color:#4A4A4A\">Obra pública</a><br><a href=\"https://newtree.cat/terres-i-substrats/\" style=\"color:#4A4A4A\">Terres i substrats</a><br><a href=\"https://newtree.cat/nateja-parceles/\" style=\"color:#4A4A4A\">Nateja Parcel·les</a><br><a href=\"https://newtree.cat/tanques-murs/\" style=\"color:#4A4A4A\">Tanques i Murs</a><br><a href=\"https://newtree.cat/podes/\" style=\"color:#4A4A4A\">Podes</a></p>",
+                        "text_color": "#4A4A4A",
                         "align": "left",
                         "typography_typography": "custom",
                         "typography_font_size": {
@@ -401,7 +401,7 @@
               "isInner": true
             },
             {
-              "id": "04e109b",
+              "id": "a0aac43",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -440,11 +440,11 @@
               },
               "elements": [
                 {
-                  "id": "1b84de7",
+                  "id": "5ac85ce",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p><a href=\"#\" style=\"color:#6B7280\">Avís legal</a> &nbsp;|&nbsp; <a href=\"#\" style=\"color:#6B7280\">Política de privacitat</a></p>",
-                    "text_color": "#6B7280",
+                    "editor": "<p><a href=\"#\" style=\"color:#4A4A4A\">Avís legal</a> &nbsp;|&nbsp; <a href=\"#\" style=\"color:#4A4A4A\">Política de privacitat</a></p>",
+                    "text_color": "#4A4A4A",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
@@ -459,14 +459,14 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "be31b2d",
+                  "id": "63a820d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-instagram",
                       "library": "fa-solid"
                     },
-                    "primary_color": "#1E2A22",
+                    "primary_color": "#111111",
                     "size": {
                       "unit": "px",
                       "size": 20,

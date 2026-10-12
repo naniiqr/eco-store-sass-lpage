@@ -2,12 +2,10 @@
 Uso: python3 build_header_footer.py   (escribe ../header.json y ../footer.json)
 """
 import json, os
-from lib_elementor import *
+from design import *
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 GRAY = "#B9BFB9"
-MAIL = "mailto:info@newtree.cat"
-SITE = "https://newtree.cat/"
 LOGO_W = 120
 
 
@@ -30,8 +28,8 @@ nav = W("nav-menu", {
     "menu_typography_font_size": {"unit": "px", "size": 14, "sizes": []},
     "menu_typography_font_weight": "600",
 })
-lang = text('<a href="#" style="color:%s">CA</a> &nbsp;<a href="#" style="color:%s">ES</a> &nbsp;'
-            '<a href="#" style="color:%s">FR</a> &nbsp;<a href="#" style="color:%s">ENG</a>' % ((WHITE,) * 4),
+LANGS = [("CA", SITE), ("ES", SITE + "es/inicio/"), ("FR", SITE + "fr/inici-fr/"), ("ENG", SITE + "en/inici-angl/")]
+lang = text(" &nbsp;".join('<a href="%s" style="color:%s">%s</a>' % (u, WHITE, c) for c, u in LANGS),
             color=WHITE, font_size=12)
 top_info = text('(+34) 972 560 033 &nbsp;·&nbsp; (+34) 607 484 646 &nbsp;·&nbsp; info@newtree.cat',
                 color="#D7DED9", font_size=12)

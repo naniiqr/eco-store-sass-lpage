@@ -9,14 +9,18 @@ def W(widgetType, settings):
 def C(settings, elements, isInner=True):
     return {"id": wid(), "elType": "container", "settings": settings, "elements": elements, "isInner": isInner}
 
-RED = "#E14D5A"
-GREEN = "#4E8C3F"
-DARKGREEN = "#122318"
-BLACKBG = "#0B0B0B"
-TEXT_DARK = "#1E2A22"
-TEXT_GRAY = "#6B7280"
+# Colores medidos en los píxeles del PDF de la propuesta (no los del sitio actual)
+RED = "#FC2144"            # botón de cabecera y palabras de acento
+GREEN = "#659246"          # botones e iconos
+GREEN_ACCENT = "#6EA83C"   # acento verde sobre foto (titulares del hero)
+DARKGREEN = "#1B271D"      # paneles verde oscuro
+DARKGREEN2 = "#2A3322"     # extremo claro del degradado verde oscuro
+BLACKBG = "#161E12"        # banner final
+TEXT_DARK = "#111111"
+TEXT_GRAY = "#4A4A4A"
 WHITE = "#FFFFFF"
-LIGHTGRAY_BG = "#F6F7F5"
+LIGHTGRAY_BG = "#F5F5F5"
+SOFT_GREEN_BG = "#EEF1EE"  # panel claro del bloque «A Newtree»
 
 def ph(text, w=800, h=600, bg="e8e4da", fg="4e8c3f"):
     q = text.replace(' ', '+')

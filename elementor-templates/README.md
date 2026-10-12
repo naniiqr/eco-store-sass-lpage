@@ -150,3 +150,15 @@ Todas las páginas se construyen con los mismos componentes (`design.py`), fiele
 - Los iconos de «Caja de icono» usan `primary_color` (la clave correcta de Elementor); antes usaba `icon_color`, que Elementor ignoraba y dejaba los iconos en azul por defecto.
 - Inici usa las fotos reales de newtree.cat en las tarjetas de servicio donde existen; el resto (hero, proyectos, jardí ampli) son placeholders a reemplazar.
 - Regenerar todo: `cd scripts && python3 build_all.py && python3 preview.py`.
+
+## Colores (medidos en el PDF) y datos del dominio
+
+**Colores.** Se midieron en los píxeles del PDF (no son los del sitio actual): rojo `#FC2144` (botón de cabecera y palabras de acento), verde `#659246` (botones e iconos), verde acento `#6EA83C` (titulares sobre foto), verde oscuro `#1B271D` y `#2A3322` (paneles y degradados), banner final `#161E12`, fondos claros `#F5F5F5` y `#EEF1EE`. Están en `scripts/lib_elementor.py`; cambiarlos ahí y ejecutar `build_all.py` los aplica a todas las plantillas. Define los mismos en Elementor → Site Settings → Global Colors.
+
+**Datos reales del dominio usados** (releídos de newtree.cat):
+- Textos e imágenes de las páginas en catalán; la versión catalana de Plantes exemplars tiene el texto «Us oferim un servei de disseny…».
+- Selector de idioma de la barra superior: CA `/`, ES `/es/inicio/`, FR `/fr/inici-fr/`, EN `/en/inici-angl/`.
+- Los botones «DEMANA PRESSUPOST» van a `/situacio-i-contacte/` (la página `/pressupost/` está protegida con contraseña). «VEURE PROJECTES» va a `/galeria/`.
+- Foto de «Murs de contenció»: el servidor guarda la «ó» como `o` + acento combinado (`mur-de-contencio%CC%81.jpeg`); con la codificación normal daba 404.
+- Inici y Jardineria usan fotos reales del sitio en portada y bloques; los nombres de proyectos (Jardí residencial…) siguen siendo placeholders del PDF.
+- El enlace de Instagram del footer y los de Avís legal / Política de privacitat quedan en `#`: la web actual no los expone en su HTML.

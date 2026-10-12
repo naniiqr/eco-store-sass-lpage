@@ -6,12 +6,14 @@ from lib_elementor import *
 
 BASE = "https://newtree.cat/wp-content/uploads/"
 SCRIPT = "Caveat"
-GALERIA = "https://newtree.cat/galeria-esp/"
-MAIL = "mailto:info@newtree.cat"
+SITE = "https://newtree.cat/"
+GALERIA = SITE + "galeria/"
+CONTACT = SITE + "situacio-i-contacte/"   # /pressupost/ está protegida con contraseña
+MAIL = CONTACT
 SLOGAN = "New Tree convertim un desert en un jardí"
 PHONES = "(+34) 972 560 033 · (+34) 607 484 646"
 ADDRESS = "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483"
-SOFT = "#D7DED9"
+SOFT = "#D9DFDA"
 
 
 def R(r):
@@ -19,7 +21,7 @@ def R(r):
 
 
 def SH(y=18, blur=40, a=0.18):
-    return {"horizontal": 0, "vertical": y, "blur": blur, "spread": 0, "color": f"rgba(18,35,24,{a})"}
+    return {"horizontal": 0, "vertical": y, "blur": blur, "spread": 0, "color": f"rgba(27,39,29,{a})"}
 
 
 def acc(before, accent, color=RED):
@@ -72,12 +74,12 @@ def ibox(ic, title, desc="", icon_color=GREEN, title_color=TEXT_DARK, desc_color
     return w
 
 
-GRAD_SIDE = {"background_overlay_background": "gradient", "background_overlay_color": "rgba(10,20,15,0.80)",
-             "background_overlay_color_b": "rgba(10,20,15,0.18)",
+GRAD_SIDE = {"background_overlay_background": "gradient", "background_overlay_color": "rgba(14,20,12,0.80)",
+             "background_overlay_color_b": "rgba(14,20,12,0.18)",
              "background_overlay_gradient_type": "linear",
              "background_overlay_gradient_angle": {"unit": "deg", "size": 90, "sizes": []}}
-GRAD_UP = {"background_overlay_background": "gradient", "background_overlay_color": "rgba(10,20,15,0.0)",
-           "background_overlay_color_b": "rgba(10,20,15,0.78)",
+GRAD_UP = {"background_overlay_background": "gradient", "background_overlay_color": "rgba(14,20,12,0.0)",
+           "background_overlay_color_b": "rgba(14,20,12,0.78)",
            "background_overlay_gradient_type": "linear",
            "background_overlay_gradient_angle": {"unit": "deg", "size": 180, "sizes": []}}
 
@@ -157,7 +159,7 @@ def perks_dark(items, title=None, intro=None, btn=None, bg=DARKGREEN):
                 elements=[C({"content_width": "full", "width": {"unit": "%", "size": 47}},
                             [ibox(i, t, d, icon_color=WHITE, title_color=WHITE, desc_color=SOFT, framed=True,
                                   title_px=17, desc_px=14)]) for i, t, d in items])
-    s = {"background_background": "gradient", "background_color": DARKGREEN, "background_color_b": "#1F3D28",
+    s = {"background_background": "gradient", "background_color": DARKGREEN, "background_color_b": DARKGREEN2,
          "background_gradient_type": "linear", "background_gradient_angle": {"unit": "deg", "size": 135, "sizes": []},
          "padding": pad(90, 40, 90, 40)}
     return section(settings=s, elements=[row(elements=[x for x in (left, right) if x], gap="40",

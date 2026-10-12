@@ -49,10 +49,10 @@ def galeria():
 
 # ---------------- PLANTES EXEMPLARS ----------------
 def plantes():
-    # La web actual solo tiene esta página en castellano; se pasa el texto a catalán sin cambiar el sentido.
+    # Texto de la versión catalana de la página (newtree.cat/plantes-exemplars/).
     p = dict(
         title="Plantes exemplars",
-        paras=["Oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder oferir un servei totalment personalitzat."],
+        paras=["Us oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder-vos oferir un servei totalment personalitzat."],
         side=img("2020/04/plantes.jpg"),
     )
     return wrap("Plantes exemplars", [hero_section(p), features_strip(), intro_section(p), cta_banner()])

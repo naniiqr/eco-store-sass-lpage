@@ -1,6 +1,6 @@
 # Fichas SEO (Yoast + local) — New Tree
 
-Cada keyphrase lleva la ciudad (Girona; Inici: l'Empordà), ≤4 palabras, exacta al **inicio** de title y meta description, y también en slug, H1, primera frase y alt. Title ≤58 car., description 120–156 car.
+Cada keyphrase lleva la ciudad (Girona; Inici: l'Empordà), ≤4 palabras, exacta al **inicio** de title y meta description, y también en slug, H1, primera frase y alt. Title ≤58 car., description 120–156 car. Páginas en catalán (idioma por defecto del sitio).
 
 ## Inici
 
@@ -196,6 +196,7 @@ Alt imagen: Contacte jardineria Girona, New Tree a Bàscara
 
 ## Notas
 
-- Todas las páginas de servicio apuntan a «Girona»; las páginas por zona (Figueres, Roses…) usan su propia localidad, así no compiten entre sí (ver SEO-LOCAL.md).
-- La primera frase debe ser el primer párrafo visible bajo el hero.
-- Usa la keyphrase en un H2 y 2–3 veces más en el texto.
+- **Sitio multiidioma.** newtree.cat tiene 4 idiomas (CA en la raíz, `/es/`, `/fr/`, `/en/`). Estas fichas son para las páginas en catalán. Si cambias un slug, hay que hacerlo y redirigirlo (301) también en cada idioma. Si no quieres tocar URLs, deja las actuales y usa solo Title y Meta description.
+- **/pressupost/** está protegida con contraseña (no se enlaza ni se indexa).
+- Todas las páginas de servicio apuntan a «Girona»; las páginas por zona (Figueres, Roses…) usarán su propia localidad (ver SEO-LOCAL.md).
+- La primera frase con la keyphrase y el H1 de esta ficha difieren del texto literal de la web actual; aplícalos solo si aceptas ese cambio de texto.

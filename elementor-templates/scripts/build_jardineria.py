@@ -22,9 +22,9 @@ STEPS = [("01", "Escoltem les teves idees", "Entenem les teves necessitats i l'e
          ("04", "Gaudeixes del resultat", "Un espai verd per viure i compartir.")]
 
 hero_sec = hero("DISSENY DE JARDINS",
-                'Dissenyem<br>jardins <span style="color:%s">amb ànima</span>' % GREEN,
+                'Dissenyem<br>jardins <span style="color:%s">amb ànima</span>' % GREEN_ACCENT,
                 "Espais únics, funcionals i sostenibles que connecten amb la natura i milloren la teva qualitat de vida.",
-                ph("Foto hero disseny jardí", 1600, 900, bg="2f4a3a", fg="ffffff"), min_h=560)
+                real("2021/08/Disseny-de-jardins.jpg"), min_h=560)
 
 # bloque «Molt més que un jardí»: la tarjeta de cita va dentro de la foto, anclada abajo a la derecha
 quote = col(settings={"background_background": "classic", "background_color": "rgba(18,35,24,0.88)",
@@ -35,7 +35,7 @@ quote = col(settings={"background_background": "classic", "background_color": "r
     script(['"Jardins que', 'milloren vides"'], 34, WHITE, "left"),
     text("Disseny, natura i emoció en equilibri perfecte.", color=SOFT, font_size=14)])
 right = C({"content_width": "full", "width": {"unit": "%", "size": 52}, "position": "relative"},
-          [pic(ph("Foto jardí disseny detall", 900, 780, bg="2f4a3a", fg="ffffff"), "Disseny de jardins", radius=12), quote])
+          [pic(real("2020/04/f11.jpg"), "Disseny de jardins", radius=12), quote])
 left = col(settings={"width": {"unit": "%", "size": 42}}, gap="20", elements=[
     eyebrow("DISSENY DE JARDINS"),
     heading(acc("Molt més<br>", "que un jardí"), size="h2", font_size=40),
@@ -60,7 +60,7 @@ trust = perks_dark(PERKS, title="Per què confiar en Newtree?",
                    intro="Som una empresa de jardineria i paisatgisme fundada l'any 1977, amb més de 50 anys "
                          "d'experiència a l'Empordà. Ens apassiona la natura i treballem per crear espais verds que "
                          "generin benestar, bellesa i valor.",
-                   btn=button("CONEIX NOSALTRES", bg=GREEN, color=WHITE, link="https://newtree.cat/empresa/"))
+                   btn=button("CONEIX NOSALTRES", bg=GREEN, color=WHITE, link=SITE + "empresa/"))
 
 doc = page("Jardineria", [hero_sec, features_strip(), split, projects, trust, steps_section(STEPS), cta_banner()])
 with open(os.path.join(ROOT, "jardineria.json"), "w", encoding="utf-8") as f:
