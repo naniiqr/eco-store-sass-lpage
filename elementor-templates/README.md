@@ -118,3 +118,7 @@ Generadas con `scripts/build_paginas.py`: `empresa.json`, `galeria.json` (20 fot
 ## Textos (importante)
 
 Las páginas de servicio, Empresa, Galeria, Plantes exemplars y Situació i contacte usan el **texto literal de newtree.cat** (extraído del HTML de cada URL); solo se corrigieron erratas tipográficas evidentes (p. ej. «lazona», «dissenysamb», «Camíde», «am box»). Plantes exemplars solo existe en castellano en la web actual, y se pasó a catalán conservando el sentido. Las imágenes son las de cada página original.
+
+## Vista previa HTML (`preview/`)
+
+`python3 scripts/preview.py` lee los JSON de `importar/` y genera una página HTML por plantilla (con header y footer) más un `index.html`. Abre `preview/index.html` en el navegador (necesita internet para fotos, tipografía e iconos). Tiene botones Escritorio / Tauleta / Mòbil. Es una aproximación: Elementor puede diferir ligeramente en espaciados.
