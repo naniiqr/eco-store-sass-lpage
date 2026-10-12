@@ -1,14 +1,11 @@
-"""Páginas restantes del menú (Empresa, Galeria, Plantes exemplars, Situació i contacte).
-
-Solo se toma contenido e imágenes de newtree.cat; el diseño es el del PDF (reutiliza
-los helpers y secciones de build_servicios.py). Escribe en ../paginas/.
+"""Empresa, Galeria, Plantes exemplars y Situació i contacte con el TEXTO LITERAL de newtree.cat
+(solo erratas corregidas) dentro del diseño del rediseño. Escribe en ../paginas/.
 """
 import json, os
 from lib_elementor import *
 from build_servicios import (img, eyebrow, hero_section, intro_section, gallery_section,
-                             cta_section, MAIL)
+                             cta_section, h1_green, MAIL, SLOGAN)
 
-SLOGAN = "New Tree convertim un desert en un jardí"
 ADDRESS = "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483"
 
 
@@ -21,39 +18,32 @@ def wrap(title, secs):
 def empresa():
     p = dict(
         title="Empresa",
-        h1="Una empresa de <span style=\"color:%s\">jardineria</span>" % GREEN,
-        lead="Empresa de jardineria privada i pública.",
         paras=[
-            "Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. New Tree, empresa fundada l'any 1977, dedicada a la jardineria privada i pública.",
-            "Oferim serveis que van des de l'assessorament i disseny de jardins fins a l'execució i el manteniment d'aquests.",
+            "Empresa de jardineria privada i pública oferim servei a tota la província de Girona: Figueres, Roses, L'Escala, Empuriabrava, Peralada, Castelló d'Empúries, Llançà.",
+            "Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. New Tree, empresa fundada l'any 1977 dedicada a la jardineria privada i pública.",
+            "Ofereix serveis que van des de l'assessorament i disseny de jardins fins a l'execució i el manteniment d'aquests.",
             "Disposem dels recursos humans, tècnics i de maquinària necessaris per a la realització de qualsevol feina de jardineria pública, privada o de gestió del paisatge.",
+            "Oferim serveis a tot Girona, Figueres, Empuriabrava, Castelló d'Empúries, Port de la Selva.",
         ],
         side=img("2020/04/arbret.png"),
     )
-    vocation = [("tree", "Integrats amb l'entorn", "Espais integrats amb l'entorn natural de la zona"),
-                ("tint", "Baix manteniment", "Jardins sostenibles amb els recursos hídrics"),
-                ("leaf", "Natura a cada jardí", "Portar part de la natura a cada jardí que dissenyem"),
-                ("smile", "Espais per gaudir", "El més important: crear espais per poder gaudir")]
+    vocation = [("tree", "Crear espais integrats amb l'entorn natural de la zona"),
+                ("tint", "Crear jardins de baix manteniment, sostenibles amb els recursos hídrics"),
+                ("leaf", "Poder portar part de la natura a cada jardí que dissenyem"),
+                ("smile", "I, el més important, crear espais per poder gaudir")]
     vocation_sec = section(
         settings={"background_background": "classic", "background_color": DARKGREEN,
                   "padding": pad(80, 40, 80, 40)},
         elements=[
-            heading("La nostra vocació", size="h2", color=WHITE, font_size=32),
+            heading("La nostra principal vocació", size="h2", color=WHITE, font_size=32),
             row(elements=[C({"content_width": "full", "width": {"unit": "%", "size": 23}},
-                            [icon_box(i, t, d, icon_color=GREEN, title_color=WHITE, desc_color="#D7DED9")])
-                          for i, t, d in vocation], gap="24", justify="space-between", align="flex-start"),
+                            [icon_box(i, t, "", icon_color=GREEN, title_color=WHITE)])
+                          for i, t in vocation], gap="24", justify="space-between", align="flex-start"),
         ])
-    zones = ["Girona", "Figueres", "Roses", "L'Escala", "Empuriabrava", "Peralada",
-             "Castelló d'Empúries", "Llançà", "Port de la Selva"]
-    zones_sec = section(
-        settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
-                  "padding": pad(70, 40, 70, 40)},
-        elements=[
-            heading("Treballem a tota la província de Girona", size="h2", font_size=30),
-            row(elements=[icon_box("map-marker-alt", z, "", position="left") for z in zones],
-                gap="20", justify="flex-start", align="flex-start"),
-        ])
-    return wrap("Empresa", [hero_section(p), intro_section(p), vocation_sec, zones_sec, cta_section()])
+    strip = dict(title="Empresa", gallery=["2020/04/11.png", "2020/04/10.png", "2020/04/9.png",
+                                           "2020/04/12.png", "2020/04/13.png", "2020/04/14.png",
+                                           "2020/04/15.png", "2020/04/16.png", "2020/04/17.png"])
+    return wrap("Empresa", [hero_section(p), intro_section(p), vocation_sec, gallery_section(strip), cta_section()])
 
 
 # ---------------- GALERIA ----------------
@@ -64,46 +54,32 @@ def galeria():
                [image(img("2020/04/%s.png" % n), alt="Galeria New Tree")]) for n in nums]
     grid = section(settings={"background_background": "classic", "background_color": WHITE,
                              "padding": pad(80, 40, 80, 40)},
-                   elements=[eyebrow("PROJECTES"),
-                             heading("Galeria", size="h2", font_size=32),
-                             row(elements=cells, gap="20", justify="flex-start", align="flex-start")])
-    p = dict(h1="<span style=\"color:%s\">Galeria</span>" % GREEN, lead=SLOGAN)
-    return wrap("Galeria", [hero_section(p), grid, cta_section()])
+                   elements=[row(elements=cells, gap="20", justify="flex-start", align="flex-start")])
+    return wrap("Galeria", [hero_section(dict(title="Galeria")), grid, cta_section()])
 
 
 # ---------------- PLANTES EXEMPLARS ----------------
 def plantes():
+    # La web actual solo tiene esta página en castellano; se pasa el texto a catalán sin cambiar el sentido.
     p = dict(
         title="Plantes exemplars",
-        h1="Plantes <span style=\"color:%s\">exemplars</span>" % GREEN,
-        lead=SLOGAN,
-        paras=["Us oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder-vos oferir un servei totalment personalitzat."],
-        side=img("2020/04/plantes-1024x683.jpg"),
+        paras=["Oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder oferir un servei totalment personalitzat."],
+        side=img("2020/04/plantes.jpg"),
     )
-    extra = section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
-                              "padding": pad(60, 40, 60, 40)},
-                    elements=[row(elements=[
-                        C({"content_width": "full", "width": {"unit": "%", "size": 40}},
-                          [image(img("2020/04/arbret.png"), alt="Plantes exemplars")]),
-                        col(settings={"width": {"unit": "%", "size": 55}}, gap="16", elements=[
-                            heading("Vols veure els nostres exemplars?", size="h3", font_size=26),
-                            text("Visita'ns a Calabuig – Bàscara o contacta amb nosaltres.", font_size=16),
-                            button("DEMANA INFORMACIÓ", bg=GREEN, link=MAIL),
-                        ])], gap="40", justify="space-between", align="center")])
-    return wrap("Plantes exemplars", [hero_section(p), intro_section(p), extra, cta_section()])
+    return wrap("Plantes exemplars", [hero_section(p), intro_section(p), cta_section()])
 
 
 # ---------------- SITUACIÓ I CONTACTE ----------------
 def contacte():
-    p = dict(h1="Situació i <span style=\"color:%s\">contacte</span>" % GREEN, lead=SLOGAN)
+    p = dict(title="Situació i contacte")
     info = [("map-marker-alt", "Adreça", ADDRESS),
             ("phone", "Telèfons", "(+34) 972 560 033 · (+34) 607 484 646"),
             ("envelope", "Correu electrònic", "info@newtree.cat")]
     fields = [
         {"_id": "f_name", "custom_id": "name", "field_type": "text", "field_label": "Nom",
          "placeholder": "Nom", "required": "true", "width": "100"},
-        {"_id": "f_email", "custom_id": "email", "field_type": "email", "field_label": "Correu electrònic",
-         "placeholder": "Correu electrònic", "required": "true", "width": "100"},
+        {"_id": "f_email", "custom_id": "email", "field_type": "email", "field_label": "Email",
+         "placeholder": "Email", "required": "true", "width": "100"},
         {"_id": "f_msg", "custom_id": "message", "field_type": "textarea", "field_label": "Missatge",
          "placeholder": "Missatge", "required": "true", "width": "100", "rows": 5},
     ]
@@ -113,7 +89,6 @@ def contacte():
                       "success_message": "Missatge enviat. Gràcies!"})
     left = col(settings={"width": {"unit": "%", "size": 45}}, gap="20", elements=[
         eyebrow("CONTACTE"),
-        heading("Parlem del teu jardí", size="h2", font_size=32),
         col(gap="14", elements=[icon_box(i, t, d, position="left") for i, t, d in info]),
     ])
     right = col(settings={"width": {"unit": "%", "size": 50}}, gap="16", elements=[form])

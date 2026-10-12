@@ -114,3 +114,7 @@ Generadas con `scripts/build_paginas.py`: `empresa.json`, `galeria.json` (20 fot
 
 - `00-header.json`, `00-footer.json` → Theme Builder (tipo Header / Footer, condición "Todo el sitio").
 - `01` a `16` → una plantilla de tipo **Página** cada una (Elementor → Plantillas → Importar plantillas, o dentro del editor de la página con la carpeta de importar).
+
+## Textos (importante)
+
+Las páginas de servicio, Empresa, Galeria, Plantes exemplars y Situació i contacte usan el **texto literal de newtree.cat** (extraído del HTML de cada URL); solo se corrigieron erratas tipográficas evidentes (p. ej. «lazona», «dissenysamb», «Camíde», «am box»). Plantes exemplars solo existe en castellano en la web actual, y se pasó a catalán conservando el sentido. Las imágenes son las de cada página original.

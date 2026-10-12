@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "f1a59dd",
+      "id": "a685ead",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "5d5a0f0",
+          "id": "1f0f837",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "15e0979",
+              "id": "c7d2029",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -79,10 +79,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "f29215f",
+              "id": "53e5604",
               "elType": "widget",
               "settings": {
-                "title": "Instal·lació de <span style=\"color:#4E8C3F\">gespa</span>",
+                "title": "Instal·lació de gespa natural i <span style=\"color:#4E8C3F\">artificial</span>",
                 "header_size": "h1",
                 "align": "left",
                 "title_color": "#FFFFFF",
@@ -99,10 +99,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "65e1a46",
+              "id": "397ae2f",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Instal·lació de gespa natural i artificial.</p>",
+                "editor": "<p>New Tree convertim un desert en un jardí</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -117,7 +117,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "e800e87",
+              "id": "6d0c004",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -134,7 +134,7 @@
               },
               "elements": [
                 {
-                  "id": "eff4fa1",
+                  "id": "32ea20a",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -176,7 +176,7 @@
       "isInner": false
     },
     {
-      "id": "e923a03",
+      "id": "af68dc0",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -198,7 +198,7 @@
       },
       "elements": [
         {
-          "id": "868156d",
+          "id": "9a1e85a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -215,7 +215,7 @@
           },
           "elements": [
             {
-              "id": "c2f47c2",
+              "id": "0efeb83",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -234,61 +234,16 @@
               },
               "elements": [
                 {
-                  "id": "f7427b5",
+                  "id": "2a45399",
                   "elType": "widget",
                   "settings": {
-                    "title": "INSTAL·LACIÓ DE GESPA",
-                    "header_size": "p",
-                    "align": "left",
-                    "title_color": "#E14D5A",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "600",
-                    "letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    },
-                    "typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "57da2f3",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "New Tree convertim un desert en un jardí",
-                    "header_size": "h2",
-                    "align": "left",
-                    "title_color": "#1E2A22",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 30,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "7d374ee",
-                  "elType": "widget",
-                  "settings": {
-                    "editor": "<p>La gespa és una de les parts més importants de qualsevol jardí i la primera impressió. Més enllà de l'aspecte estètic, ofereix un espai adequat perquè hi juguin els infants i les mascotes.</p>",
+                    "editor": "<p>Com a imatge clàssica de qualsevol casa, la gespa és una de les parts més importants de qualsevol jardí i la primera impressió. A part de l'estètica visual, la gespa serveix com un espai ideal perquè juguin els nens i les mascotes.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     },
                     "typography_font_family": "Nunito"
@@ -297,16 +252,16 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "3b61242",
+                  "id": "b269c41",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Gràcies als avenços tecnològics, és possible disposar de gespa natural o gespa artificial de molt bona qualitat.</p>",
+                    "editor": "<p>Gràcies als avenços tecnològics, tenim l'opció de tenir una gespa natural o gespa artificial de molt bona qualitat.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     },
                     "typography_font_family": "Nunito"
@@ -315,16 +270,16 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "edd0926",
+                  "id": "a3c1d72",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Us recomanem demanar assessorament professional per triar entre gespa artificial o natural, ja que la decisió depèn de les circumstàncies de cada cas. Us expliquem els avantatges de cada opció.</p>",
+                    "editor": "<p>Prendre la decisió entre una gespa artificial o gespa natural per a molts propietaris necessita assessorament de professionals per decidir quina opció és la més adient en cada cas. Per ajudar-lo a decidir quin és millor per a vostè, li podrem dir els avantatges en cada cas.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     },
                     "typography_font_family": "Nunito"
@@ -336,7 +291,7 @@
               "isInner": true
             },
             {
-              "id": "72ae032",
+              "id": "fe78965",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -347,7 +302,7 @@
               },
               "elements": [
                 {
-                  "id": "a34bfcb",
+                  "id": "0949c85",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -355,7 +310,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Instal·lació de Gespa"
+                    "alt": "Instal·lació de gespa natural i artificial"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -370,146 +325,7 @@
       "isInner": false
     },
     {
-      "id": "05846f6",
-      "elType": "container",
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "background_background": "classic",
-        "background_color": "#F6F7F5",
-        "padding": {
-          "unit": "px",
-          "top": "70",
-          "right": "40",
-          "bottom": "70",
-          "left": "40",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "055d8a3",
-          "elType": "widget",
-          "settings": {
-            "title": "Natural o artificial",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700",
-            "typography_font_family": "Nunito"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "717c6c6",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_gap": {
-              "column": "24",
-              "row": "24",
-              "unit": "px",
-              "isLinked": true
-            },
-            "flex_justify_content": "flex-start",
-            "flex_align_items": "flex-start"
-          },
-          "elements": [
-            {
-              "id": "69b3159",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "ff729a3",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-leaf",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Gespa natural",
-                    "description_text": "Avantatges segons cada cas",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280",
-                    "title_typography_typography": "custom",
-                    "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
-                    "description_typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "e3c7369",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "a7866ea",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-leaf",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Gespa artificial",
-                    "description_text": "De molt bona qualitat",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280",
-                    "title_typography_typography": "custom",
-                    "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
-                    "description_typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            }
-          ],
-          "isInner": true
-        }
-      ],
-      "isInner": false
-    },
-    {
-      "id": "dd63eec",
+      "id": "f29a737",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -531,27 +347,7 @@
       },
       "elements": [
         {
-          "id": "4fdbac0",
-          "elType": "widget",
-          "settings": {
-            "title": "Galeria",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700",
-            "typography_font_family": "Nunito"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "4cb8cad",
+          "id": "6b7bd1b",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -568,7 +364,7 @@
           },
           "elements": [
             {
-              "id": "941b9cc",
+              "id": "79699cc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -579,7 +375,7 @@
               },
               "elements": [
                 {
-                  "id": "2cefb3d",
+                  "id": "55adb1e",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -587,7 +383,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Instal·lació de Gespa"
+                    "alt": "Instal·lació de gespa natural i artificial"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -596,7 +392,7 @@
               "isInner": true
             },
             {
-              "id": "6e295f1",
+              "id": "1075924",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -607,7 +403,7 @@
               },
               "elements": [
                 {
-                  "id": "8b9bb3d",
+                  "id": "bf5584a",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -615,7 +411,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Instal·lació de Gespa"
+                    "alt": "Instal·lació de gespa natural i artificial"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -624,7 +420,7 @@
               "isInner": true
             },
             {
-              "id": "910b6c3",
+              "id": "36a7a8a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -635,7 +431,7 @@
               },
               "elements": [
                 {
-                  "id": "01afe9a",
+                  "id": "8cecc29",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -643,7 +439,91 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Instal·lació de Gespa"
+                    "alt": "Instal·lació de gespa natural i artificial"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "b8c3aba",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "e994e7e",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/12.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Instal·lació de gespa natural i artificial"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "dee2a32",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "0d053c7",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/13.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Instal·lació de gespa natural i artificial"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "d4c30b2",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "3163a6b",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/14.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Instal·lació de gespa natural i artificial"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -658,7 +538,7 @@
       "isInner": false
     },
     {
-      "id": "e61527d",
+      "id": "8413be1",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -680,7 +560,7 @@
       },
       "elements": [
         {
-          "id": "03a6c0a",
+          "id": "ae7691a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -697,7 +577,7 @@
           },
           "elements": [
             {
-              "id": "58c12fc",
+              "id": "0ad9f37",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -716,7 +596,7 @@
               },
               "elements": [
                 {
-                  "id": "3538fbd",
+                  "id": "ffa5521",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -736,7 +616,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "733ab3e",
+                  "id": "453b8d0",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -754,7 +634,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "02ee443",
+                  "id": "c31849e",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -790,7 +670,7 @@
               "isInner": true
             },
             {
-              "id": "c40e499",
+              "id": "3a4d76a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -811,14 +691,14 @@
               },
               "elements": [
                 {
-                  "id": "99d5201",
+                  "id": "a6c6655",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-phone",
                       "library": "fa-solid"
                     },
-                    "title_text": "Truca'ns",
+                    "title_text": "Telèfons",
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
@@ -834,14 +714,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "61e9809",
+                  "id": "a9ac46b",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-envelope",
                       "library": "fa-solid"
                     },
-                    "title_text": "Escriu-nos",
+                    "title_text": "Correu electrònic",
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
@@ -857,14 +737,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "6611278",
+                  "id": "6070585",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-map-marker-alt",
                       "library": "fa-solid"
                     },
-                    "title_text": "Visita'ns",
+                    "title_text": "Adreça",
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
@@ -891,6 +771,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Instal·lació de Gespa - New Tree",
+  "title": "Instal·lació de gespa natural i artificial - New Tree",
   "type": "page"
 }

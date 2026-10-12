@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "1763b3f",
+      "id": "56695f8",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "94f6f93",
+          "id": "af82730",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "3e4dba7",
+              "id": "64564e2",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -79,10 +79,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "4188b88",
+              "id": "8b9a6e3",
               "elType": "widget",
               "settings": {
-                "title": "Una empresa de <span style=\"color:#4E8C3F\">jardineria</span>",
+                "title": "<span style=\"color:#4E8C3F\">Empresa</span>",
                 "header_size": "h1",
                 "align": "left",
                 "title_color": "#FFFFFF",
@@ -99,10 +99,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "9dc77dd",
+              "id": "56f8944",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Empresa de jardineria privada i pública.</p>",
+                "editor": "<p>New Tree convertim un desert en un jardí</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -117,7 +117,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "025beff",
+              "id": "bd8116e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -134,7 +134,7 @@
               },
               "elements": [
                 {
-                  "id": "0c89a4e",
+                  "id": "0176edc",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -176,7 +176,7 @@
       "isInner": false
     },
     {
-      "id": "b4ebbee",
+      "id": "1a996eb",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -198,7 +198,7 @@
       },
       "elements": [
         {
-          "id": "30c309c",
+          "id": "b06152d",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -215,7 +215,7 @@
           },
           "elements": [
             {
-              "id": "ee7821b",
+              "id": "07e45ea",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -234,61 +234,16 @@
               },
               "elements": [
                 {
-                  "id": "295352b",
+                  "id": "520f196",
                   "elType": "widget",
                   "settings": {
-                    "title": "EMPRESA",
-                    "header_size": "p",
-                    "align": "left",
-                    "title_color": "#E14D5A",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "600",
-                    "letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    },
-                    "typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "cc9580c",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "New Tree convertim un desert en un jardí",
-                    "header_size": "h2",
-                    "align": "left",
-                    "title_color": "#1E2A22",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 30,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "5d46780",
-                  "elType": "widget",
-                  "settings": {
-                    "editor": "<p>Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. New Tree, empresa fundada l'any 1977, dedicada a la jardineria privada i pública.</p>",
+                    "editor": "<p>Empresa de jardineria privada i pública oferim servei a tota la província de Girona: Figueres, Roses, L'Escala, Empuriabrava, Peralada, Castelló d'Empúries, Llançà.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     },
                     "typography_font_family": "Nunito"
@@ -297,16 +252,16 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "d3c657c",
+                  "id": "f53676b",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Oferim serveis que van des de l'assessorament i disseny de jardins fins a l'execució i el manteniment d'aquests.</p>",
+                    "editor": "<p>Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. New Tree, empresa fundada l'any 1977 dedicada a la jardineria privada i pública.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     },
                     "typography_font_family": "Nunito"
@@ -315,7 +270,25 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "f108ac3",
+                  "id": "2ae711b",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Ofereix serveis que van des de l'assessorament i disseny de jardins fins a l'execució i el manteniment d'aquests.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "sizes": []
+                    },
+                    "typography_font_family": "Nunito"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "e732e29",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Disposem dels recursos humans, tècnics i de maquinària necessaris per a la realització de qualsevol feina de jardineria pública, privada o de gestió del paisatge.</p>",
@@ -324,7 +297,25 @@
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
+                      "sizes": []
+                    },
+                    "typography_font_family": "Nunito"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "1c07d14",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p>Oferim serveis a tot Girona, Figueres, Empuriabrava, Castelló d'Empúries, Port de la Selva.</p>",
+                    "text_color": "#6B7280",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
                       "sizes": []
                     },
                     "typography_font_family": "Nunito"
@@ -336,7 +327,7 @@
               "isInner": true
             },
             {
-              "id": "78d7fdb",
+              "id": "3ee4553",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -347,7 +338,7 @@
               },
               "elements": [
                 {
-                  "id": "97e887f",
+                  "id": "3db85ed",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -370,7 +361,7 @@
       "isInner": false
     },
     {
-      "id": "58e7db9",
+      "id": "0d10115",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -392,10 +383,10 @@
       },
       "elements": [
         {
-          "id": "6fb63b5",
+          "id": "7c2fd3b",
           "elType": "widget",
           "settings": {
-            "title": "La nostra vocació",
+            "title": "La nostra principal vocació",
             "header_size": "h2",
             "align": "left",
             "title_color": "#FFFFFF",
@@ -412,7 +403,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "d17497c",
+          "id": "038ada1",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -429,7 +420,7 @@
           },
           "elements": [
             {
-              "id": "d609151",
+              "id": "f88e030",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -440,20 +431,20 @@
               },
               "elements": [
                 {
-                  "id": "9062aa0",
+                  "id": "db81914",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-tree",
                       "library": "fa-solid"
                     },
-                    "title_text": "Integrats amb l'entorn",
-                    "description_text": "Espais integrats amb l'entorn natural de la zona",
+                    "title_text": "Crear espais integrats amb l'entorn natural de la zona",
+                    "description_text": "",
                     "position": "top",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9",
+                    "description_color": "#6B7280",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -466,7 +457,7 @@
               "isInner": true
             },
             {
-              "id": "5da8521",
+              "id": "252ca5c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -477,20 +468,20 @@
               },
               "elements": [
                 {
-                  "id": "13375a3",
+                  "id": "2565244",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-tint",
                       "library": "fa-solid"
                     },
-                    "title_text": "Baix manteniment",
-                    "description_text": "Jardins sostenibles amb els recursos hídrics",
+                    "title_text": "Crear jardins de baix manteniment, sostenibles amb els recursos hídrics",
+                    "description_text": "",
                     "position": "top",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9",
+                    "description_color": "#6B7280",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -503,7 +494,7 @@
               "isInner": true
             },
             {
-              "id": "a25262f",
+              "id": "ac8c114",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -514,20 +505,20 @@
               },
               "elements": [
                 {
-                  "id": "bc24226",
+                  "id": "9150d7a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-leaf",
                       "library": "fa-solid"
                     },
-                    "title_text": "Natura a cada jardí",
-                    "description_text": "Portar part de la natura a cada jardí que dissenyem",
+                    "title_text": "Poder portar part de la natura a cada jardí que dissenyem",
+                    "description_text": "",
                     "position": "top",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9",
+                    "description_color": "#6B7280",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -540,7 +531,7 @@
               "isInner": true
             },
             {
-              "id": "e782f27",
+              "id": "8aff1d6",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -551,20 +542,20 @@
               },
               "elements": [
                 {
-                  "id": "3e1748e",
+                  "id": "6e688d3",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-smile",
                       "library": "fa-solid"
                     },
-                    "title_text": "Espais per gaudir",
-                    "description_text": "El més important: crear espais per poder gaudir",
+                    "title_text": "I, el més important, crear espais per poder gaudir",
+                    "description_text": "",
                     "position": "top",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9",
+                    "description_color": "#6B7280",
                     "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
                     "description_typography_typography": "custom",
@@ -583,7 +574,7 @@
       "isInner": false
     },
     {
-      "id": "d3399d2",
+      "id": "d04c81a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -593,7 +584,7 @@
           "size": 100
         },
         "background_background": "classic",
-        "background_color": "#F6F7F5",
+        "background_color": "#FFFFFF",
         "padding": {
           "unit": "px",
           "top": "70",
@@ -605,35 +596,15 @@
       },
       "elements": [
         {
-          "id": "9df8a6f",
-          "elType": "widget",
-          "settings": {
-            "title": "Treballem a tota la província de Girona",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700",
-            "typography_font_family": "Nunito"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "3138c14",
+          "id": "02da794",
           "elType": "container",
           "settings": {
             "content_width": "full",
             "flex_direction": "row",
             "flex_wrap": "wrap",
             "flex_gap": {
-              "column": "20",
-              "row": "20",
+              "column": "24",
+              "row": "24",
               "unit": "px",
               "isLinked": true
             },
@@ -642,211 +613,256 @@
           },
           "elements": [
             {
-              "id": "0815cd5",
-              "elType": "widget",
+              "id": "fbb2789",
+              "elType": "container",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-map-marker-alt",
-                  "library": "fa-solid"
-                },
-                "title_text": "Girona",
-                "description_text": "",
-                "position": "left",
-                "title_size": "h4",
-                "icon_color": "#4E8C3F",
-                "title_color": "#1E2A22",
-                "description_color": "#6B7280",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Nunito",
-                "description_typography_typography": "custom",
-                "description_typography_font_family": "Nunito"
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
               },
-              "elements": [],
-              "widgetType": "icon-box"
+              "elements": [
+                {
+                  "id": "f0ca249",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/11.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Empresa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
             },
             {
-              "id": "8e7cf26",
-              "elType": "widget",
+              "id": "15780fa",
+              "elType": "container",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-map-marker-alt",
-                  "library": "fa-solid"
-                },
-                "title_text": "Figueres",
-                "description_text": "",
-                "position": "left",
-                "title_size": "h4",
-                "icon_color": "#4E8C3F",
-                "title_color": "#1E2A22",
-                "description_color": "#6B7280",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Nunito",
-                "description_typography_typography": "custom",
-                "description_typography_font_family": "Nunito"
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
               },
-              "elements": [],
-              "widgetType": "icon-box"
+              "elements": [
+                {
+                  "id": "a48cdaf",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/10.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Empresa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
             },
             {
-              "id": "52244c2",
-              "elType": "widget",
+              "id": "22c9fca",
+              "elType": "container",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-map-marker-alt",
-                  "library": "fa-solid"
-                },
-                "title_text": "Roses",
-                "description_text": "",
-                "position": "left",
-                "title_size": "h4",
-                "icon_color": "#4E8C3F",
-                "title_color": "#1E2A22",
-                "description_color": "#6B7280",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Nunito",
-                "description_typography_typography": "custom",
-                "description_typography_font_family": "Nunito"
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
               },
-              "elements": [],
-              "widgetType": "icon-box"
+              "elements": [
+                {
+                  "id": "4142e4b",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/9.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Empresa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
             },
             {
-              "id": "cf1096b",
-              "elType": "widget",
+              "id": "dc151ce",
+              "elType": "container",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-map-marker-alt",
-                  "library": "fa-solid"
-                },
-                "title_text": "L'Escala",
-                "description_text": "",
-                "position": "left",
-                "title_size": "h4",
-                "icon_color": "#4E8C3F",
-                "title_color": "#1E2A22",
-                "description_color": "#6B7280",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Nunito",
-                "description_typography_typography": "custom",
-                "description_typography_font_family": "Nunito"
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
               },
-              "elements": [],
-              "widgetType": "icon-box"
+              "elements": [
+                {
+                  "id": "c36cad0",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/12.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Empresa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
             },
             {
-              "id": "8e5f254",
-              "elType": "widget",
+              "id": "8e6dbd9",
+              "elType": "container",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-map-marker-alt",
-                  "library": "fa-solid"
-                },
-                "title_text": "Empuriabrava",
-                "description_text": "",
-                "position": "left",
-                "title_size": "h4",
-                "icon_color": "#4E8C3F",
-                "title_color": "#1E2A22",
-                "description_color": "#6B7280",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Nunito",
-                "description_typography_typography": "custom",
-                "description_typography_font_family": "Nunito"
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
               },
-              "elements": [],
-              "widgetType": "icon-box"
+              "elements": [
+                {
+                  "id": "a3cbfd6",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/13.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Empresa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
             },
             {
-              "id": "83a879d",
-              "elType": "widget",
+              "id": "1db3902",
+              "elType": "container",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-map-marker-alt",
-                  "library": "fa-solid"
-                },
-                "title_text": "Peralada",
-                "description_text": "",
-                "position": "left",
-                "title_size": "h4",
-                "icon_color": "#4E8C3F",
-                "title_color": "#1E2A22",
-                "description_color": "#6B7280",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Nunito",
-                "description_typography_typography": "custom",
-                "description_typography_font_family": "Nunito"
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
               },
-              "elements": [],
-              "widgetType": "icon-box"
+              "elements": [
+                {
+                  "id": "530f7db",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/14.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Empresa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
             },
             {
-              "id": "2231f78",
-              "elType": "widget",
+              "id": "701e945",
+              "elType": "container",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-map-marker-alt",
-                  "library": "fa-solid"
-                },
-                "title_text": "Castelló d'Empúries",
-                "description_text": "",
-                "position": "left",
-                "title_size": "h4",
-                "icon_color": "#4E8C3F",
-                "title_color": "#1E2A22",
-                "description_color": "#6B7280",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Nunito",
-                "description_typography_typography": "custom",
-                "description_typography_font_family": "Nunito"
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
               },
-              "elements": [],
-              "widgetType": "icon-box"
+              "elements": [
+                {
+                  "id": "497d551",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/15.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Empresa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
             },
             {
-              "id": "1f4c97d",
-              "elType": "widget",
+              "id": "3845054",
+              "elType": "container",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-map-marker-alt",
-                  "library": "fa-solid"
-                },
-                "title_text": "Llançà",
-                "description_text": "",
-                "position": "left",
-                "title_size": "h4",
-                "icon_color": "#4E8C3F",
-                "title_color": "#1E2A22",
-                "description_color": "#6B7280",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Nunito",
-                "description_typography_typography": "custom",
-                "description_typography_font_family": "Nunito"
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
               },
-              "elements": [],
-              "widgetType": "icon-box"
+              "elements": [
+                {
+                  "id": "0ff5d6d",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/16.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Empresa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
             },
             {
-              "id": "e641682",
-              "elType": "widget",
+              "id": "c5c7982",
+              "elType": "container",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-map-marker-alt",
-                  "library": "fa-solid"
-                },
-                "title_text": "Port de la Selva",
-                "description_text": "",
-                "position": "left",
-                "title_size": "h4",
-                "icon_color": "#4E8C3F",
-                "title_color": "#1E2A22",
-                "description_color": "#6B7280",
-                "title_typography_typography": "custom",
-                "title_typography_font_family": "Nunito",
-                "description_typography_typography": "custom",
-                "description_typography_font_family": "Nunito"
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
               },
-              "elements": [],
-              "widgetType": "icon-box"
+              "elements": [
+                {
+                  "id": "3ba2bf3",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/17.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Empresa"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
             }
           ],
           "isInner": true
@@ -855,7 +871,7 @@
       "isInner": false
     },
     {
-      "id": "c30da70",
+      "id": "ba2b945",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -877,7 +893,7 @@
       },
       "elements": [
         {
-          "id": "0ffdd75",
+          "id": "81dee5d",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -894,7 +910,7 @@
           },
           "elements": [
             {
-              "id": "a92465b",
+              "id": "ccb2b73",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -913,7 +929,7 @@
               },
               "elements": [
                 {
-                  "id": "20e453c",
+                  "id": "5a82ac0",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -933,7 +949,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "61d1e6d",
+                  "id": "490e932",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -951,7 +967,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "cb7f371",
+                  "id": "f01cfdd",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -987,7 +1003,7 @@
               "isInner": true
             },
             {
-              "id": "36d0bb5",
+              "id": "d08d3b3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1008,14 +1024,14 @@
               },
               "elements": [
                 {
-                  "id": "01eeeca",
+                  "id": "781f5ab",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-phone",
                       "library": "fa-solid"
                     },
-                    "title_text": "Truca'ns",
+                    "title_text": "Telèfons",
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
@@ -1031,14 +1047,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "210cc8b",
+                  "id": "84456e4",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-envelope",
                       "library": "fa-solid"
                     },
-                    "title_text": "Escriu-nos",
+                    "title_text": "Correu electrònic",
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
@@ -1054,14 +1070,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "3619c39",
+                  "id": "7889aa3",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-map-marker-alt",
                       "library": "fa-solid"
                     },
-                    "title_text": "Visita'ns",
+                    "title_text": "Adreça",
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",

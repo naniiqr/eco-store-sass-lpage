@@ -1,4 +1,5 @@
-"""Genera los JSON de Elementor de las páginas de servicio con el contenido real de newtree.cat.
+"""Páginas de servicio con el TEXTO LITERAL de newtree.cat (solo se corrigen erratas tipográficas)
+dentro del diseño del rediseño (mismos colores, hero, tarjetas y banner del PDF).
 
 Uso: python3 build_servicios.py   (escribe en ../servicios/)
 """
@@ -8,178 +9,130 @@ from lib_elementor import *
 BASE = "https://newtree.cat/wp-content/uploads/"
 HERO_IMG = {"url": BASE + "2020/04/f3.jpg", "id": ""}
 MAIL = "mailto:info@newtree.cat"
+SLOGAN = "New Tree convertim un desert en un jardí"
 
 
 def img(path, label=None):
-    """Imagen real del sitio actual; sin path -> placeholder descriptivo."""
     if path:
         return {"url": BASE + path, "id": ""}
     return ph(label or "Foto", 900, 650, bg="c9d9c2", fg="1e2a22")
 
 
+def h1_green(title):
+    """Título original con la última palabra en verde."""
+    head, _, last = title.rpartition(" ")
+    return (head + " " if head else "") + '<span style="color:%s">%s</span>' % (GREEN, last)
+
+
 # ---------------------------------------------------------------
-# Contenido por página (textos tal cual de la web actual)
+# Contenido: texto original de cada página
 # ---------------------------------------------------------------
 PAGES = [
-    dict(
-        file="disseny-i-construccio-de-jardins", title="Disseny i Construcció de Jardins",
-        h1="Disseny i construcció de <span style=\"color:%s\">jardins</span>" % GREEN,
-        lead="Disseny i creació de jardins a mida.",
-        paras=[
-            "Us oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder-vos oferir un servei totalment personalitzat.",
-            "Cada racó té les seves pròpies característiques: l'objectiu és dissenyar el jardí intentant ressaltar els seus punts forts.",
-            "Això vol dir tenir en compte tres conceptes importants: proporció, unitat i línies geomètriques.",
-            "La proporció es refereix sobretot a la mida del que volem plantar, ha de ser proporcionat.",
-            "Els elements naturals també contribueixen a aquesta funció: els arbres que es desenvolupen horitzontalment donen una sensació de tranquil·litat; els verticals, en canvi, donen una sensació d'ordre i dinamisme.",
-        ],
-        side=img("2021/08/Disseny-de-jardins.jpg"),
-        list_title="Tres conceptes clau", list_icon="check-circle",
-        items=[("Proporció", "La mida del que plantem ha de ser proporcionada."),
-               ("Unitat", ""), ("Línies geomètriques", "")],
-        gallery=["2021/08/Disseny-de-jardins2.jpg", "2021/08/Disseny-de-jardins3.jpg",
-                 "2021/07/gespa-artificial-6.jpeg"],
-    ),
-    dict(
-        file="sistemes-de-reg", title="Sistemes de Reg",
-        h1="Sistemes de <span style=\"color:%s\">reg</span>" % GREEN,
-        lead="Els podem assessorar en quin és el millor sistema de reg automàtic.",
-        paras=[
-            "El reg automàtic distribueix artificialment l'aigua necessària per al desenvolupament de les plantes, especialment en períodes de calor quan falten pluges.",
-            "Oferim serveis de disseny i instal·lació de sistemes de reg automàtic per a terrasses, parcs i jardins de diverses dimensions.",
-            "Programables i que funcionen de forma independent, els sistemes de reg automàtic són l'elecció perfecta per a aquells que volen regar el seu jardí en el moment que volen.",
-        ],
-        side=img("2020/04/2.png"),
-        list_title="Reg automàtic", list_icon="tint",
-        items=[("Disseny", "Per a terrasses, parcs i jardins de diverses dimensions"),
-               ("Instal·lació", "Sistemes de reg automàtic"),
-               ("Programables", "Funcionen de forma independent")],
-        gallery=[],
-    ),
-    dict(
-        file="installacio-de-gespa", title="Instal·lació de Gespa",
-        h1="Instal·lació de <span style=\"color:%s\">gespa</span>" % GREEN,
-        lead="Instal·lació de gespa natural i artificial.",
-        paras=[
-            "La gespa és una de les parts més importants de qualsevol jardí i la primera impressió. Més enllà de l'aspecte estètic, ofereix un espai adequat perquè hi juguin els infants i les mascotes.",
-            "Gràcies als avenços tecnològics, és possible disposar de gespa natural o gespa artificial de molt bona qualitat.",
-            "Us recomanem demanar assessorament professional per triar entre gespa artificial o natural, ja que la decisió depèn de les circumstàncies de cada cas. Us expliquem els avantatges de cada opció.",
-        ],
-        side=img("2021/07/gespa-artificial-6.jpeg"),
-        list_title="Natural o artificial", list_icon="leaf",
-        items=[("Gespa natural", "Avantatges segons cada cas"),
-               ("Gespa artificial", "De molt bona qualitat")],
-        gallery=["2021/07/gespa-artificial-3.jpeg", "2021/07/gespa-artificial-4.jpeg",
-                 "2021/07/gespa-artificial-5.jpeg"],
-    ),
-    dict(
-        file="manteniment-de-jardins", title="Manteniment de Jardins",
-        h1="Manteniment de <span style=\"color:%s\">jardins</span>" % GREEN,
-        lead="Manteniment de jardins dels experts.",
-        paras=[
-            "Els serveis de jardineria ofereixen un toc professional. Durant les estacions càlides, les plantes floreixen i embelleixen la propietat, però el manteniment pot resultar complicat. Us oferim assistència especialitzada.",
-            "Podem arreglar vores de jardí descuidades, podar arbres, treure flors mortes, escampar fertilitzants, fer el manteniment de gespa i us assessorarem de quines accions són les millors en cada moment.",
-            "New Tree ofereix un manteniment expert per garantir que el jardí de casa tingui una vista impressionant.",
-        ],
-        side=img("2021/08/mantenimet.jpg"),
-        list_title="Què inclou", list_icon="check",
-        items=[("Control de males herbes invasives", ""), ("Prevenció de sòls compactats", ""),
-               ("Serveis de cobertura", ""), ("Serveis de reg", ""),
-               ("Prevenció de danys per neu o gel", "")],
-        gallery=[],
-    ),
-    dict(
-        file="jardins-verticals", title="Jardins Verticals",
-        h1="Jardins <span style=\"color:%s\">verticals</span>" % GREEN,
-        lead="Una nova tendència per a interiors i exteriors.",
-        paras=[
-            "Una nova tendència són els jardins verticals: podeu donar un ambient diferent i acollidor tant en interior com en exteriors, restaurants, sales d'espera, escoles, empreses… Oferim infinitat de dissenys amb nombrosos beneficis a nivell econòmic, ecològic i social.",
-            "Una façana vegetal ajuda a purificar l'aire, reduir la temperatura ambient, regular la temperatura i promou la biodiversitat a la ciutat. Els jardins verticals formen part de la construcció bioclimàtica. I, a més, la gent és més feliç en un entorn verd que en un entorn gris.",
-        ],
-        side=img("2021/08/vertical-jpg.jpeg"),
-        list_title="Beneficis", list_icon="seedling",
-        items=[("Purifica l'aire", ""), ("Redueix i regula la temperatura", ""),
-               ("Promou la biodiversitat", ""), ("Construcció bioclimàtica", "")],
-        gallery=["2021/08/vertical.jpg", "2021/08/vertical-j.jpg"],
-    ),
-    dict(
-        file="terres-i-substrats", title="Terres i Substrats",
-        h1="Terres i <span style=\"color:%s\">substrats</span>" % GREEN,
-        lead="El sòl, essencial per a jardins sostenibles.",
-        paras=[
-            "L'ús de pràctiques de jardineria sostenibles pot ajudar-nos a restaurar els beneficis que brinden els nostres sòls. Recomanem fer aportacions de terra en format de sacs, box o camions.",
-            "Respecte a la grava, funciona molt bé com a coberta en parterres o simplement per decorar parts d'un jardí. Millora el drenatge, manté la temperatura i airea el sòl, cosa que protegeix les arrels de les plantes.",
-        ],
-        side=img("2021/08/terres.jpeg"),
-        list_title="Formats d'aportació", list_icon="box",
-        items=[("Sacs", ""), ("Box", ""), ("Camions", "")],
-        gallery=["2021/08/terres-4.jpeg", "2021/08/terres-5.jpeg", "2021/08/terres3.jpeg",
-                 "2021/08/terres-saca.jpeg", "2021/08/GRAVA.jpeg"],
-    ),
-    dict(
-        file="nateja-parceles", title="Neteja de Parcel·les",
-        h1="Neteja de <span style=\"color:%s\">parcel·les</span>" % GREEN,
-        lead="Oferim el servei de neteja de parcel·les.",
-        paras=["Oferim el servei de neteja de parcel·les. Contacteu-nos i us farem arribar un pressupost."],
-        side=img("2021/08/neteja-de-parcelles-1.jpeg"),
-        list_title=None, list_icon=None, items=[],
-        gallery=["2021/08/neteja-de-parcelles-1-1.jpeg"],
-    ),
-    dict(
-        file="tanques-murs", title="Tanques i Murs de Contenció",
-        h1="Tanques i murs de <span style=\"color:%s\">contenció</span>" % GREEN,
-        lead="Totalment adaptats a l'entorn.",
-        paras=[
-            "Fem tot tipus de tanques, tant metàl·liques com de fusta, totalment adaptades a l'entorn per minimitzar l'impacte visual.",
-            "Murs de contenció per anivellar terrenys.",
-        ],
-        side=img("2021/08/tancaments.jpeg"),
-        list_title="Què fem", list_icon="check",
-        items=[("Tanques metàl·liques", ""), ("Tanques de fusta", ""),
-               ("Murs de contenció", "Per anivellar terrenys")],
-        gallery=["2021/08/tancaments-2.jpeg", "2021/08/mur-de-contenci%C3%B3.jpeg"],
-    ),
-    dict(
-        file="podes", title="Podes",
-        h1="Servei de <span style=\"color:%s\">podes</span>" % GREEN,
-        lead="Per allargar la vida dels arbres.",
-        paras=[
-            "La poda d'arbres és fonamental, si es realitza correctament, per allargar-ne la vida; ara bé, s'ha de fer només si és necessari.",
-        ],
-        side=img("2020/04/Poda.jpg"),
-        list_title="Objectius de la poda", list_icon="check",
-        items=[("Desenvolupament correcte", "Millora de la salut i l'estructura dels arbres"),
-               ("Adequar l'arbre a l'espai", "On es desenvolupa"),
-               ("Evitar la caiguda de branques", "Que podrien fer mal a les persones o als béns"),
-               ("Evitar afectacions", "Al pas de vianants, vehicles i senyals viàries"),
-               ("Reequilibrar", "Arbres o copes mal formades"),
-               ("Evitar malalties", "Que no s'estenguin")],
-        gallery=["2020/04/19.png", "2020/04/20.png"],
-    ),
+    dict(file="disseny-i-construccio-de-jardins", title="Disseny i Construcció de Jardins",
+         paras=[
+             "Us oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder-vos oferir un servei totalment personalitzat.",
+             "Cada racó té les seves pròpies característiques: l'objectiu és dissenyar el jardí intentant ressaltar els seus punts forts.",
+             "Això vol dir tenir en compte tres conceptes importants: proporció, unitat i línies geomètriques.",
+             "La proporció es refereix sobretot a la mida del que volem plantar, ha de ser proporcionat. Mai inserir plantes que siguin massa petites o massa grans.",
+             "Els elements naturals també contribueixen a aquesta funció: els arbres que es desenvolupen horitzontalment donen una sensació de tranquil·litat; els verticals, en canvi, donen una sensació d'ordre i dinamisme.",
+         ],
+         side=img("2021/08/Disseny-de-jardins.jpg"),
+         list_title="Tres conceptes importants", list_icon="check-circle",
+         items=[("Proporció", ""), ("Unitat", ""), ("Línies geomètriques", "")],
+         gallery=["2021/08/Disseny-de-jardins2.jpg", "2021/08/Disseny-de-jardins3.jpg",
+                  "2021/07/gespa-artificial-6.jpeg", "2021/07/gespa-artificial-3.jpeg",
+                  "2020/04/11.png", "2020/04/16.png"]),
+    dict(file="sistemes-de-reg", title="Sistemes de Reg",
+         paras=[
+             "Els podem assessorar en quin és el millor sistema de reg automàtic.",
+             "El reg automàtic permet la distribució artificial d'aigua a les plantes, la qual cosa és necessari per al seu desenvolupament, especialment en els períodes més calorosos, quan les pluges no són prou freqüents. A New Tree ens encarreguem de dissenyar i instal·lar sistemes de reg automàtic, terrasses, parcs i jardins de qualsevol mida.",
+             "Programables i que funcionen de forma independent, els sistemes de reg automàtic són l'elecció perfecta per a aquells que volen regar el seu jardí en el moment que volen, fins i tot quan no són a casa. Hi ha diverses solucions molt pràctiques que et permetran tenir el teu propi sistema sense alterar l'estructura de jardí. Els nostres professionals sempre us assessoraran de la millor manera, proporcionant la realització de sistemes de reg automàtic.",
+         ],
+         side=img("2020/04/2.png"), list_title=None, items=[], gallery=[]),
+    dict(file="installacio-de-gespa", title="Instal·lació de gespa natural i artificial",
+         paras=[
+             "Com a imatge clàssica de qualsevol casa, la gespa és una de les parts més importants de qualsevol jardí i la primera impressió. A part de l'estètica visual, la gespa serveix com un espai ideal perquè juguin els nens i les mascotes.",
+             "Gràcies als avenços tecnològics, tenim l'opció de tenir una gespa natural o gespa artificial de molt bona qualitat.",
+             "Prendre la decisió entre una gespa artificial o gespa natural per a molts propietaris necessita assessorament de professionals per decidir quina opció és la més adient en cada cas. Per ajudar-lo a decidir quin és millor per a vostè, li podrem dir els avantatges en cada cas.",
+         ],
+         side=img("2021/07/gespa-artificial-6.jpeg"), list_title=None, items=[],
+         gallery=["2021/07/gespa-artificial-3.jpeg", "2021/07/gespa-artificial-4.jpeg",
+                  "2021/07/gespa-artificial-5.jpeg", "2020/04/12.png", "2020/04/13.png", "2020/04/14.png"]),
+    dict(file="manteniment-de-jardins", title="Manteniment de jardins",
+         paras=[
+             "Una de les millors formes de donar-li a la seva propietat un toc professional és amb els serveis de jardineria. Durant la primavera i l'estiu, les flors fragants i saludables faran que la seva propietat sigui encara més agradable i atractiva. Potser ja tingui excel·lents flors, però de vegades el manteniment de jardí és més fàcil de dir que de fer. New Tree són aquí per ajudar.",
+         ],
+         side=img("2021/08/mantenimet.jpg"),
+         list_title="Manteniment de jardins dels experts", list_icon="check",
+         items=[("Control de males herbes invasives", ""), ("Prevenció de sòls compactats", ""),
+                ("Serveis de cobertura", ""), ("Serveis de reg", ""),
+                ("Prevenció de danys per neu o gel…", "")],
+         after=["Podem arreglar vores de jardí descuidats, podar arbres, flors mortes, escampar fertilitzants, manteniment de gespa i donarem assessorament de quines accions són les millors en cada moment.",
+                "New Tree ofereix un manteniment expert per garantir que el jardí de casa tingui una vista impressionant."],
+         gallery=["2020/04/11.png"]),
+    dict(file="jardins-verticals", title="Jardins verticals",
+         paras=[
+             "Una nova tendència són els jardins verticals, pots donar un ambient diferent i acollidor tant en interior com exteriors, restaurants, sales d'espera, escoles, empreses… Oferim infinits dissenys amb nombrosos beneficis a nivell econòmic, ecològic i social.",
+             "Una façana vegetal ajuda a purificar l'aire, reduir la temperatura ambient, regular la temperatura i promou la biodiversitat a la ciutat. Els jardins verticals formen part de la construcció bioclimàtica. I, és més, la gent és més feliç en un entorn verd que en un entorn gris.",
+         ],
+         side=img("2021/08/vertical-jpg.jpeg"),
+         list_title="Beneficis", list_icon="seedling",
+         items=[("Purifica l'aire", ""), ("Redueix la temperatura ambient", ""),
+                ("Regula la temperatura", ""), ("Promou la biodiversitat a la ciutat", "")],
+         gallery=["2020/04/5.png", "2021/08/vertical.jpg", "2021/08/vertical-j.jpg"]),
+    dict(file="terres-i-substrats", title="Terres i substrats",
+         paras=[
+             "El sòl és fonamental per a l'èxit dels jardins sostenibles i proporciona importants beneficis ambientals. L'ús de pràctiques de jardineria sostenibles pot ajudar-nos a restaurar els beneficis que brinden els nostres sòls i és molt recomanable fer aportacions de terra, tant podem servir en format de sacs com amb box o camions.",
+             "La grava funciona molt bé com coberta de la taulada en parterres o tan sols per decorar parts d'un jardí. A més d'ajudar el drenatge de l'aigua, mantenen la temperatura de la terra i contribueixen que estigui ben airejat. Això esmorteeix l'efecte de les altes temperatures i ajuda a protegir les arrels de les plantes.",
+         ],
+         side=img("2021/08/terres.jpeg"),
+         list_title="Aportacions de terra", list_icon="box",
+         items=[("Sacs", ""), ("Box", ""), ("Camions", "")],
+         gallery=["2021/08/terres-4.jpeg", "2021/08/terres-5.jpeg", "2021/08/terres-.jpeg",
+                  "2021/08/terres3.jpeg", "2021/08/terres-saca.jpeg", "2021/08/GRAVA.jpeg"]),
+    dict(file="nateja-parceles", title="Neteja de parcel·les",
+         paras=["Oferim el servei de neteja de parcel·les."],
+         side=img("2021/08/neteja-de-parcelles-1.jpeg"), list_title=None, items=[],
+         gallery=["2021/08/neteja-de-parcelles-1-1.jpeg"]),
+    dict(file="tanques-murs", title="Tanques i murs de contenció",
+         paras=["Fem tot tipus de tanques, tant les metàl·liques o de fusta totalment adaptades a l'entorn per minimitzar l'impacte visual.",
+                "Murs de contenció per anivellar terrenys."],
+         side=img("2021/08/tancaments.jpeg"),
+         list_title=None, items=[],
+         gallery=["2021/08/tancaments-2.jpeg", "2021/08/mur-de-contenci%C3%B3.jpeg"]),
+    dict(file="podes", title="Servei de podes",
+         paras=["La poda d'arbres és fonamental, si es realitza correctament, per allargar la vida dels mateixos, ara bé s'ha de fer només si és necessari."],
+         side=img("2020/04/Poda.jpg"),
+         list_title="Objectius de la poda d'arbres", list_icon="check",
+         items=[("Mantenir un desenvolupament correcte dels arbres, millora de la seva salut i estructura.", ""),
+                ("Adequar l'arbre a l'espai on es desenvolupa.", ""),
+                ("Evitar la caiguda de branques que podrien fer mal a les persones o els béns, i descarregar de pes el brancatge.", ""),
+                ("Evitar que el brancatge afecti el pas de vianants, vehicles, senyals viàries…", ""),
+                ("Reequilibrar els arbres o les copes mal formades, millorant la seva bellesa.", ""),
+                ("Evitar que s'estenguin les malalties.", "")],
+         gallery=["2020/04/19.png", "2020/04/20.png"]),
 ]
 
-# Obra pública (a newtree.cat vive en /jardineria-2/) — hub con enlaces a los servicios
+# Obra pública (a newtree.cat vive en /jardineria-2/)
 OBRA_PUBLICA = dict(
-    file="obra-publica", title="Obra Pública",
-    h1="Obra <span style=\"color:%s\">pública</span>" % GREEN,
-    lead="Més de 50 anys d'experiència.",
-    paras=["Molts ajuntaments confien en New Tree a l'hora de fer la seva obra pública. Amb més de 50 anys d'experiència, oferim les millors solucions per a cada cas."],
-    side=img(None, "Foto obra pública"),
-    list_title=None, list_icon=None, items=[],
-    gallery=[],
+    file="obra-publica", title="Obra pública",
+    paras=["Molts ajuntaments confien amb New Tree a l'hora de fer la seva obra pública, New Tree, amb més de 50 anys d'experiència, oferim les millors solucions per cada cas."],
+    side=img("2021/08/obra-publica-jardins.jpeg"), list_title=None, items=[],
+    gallery=["2020/04/Obra-publica.jpg"],
     hub=[("Disseny i Construcció de Jardins", "disseny-i-construccio-de-jardins"),
          ("Sistemes de Reg", "sistemes-de-reg"),
          ("Instal·lació de Gespa", "instal%c2%b7lacio-de-gespa"),
-         ("Manteniment de Jardins", "manteniment-de-jardins"),
-         ("Jardins Verticals", "jardins-verticals"),
-         ("Terres i Substrats", "terres-i-substrats"),
-         ("Neteja de Parcel·les", "nateja-parceles"),
+         ("Manteniment de jardins", "manteniment-de-jardins"),
+         ("Jardins verticals", "jardins-verticals"),
+         ("Terres i substrats", "terres-i-substrats"),
+         ("Nateja Parcel·les", "nateja-parceles"),
          ("Tanques i Murs", "tanques-murs"),
          ("Podes", "podes")],
 )
 
 
 # ---------------------------------------------------------------
-# Secciones
+# Secciones (diseño del rediseño)
 # ---------------------------------------------------------------
 def eyebrow(t, color=RED):
     return heading(t, size="p", color=color, font_size=13,
@@ -188,10 +141,11 @@ def eyebrow(t, color=RED):
 
 
 def hero_section(p):
+    h1 = p.get("h1") or h1_green(p["title"])
     inner = col(settings={"width": {"unit": "%", "size": 60}}, gap="20", elements=[
         eyebrow("NEW TREE · JARDINERIA", color=WHITE),
-        heading(p["h1"], size="h1", color=WHITE, font_size=48),
-        text(p["lead"], color="#E5E5E5", font_size=18),
+        heading(h1, size="h1", color=WHITE, font_size=48),
+        text(p.get("lead", SLOGAN), color="#E5E5E5", font_size=18),
         row(elements=[button("DEMANA PRESSUPOST", bg=GREEN, link=MAIL)], gap="16"),
     ])
     return section(settings={
@@ -203,24 +157,22 @@ def hero_section(p):
 
 
 def intro_section(p):
-    left = col(settings={"width": {"unit": "%", "size": 50}}, gap="18", elements=[
-        eyebrow(p["title"].upper()),
-        heading("New Tree convertim un desert en un jardí", size="h2", font_size=30),
-    ] + [text(t, font_size=16) for t in p["paras"]])
+    left = col(settings={"width": {"unit": "%", "size": 50}}, gap="18",
+               elements=[text(t, font_size=17) for t in p["paras"]])
     right = C({"content_width": "full", "width": {"unit": "%", "size": 45}}, [image(p["side"], alt=p["title"])])
     return section(settings={"background_background": "classic", "background_color": WHITE,
                              "padding": pad(80, 40, 80, 40)},
-                   elements=[row(elements=[left, right], gap="40", justify="space-between",
-                                 align="flex-start")])
+                   elements=[row(elements=[left, right], gap="40", justify="space-between", align="flex-start")])
 
 
 def list_section(p):
     boxes = [icon_box(p["list_icon"], t, d, position="left") for t, d in p["items"]]
+    els = [heading(p["list_title"], size="h2", font_size=30),
+           row(elements=[C({"content_width": "full", "width": {"unit": "%", "size": 31}}, [b]) for b in boxes],
+               gap="24", justify="flex-start", align="flex-start")]
+    els += [text(t, font_size=17) for t in p.get("after", [])]
     return section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
-                             "padding": pad(70, 40, 70, 40)},
-                   elements=[heading(p["list_title"], size="h2", font_size=30),
-                             row(elements=[C({"content_width": "full", "width": {"unit": "%", "size": 31}}, [b])
-                                           for b in boxes], gap="24", justify="flex-start", align="flex-start")])
+                             "padding": pad(70, 40, 70, 40)}, elements=els)
 
 
 def gallery_section(p):
@@ -230,8 +182,7 @@ def gallery_section(p):
              for g in p["gallery"]]
     return section(settings={"background_background": "classic", "background_color": WHITE,
                              "padding": pad(70, 40, 70, 40)},
-                   elements=[heading("Galeria", size="h2", font_size=30),
-                             row(elements=cells, gap="24", justify="flex-start", align="flex-start")])
+                   elements=[row(elements=cells, gap="24", justify="flex-start", align="flex-start")])
 
 
 def hub_section(p):
@@ -239,14 +190,14 @@ def hub_section(p):
                [button(t, bg=GREEN, link="https://newtree.cat/%s/" % slug)]) for t, slug in p["hub"]]
     return section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
                              "padding": pad(70, 40, 70, 40)},
-                   elements=[heading("Els nostres serveis", size="h2", font_size=30),
+                   elements=[heading("Jardineria", size="h2", font_size=30),
                              row(elements=cards, gap="20", justify="flex-start", align="flex-start")])
 
 
 def cta_section():
-    contact = [("phone", "Truca'ns", "(+34) 972 560 033 · (+34) 607 484 646"),
-               ("envelope", "Escriu-nos", "info@newtree.cat"),
-               ("map-marker-alt", "Visita'ns", "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483")]
+    contact = [("phone", "Telèfons", "(+34) 972 560 033 · (+34) 607 484 646"),
+               ("envelope", "Correu electrònic", "info@newtree.cat"),
+               ("map-marker-alt", "Adreça", "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483")]
     left = col(settings={"width": {"unit": "%", "size": 45}}, gap="16", elements=[
         heading("Tens un projecte de jardí?", size="h2", color=WHITE, font_size=30),
         text("Parlem-ne i t'ajudem a fer-lo realitat.", color="#D7DED9", font_size=16),
@@ -282,5 +233,4 @@ if __name__ == "__main__":
         with open(path, "w", encoding="utf-8") as f:
             json.dump(build(p), f, ensure_ascii=False, indent=2)
         with open(path, encoding="utf-8") as f:
-            n = len(json.load(f)["content"])
-        print(f"{p['file']}.json ok ({n} secciones)")
+            print(f"{p['file']}.json ok ({len(json.load(f)['content'])} secciones)")

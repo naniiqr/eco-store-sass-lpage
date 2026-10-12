@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "ab87164",
+      "id": "fca65fa",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "64bcd31",
+          "id": "76571f1",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "8459878",
+              "id": "341b2cb",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "cc856ff",
+              "id": "ade5876",
               "elType": "widget",
               "settings": {
                 "title": "Neteja de <span style=\"color:#4E8C3F\">parcel·les</span>",
@@ -97,10 +97,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "9893e6a",
+              "id": "f50eed1",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Oferim el servei de neteja de parcel·les.</p>",
+                "editor": "<p>New Tree convertim un desert en un jardí</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "957a493",
+              "id": "e01a960",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "786a35a",
+                  "id": "fb7e6f9",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "1044e46",
+      "id": "3bff045",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "1f258df",
+          "id": "156daa1",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "51210b7",
+              "id": "fb03f4f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,59 +229,16 @@
               },
               "elements": [
                 {
-                  "id": "e7b6bf1",
+                  "id": "fc407e1",
                   "elType": "widget",
                   "settings": {
-                    "title": "NETEJA DE PARCEL·LES",
-                    "header_size": "p",
-                    "align": "left",
-                    "title_color": "#E14D5A",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "600",
-                    "letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "2f05fc5",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "New Tree convertim un desert en un jardí",
-                    "header_size": "h2",
-                    "align": "left",
-                    "title_color": "#1E2A22",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 30,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "a515494",
-                  "elType": "widget",
-                  "settings": {
-                    "editor": "<p>Oferim el servei de neteja de parcel·les. Contacteu-nos i us farem arribar un pressupost.</p>",
+                    "editor": "<p>Oferim el servei de neteja de parcel·les.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -292,7 +249,7 @@
               "isInner": true
             },
             {
-              "id": "3f69168",
+              "id": "17601dd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -303,7 +260,7 @@
               },
               "elements": [
                 {
-                  "id": "a8f7146",
+                  "id": "a6eb642",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -311,7 +268,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Neteja de Parcel·les"
+                    "alt": "Neteja de parcel·les"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -326,7 +283,7 @@
       "isInner": false
     },
     {
-      "id": "f398645",
+      "id": "cde7cc3",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -348,26 +305,7 @@
       },
       "elements": [
         {
-          "id": "bba7caf",
-          "elType": "widget",
-          "settings": {
-            "title": "Galeria",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "258ffbd",
+          "id": "8ef58b7",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -384,7 +322,7 @@
           },
           "elements": [
             {
-              "id": "89c988d",
+              "id": "13ff38f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -395,7 +333,7 @@
               },
               "elements": [
                 {
-                  "id": "99b4b88",
+                  "id": "0b474de",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -403,7 +341,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Neteja de Parcel·les"
+                    "alt": "Neteja de parcel·les"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -418,7 +356,7 @@
       "isInner": false
     },
     {
-      "id": "37a2a1d",
+      "id": "0eacd03",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -440,7 +378,7 @@
       },
       "elements": [
         {
-          "id": "ab525ba",
+          "id": "62aa54e",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -457,7 +395,7 @@
           },
           "elements": [
             {
-              "id": "1219b68",
+              "id": "b55b3b0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -476,7 +414,7 @@
               },
               "elements": [
                 {
-                  "id": "3b0f332",
+                  "id": "bee4fd3",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -495,7 +433,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "089dbe6",
+                  "id": "9445c88",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -512,7 +450,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "a6b773b",
+                  "id": "dae514f",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -546,7 +484,7 @@
               "isInner": true
             },
             {
-              "id": "51f0261",
+              "id": "f01575c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -567,14 +505,14 @@
               },
               "elements": [
                 {
-                  "id": "3c89042",
+                  "id": "768d755",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-phone",
                       "library": "fa-solid"
                     },
-                    "title_text": "Truca'ns",
+                    "title_text": "Telèfons",
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
@@ -586,14 +524,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "0fa8768",
+                  "id": "fea53f3",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-envelope",
                       "library": "fa-solid"
                     },
-                    "title_text": "Escriu-nos",
+                    "title_text": "Correu electrònic",
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
@@ -605,14 +543,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "db1e2cb",
+                  "id": "54f902d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-map-marker-alt",
                       "library": "fa-solid"
                     },
-                    "title_text": "Visita'ns",
+                    "title_text": "Adreça",
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
@@ -635,6 +573,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Neteja de Parcel·les - New Tree",
+  "title": "Neteja de parcel·les - New Tree",
   "type": "page"
 }

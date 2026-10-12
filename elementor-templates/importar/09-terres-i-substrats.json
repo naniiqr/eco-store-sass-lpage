@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "54e8b9c",
+      "id": "a59b99b",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "6e1c9ea",
+          "id": "fb28c71",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "5d1dac9",
+              "id": "9a7090c",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -79,7 +79,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "03be6e6",
+              "id": "627a431",
               "elType": "widget",
               "settings": {
                 "title": "Terres i <span style=\"color:#4E8C3F\">substrats</span>",
@@ -99,10 +99,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "77011b1",
+              "id": "857a07f",
               "elType": "widget",
               "settings": {
-                "editor": "<p>El sòl, essencial per a jardins sostenibles.</p>",
+                "editor": "<p>New Tree convertim un desert en un jardí</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -117,7 +117,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "8ecb3b0",
+              "id": "7ec7c0b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -134,7 +134,7 @@
               },
               "elements": [
                 {
-                  "id": "5e82911",
+                  "id": "da7b261",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -176,7 +176,7 @@
       "isInner": false
     },
     {
-      "id": "ea4a694",
+      "id": "c860881",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -198,7 +198,7 @@
       },
       "elements": [
         {
-          "id": "774117f",
+          "id": "f222e19",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -215,7 +215,7 @@
           },
           "elements": [
             {
-              "id": "0b49295",
+              "id": "5abc5dd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -234,61 +234,16 @@
               },
               "elements": [
                 {
-                  "id": "5ae1f00",
+                  "id": "686b6e2",
                   "elType": "widget",
                   "settings": {
-                    "title": "TERRES I SUBSTRATS",
-                    "header_size": "p",
-                    "align": "left",
-                    "title_color": "#E14D5A",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "600",
-                    "letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    },
-                    "typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "9cb80db",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "New Tree convertim un desert en un jardí",
-                    "header_size": "h2",
-                    "align": "left",
-                    "title_color": "#1E2A22",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 30,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "06a6285",
-                  "elType": "widget",
-                  "settings": {
-                    "editor": "<p>L'ús de pràctiques de jardineria sostenibles pot ajudar-nos a restaurar els beneficis que brinden els nostres sòls. Recomanem fer aportacions de terra en format de sacs, box o camions.</p>",
+                    "editor": "<p>El sòl és fonamental per a l'èxit dels jardins sostenibles i proporciona importants beneficis ambientals. L'ús de pràctiques de jardineria sostenibles pot ajudar-nos a restaurar els beneficis que brinden els nostres sòls i és molt recomanable fer aportacions de terra, tant podem servir en format de sacs com amb box o camions.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     },
                     "typography_font_family": "Nunito"
@@ -297,16 +252,16 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "ea2e80e",
+                  "id": "2bd927d",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Respecte a la grava, funciona molt bé com a coberta en parterres o simplement per decorar parts d'un jardí. Millora el drenatge, manté la temperatura i airea el sòl, cosa que protegeix les arrels de les plantes.</p>",
+                    "editor": "<p>La grava funciona molt bé com coberta de la taulada en parterres o tan sols per decorar parts d'un jardí. A més d'ajudar el drenatge de l'aigua, mantenen la temperatura de la terra i contribueixen que estigui ben airejat. Això esmorteeix l'efecte de les altes temperatures i ajuda a protegir les arrels de les plantes.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     },
                     "typography_font_family": "Nunito"
@@ -318,7 +273,7 @@
               "isInner": true
             },
             {
-              "id": "4f07585",
+              "id": "2a6d43f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -329,7 +284,7 @@
               },
               "elements": [
                 {
-                  "id": "a9fb96c",
+                  "id": "6e8f1ab",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -337,7 +292,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Terres i Substrats"
+                    "alt": "Terres i substrats"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -352,7 +307,7 @@
       "isInner": false
     },
     {
-      "id": "27ab09e",
+      "id": "c7375ce",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -374,10 +329,10 @@
       },
       "elements": [
         {
-          "id": "4e1c147",
+          "id": "7589784",
           "elType": "widget",
           "settings": {
-            "title": "Formats d'aportació",
+            "title": "Aportacions de terra",
             "header_size": "h2",
             "align": "left",
             "title_color": "#1E2A22",
@@ -394,7 +349,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "237e762",
+          "id": "91b168e",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -411,7 +366,7 @@
           },
           "elements": [
             {
-              "id": "0b941a7",
+              "id": "bc1c687",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -422,7 +377,7 @@
               },
               "elements": [
                 {
-                  "id": "6acbc0e",
+                  "id": "0312401",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -448,7 +403,7 @@
               "isInner": true
             },
             {
-              "id": "aacf731",
+              "id": "fc42288",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -459,7 +414,7 @@
               },
               "elements": [
                 {
-                  "id": "8f43f37",
+                  "id": "bb76bf7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -485,7 +440,7 @@
               "isInner": true
             },
             {
-              "id": "199d452",
+              "id": "bf45275",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -496,7 +451,7 @@
               },
               "elements": [
                 {
-                  "id": "ad10e44",
+                  "id": "436376d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -528,7 +483,7 @@
       "isInner": false
     },
     {
-      "id": "e0a7f3f",
+      "id": "9b54bff",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -550,27 +505,7 @@
       },
       "elements": [
         {
-          "id": "f0eb8db",
-          "elType": "widget",
-          "settings": {
-            "title": "Galeria",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700",
-            "typography_font_family": "Nunito"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "ac6c0dc",
+          "id": "9157c36",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -587,7 +522,7 @@
           },
           "elements": [
             {
-              "id": "9d1bbec",
+              "id": "654569c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -598,7 +533,7 @@
               },
               "elements": [
                 {
-                  "id": "883c1f3",
+                  "id": "b34737b",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -606,7 +541,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Terres i Substrats"
+                    "alt": "Terres i substrats"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -615,7 +550,7 @@
               "isInner": true
             },
             {
-              "id": "d8906f1",
+              "id": "be503c2",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -626,7 +561,7 @@
               },
               "elements": [
                 {
-                  "id": "28586c6",
+                  "id": "33488de",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -634,7 +569,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Terres i Substrats"
+                    "alt": "Terres i substrats"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -643,7 +578,7 @@
               "isInner": true
             },
             {
-              "id": "3ee362a",
+              "id": "edf6a94",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -654,7 +589,35 @@
               },
               "elements": [
                 {
-                  "id": "a9978fa",
+                  "id": "71a1597",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2021/08/terres-.jpeg",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Terres i substrats"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "f5a6867",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "33d29ad",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -662,7 +625,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Terres i Substrats"
+                    "alt": "Terres i substrats"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -671,7 +634,7 @@
               "isInner": true
             },
             {
-              "id": "9d11d99",
+              "id": "60f0e4a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -682,7 +645,7 @@
               },
               "elements": [
                 {
-                  "id": "a31a571",
+                  "id": "2930b61",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -690,7 +653,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Terres i Substrats"
+                    "alt": "Terres i substrats"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -699,7 +662,7 @@
               "isInner": true
             },
             {
-              "id": "cd6c049",
+              "id": "636011f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -710,7 +673,7 @@
               },
               "elements": [
                 {
-                  "id": "8fcdf85",
+                  "id": "87b218f",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -718,7 +681,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Terres i Substrats"
+                    "alt": "Terres i substrats"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -733,7 +696,7 @@
       "isInner": false
     },
     {
-      "id": "769a691",
+      "id": "955538b",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -755,7 +718,7 @@
       },
       "elements": [
         {
-          "id": "314f9e4",
+          "id": "0784d66",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -772,7 +735,7 @@
           },
           "elements": [
             {
-              "id": "0f5d08a",
+              "id": "dd1f354",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -791,7 +754,7 @@
               },
               "elements": [
                 {
-                  "id": "633b203",
+                  "id": "fdc8a0d",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -811,7 +774,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "6571769",
+                  "id": "f7833cf",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -829,7 +792,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "14c1b88",
+                  "id": "b24b6b6",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -865,7 +828,7 @@
               "isInner": true
             },
             {
-              "id": "b030944",
+              "id": "1644d0d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -886,14 +849,14 @@
               },
               "elements": [
                 {
-                  "id": "1c41941",
+                  "id": "cc59844",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-phone",
                       "library": "fa-solid"
                     },
-                    "title_text": "Truca'ns",
+                    "title_text": "Telèfons",
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
@@ -909,14 +872,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "1e4020a",
+                  "id": "3444854",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-envelope",
                       "library": "fa-solid"
                     },
-                    "title_text": "Escriu-nos",
+                    "title_text": "Correu electrònic",
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
@@ -932,14 +895,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "74934ec",
+                  "id": "ee8a21b",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-map-marker-alt",
                       "library": "fa-solid"
                     },
-                    "title_text": "Visita'ns",
+                    "title_text": "Adreça",
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
@@ -966,6 +929,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Terres i Substrats - New Tree",
+  "title": "Terres i substrats - New Tree",
   "type": "page"
 }

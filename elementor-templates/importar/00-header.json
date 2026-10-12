@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "fcd2263",
+      "id": "43be59d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -40,7 +40,7 @@
       },
       "elements": [
         {
-          "id": "a7c0fa3",
+          "id": "2c686b2",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -61,7 +61,7 @@
           },
           "elements": [
             {
-              "id": "9b9a0df",
+              "id": "6623a63",
               "elType": "widget",
               "settings": {
                 "width": {
@@ -75,7 +75,7 @@
               "widgetType": "theme-site-logo"
             },
             {
-              "id": "c6a0778",
+              "id": "8860cb7",
               "elType": "widget",
               "settings": {
                 "menu": "",
@@ -94,7 +94,7 @@
               "widgetType": "nav-menu"
             },
             {
-              "id": "5d8833b",
+              "id": "faa6194",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -111,7 +111,7 @@
               },
               "elements": [
                 {
-                  "id": "2a707e6",
+                  "id": "7f6a988",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p><a href=\"#\">CA</a> <a href=\"#\">ES</a> <a href=\"#\">FR</a> <a href=\"#\">ENG</a></p>",
@@ -129,7 +129,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "c2f38fb",
+                  "id": "5683236",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",

@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "0c83b7a",
+      "id": "f813a33",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "d722d5d",
+          "id": "af7bd7c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "3a88f1c",
+              "id": "66e7781",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -79,7 +79,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "035b48a",
+              "id": "281ce77",
               "elType": "widget",
               "settings": {
                 "title": "Servei de <span style=\"color:#4E8C3F\">podes</span>",
@@ -99,10 +99,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "59c154a",
+              "id": "3a0377f",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Per allargar la vida dels arbres.</p>",
+                "editor": "<p>New Tree convertim un desert en un jardí</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -117,7 +117,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "d4e90e8",
+              "id": "1c9ce2b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -134,7 +134,7 @@
               },
               "elements": [
                 {
-                  "id": "4bf02f6",
+                  "id": "e4af3bd",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -176,7 +176,7 @@
       "isInner": false
     },
     {
-      "id": "105c2a3",
+      "id": "ff955f4",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -198,7 +198,7 @@
       },
       "elements": [
         {
-          "id": "ac8b04b",
+          "id": "ac283bf",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -215,7 +215,7 @@
           },
           "elements": [
             {
-              "id": "c1527a9",
+              "id": "3aa6d6d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -234,61 +234,16 @@
               },
               "elements": [
                 {
-                  "id": "0dd845f",
+                  "id": "544abc1",
                   "elType": "widget",
                   "settings": {
-                    "title": "PODES",
-                    "header_size": "p",
-                    "align": "left",
-                    "title_color": "#E14D5A",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "600",
-                    "letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    },
-                    "typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "db4aab0",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "New Tree convertim un desert en un jardí",
-                    "header_size": "h2",
-                    "align": "left",
-                    "title_color": "#1E2A22",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 30,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700",
-                    "typography_font_family": "Nunito"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "f35349c",
-                  "elType": "widget",
-                  "settings": {
-                    "editor": "<p>La poda d'arbres és fonamental, si es realitza correctament, per allargar-ne la vida; ara bé, s'ha de fer només si és necessari.</p>",
+                    "editor": "<p>La poda d'arbres és fonamental, si es realitza correctament, per allargar la vida dels mateixos, ara bé s'ha de fer només si és necessari.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     },
                     "typography_font_family": "Nunito"
@@ -300,7 +255,7 @@
               "isInner": true
             },
             {
-              "id": "082ad1a",
+              "id": "a43c596",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -311,7 +266,7 @@
               },
               "elements": [
                 {
-                  "id": "0724c1f",
+                  "id": "6ab8de4",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -319,7 +274,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Podes"
+                    "alt": "Servei de podes"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -334,7 +289,7 @@
       "isInner": false
     },
     {
-      "id": "8a53866",
+      "id": "69329c8",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -356,10 +311,10 @@
       },
       "elements": [
         {
-          "id": "eee6978",
+          "id": "aa90c28",
           "elType": "widget",
           "settings": {
-            "title": "Objectius de la poda",
+            "title": "Objectius de la poda d'arbres",
             "header_size": "h2",
             "align": "left",
             "title_color": "#1E2A22",
@@ -376,7 +331,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "e81181f",
+          "id": "d185490",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -393,7 +348,7 @@
           },
           "elements": [
             {
-              "id": "b4cd247",
+              "id": "32edec0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -404,15 +359,15 @@
               },
               "elements": [
                 {
-                  "id": "72e9c42",
+                  "id": "1c51387",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Desenvolupament correcte",
-                    "description_text": "Millora de la salut i l'estructura dels arbres",
+                    "title_text": "Mantenir un desenvolupament correcte dels arbres, millora de la seva salut i estructura.",
+                    "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
@@ -430,7 +385,7 @@
               "isInner": true
             },
             {
-              "id": "955186f",
+              "id": "786ff11",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -441,15 +396,15 @@
               },
               "elements": [
                 {
-                  "id": "05e2b78",
+                  "id": "0a8d30a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Adequar l'arbre a l'espai",
-                    "description_text": "On es desenvolupa",
+                    "title_text": "Adequar l'arbre a l'espai on es desenvolupa.",
+                    "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
@@ -467,7 +422,7 @@
               "isInner": true
             },
             {
-              "id": "5f4d807",
+              "id": "a3fb756",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -478,15 +433,15 @@
               },
               "elements": [
                 {
-                  "id": "a83293a",
+                  "id": "78951e2",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Evitar la caiguda de branques",
-                    "description_text": "Que podrien fer mal a les persones o als béns",
+                    "title_text": "Evitar la caiguda de branques que podrien fer mal a les persones o els béns, i descarregar de pes el brancatge.",
+                    "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
@@ -504,7 +459,7 @@
               "isInner": true
             },
             {
-              "id": "21f1c2a",
+              "id": "115e653",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -515,15 +470,15 @@
               },
               "elements": [
                 {
-                  "id": "12afe29",
+                  "id": "0412d36",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Evitar afectacions",
-                    "description_text": "Al pas de vianants, vehicles i senyals viàries",
+                    "title_text": "Evitar que el brancatge afecti el pas de vianants, vehicles, senyals viàries…",
+                    "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
@@ -541,7 +496,7 @@
               "isInner": true
             },
             {
-              "id": "b7cc8e6",
+              "id": "ea16a83",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -552,15 +507,15 @@
               },
               "elements": [
                 {
-                  "id": "89e453d",
+                  "id": "79292f7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Reequilibrar",
-                    "description_text": "Arbres o copes mal formades",
+                    "title_text": "Reequilibrar els arbres o les copes mal formades, millorant la seva bellesa.",
+                    "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
@@ -578,7 +533,7 @@
               "isInner": true
             },
             {
-              "id": "2829e61",
+              "id": "1d52d5a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -589,15 +544,15 @@
               },
               "elements": [
                 {
-                  "id": "e5f9fd8",
+                  "id": "684ce5d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-check",
                       "library": "fa-solid"
                     },
-                    "title_text": "Evitar malalties",
-                    "description_text": "Que no s'estenguin",
+                    "title_text": "Evitar que s'estenguin les malalties.",
+                    "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
@@ -621,7 +576,7 @@
       "isInner": false
     },
     {
-      "id": "51b522c",
+      "id": "23773b4",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -643,27 +598,7 @@
       },
       "elements": [
         {
-          "id": "3d0a1c0",
-          "elType": "widget",
-          "settings": {
-            "title": "Galeria",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700",
-            "typography_font_family": "Nunito"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "f3fe4bc",
+          "id": "a53d0cb",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -680,7 +615,7 @@
           },
           "elements": [
             {
-              "id": "060cd78",
+              "id": "14c0a70",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -691,7 +626,7 @@
               },
               "elements": [
                 {
-                  "id": "5722619",
+                  "id": "ca99470",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -699,7 +634,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Podes"
+                    "alt": "Servei de podes"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -708,7 +643,7 @@
               "isInner": true
             },
             {
-              "id": "2c97a11",
+              "id": "a1b58e3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -719,7 +654,7 @@
               },
               "elements": [
                 {
-                  "id": "18f7834",
+                  "id": "2060278",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -727,7 +662,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Podes"
+                    "alt": "Servei de podes"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -742,7 +677,7 @@
       "isInner": false
     },
     {
-      "id": "577e93d",
+      "id": "fe75711",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -764,7 +699,7 @@
       },
       "elements": [
         {
-          "id": "5a24180",
+          "id": "d154987",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -781,7 +716,7 @@
           },
           "elements": [
             {
-              "id": "87e080c",
+              "id": "8496f60",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -800,7 +735,7 @@
               },
               "elements": [
                 {
-                  "id": "25de408",
+                  "id": "222fe7c",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -820,7 +755,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "90051ea",
+                  "id": "67b9680",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -838,7 +773,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "82ea5a0",
+                  "id": "85ff74e",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -874,7 +809,7 @@
               "isInner": true
             },
             {
-              "id": "106ebad",
+              "id": "04e72e0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -895,14 +830,14 @@
               },
               "elements": [
                 {
-                  "id": "e6d5851",
+                  "id": "3458ff6",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-phone",
                       "library": "fa-solid"
                     },
-                    "title_text": "Truca'ns",
+                    "title_text": "Telèfons",
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
@@ -918,14 +853,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "98b6799",
+                  "id": "c0ae774",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-envelope",
                       "library": "fa-solid"
                     },
-                    "title_text": "Escriu-nos",
+                    "title_text": "Correu electrònic",
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
@@ -941,14 +876,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "0adaf0d",
+                  "id": "e3c66ce",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-map-marker-alt",
                       "library": "fa-solid"
                     },
-                    "title_text": "Visita'ns",
+                    "title_text": "Adreça",
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
@@ -975,6 +910,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Podes - New Tree",
+  "title": "Servei de podes - New Tree",
   "type": "page"
 }

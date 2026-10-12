@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "fe0c622",
+      "id": "d8d7539",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "8fecfbb",
+          "id": "d78f856",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "9fbe8c7",
+              "id": "0751dbc",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,10 +78,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "eb4a0ed",
+              "id": "98c75a3",
               "elType": "widget",
               "settings": {
-                "title": "Sistemes de <span style=\"color:#4E8C3F\">reg</span>",
+                "title": "Sistemes de <span style=\"color:#4E8C3F\">Reg</span>",
                 "header_size": "h1",
                 "align": "left",
                 "title_color": "#FFFFFF",
@@ -97,10 +97,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "515ffed",
+              "id": "5241dd8",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Els podem assessorar en quin és el millor sistema de reg automàtic.</p>",
+                "editor": "<p>New Tree convertim un desert en un jardí</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "6702a33",
+              "id": "34428bd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "b040064",
+                  "id": "f5716d1",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "312ceee",
+      "id": "69dd5c3",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "0dae501",
+          "id": "176eb68",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "876f66b",
+              "id": "6d7caba",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,59 +229,16 @@
               },
               "elements": [
                 {
-                  "id": "e24ac99",
+                  "id": "6312867",
                   "elType": "widget",
                   "settings": {
-                    "title": "SISTEMES DE REG",
-                    "header_size": "p",
-                    "align": "left",
-                    "title_color": "#E14D5A",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "600",
-                    "letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "a5e69fb",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "New Tree convertim un desert en un jardí",
-                    "header_size": "h2",
-                    "align": "left",
-                    "title_color": "#1E2A22",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 30,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "c5a76a3",
-                  "elType": "widget",
-                  "settings": {
-                    "editor": "<p>El reg automàtic distribueix artificialment l'aigua necessària per al desenvolupament de les plantes, especialment en períodes de calor quan falten pluges.</p>",
+                    "editor": "<p>Els podem assessorar en quin és el millor sistema de reg automàtic.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -289,16 +246,16 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "2fc6134",
+                  "id": "deac6cd",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Oferim serveis de disseny i instal·lació de sistemes de reg automàtic per a terrasses, parcs i jardins de diverses dimensions.</p>",
+                    "editor": "<p>El reg automàtic permet la distribució artificial d'aigua a les plantes, la qual cosa és necessari per al seu desenvolupament, especialment en els períodes més calorosos, quan les pluges no són prou freqüents. A New Tree ens encarreguem de dissenyar i instal·lar sistemes de reg automàtic, terrasses, parcs i jardins de qualsevol mida.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -306,16 +263,16 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "5ec395f",
+                  "id": "8f91961",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>Programables i que funcionen de forma independent, els sistemes de reg automàtic són l'elecció perfecta per a aquells que volen regar el seu jardí en el moment que volen.</p>",
+                    "editor": "<p>Programables i que funcionen de forma independent, els sistemes de reg automàtic són l'elecció perfecta per a aquells que volen regar el seu jardí en el moment que volen, fins i tot quan no són a casa. Hi ha diverses solucions molt pràctiques que et permetran tenir el teu propi sistema sense alterar l'estructura de jardí. Els nostres professionals sempre us assessoraran de la millor manera, proporcionant la realització de sistemes de reg automàtic.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -326,7 +283,7 @@
               "isInner": true
             },
             {
-              "id": "9c3a096",
+              "id": "a15099b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -337,7 +294,7 @@
               },
               "elements": [
                 {
-                  "id": "0ff2afb",
+                  "id": "7d99aac",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -360,170 +317,7 @@
       "isInner": false
     },
     {
-      "id": "23e9bd0",
-      "elType": "container",
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "background_background": "classic",
-        "background_color": "#F6F7F5",
-        "padding": {
-          "unit": "px",
-          "top": "70",
-          "right": "40",
-          "bottom": "70",
-          "left": "40",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "521476a",
-          "elType": "widget",
-          "settings": {
-            "title": "Reg automàtic",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "5f7a6ca",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_gap": {
-              "column": "24",
-              "row": "24",
-              "unit": "px",
-              "isLinked": true
-            },
-            "flex_justify_content": "flex-start",
-            "flex_align_items": "flex-start"
-          },
-          "elements": [
-            {
-              "id": "baf65a6",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "1ac3c5a",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-tint",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Disseny",
-                    "description_text": "Per a terrasses, parcs i jardins de diverses dimensions",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "a0a9166",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "8fa2a39",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-tint",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Instal·lació",
-                    "description_text": "Sistemes de reg automàtic",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "e480168",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "65f9d99",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-tint",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Programables",
-                    "description_text": "Funcionen de forma independent",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            }
-          ],
-          "isInner": true
-        }
-      ],
-      "isInner": false
-    },
-    {
-      "id": "0eb7651",
+      "id": "80b3398",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -545,7 +339,7 @@
       },
       "elements": [
         {
-          "id": "e21029a",
+          "id": "8b1da73",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -562,7 +356,7 @@
           },
           "elements": [
             {
-              "id": "916ae42",
+              "id": "89ad3d3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -581,7 +375,7 @@
               },
               "elements": [
                 {
-                  "id": "89390ef",
+                  "id": "66fea3a",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -600,7 +394,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "33d0276",
+                  "id": "40ad327",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -617,7 +411,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "c23ac88",
+                  "id": "397c186",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -651,7 +445,7 @@
               "isInner": true
             },
             {
-              "id": "d38f101",
+              "id": "41cde8a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -672,14 +466,14 @@
               },
               "elements": [
                 {
-                  "id": "cdc0f0a",
+                  "id": "02e900a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-phone",
                       "library": "fa-solid"
                     },
-                    "title_text": "Truca'ns",
+                    "title_text": "Telèfons",
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
@@ -691,14 +485,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "103c28c",
+                  "id": "16bf0d3",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-envelope",
                       "library": "fa-solid"
                     },
-                    "title_text": "Escriu-nos",
+                    "title_text": "Correu electrònic",
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
@@ -710,14 +504,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "fb6eed1",
+                  "id": "fbfb3e2",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-map-marker-alt",
                       "library": "fa-solid"
                     },
-                    "title_text": "Visita'ns",
+                    "title_text": "Adreça",
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",

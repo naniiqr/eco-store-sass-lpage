@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "3e178ca",
+      "id": "c5e9aa2",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "5f28f11",
+          "id": "6252a92",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "e00b53c",
+              "id": "9a4b326",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,10 +78,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "9453764",
+              "id": "7adbb24",
               "elType": "widget",
               "settings": {
-                "title": "Disseny i construcció de <span style=\"color:#4E8C3F\">jardins</span>",
+                "title": "Disseny i Construcció de <span style=\"color:#4E8C3F\">Jardins</span>",
                 "header_size": "h1",
                 "align": "left",
                 "title_color": "#FFFFFF",
@@ -97,10 +97,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "0021c67",
+              "id": "80f6912",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Disseny i creació de jardins a mida.</p>",
+                "editor": "<p>New Tree convertim un desert en un jardí</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "b373e5e",
+              "id": "54da0f6",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "da39c06",
+                  "id": "869e925",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "f26931c",
+      "id": "9f2dcdc",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "4902d78",
+          "id": "83d87df",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "6e6243f",
+              "id": "6ba2810",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,50 +229,7 @@
               },
               "elements": [
                 {
-                  "id": "a2e9920",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "DISSENY I CONSTRUCCIÓ DE JARDINS",
-                    "header_size": "p",
-                    "align": "left",
-                    "title_color": "#E14D5A",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "600",
-                    "letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "2561a0a",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "New Tree convertim un desert en un jardí",
-                    "header_size": "h2",
-                    "align": "left",
-                    "title_color": "#1E2A22",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 30,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "cf0d2fb",
+                  "id": "af8a82a",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Us oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder-vos oferir un servei totalment personalitzat.</p>",
@@ -281,7 +238,7 @@
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -289,7 +246,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "ff07b62",
+                  "id": "84d3e03",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Cada racó té les seves pròpies característiques: l'objectiu és dissenyar el jardí intentant ressaltar els seus punts forts.</p>",
@@ -298,7 +255,7 @@
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -306,7 +263,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "5e152fe",
+                  "id": "5849bf6",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Això vol dir tenir en compte tres conceptes importants: proporció, unitat i línies geomètriques.</p>",
@@ -315,7 +272,7 @@
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -323,16 +280,16 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "4d586fc",
+                  "id": "0372bbd",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>La proporció es refereix sobretot a la mida del que volem plantar, ha de ser proporcionat.</p>",
+                    "editor": "<p>La proporció es refereix sobretot a la mida del que volem plantar, ha de ser proporcionat. Mai inserir plantes que siguin massa petites o massa grans.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -340,7 +297,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "e27ac1b",
+                  "id": "0dbc6d8",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Els elements naturals també contribueixen a aquesta funció: els arbres que es desenvolupen horitzontalment donen una sensació de tranquil·litat; els verticals, en canvi, donen una sensació d'ordre i dinamisme.</p>",
@@ -349,7 +306,7 @@
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -360,7 +317,7 @@
               "isInner": true
             },
             {
-              "id": "18484a0",
+              "id": "7f35e0b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -371,7 +328,7 @@
               },
               "elements": [
                 {
-                  "id": "e049d35",
+                  "id": "5b87551",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -394,7 +351,7 @@
       "isInner": false
     },
     {
-      "id": "ef2b7a1",
+      "id": "3d30a05",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -416,10 +373,10 @@
       },
       "elements": [
         {
-          "id": "801f0dd",
+          "id": "1770841",
           "elType": "widget",
           "settings": {
-            "title": "Tres conceptes clau",
+            "title": "Tres conceptes importants",
             "header_size": "h2",
             "align": "left",
             "title_color": "#1E2A22",
@@ -435,7 +392,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "be0a28e",
+          "id": "922a3ab",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -452,7 +409,7 @@
           },
           "elements": [
             {
-              "id": "6725a38",
+              "id": "266da50",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -463,7 +420,7 @@
               },
               "elements": [
                 {
-                  "id": "48270e9",
+                  "id": "6bb8489",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -471,7 +428,7 @@
                       "library": "fa-solid"
                     },
                     "title_text": "Proporció",
-                    "description_text": "La mida del que plantem ha de ser proporcionada.",
+                    "description_text": "",
                     "position": "left",
                     "title_size": "h4",
                     "icon_color": "#4E8C3F",
@@ -485,7 +442,7 @@
               "isInner": true
             },
             {
-              "id": "c8cc960",
+              "id": "58f1a3e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -496,7 +453,7 @@
               },
               "elements": [
                 {
-                  "id": "a06a283",
+                  "id": "398fa3f",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -518,7 +475,7 @@
               "isInner": true
             },
             {
-              "id": "ae8a6ef",
+              "id": "5114d22",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -529,7 +486,7 @@
               },
               "elements": [
                 {
-                  "id": "d887a78",
+                  "id": "90a4263",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -557,7 +514,7 @@
       "isInner": false
     },
     {
-      "id": "cfa7a46",
+      "id": "e27c242",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -579,26 +536,7 @@
       },
       "elements": [
         {
-          "id": "fe95cc0",
-          "elType": "widget",
-          "settings": {
-            "title": "Galeria",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "7c7e2da",
+          "id": "b1d59d9",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -615,7 +553,7 @@
           },
           "elements": [
             {
-              "id": "3253cdd",
+              "id": "3335590",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -626,7 +564,7 @@
               },
               "elements": [
                 {
-                  "id": "8b1b058",
+                  "id": "2ee4b7e",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -643,7 +581,7 @@
               "isInner": true
             },
             {
-              "id": "2e8e87a",
+              "id": "52d66de",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -654,7 +592,7 @@
               },
               "elements": [
                 {
-                  "id": "bb8d994",
+                  "id": "b525e64",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -671,7 +609,7 @@
               "isInner": true
             },
             {
-              "id": "1c3936b",
+              "id": "868c5a3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -682,11 +620,95 @@
               },
               "elements": [
                 {
-                  "id": "de4367d",
+                  "id": "70d0659",
                   "elType": "widget",
                   "settings": {
                     "image": {
                       "url": "https://newtree.cat/wp-content/uploads/2021/07/gespa-artificial-6.jpeg",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Disseny i Construcció de Jardins"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "96f899d",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "6f16e95",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2021/07/gespa-artificial-3.jpeg",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Disseny i Construcció de Jardins"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "525dfb5",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "d9f740c",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/11.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Disseny i Construcció de Jardins"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "4c5fc10",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                }
+              },
+              "elements": [
+                {
+                  "id": "0808a6a",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/16.png",
                       "id": ""
                     },
                     "image_size": "large",
@@ -705,7 +727,7 @@
       "isInner": false
     },
     {
-      "id": "cda0167",
+      "id": "b32cfc3",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -727,7 +749,7 @@
       },
       "elements": [
         {
-          "id": "617872a",
+          "id": "f784afd",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -744,7 +766,7 @@
           },
           "elements": [
             {
-              "id": "33bf364",
+              "id": "9c7140f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -763,7 +785,7 @@
               },
               "elements": [
                 {
-                  "id": "d89943c",
+                  "id": "adb523c",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -782,7 +804,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "788111b",
+                  "id": "625cf52",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -799,7 +821,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "a8fd268",
+                  "id": "014161e",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -833,7 +855,7 @@
               "isInner": true
             },
             {
-              "id": "6575568",
+              "id": "ba4d964",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -854,14 +876,14 @@
               },
               "elements": [
                 {
-                  "id": "c2e4404",
+                  "id": "399c4f6",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-phone",
                       "library": "fa-solid"
                     },
-                    "title_text": "Truca'ns",
+                    "title_text": "Telèfons",
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
@@ -873,14 +895,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "420a96a",
+                  "id": "b004fb4",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-envelope",
                       "library": "fa-solid"
                     },
-                    "title_text": "Escriu-nos",
+                    "title_text": "Correu electrònic",
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
@@ -892,14 +914,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "fc275f4",
+                  "id": "03ff759",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-map-marker-alt",
                       "library": "fa-solid"
                     },
-                    "title_text": "Visita'ns",
+                    "title_text": "Adreça",
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",

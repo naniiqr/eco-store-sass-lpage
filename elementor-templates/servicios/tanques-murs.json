@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "8246d62",
+      "id": "2c00a34",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "76870ad",
+          "id": "be4c72d",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "7c0447a",
+              "id": "8c558f3",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "e10c738",
+              "id": "9207e73",
               "elType": "widget",
               "settings": {
                 "title": "Tanques i murs de <span style=\"color:#4E8C3F\">contenció</span>",
@@ -97,10 +97,10 @@
               "widgetType": "heading"
             },
             {
-              "id": "c03d10d",
+              "id": "46439fd",
               "elType": "widget",
               "settings": {
-                "editor": "<p>Totalment adaptats a l'entorn.</p>",
+                "editor": "<p>New Tree convertim un desert en un jardí</p>",
                 "text_color": "#E5E5E5",
                 "align": "left",
                 "typography_typography": "custom",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "eb7c35e",
+              "id": "9c55d24",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "14ec942",
+                  "id": "dbdd588",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "2620680",
+      "id": "18afdeb",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "56a229b",
+          "id": "28d3226",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "2722f98",
+              "id": "7832109",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,59 +229,16 @@
               },
               "elements": [
                 {
-                  "id": "7cd18e1",
+                  "id": "1c76f39",
                   "elType": "widget",
                   "settings": {
-                    "title": "TANQUES I MURS DE CONTENCIÓ",
-                    "header_size": "p",
-                    "align": "left",
-                    "title_color": "#E14D5A",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 13,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "600",
-                    "letter_spacing": {
-                      "unit": "px",
-                      "size": 2,
-                      "sizes": []
-                    }
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "9b356ca",
-                  "elType": "widget",
-                  "settings": {
-                    "title": "New Tree convertim un desert en un jardí",
-                    "header_size": "h2",
-                    "align": "left",
-                    "title_color": "#1E2A22",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 30,
-                      "sizes": []
-                    },
-                    "typography_font_weight": "700"
-                  },
-                  "elements": [],
-                  "widgetType": "heading"
-                },
-                {
-                  "id": "12388c9",
-                  "elType": "widget",
-                  "settings": {
-                    "editor": "<p>Fem tot tipus de tanques, tant metàl·liques com de fusta, totalment adaptades a l'entorn per minimitzar l'impacte visual.</p>",
+                    "editor": "<p>Fem tot tipus de tanques, tant les metàl·liques o de fusta totalment adaptades a l'entorn per minimitzar l'impacte visual.</p>",
                     "text_color": "#6B7280",
                     "align": "left",
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -289,7 +246,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "a508caf",
+                  "id": "7ca838f",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Murs de contenció per anivellar terrenys.</p>",
@@ -298,7 +255,7 @@
                     "typography_typography": "custom",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16,
+                      "size": 17,
                       "sizes": []
                     }
                   },
@@ -309,7 +266,7 @@
               "isInner": true
             },
             {
-              "id": "0f4465b",
+              "id": "569581a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -320,7 +277,7 @@
               },
               "elements": [
                 {
-                  "id": "3f73049",
+                  "id": "368810c",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -328,7 +285,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Tanques i Murs de Contenció"
+                    "alt": "Tanques i murs de contenció"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -343,170 +300,7 @@
       "isInner": false
     },
     {
-      "id": "be29a8c",
-      "elType": "container",
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "background_background": "classic",
-        "background_color": "#F6F7F5",
-        "padding": {
-          "unit": "px",
-          "top": "70",
-          "right": "40",
-          "bottom": "70",
-          "left": "40",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "9ec7124",
-          "elType": "widget",
-          "settings": {
-            "title": "Què fem",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "dbf0442",
-          "elType": "container",
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "row",
-            "flex_wrap": "wrap",
-            "flex_gap": {
-              "column": "24",
-              "row": "24",
-              "unit": "px",
-              "isLinked": true
-            },
-            "flex_justify_content": "flex-start",
-            "flex_align_items": "flex-start"
-          },
-          "elements": [
-            {
-              "id": "068d56d",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "b7ef3f1",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Tanques metàl·liques",
-                    "description_text": "",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "3bfe1ed",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "5a5bda3",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Tanques de fusta",
-                    "description_text": "",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "40977e9",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 31
-                }
-              },
-              "elements": [
-                {
-                  "id": "75a45cc",
-                  "elType": "widget",
-                  "settings": {
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    },
-                    "title_text": "Murs de contenció",
-                    "description_text": "Per anivellar terrenys",
-                    "position": "left",
-                    "title_size": "h4",
-                    "icon_color": "#4E8C3F",
-                    "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
-                  },
-                  "elements": [],
-                  "widgetType": "icon-box"
-                }
-              ],
-              "isInner": true
-            }
-          ],
-          "isInner": true
-        }
-      ],
-      "isInner": false
-    },
-    {
-      "id": "5159cfc",
+      "id": "1b83aac",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -528,26 +322,7 @@
       },
       "elements": [
         {
-          "id": "9df3d1f",
-          "elType": "widget",
-          "settings": {
-            "title": "Galeria",
-            "header_size": "h2",
-            "align": "left",
-            "title_color": "#1E2A22",
-            "typography_typography": "custom",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 30,
-              "sizes": []
-            },
-            "typography_font_weight": "700"
-          },
-          "elements": [],
-          "widgetType": "heading"
-        },
-        {
-          "id": "74c02df",
+          "id": "1f808ae",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -564,7 +339,7 @@
           },
           "elements": [
             {
-              "id": "f48ba2b",
+              "id": "3a4b612",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -575,7 +350,7 @@
               },
               "elements": [
                 {
-                  "id": "4097dc5",
+                  "id": "ea3c462",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -583,7 +358,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Tanques i Murs de Contenció"
+                    "alt": "Tanques i murs de contenció"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -592,7 +367,7 @@
               "isInner": true
             },
             {
-              "id": "4a28edd",
+              "id": "53216f4",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -603,7 +378,7 @@
               },
               "elements": [
                 {
-                  "id": "cc47794",
+                  "id": "b10f22c",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -611,7 +386,7 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Tanques i Murs de Contenció"
+                    "alt": "Tanques i murs de contenció"
                   },
                   "elements": [],
                   "widgetType": "image"
@@ -626,7 +401,7 @@
       "isInner": false
     },
     {
-      "id": "2800ec0",
+      "id": "cc69433",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -648,7 +423,7 @@
       },
       "elements": [
         {
-          "id": "5df9122",
+          "id": "1ae61eb",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -665,7 +440,7 @@
           },
           "elements": [
             {
-              "id": "f48db07",
+              "id": "66fb105",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -684,7 +459,7 @@
               },
               "elements": [
                 {
-                  "id": "9325511",
+                  "id": "33f38ad",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -703,7 +478,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "ab808be",
+                  "id": "7201c73",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -720,7 +495,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "bf72816",
+                  "id": "84f82e8",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -754,7 +529,7 @@
               "isInner": true
             },
             {
-              "id": "4ecf391",
+              "id": "328c521",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -775,14 +550,14 @@
               },
               "elements": [
                 {
-                  "id": "2c81173",
+                  "id": "7ac97a4",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-phone",
                       "library": "fa-solid"
                     },
-                    "title_text": "Truca'ns",
+                    "title_text": "Telèfons",
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
@@ -794,14 +569,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "2678ebb",
+                  "id": "dff261b",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-envelope",
                       "library": "fa-solid"
                     },
-                    "title_text": "Escriu-nos",
+                    "title_text": "Correu electrònic",
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
@@ -813,14 +588,14 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "b4c2307",
+                  "id": "ee400ff",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
                       "value": "fas fa-map-marker-alt",
                       "library": "fa-solid"
                     },
-                    "title_text": "Visita'ns",
+                    "title_text": "Adreça",
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
@@ -843,6 +618,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Tanques i Murs de Contenció - New Tree",
+  "title": "Tanques i murs de contenció - New Tree",
   "type": "page"
 }
