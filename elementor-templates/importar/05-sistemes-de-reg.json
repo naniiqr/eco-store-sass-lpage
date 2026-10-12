@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "43baaa9",
+      "id": "250dc43",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -57,7 +57,7 @@
       },
       "elements": [
         {
-          "id": "937dfc4",
+          "id": "d324ed5",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -87,7 +87,7 @@
           },
           "elements": [
             {
-              "id": "c576138",
+              "id": "51b079b",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -114,7 +114,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "3ddb01d",
+              "id": "a1a80a1",
               "elType": "widget",
               "settings": {
                 "title": "Sistemes de <span style=\"color:#4E8C3F\">Reg</span>",
@@ -136,7 +136,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "2a5210c",
+              "id": "e081cc4",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -156,7 +156,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "45f2bc1",
+              "id": "cfb6b02",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -177,7 +177,7 @@
               },
               "elements": [
                 {
-                  "id": "36b36e0",
+                  "id": "995b5ba",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -220,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "bd18017",
+      "id": "69373bd",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -259,7 +259,7 @@
       },
       "elements": [
         {
-          "id": "403311c",
+          "id": "157c92c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -280,7 +280,7 @@
           },
           "elements": [
             {
-              "id": "197f7d2",
+              "id": "7da1d6f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -310,7 +310,7 @@
               },
               "elements": [
                 {
-                  "id": "85f97fd",
+                  "id": "b8adbba",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Els podem assessorar en quin és el millor sistema de reg automàtic.</p>",
@@ -330,7 +330,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "d3e3f66",
+                  "id": "6ade82d",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>El reg automàtic permet la distribució artificial d'aigua a les plantes, la qual cosa és necessari per al seu desenvolupament, especialment en els períodes més calorosos, quan les pluges no són prou freqüents. A New Tree ens encarreguem de dissenyar i instal·lar sistemes de reg automàtic, terrasses, parcs i jardins de qualsevol mida.</p>",
@@ -350,7 +350,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "e504264",
+                  "id": "5cd19af",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Programables i que funcionen de forma independent, els sistemes de reg automàtic són l'elecció perfecta per a aquells que volen regar el seu jardí en el moment que volen, fins i tot quan no són a casa. Hi ha diverses solucions molt pràctiques que et permetran tenir el teu propi sistema sense alterar l'estructura de jardí. Els nostres professionals sempre us assessoraran de la millor manera, proporcionant la realització de sistemes de reg automàtic.</p>",
@@ -373,7 +373,7 @@
               "isInner": true
             },
             {
-              "id": "f4322e1",
+              "id": "b6b23ed",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -395,7 +395,7 @@
               },
               "elements": [
                 {
-                  "id": "270221a",
+                  "id": "234d4a2",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -419,7 +419,7 @@
       "isInner": false
     },
     {
-      "id": "e5dc060",
+      "id": "68b1821",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -458,7 +458,7 @@
       },
       "elements": [
         {
-          "id": "3359b5c",
+          "id": "67641c6",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -479,7 +479,7 @@
           },
           "elements": [
             {
-              "id": "f2c0075",
+              "id": "c5954fc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -509,7 +509,7 @@
               },
               "elements": [
                 {
-                  "id": "f049a69",
+                  "id": "f60a381",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -531,7 +531,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "76431e2",
+                  "id": "7053d50",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -551,7 +551,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "8a15711",
+                  "id": "0d5caa2",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -588,7 +588,7 @@
               "isInner": true
             },
             {
-              "id": "3c94ee2",
+              "id": "11e4caf",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -623,7 +623,7 @@
               },
               "elements": [
                 {
-                  "id": "3061491",
+                  "id": "8af06a7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -634,21 +634,37 @@
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "c50fda7",
+                  "id": "e0f1847",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -659,21 +675,37 @@
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "d40360b",
+                  "id": "98dfff7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -684,14 +716,30 @@
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],

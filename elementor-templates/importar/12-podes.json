@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "59c5abf",
+      "id": "54ccd77",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -57,7 +57,7 @@
       },
       "elements": [
         {
-          "id": "6ef17a4",
+          "id": "3ccf759",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -87,7 +87,7 @@
           },
           "elements": [
             {
-              "id": "4f07f9c",
+              "id": "98682a0",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -114,7 +114,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "ae24149",
+              "id": "8ab20b9",
               "elType": "widget",
               "settings": {
                 "title": "Servei de <span style=\"color:#4E8C3F\">podes</span>",
@@ -136,7 +136,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "cb91073",
+              "id": "fcd1ae5",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -156,7 +156,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "92750bc",
+              "id": "cb4647c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -177,7 +177,7 @@
               },
               "elements": [
                 {
-                  "id": "9fab984",
+                  "id": "709395e",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -220,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "18ae70e",
+      "id": "45b6a21",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -259,7 +259,7 @@
       },
       "elements": [
         {
-          "id": "fca9372",
+          "id": "7c78aef",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -280,7 +280,7 @@
           },
           "elements": [
             {
-              "id": "98b1f24",
+              "id": "a89c4e9",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -310,7 +310,7 @@
               },
               "elements": [
                 {
-                  "id": "b5588ec",
+                  "id": "ff97920",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>La poda d'arbres és fonamental, si es realitza correctament, per allargar la vida dels mateixos, ara bé s'ha de fer només si és necessari.</p>",
@@ -333,7 +333,7 @@
               "isInner": true
             },
             {
-              "id": "6a5a047",
+              "id": "d78a655",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -355,7 +355,7 @@
               },
               "elements": [
                 {
-                  "id": "8069396",
+                  "id": "2e1a59d",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -379,7 +379,7 @@
       "isInner": false
     },
     {
-      "id": "5c590a6",
+      "id": "6b7da8c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -418,7 +418,7 @@
       },
       "elements": [
         {
-          "id": "ff4f633",
+          "id": "4904682",
           "elType": "widget",
           "settings": {
             "title": "Objectius de la poda d'arbres",
@@ -440,7 +440,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "0b57fd6",
+          "id": "c5a50df",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -461,7 +461,7 @@
           },
           "elements": [
             {
-              "id": "31659bd",
+              "id": "f6fc549",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -483,7 +483,7 @@
               },
               "elements": [
                 {
-                  "id": "e0387c5",
+                  "id": "92e3ae8",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -494,14 +494,30 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
                     "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -511,7 +527,7 @@
               "isInner": true
             },
             {
-              "id": "9e57908",
+              "id": "6a893d9",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -533,7 +549,7 @@
               },
               "elements": [
                 {
-                  "id": "5ee2633",
+                  "id": "0127ce0",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -544,14 +560,30 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
                     "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -561,7 +593,7 @@
               "isInner": true
             },
             {
-              "id": "c68f3d9",
+              "id": "f0032bc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -583,7 +615,7 @@
               },
               "elements": [
                 {
-                  "id": "32b5842",
+                  "id": "6fb518c",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -594,14 +626,30 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
                     "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -611,7 +659,7 @@
               "isInner": true
             },
             {
-              "id": "23e656d",
+              "id": "cad0ba0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -633,7 +681,7 @@
               },
               "elements": [
                 {
-                  "id": "24a476f",
+                  "id": "d87a22f",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -644,14 +692,30 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
                     "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -661,7 +725,7 @@
               "isInner": true
             },
             {
-              "id": "45438a7",
+              "id": "ce68bf9",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -683,7 +747,7 @@
               },
               "elements": [
                 {
-                  "id": "1bd9500",
+                  "id": "ebc30e4",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -694,14 +758,30 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
                     "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -711,7 +791,7 @@
               "isInner": true
             },
             {
-              "id": "600db22",
+              "id": "39a079f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -733,7 +813,7 @@
               },
               "elements": [
                 {
-                  "id": "658d66c",
+                  "id": "bc9dbfa",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -744,14 +824,30 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
                     "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -767,7 +863,7 @@
       "isInner": false
     },
     {
-      "id": "36f8c15",
+      "id": "afbc6be",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -806,7 +902,7 @@
       },
       "elements": [
         {
-          "id": "438d154",
+          "id": "393a4aa",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -827,7 +923,7 @@
           },
           "elements": [
             {
-              "id": "0581ca9",
+              "id": "28519dc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -849,7 +945,7 @@
               },
               "elements": [
                 {
-                  "id": "d215623",
+                  "id": "4248126",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -867,7 +963,7 @@
               "isInner": true
             },
             {
-              "id": "61629a9",
+              "id": "ed271eb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -889,7 +985,7 @@
               },
               "elements": [
                 {
-                  "id": "3488e0e",
+                  "id": "faa1379",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -913,7 +1009,7 @@
       "isInner": false
     },
     {
-      "id": "c1a2617",
+      "id": "434bf46",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -952,7 +1048,7 @@
       },
       "elements": [
         {
-          "id": "2e9520e",
+          "id": "b01481f",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -973,7 +1069,7 @@
           },
           "elements": [
             {
-              "id": "a2c731f",
+              "id": "6543551",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1003,7 +1099,7 @@
               },
               "elements": [
                 {
-                  "id": "b2d6a8b",
+                  "id": "7206d0e",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1025,7 +1121,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "c7bab06",
+                  "id": "3601f81",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1045,7 +1141,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "a26403e",
+                  "id": "741b31d",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1082,7 +1178,7 @@
               "isInner": true
             },
             {
-              "id": "41f1189",
+              "id": "ee12a03",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1117,7 +1213,7 @@
               },
               "elements": [
                 {
-                  "id": "1b0fb38",
+                  "id": "2bfdf8c",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1128,21 +1224,37 @@
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "a341c50",
+                  "id": "b88edf7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1153,21 +1265,37 @@
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "93780b0",
+                  "id": "ea8558f",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1178,14 +1306,30 @@
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],

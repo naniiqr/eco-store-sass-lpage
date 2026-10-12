@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "9db756d",
+      "id": "254e824",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -57,7 +57,7 @@
       },
       "elements": [
         {
-          "id": "3a6ce4a",
+          "id": "6bd4a7c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -87,7 +87,7 @@
           },
           "elements": [
             {
-              "id": "e6c2607",
+              "id": "8def737",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -114,7 +114,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "9bbee02",
+              "id": "570b705",
               "elType": "widget",
               "settings": {
                 "title": "Instal·lació de gespa natural i <span style=\"color:#4E8C3F\">artificial</span>",
@@ -136,7 +136,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "784107e",
+              "id": "fbaa5f2",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -156,7 +156,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "d097611",
+              "id": "c8f4685",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -177,7 +177,7 @@
               },
               "elements": [
                 {
-                  "id": "4069618",
+                  "id": "62fd299",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -220,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "b739c46",
+      "id": "c2813b8",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -259,7 +259,7 @@
       },
       "elements": [
         {
-          "id": "d4f08b1",
+          "id": "ef96d77",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -280,7 +280,7 @@
           },
           "elements": [
             {
-              "id": "0552ecc",
+              "id": "70e57a0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -310,7 +310,7 @@
               },
               "elements": [
                 {
-                  "id": "dae46e2",
+                  "id": "caad128",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Com a imatge clàssica de qualsevol casa, la gespa és una de les parts més importants de qualsevol jardí i la primera impressió. A part de l'estètica visual, la gespa serveix com un espai ideal perquè juguin els nens i les mascotes.</p>",
@@ -330,7 +330,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "daf8c73",
+                  "id": "5eee131",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Gràcies als avenços tecnològics, tenim l'opció de tenir una gespa natural o gespa artificial de molt bona qualitat.</p>",
@@ -350,7 +350,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "90d0526",
+                  "id": "e9dbd58",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Prendre la decisió entre una gespa artificial o gespa natural per a molts propietaris necessita assessorament de professionals per decidir quina opció és la més adient en cada cas. Per ajudar-lo a decidir quin és millor per a vostè, li podrem dir els avantatges en cada cas.</p>",
@@ -373,7 +373,7 @@
               "isInner": true
             },
             {
-              "id": "1aedcc9",
+              "id": "960a028",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -395,7 +395,7 @@
               },
               "elements": [
                 {
-                  "id": "6e27542",
+                  "id": "89674c0",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -419,7 +419,7 @@
       "isInner": false
     },
     {
-      "id": "fe1ed99",
+      "id": "8cd2a8e",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -458,7 +458,7 @@
       },
       "elements": [
         {
-          "id": "b8a9ce0",
+          "id": "e94b305",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -479,7 +479,7 @@
           },
           "elements": [
             {
-              "id": "d21f65f",
+              "id": "c224252",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -501,7 +501,7 @@
               },
               "elements": [
                 {
-                  "id": "e4bdfa8",
+                  "id": "ecce3e8",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -519,7 +519,7 @@
               "isInner": true
             },
             {
-              "id": "cc34d94",
+              "id": "c05b65b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -541,7 +541,7 @@
               },
               "elements": [
                 {
-                  "id": "c59349c",
+                  "id": "91e7514",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -559,7 +559,7 @@
               "isInner": true
             },
             {
-              "id": "7c42099",
+              "id": "00b04fd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -581,7 +581,7 @@
               },
               "elements": [
                 {
-                  "id": "26a49de",
+                  "id": "86c0b9b",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -599,7 +599,7 @@
               "isInner": true
             },
             {
-              "id": "33ef69e",
+              "id": "16cc85f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -621,7 +621,7 @@
               },
               "elements": [
                 {
-                  "id": "9817833",
+                  "id": "97d17d9",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -639,7 +639,7 @@
               "isInner": true
             },
             {
-              "id": "7b43bc5",
+              "id": "04420b4",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -661,7 +661,7 @@
               },
               "elements": [
                 {
-                  "id": "24b8891",
+                  "id": "4019d1f",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -679,7 +679,7 @@
               "isInner": true
             },
             {
-              "id": "21dc8c0",
+              "id": "b4ce7b4",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -701,7 +701,7 @@
               },
               "elements": [
                 {
-                  "id": "813b8dc",
+                  "id": "cda8a98",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -725,7 +725,7 @@
       "isInner": false
     },
     {
-      "id": "810b6c5",
+      "id": "0eb6fd5",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -764,7 +764,7 @@
       },
       "elements": [
         {
-          "id": "0a2eae5",
+          "id": "1cbbc48",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -785,7 +785,7 @@
           },
           "elements": [
             {
-              "id": "94c6a5d",
+              "id": "e284b8b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -815,7 +815,7 @@
               },
               "elements": [
                 {
-                  "id": "41b8ea9",
+                  "id": "67b766f",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -837,7 +837,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "f52bb9e",
+                  "id": "310d82a",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -857,7 +857,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "915f116",
+                  "id": "18ab877",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -894,7 +894,7 @@
               "isInner": true
             },
             {
-              "id": "b445541",
+              "id": "df83ad9",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -929,7 +929,7 @@
               },
               "elements": [
                 {
-                  "id": "0358b22",
+                  "id": "7f483e7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -940,21 +940,37 @@
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "beef801",
+                  "id": "02baf37",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -965,21 +981,37 @@
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "5c48310",
+                  "id": "00a3376",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -990,14 +1022,30 @@
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],

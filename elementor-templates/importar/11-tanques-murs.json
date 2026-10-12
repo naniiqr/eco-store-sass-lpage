@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "9b40595",
+      "id": "97f8046",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -57,7 +57,7 @@
       },
       "elements": [
         {
-          "id": "eb60cdc",
+          "id": "4aff91d",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -87,7 +87,7 @@
           },
           "elements": [
             {
-              "id": "7a6bc3c",
+              "id": "e3fd0ca",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -114,7 +114,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "b717a52",
+              "id": "6b47e1e",
               "elType": "widget",
               "settings": {
                 "title": "Tanques i murs de <span style=\"color:#4E8C3F\">contenció</span>",
@@ -136,7 +136,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "fb8f528",
+              "id": "f4d5666",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -156,7 +156,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "54394a6",
+              "id": "4780431",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -177,7 +177,7 @@
               },
               "elements": [
                 {
-                  "id": "7afda6e",
+                  "id": "04d82ed",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -220,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "576a251",
+      "id": "7d55968",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -259,7 +259,7 @@
       },
       "elements": [
         {
-          "id": "bb455c0",
+          "id": "f66d120",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -280,7 +280,7 @@
           },
           "elements": [
             {
-              "id": "f40ac3d",
+              "id": "fb21c95",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -310,7 +310,7 @@
               },
               "elements": [
                 {
-                  "id": "933c6bc",
+                  "id": "3e2c87f",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Fem tot tipus de tanques, tant les metàl·liques o de fusta totalment adaptades a l'entorn per minimitzar l'impacte visual.</p>",
@@ -330,7 +330,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "5cd72d3",
+                  "id": "7b52eea",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Murs de contenció per anivellar terrenys.</p>",
@@ -353,7 +353,7 @@
               "isInner": true
             },
             {
-              "id": "978d3bb",
+              "id": "198450f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -375,7 +375,7 @@
               },
               "elements": [
                 {
-                  "id": "5f6d574",
+                  "id": "250f6c3",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -399,7 +399,7 @@
       "isInner": false
     },
     {
-      "id": "72c14f7",
+      "id": "63f371d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -438,7 +438,7 @@
       },
       "elements": [
         {
-          "id": "3727cb3",
+          "id": "8b320ec",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -459,7 +459,7 @@
           },
           "elements": [
             {
-              "id": "edc27f8",
+              "id": "e9b9479",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -481,7 +481,7 @@
               },
               "elements": [
                 {
-                  "id": "9b1dd7e",
+                  "id": "466f4f8",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -499,7 +499,7 @@
               "isInner": true
             },
             {
-              "id": "917c90e",
+              "id": "f6e7196",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -521,7 +521,7 @@
               },
               "elements": [
                 {
-                  "id": "1f5fd4f",
+                  "id": "33b626d",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -545,7 +545,7 @@
       "isInner": false
     },
     {
-      "id": "0dfa893",
+      "id": "28234c2",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -584,7 +584,7 @@
       },
       "elements": [
         {
-          "id": "e92ca80",
+          "id": "48aa3a7",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -605,7 +605,7 @@
           },
           "elements": [
             {
-              "id": "fb0c8de",
+              "id": "abf6498",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -635,7 +635,7 @@
               },
               "elements": [
                 {
-                  "id": "9e806c2",
+                  "id": "9165c96",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -657,7 +657,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9f86a1b",
+                  "id": "132d03c",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -677,7 +677,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "9628de1",
+                  "id": "f26cd2c",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -714,7 +714,7 @@
               "isInner": true
             },
             {
-              "id": "330ef46",
+              "id": "13e9a35",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -749,7 +749,7 @@
               },
               "elements": [
                 {
-                  "id": "a0cc139",
+                  "id": "6547a46",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -760,21 +760,37 @@
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "81ae5ec",
+                  "id": "a012d0b",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -785,21 +801,37 @@
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "e5488df",
+                  "id": "73233d2",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -810,14 +842,30 @@
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],

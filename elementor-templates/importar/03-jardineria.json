@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "227c548",
+      "id": "5f13202",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -58,7 +58,7 @@
       },
       "elements": [
         {
-          "id": "1940a5a",
+          "id": "72a3469",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -88,7 +88,7 @@
           },
           "elements": [
             {
-              "id": "d82ee78",
+              "id": "621bcf8",
               "elType": "widget",
               "settings": {
                 "title": "DISSENY DE JARDINS",
@@ -115,7 +115,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "78ba77f",
+              "id": "a754bb2",
               "elType": "widget",
               "settings": {
                 "title": "Dissenyem<br>jardins <span style=\"color:#4E8C3F\">amb ànima</span>",
@@ -137,7 +137,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "ec18637",
+              "id": "715cc72",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Espais únics, funcionals i sostenibles que connecten amb la natura i milloren la teva qualitat de vida.</p>",
@@ -157,7 +157,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "d48ba1f",
+              "id": "b485c23",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -178,7 +178,7 @@
               },
               "elements": [
                 {
-                  "id": "37f68ca",
+                  "id": "0e177bd",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -206,7 +206,7 @@
                   "widgetType": "button"
                 },
                 {
-                  "id": "60b63ba",
+                  "id": "69757df",
                   "elType": "widget",
                   "settings": {
                     "text": "VEURE PROJECTES",
@@ -250,7 +250,7 @@
           "isInner": true
         },
         {
-          "id": "7b37d6d",
+          "id": "82a3e4d",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -280,7 +280,7 @@
           },
           "elements": [
             {
-              "id": "1f93beb",
+              "id": "87e79c2",
               "elType": "widget",
               "settings": {
                 "title": "Natura<br>Benestar<br>Vida",
@@ -309,7 +309,7 @@
       "isInner": false
     },
     {
-      "id": "3e61b99",
+      "id": "06a10d8",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -358,7 +358,7 @@
       },
       "elements": [
         {
-          "id": "2f2e1d9",
+          "id": "834ad83",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -379,7 +379,7 @@
           },
           "elements": [
             {
-              "id": "96efc26",
+              "id": "16527e3",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -390,7 +390,7 @@
                 "description_text": "Projectes únics i a mida",
                 "position": "top",
                 "title_size": "h4",
-                "icon_color": "#4E8C3F",
+                "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
                 "description_color": "#6B7280",
                 "position_mobile": "top",
@@ -404,7 +404,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "abe8faa",
+              "id": "e711e4f",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -415,7 +415,7 @@
                 "description_text": "Respecte pel medi ambient",
                 "position": "top",
                 "title_size": "h4",
-                "icon_color": "#4E8C3F",
+                "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
                 "description_color": "#6B7280",
                 "position_mobile": "top",
@@ -429,7 +429,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "81e9371",
+              "id": "0361b29",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -440,7 +440,7 @@
                 "description_text": "Espais més eficients",
                 "position": "top",
                 "title_size": "h4",
-                "icon_color": "#4E8C3F",
+                "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
                 "description_color": "#6B7280",
                 "position_mobile": "top",
@@ -454,7 +454,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "bd62ed9",
+              "id": "ebdc860",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -465,7 +465,7 @@
                 "description_text": "Confiança i resultats",
                 "position": "top",
                 "title_size": "h4",
-                "icon_color": "#4E8C3F",
+                "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
                 "description_color": "#6B7280",
                 "position_mobile": "top",
@@ -479,7 +479,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "f38c12d",
+              "id": "942931d",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -490,7 +490,7 @@
                 "description_text": "De la idea a la realitat",
                 "position": "top",
                 "title_size": "h4",
-                "icon_color": "#4E8C3F",
+                "primary_color": "#4E8C3F",
                 "title_color": "#1E2A22",
                 "description_color": "#6B7280",
                 "position_mobile": "top",
@@ -510,7 +510,7 @@
       "isInner": false
     },
     {
-      "id": "ed40b04",
+      "id": "d4454e4",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -549,7 +549,7 @@
       },
       "elements": [
         {
-          "id": "5b9e6c5",
+          "id": "5f363a5",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -570,7 +570,7 @@
           },
           "elements": [
             {
-              "id": "82c56f3",
+              "id": "e79bfa7",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -600,7 +600,7 @@
               },
               "elements": [
                 {
-                  "id": "0afa4fa",
+                  "id": "233c8f7",
                   "elType": "widget",
                   "settings": {
                     "title": "DISSENY DE JARDINS",
@@ -627,7 +627,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "f91f94a",
+                  "id": "2dc0811",
                   "elType": "widget",
                   "settings": {
                     "title": "Molt més <span style=\"color:#E14D5A\">que un jardí</span>",
@@ -649,7 +649,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "dfc2879",
+                  "id": "ddb0d01",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Dissenyem i construïm jardins que s'adapten al teu espai, al teu estil de vida i a l'entorn. Cada projecte és únic, combinant estètica, funcionalitat i sostenibilitat per crear espais verds que perdurin en el temps.</p>",
@@ -669,7 +669,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "0748a30",
+                  "id": "3bdeca2",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -685,7 +685,7 @@
                   },
                   "elements": [
                     {
-                      "id": "f76ab6b",
+                      "id": "b7911d9",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -696,7 +696,7 @@
                         "description_text": "Escoltem les teves necessitats",
                         "position": "left",
                         "title_size": "h4",
-                        "icon_color": "#4E8C3F",
+                        "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
                         "description_color": "#6B7280",
                         "position_mobile": "top",
@@ -710,7 +710,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "b35b575",
+                      "id": "c7869aa",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -721,7 +721,7 @@
                         "description_text": "Propostes creatives i funcionals",
                         "position": "left",
                         "title_size": "h4",
-                        "icon_color": "#4E8C3F",
+                        "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
                         "description_color": "#6B7280",
                         "position_mobile": "top",
@@ -735,7 +735,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "7573561",
+                      "id": "95febc7",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -746,7 +746,7 @@
                         "description_text": "Espècies adaptades al clima",
                         "position": "left",
                         "title_size": "h4",
-                        "icon_color": "#4E8C3F",
+                        "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
                         "description_color": "#6B7280",
                         "position_mobile": "top",
@@ -760,7 +760,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "d7469e3",
+                      "id": "682d419",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -771,7 +771,7 @@
                         "description_text": "Cuidem cada detall",
                         "position": "left",
                         "title_size": "h4",
-                        "icon_color": "#4E8C3F",
+                        "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
                         "description_color": "#6B7280",
                         "position_mobile": "top",
@@ -785,7 +785,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "232934a",
+                      "id": "8d725d4",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -796,7 +796,7 @@
                         "description_text": "Benestar per a tu i el teu entorn",
                         "position": "left",
                         "title_size": "h4",
-                        "icon_color": "#4E8C3F",
+                        "primary_color": "#4E8C3F",
                         "title_color": "#1E2A22",
                         "description_color": "#6B7280",
                         "position_mobile": "top",
@@ -813,7 +813,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "1163084",
+                  "id": "c96fa0d",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -844,7 +844,7 @@
               "isInner": true
             },
             {
-              "id": "d14d509",
+              "id": "f4fcdfc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -867,7 +867,7 @@
               },
               "elements": [
                 {
-                  "id": "dde5379",
+                  "id": "a67c93f",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -882,7 +882,7 @@
                   "widgetType": "image"
                 },
                 {
-                  "id": "5cd1d7f",
+                  "id": "f322775",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -932,7 +932,7 @@
                   },
                   "elements": [
                     {
-                      "id": "6b47734",
+                      "id": "bb50567",
                       "elType": "widget",
                       "settings": {
                         "title": "\"Jardins que<br>milloren vides\"",
@@ -955,7 +955,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "8339d3a",
+                      "id": "23ec026",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>Disseny, natura i emoció en equilibri perfecte.</p>",
@@ -987,7 +987,7 @@
       "isInner": false
     },
     {
-      "id": "e3220ab",
+      "id": "09eeef7",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1026,7 +1026,7 @@
       },
       "elements": [
         {
-          "id": "36bcdab",
+          "id": "3039708",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1047,7 +1047,7 @@
           },
           "elements": [
             {
-              "id": "bada819",
+              "id": "0f20a63",
               "elType": "widget",
               "settings": {
                 "title": "Projectes de <span style=\"color:#E14D5A\">disseny de jardins</span>",
@@ -1068,7 +1068,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "d265600",
+              "id": "d6fffc1",
               "elType": "widget",
               "settings": {
                 "editor": "<p>VEURE TOTS ELS PROJECTES →</p>",
@@ -1090,7 +1090,7 @@
           "isInner": true
         },
         {
-          "id": "f104d7a",
+          "id": "9d68841",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1111,7 +1111,7 @@
           },
           "elements": [
             {
-              "id": "86b9510",
+              "id": "ac89f17",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1141,7 +1141,7 @@
               },
               "elements": [
                 {
-                  "id": "5f3ee53",
+                  "id": "4c1b5f5",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1156,7 +1156,7 @@
                   "widgetType": "image"
                 },
                 {
-                  "id": "ef033fe",
+                  "id": "9ffb605",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1177,7 +1177,7 @@
                   },
                   "elements": [
                     {
-                      "id": "a2826aa",
+                      "id": "1220603",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1193,7 +1193,7 @@
                       },
                       "elements": [
                         {
-                          "id": "61f325d",
+                          "id": "63d3124",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí mediterrani",
@@ -1215,7 +1215,7 @@
                           "widgetType": "heading"
                         },
                         {
-                          "id": "b3f49d1",
+                          "id": "94eac76",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Figueres</p>",
@@ -1238,7 +1238,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "c1f8b0d",
+                      "id": "5af5e41",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1263,7 +1263,7 @@
               "isInner": true
             },
             {
-              "id": "acd70fb",
+              "id": "6e34b29",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1293,7 +1293,7 @@
               },
               "elements": [
                 {
-                  "id": "d909f20",
+                  "id": "dac8d49",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1308,7 +1308,7 @@
                   "widgetType": "image"
                 },
                 {
-                  "id": "c135a4c",
+                  "id": "997b2ca",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1329,7 +1329,7 @@
                   },
                   "elements": [
                     {
-                      "id": "ee7ff92",
+                      "id": "eccefca",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1345,7 +1345,7 @@
                       },
                       "elements": [
                         {
-                          "id": "0016b3d",
+                          "id": "226ce10",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí amb piscina",
@@ -1367,7 +1367,7 @@
                           "widgetType": "heading"
                         },
                         {
-                          "id": "6397d5e",
+                          "id": "db40000",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Empuriabrava</p>",
@@ -1390,7 +1390,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "33d3cf5",
+                      "id": "edba75c",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1415,7 +1415,7 @@
               "isInner": true
             },
             {
-              "id": "f05d38f",
+              "id": "9c3bb48",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1445,7 +1445,7 @@
               },
               "elements": [
                 {
-                  "id": "761b196",
+                  "id": "08e4d55",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1460,7 +1460,7 @@
                   "widgetType": "image"
                 },
                 {
-                  "id": "5c5743d",
+                  "id": "db15fc0",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1481,7 +1481,7 @@
                   },
                   "elements": [
                     {
-                      "id": "40cef36",
+                      "id": "9caffc4",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1497,7 +1497,7 @@
                       },
                       "elements": [
                         {
-                          "id": "af3e376",
+                          "id": "e7586c2",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí contemporani",
@@ -1519,7 +1519,7 @@
                           "widgetType": "heading"
                         },
                         {
-                          "id": "c16fafb",
+                          "id": "7ca2e03",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Peralada</p>",
@@ -1542,7 +1542,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "849a41a",
+                      "id": "3b62234",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1567,7 +1567,7 @@
               "isInner": true
             },
             {
-              "id": "33cba83",
+              "id": "0f6741d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1597,7 +1597,7 @@
               },
               "elements": [
                 {
-                  "id": "1b9b295",
+                  "id": "71a7560",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1612,7 +1612,7 @@
                   "widgetType": "image"
                 },
                 {
-                  "id": "e59cc5a",
+                  "id": "a3e6cb6",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1633,7 +1633,7 @@
                   },
                   "elements": [
                     {
-                      "id": "dacdfa1",
+                      "id": "26f29bb",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1649,7 +1649,7 @@
                       },
                       "elements": [
                         {
-                          "id": "8bb5c3c",
+                          "id": "e378ccd",
                           "elType": "widget",
                           "settings": {
                             "title": "Racó chill out",
@@ -1671,7 +1671,7 @@
                           "widgetType": "heading"
                         },
                         {
-                          "id": "69a7b63",
+                          "id": "82cf6a6",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Empuriabrava</p>",
@@ -1694,7 +1694,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "1ab60ba",
+                      "id": "047bfa3",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1719,7 +1719,7 @@
               "isInner": true
             },
             {
-              "id": "f02bac6",
+              "id": "42bfb8f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1749,7 +1749,7 @@
               },
               "elements": [
                 {
-                  "id": "0738c2b",
+                  "id": "327ef92",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1764,7 +1764,7 @@
                   "widgetType": "image"
                 },
                 {
-                  "id": "90945e6",
+                  "id": "04501e7",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1785,7 +1785,7 @@
                   },
                   "elements": [
                     {
-                      "id": "0024b13",
+                      "id": "3590c4f",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1801,7 +1801,7 @@
                       },
                       "elements": [
                         {
-                          "id": "34d8a4e",
+                          "id": "c3a33c7",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí amb oliveres",
@@ -1823,7 +1823,7 @@
                           "widgetType": "heading"
                         },
                         {
-                          "id": "680b7dd",
+                          "id": "a42c234",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>L'Escala</p>",
@@ -1846,7 +1846,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "02ac92d",
+                      "id": "514067f",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1871,7 +1871,7 @@
               "isInner": true
             },
             {
-              "id": "030a7d6",
+              "id": "33645b3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1901,7 +1901,7 @@
               },
               "elements": [
                 {
-                  "id": "443d0d5",
+                  "id": "d6e149f",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1916,7 +1916,7 @@
                   "widgetType": "image"
                 },
                 {
-                  "id": "74612ec",
+                  "id": "9875198",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1937,7 +1937,7 @@
                   },
                   "elements": [
                     {
-                      "id": "c3cc711",
+                      "id": "88d16ac",
                       "elType": "container",
                       "settings": {
                         "content_width": "full",
@@ -1953,7 +1953,7 @@
                       },
                       "elements": [
                         {
-                          "id": "f07d8e8",
+                          "id": "83c9a72",
                           "elType": "widget",
                           "settings": {
                             "title": "Jardí amb desnivells",
@@ -1975,7 +1975,7 @@
                           "widgetType": "heading"
                         },
                         {
-                          "id": "ae66497",
+                          "id": "0dcc71c",
                           "elType": "widget",
                           "settings": {
                             "editor": "<p>Girona</p>",
@@ -1998,7 +1998,7 @@
                       "isInner": true
                     },
                     {
-                      "id": "a568a08",
+                      "id": "2b50924",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -2029,7 +2029,7 @@
       "isInner": false
     },
     {
-      "id": "317dfe8",
+      "id": "1ed9fd3",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -2068,7 +2068,7 @@
       },
       "elements": [
         {
-          "id": "ffe28f3",
+          "id": "23feb39",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -2089,7 +2089,7 @@
           },
           "elements": [
             {
-              "id": "40e244a",
+              "id": "9cfa57d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2119,7 +2119,7 @@
               },
               "elements": [
                 {
-                  "id": "804c9e2",
+                  "id": "af7cdc0",
                   "elType": "widget",
                   "settings": {
                     "title": "Per què confiar en Newtree?",
@@ -2141,7 +2141,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "f02e2d9",
+                  "id": "fc1cac4",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Som una empresa de jardineria i paisatgisme fundada l'any 1977, amb més de 50 anys d'experiència a l'Empordà. Ens apassiona la natura i treballem per crear espais verds que generin benestar, bellesa i valor.</p>",
@@ -2161,7 +2161,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "15bb1fb",
+                  "id": "f841e7e",
                   "elType": "widget",
                   "settings": {
                     "text": "CONEIX NOSALTRES",
@@ -2202,7 +2202,7 @@
               "isInner": true
             },
             {
-              "id": "6fac43b",
+              "id": "939f3dc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2237,7 +2237,7 @@
               },
               "elements": [
                 {
-                  "id": "18a3f09",
+                  "id": "50215f7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2248,7 +2248,7 @@
                     "description_text": "Fundats l'any 1977",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
                     "position_mobile": "top",
@@ -2262,7 +2262,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "805b4f8",
+                  "id": "a98bc89",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2273,7 +2273,7 @@
                     "description_text": "Ens adaptem a tu",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
                     "position_mobile": "top",
@@ -2287,7 +2287,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "650723c",
+                  "id": "3eebe21",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2298,7 +2298,7 @@
                     "description_text": "Solucions sostenibles",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
                     "position_mobile": "top",
@@ -2312,7 +2312,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "3c92724",
+                  "id": "c7c7c6a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2323,7 +2323,7 @@
                     "description_text": "Fem créixer espais, fem créixer persones",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
                     "position_mobile": "top",
@@ -2346,7 +2346,7 @@
       "isInner": false
     },
     {
-      "id": "8c41182",
+      "id": "c726b93",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -2385,7 +2385,7 @@
       },
       "elements": [
         {
-          "id": "d27ee33",
+          "id": "1c50648",
           "elType": "widget",
           "settings": {
             "title": "Com treballem",
@@ -2407,7 +2407,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "996ac35",
+          "id": "09ba3af",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -2428,7 +2428,7 @@
           },
           "elements": [
             {
-              "id": "a6b2352",
+              "id": "7cf555c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2458,7 +2458,7 @@
               },
               "elements": [
                 {
-                  "id": "c4bce01",
+                  "id": "2dcab40",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -2490,7 +2490,7 @@
                   },
                   "elements": [
                     {
-                      "id": "c6585ff",
+                      "id": "1e0149d",
                       "elType": "widget",
                       "settings": {
                         "title": "01",
@@ -2514,7 +2514,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "0b22c08",
+                  "id": "51a3b47",
                   "elType": "widget",
                   "settings": {
                     "title": "Escoltem les teves idees",
@@ -2536,7 +2536,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "3f05d8c",
+                  "id": "9286633",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Entenem les teves necessitats i l'espai disponible.</p>",
@@ -2559,7 +2559,7 @@
               "isInner": true
             },
             {
-              "id": "9e84f0a",
+              "id": "2ea4c2e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2579,7 +2579,7 @@
               },
               "elements": [
                 {
-                  "id": "75f21f0",
+                  "id": "8131fc6",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2601,7 +2601,7 @@
               "isInner": true
             },
             {
-              "id": "e6be360",
+              "id": "5451768",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2631,7 +2631,7 @@
               },
               "elements": [
                 {
-                  "id": "932190c",
+                  "id": "fe34004",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -2663,7 +2663,7 @@
                   },
                   "elements": [
                     {
-                      "id": "6632c16",
+                      "id": "5af0be4",
                       "elType": "widget",
                       "settings": {
                         "title": "02",
@@ -2687,7 +2687,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "0120d3a",
+                  "id": "b65c066",
                   "elType": "widget",
                   "settings": {
                     "title": "Dissenyem la proposta",
@@ -2709,7 +2709,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "bd736c3",
+                  "id": "f0932c6",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Et presentem un projecte personalitzat.</p>",
@@ -2732,7 +2732,7 @@
               "isInner": true
             },
             {
-              "id": "2ee7ae3",
+              "id": "1378d9e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2752,7 +2752,7 @@
               },
               "elements": [
                 {
-                  "id": "6bebc51",
+                  "id": "16aa0c2",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2774,7 +2774,7 @@
               "isInner": true
             },
             {
-              "id": "24c82cc",
+              "id": "05a7ee4",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2804,7 +2804,7 @@
               },
               "elements": [
                 {
-                  "id": "ba4c796",
+                  "id": "9076ce0",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -2836,7 +2836,7 @@
                   },
                   "elements": [
                     {
-                      "id": "bd8f7e9",
+                      "id": "2e5a4aa",
                       "elType": "widget",
                       "settings": {
                         "title": "03",
@@ -2860,7 +2860,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "0208810",
+                  "id": "a6bed39",
                   "elType": "widget",
                   "settings": {
                     "title": "Executem el jardí",
@@ -2882,7 +2882,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "f7fbb2d",
+                  "id": "53bd0d7",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Amb un equip expert i materials de qualitat.</p>",
@@ -2905,7 +2905,7 @@
               "isInner": true
             },
             {
-              "id": "0e851d2",
+              "id": "0399539",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2925,7 +2925,7 @@
               },
               "elements": [
                 {
-                  "id": "b6ef72b",
+                  "id": "dfafde6",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -2947,7 +2947,7 @@
               "isInner": true
             },
             {
-              "id": "fa1924a",
+              "id": "88b0354",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -2977,7 +2977,7 @@
               },
               "elements": [
                 {
-                  "id": "50cb9ff",
+                  "id": "2586c9e",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -3009,7 +3009,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3d77d02",
+                      "id": "3e23c5f",
                       "elType": "widget",
                       "settings": {
                         "title": "04",
@@ -3033,7 +3033,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "dcfa539",
+                  "id": "f431c8c",
                   "elType": "widget",
                   "settings": {
                     "title": "Gaudeixes del resultat",
@@ -3055,7 +3055,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "d2ad8ad",
+                  "id": "da6a886",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Un espai verd per viure i compartir.</p>",
@@ -3084,7 +3084,7 @@
       "isInner": false
     },
     {
-      "id": "3699ef8",
+      "id": "8f1090a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -3124,7 +3124,7 @@
       },
       "elements": [
         {
-          "id": "ffcb88e",
+          "id": "3010c2e",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -3145,7 +3145,7 @@
           },
           "elements": [
             {
-              "id": "d32893f",
+              "id": "23da178",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -3175,7 +3175,7 @@
               },
               "elements": [
                 {
-                  "id": "495f247",
+                  "id": "01fcc38",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -3197,7 +3197,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "e94b7f6",
+                  "id": "ca96459",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -3217,7 +3217,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "ab9060e",
+                  "id": "ba661cb",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -3248,7 +3248,7 @@
               "isInner": true
             },
             {
-              "id": "7940b8d",
+              "id": "aedbb9b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -3283,7 +3283,7 @@
               },
               "elements": [
                 {
-                  "id": "5942833",
+                  "id": "26c4b93",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -3294,7 +3294,7 @@
                     "description_text": "(+34) 972 560 033",
                     "position": "top",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
                     "position_mobile": "top",
@@ -3308,7 +3308,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "b0f2111",
+                  "id": "462cba6",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -3319,7 +3319,7 @@
                     "description_text": "Envia'ns un missatge",
                     "position": "top",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
                     "position_mobile": "top",
@@ -3333,7 +3333,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "fcea6af",
+                  "id": "f3405b7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -3344,7 +3344,7 @@
                     "description_text": "info@newtree.cat",
                     "position": "top",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
                     "position_mobile": "top",
@@ -3364,7 +3364,7 @@
           "isInner": true
         },
         {
-          "id": "3dbd2e4",
+          "id": "0df14fe",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -3390,7 +3390,7 @@
           },
           "elements": [
             {
-              "id": "d3043ed",
+              "id": "01b42fe",
               "elType": "widget",
               "settings": {
                 "title": "Fem créixer espais,<br>fem créixer persones",

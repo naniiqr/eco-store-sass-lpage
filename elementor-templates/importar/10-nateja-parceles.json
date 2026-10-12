@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "cea9885",
+      "id": "6fd7572",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -57,7 +57,7 @@
       },
       "elements": [
         {
-          "id": "950ba80",
+          "id": "0bc7c68",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -87,7 +87,7 @@
           },
           "elements": [
             {
-              "id": "b244e76",
+              "id": "f82a509",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -114,7 +114,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "41ae571",
+              "id": "722b3b4",
               "elType": "widget",
               "settings": {
                 "title": "Neteja de <span style=\"color:#4E8C3F\">parcel·les</span>",
@@ -136,7 +136,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "7f74f5f",
+              "id": "fdb1fae",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -156,7 +156,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "05277df",
+              "id": "24f4581",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -177,7 +177,7 @@
               },
               "elements": [
                 {
-                  "id": "a88ef4b",
+                  "id": "b20dcc7",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -220,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "6341b6a",
+      "id": "eba9f16",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -259,7 +259,7 @@
       },
       "elements": [
         {
-          "id": "1b01a9e",
+          "id": "8c01f9f",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -280,7 +280,7 @@
           },
           "elements": [
             {
-              "id": "ec03cb1",
+              "id": "8b9ef79",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -310,7 +310,7 @@
               },
               "elements": [
                 {
-                  "id": "7fcc2b9",
+                  "id": "fca0484",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Oferim el servei de neteja de parcel·les.</p>",
@@ -333,7 +333,7 @@
               "isInner": true
             },
             {
-              "id": "ac3f614",
+              "id": "de3e0a6",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -355,7 +355,7 @@
               },
               "elements": [
                 {
-                  "id": "e31cf19",
+                  "id": "4af0dd8",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -379,7 +379,7 @@
       "isInner": false
     },
     {
-      "id": "1a6e77d",
+      "id": "f052abe",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -418,7 +418,7 @@
       },
       "elements": [
         {
-          "id": "4ee5a41",
+          "id": "c4773e8",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -439,7 +439,7 @@
           },
           "elements": [
             {
-              "id": "ea42a04",
+              "id": "6f41b35",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -461,7 +461,7 @@
               },
               "elements": [
                 {
-                  "id": "a1cbde8",
+                  "id": "a2886d8",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -485,7 +485,7 @@
       "isInner": false
     },
     {
-      "id": "6ecafdf",
+      "id": "8a8a2e2",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -524,7 +524,7 @@
       },
       "elements": [
         {
-          "id": "1910904",
+          "id": "1a4e8a4",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -545,7 +545,7 @@
           },
           "elements": [
             {
-              "id": "b787020",
+              "id": "437bf49",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -575,7 +575,7 @@
               },
               "elements": [
                 {
-                  "id": "0250b47",
+                  "id": "68958fa",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -597,7 +597,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "c8023c8",
+                  "id": "1ef8237",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -617,7 +617,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "5cd0868",
+                  "id": "227f506",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -654,7 +654,7 @@
               "isInner": true
             },
             {
-              "id": "b3955fd",
+              "id": "66549f6",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -689,7 +689,7 @@
               },
               "elements": [
                 {
-                  "id": "021741c",
+                  "id": "784380f",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -700,21 +700,37 @@
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "2a0b351",
+                  "id": "4ca6d7d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -725,21 +741,37 @@
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "b86d7b1",
+                  "id": "4f7bc74",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -750,14 +782,30 @@
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],

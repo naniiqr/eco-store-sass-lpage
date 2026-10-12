@@ -50,6 +50,7 @@ W_MAP = {
     "align": lambda v: [f"text-align:{v}", f"justify-content:{v if v != 'left' else 'flex-start'}"],
     "text_align": lambda v: [f"text-align:{v}"],
     "position": lambda v: ["flex-direction:column", "align-items:center"] if v == "top" else [],
+    "hide": lambda v: ["display:none"],
 }
 
 
@@ -107,6 +108,11 @@ def container(c, top=False):
     if s.get("border_radius"):
         r = s["border_radius"]
         st.append("border-radius:" + (f"{r['top']}{r['unit']}" if r.get("isLinked") else box(r)))
+    if s.get("overflow"):
+        st.append(f"overflow:{s['overflow']}")
+    bs = s.get("box_shadow_box_shadow")
+    if bs and s.get("box_shadow_box_shadow_type") == "yes":
+        st.append(f"box-shadow:{bs.get('horizontal', 0)}px {bs.get('vertical', 0)}px {bs.get('blur', 0)}px {bs.get('spread', 0)}px {bs.get('color', 'rgba(0,0,0,.1)')}")
     if s.get("_position") == "absolute":
         st = [x for x in st if not x.startswith(("position", "width"))]
         st += ["position:absolute", f"top:{px(s.get('_offset_y')) or '0'}", "right:0", "z-index:2"]
@@ -159,7 +165,14 @@ def widget(w):
         ic = ' <i class="fas fa-arrow-right"></i>' if s.get("icon") else ""
         return f'<a href="{H.escape(href)}" style="{";".join(st)}">{H.escape(s.get("text", ""))}{ic}</a>'
     if t == "icon-box":
-        ic = icon_html((s.get("selected_icon") or {}).get("value", "fas fa-leaf"), s.get("icon_color", "#4E8C3F"), 28)
+        val = (s.get("selected_icon") or {}).get("value", "fas fa-leaf")
+        if s.get("view") == "stacked":
+            pd = (s.get("icon_padding") or {}).get("size", 14)
+            ic = (f'<span style="display:inline-flex;align-items:center;justify-content:center;border-radius:50%;'
+                  f'background:{s.get("primary_color", "#4E8C3F")};width:{18 + 2 * pd}px;height:{18 + 2 * pd}px">'
+                  f'{icon_html(val, s.get("secondary_color", "#fff"), (s.get("icon_size") or {}).get("size", 18))}</span>')
+        else:
+            ic = icon_html(val, s.get("primary_color", "#4E8C3F"), (s.get("icon_size") or {}).get("size", 26))
         title = f'<div style="font-weight:700;font-size:18px;color:{s.get("title_color", "#1e2a22")};line-height:1.3">{H.escape(s.get("title_text", ""))}</div>'
         desc = (f'<div style="font-size:14px;color:{s.get("description_color", "#6b7280")};margin-top:4px;line-height:1.5">'
                 f'{H.escape(s.get("description_text", ""))}</div>') if s.get("description_text") else ""
@@ -173,16 +186,21 @@ def widget(w):
         u = (s.get("image") or {}).get("url", "")
         return f'<img src="{H.escape(u)}" alt="{H.escape(s.get("alt", ""))}" style="width:100%;display:block;border-radius:6px;object-fit:cover">'
     if t == "form":
-        out = '<form onsubmit="return false" style="display:flex;flex-direction:column;gap:14px;width:100%">'
+        rad = (s.get("field_border_radius") or {}).get("top", 6)
+        fst = (f"padding:14px 16px;border:0;border-radius:{rad}px;font:inherit;width:100%;box-sizing:border-box;"
+               f"background:{s.get('field_background_color', '#fff')};color:{s.get('field_text_color', '#1e2a22')}")
+        out = '<form onsubmit="return false" style="display:flex;flex-direction:column;gap:16px;width:100%">'
         for f in s.get("form_fields", []):
-            lab = H.escape(f.get("field_label", ""))
-            st = "padding:12px 14px;border:1px solid #d1d5db;border-radius:6px;font:inherit;width:100%;box-sizing:border-box"
+            ph_ = H.escape(f.get("placeholder", ""))
+            lab = "" if s.get("show_labels") == "" else f'<span style="font-weight:600;font-size:14px">{H.escape(f.get("field_label", ""))}</span>'
             if f.get("field_type") == "textarea":
-                out += f'<label style="font-weight:600;font-size:14px">{lab}<textarea rows="5" style="{st}"></textarea></label>'
+                out += f'<label>{lab}<textarea rows="{f.get("rows", 5)}" placeholder="{ph_}" style="{fst}"></textarea></label>'
             else:
-                out += f'<label style="font-weight:600;font-size:14px">{lab}<input type="{f.get("field_type", "text")}" style="{st}"></label>'
-        out += (f'<button style="background:{s.get("button_background_color", "#4E8C3F")};color:#fff;border:0;border-radius:6px;'
-                f'padding:14px;font:600 14px Nunito,sans-serif;cursor:pointer">{H.escape(s.get("button_text", "Enviar"))}</button></form>')
+                out += f'<label>{lab}<input type="{f.get("field_type", "text")}" placeholder="{ph_}" style="{fst}"></label>'
+        brad = (s.get("button_border_radius") or {}).get("top", 6)
+        out += (f'<button style="background:{s.get("button_background_color", "#4E8C3F")};color:{s.get("button_text_color", "#fff")};'
+                f'border:0;border-radius:{brad}px;padding:16px;font:700 15px Nunito,sans-serif;cursor:pointer;width:100%">'
+                f'{H.escape(s.get("button_text", "Enviar"))}</button></form>')
         return out
     if t == "google_maps":
         addr = H.escape(s.get("address", ""), quote=True).replace(" ", "+")

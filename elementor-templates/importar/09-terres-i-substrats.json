@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "d276d19",
+      "id": "2c4bc99",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -57,7 +57,7 @@
       },
       "elements": [
         {
-          "id": "bd1cd26",
+          "id": "4b9ec61",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -87,7 +87,7 @@
           },
           "elements": [
             {
-              "id": "adf409b",
+              "id": "948e995",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -114,7 +114,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "42af213",
+              "id": "8a2f466",
               "elType": "widget",
               "settings": {
                 "title": "Terres i <span style=\"color:#4E8C3F\">substrats</span>",
@@ -136,7 +136,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "4903c7f",
+              "id": "75f3a33",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -156,7 +156,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "965e3e2",
+              "id": "2768b5e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -177,7 +177,7 @@
               },
               "elements": [
                 {
-                  "id": "d89ba0f",
+                  "id": "71d4a24",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -220,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "bd3cef4",
+      "id": "a9fae1c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -259,7 +259,7 @@
       },
       "elements": [
         {
-          "id": "8c3fde6",
+          "id": "c5e645c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -280,7 +280,7 @@
           },
           "elements": [
             {
-              "id": "711efac",
+              "id": "fcce477",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -310,7 +310,7 @@
               },
               "elements": [
                 {
-                  "id": "3b7f16e",
+                  "id": "73f957c",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>El sòl és fonamental per a l'èxit dels jardins sostenibles i proporciona importants beneficis ambientals. L'ús de pràctiques de jardineria sostenibles pot ajudar-nos a restaurar els beneficis que brinden els nostres sòls i és molt recomanable fer aportacions de terra, tant podem servir en format de sacs com amb box o camions.</p>",
@@ -330,7 +330,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "186be43",
+                  "id": "4399ed6",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>La grava funciona molt bé com coberta de la taulada en parterres o tan sols per decorar parts d'un jardí. A més d'ajudar el drenatge de l'aigua, mantenen la temperatura de la terra i contribueixen que estigui ben airejat. Això esmorteeix l'efecte de les altes temperatures i ajuda a protegir les arrels de les plantes.</p>",
@@ -353,7 +353,7 @@
               "isInner": true
             },
             {
-              "id": "828c2a3",
+              "id": "7a7d3b7",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -375,7 +375,7 @@
               },
               "elements": [
                 {
-                  "id": "1bfbfae",
+                  "id": "b4d0c54",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -399,7 +399,7 @@
       "isInner": false
     },
     {
-      "id": "6730b50",
+      "id": "37cd8f9",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -438,7 +438,7 @@
       },
       "elements": [
         {
-          "id": "c8145be",
+          "id": "ed31ef3",
           "elType": "widget",
           "settings": {
             "title": "Aportacions de terra",
@@ -460,7 +460,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "ce908ce",
+          "id": "634cb88",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -481,7 +481,7 @@
           },
           "elements": [
             {
-              "id": "9e00e86",
+              "id": "4d70dd3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -503,7 +503,7 @@
               },
               "elements": [
                 {
-                  "id": "175ca9d",
+                  "id": "96fc0b8",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -514,14 +514,30 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
                     "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -531,7 +547,7 @@
               "isInner": true
             },
             {
-              "id": "04e87dd",
+              "id": "948f553",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -553,7 +569,7 @@
               },
               "elements": [
                 {
-                  "id": "5ae7ba4",
+                  "id": "78e0eca",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -564,14 +580,30 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
                     "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -581,7 +613,7 @@
               "isInner": true
             },
             {
-              "id": "4449218",
+              "id": "e21cfdc",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -603,7 +635,7 @@
               },
               "elements": [
                 {
-                  "id": "7b57d7c",
+                  "id": "f394e67",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -614,14 +646,30 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
                     "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
@@ -637,7 +685,7 @@
       "isInner": false
     },
     {
-      "id": "c5c1db3",
+      "id": "7dcd8a3",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -676,7 +724,7 @@
       },
       "elements": [
         {
-          "id": "a4f723d",
+          "id": "5e4558e",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -697,7 +745,7 @@
           },
           "elements": [
             {
-              "id": "99da847",
+              "id": "1b35391",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -719,7 +767,7 @@
               },
               "elements": [
                 {
-                  "id": "34dbfd0",
+                  "id": "e40c449",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -737,7 +785,7 @@
               "isInner": true
             },
             {
-              "id": "9bcf8a7",
+              "id": "1a245fb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -759,7 +807,7 @@
               },
               "elements": [
                 {
-                  "id": "60e4f4c",
+                  "id": "c871287",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -777,7 +825,7 @@
               "isInner": true
             },
             {
-              "id": "5b38dc6",
+              "id": "88bc126",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -799,7 +847,7 @@
               },
               "elements": [
                 {
-                  "id": "385164b",
+                  "id": "69b41f0",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -817,7 +865,7 @@
               "isInner": true
             },
             {
-              "id": "c147183",
+              "id": "ee70507",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -839,7 +887,7 @@
               },
               "elements": [
                 {
-                  "id": "b7c06bb",
+                  "id": "5962d60",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -857,7 +905,7 @@
               "isInner": true
             },
             {
-              "id": "06fd9e9",
+              "id": "9e99e1b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -879,7 +927,7 @@
               },
               "elements": [
                 {
-                  "id": "822fcf7",
+                  "id": "c19c1df",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -897,7 +945,7 @@
               "isInner": true
             },
             {
-              "id": "1ae260e",
+              "id": "22168a0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -919,7 +967,7 @@
               },
               "elements": [
                 {
-                  "id": "ab8081c",
+                  "id": "a7ec14b",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -943,7 +991,7 @@
       "isInner": false
     },
     {
-      "id": "58cc27f",
+      "id": "4a87bd2",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -982,7 +1030,7 @@
       },
       "elements": [
         {
-          "id": "9e1c73a",
+          "id": "2400145",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1003,7 +1051,7 @@
           },
           "elements": [
             {
-              "id": "7d26666",
+              "id": "14d14bd",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1033,7 +1081,7 @@
               },
               "elements": [
                 {
-                  "id": "aca466d",
+                  "id": "47589f6",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1055,7 +1103,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "90c9591",
+                  "id": "12ed3ea",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1075,7 +1123,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "789ffaa",
+                  "id": "c4ee3fe",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1112,7 +1160,7 @@
               "isInner": true
             },
             {
-              "id": "03ac6b0",
+              "id": "3b06763",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1147,7 +1195,7 @@
               },
               "elements": [
                 {
-                  "id": "7e6c0a9",
+                  "id": "7ee7e2c",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1158,21 +1206,37 @@
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "8e27cc7",
+                  "id": "f8e4912",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1183,21 +1247,37 @@
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "47b8d98",
+                  "id": "1846d96",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1208,14 +1288,30 @@
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],

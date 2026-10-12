@@ -135,3 +135,9 @@ Las páginas de servicio, Empresa, Galeria, Plantes exemplars y Situació i cont
 ## Responsive
 
 Revisión final aplicada a todas las plantillas (`scripts/responsive.py`): márgenes laterales siempre simétricos (40 px escritorio, 24 tablet, 20 móvil), tarjetas de 2 en 2 en tablet, una columna y contenido centrado en móvil, adornos flotantes ocultos en móvil.
+
+## Colores de marca (importante para que no se vean los widgets «por defecto»)
+
+Los JSON fijan los colores de marca en cada widget (incluidos iconos y formulario). Para que **todo lo que no está en los JSON** (enlaces, menú, selector de idioma, tipografías heredadas) también respete la marca, define los **Global Colors** en Site Settings: Primary `#4E8C3F` (verde), Secondary `#122318` (verde oscuro), Text `#1E2A22`, Accent `#E14D5A` (rojo). Los enlaces rojos que se ven por defecto vienen del color Accent/enlaces del Kit del tema.
+
+**Contacte** (`situacio-i-contacte.json`): tarjeta en dos mitades — panel verde oscuro con los datos (iconos en círculo verde) y panel verde de marca con el formulario (campos blancos redondeados, botón verde oscuro a ancho completo) — y mapa debajo con esquinas redondeadas. El formulario es el widget Form de Elementor Pro.

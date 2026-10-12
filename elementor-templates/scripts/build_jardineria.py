@@ -57,7 +57,7 @@ def icon_box(icon, title, desc, icon_color=GREEN, title_color=TEXT_DARK, desc_co
     return W("icon-box", {
         "selected_icon": {"value": f"fas fa-{icon}", "library": "fa-solid"},
         "title_text": title, "description_text": desc, "position": position,
-        "title_size": "h4", "icon_color": icon_color, "title_color": title_color, "description_color": desc_color,
+        "title_size": "h4", "primary_color": icon_color, "title_color": title_color, "description_color": desc_color,
     })
 
 def icon(name, color=WHITE, size=18):

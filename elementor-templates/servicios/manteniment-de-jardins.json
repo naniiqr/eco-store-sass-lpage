@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "4dbdd90",
+      "id": "a2f0145",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "03bf910",
+          "id": "efa4587",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "4baf9fd",
+              "id": "8161727",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "a8888a0",
+              "id": "67a6788",
               "elType": "widget",
               "settings": {
                 "title": "Manteniment de <span style=\"color:#4E8C3F\">jardins</span>",
@@ -97,7 +97,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "3bb10c8",
+              "id": "0d89f62",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "1d102c2",
+              "id": "2dfdfa2",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "e5aa1b4",
+                  "id": "38025d7",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "1ccb01c",
+      "id": "b3a9104",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -193,7 +193,7 @@
       },
       "elements": [
         {
-          "id": "e77d69b",
+          "id": "41c2ee5",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -210,7 +210,7 @@
           },
           "elements": [
             {
-              "id": "275ca81",
+              "id": "fb0c30c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -229,7 +229,7 @@
               },
               "elements": [
                 {
-                  "id": "3600c81",
+                  "id": "3d3efbb",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Una de les millors formes de donar-li a la seva propietat un toc professional és amb els serveis de jardineria. Durant la primavera i l'estiu, les flors fragants i saludables faran que la seva propietat sigui encara més agradable i atractiva. Potser ja tingui excel·lents flors, però de vegades el manteniment de jardí és més fàcil de dir que de fer. New Tree són aquí per ajudar.</p>",
@@ -249,7 +249,7 @@
               "isInner": true
             },
             {
-              "id": "b7d6111",
+              "id": "e991d52",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -260,7 +260,7 @@
               },
               "elements": [
                 {
-                  "id": "951e790",
+                  "id": "a8724d2",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -283,7 +283,7 @@
       "isInner": false
     },
     {
-      "id": "093a232",
+      "id": "735916c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -305,7 +305,7 @@
       },
       "elements": [
         {
-          "id": "d1dbecc",
+          "id": "b18fb0c",
           "elType": "widget",
           "settings": {
             "title": "Manteniment de jardins dels experts",
@@ -324,7 +324,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "848812c",
+          "id": "10f4245",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -341,7 +341,7 @@
           },
           "elements": [
             {
-              "id": "1a7dcbd",
+              "id": "2356d48",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -352,7 +352,7 @@
               },
               "elements": [
                 {
-                  "id": "e4fbd04",
+                  "id": "958930c",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -363,9 +363,27 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -374,7 +392,7 @@
               "isInner": true
             },
             {
-              "id": "9b523f2",
+              "id": "430456c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -385,7 +403,7 @@
               },
               "elements": [
                 {
-                  "id": "c536e6e",
+                  "id": "8047c50",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -396,9 +414,27 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -407,7 +443,7 @@
               "isInner": true
             },
             {
-              "id": "9db1a6d",
+              "id": "70b3adf",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -418,7 +454,7 @@
               },
               "elements": [
                 {
-                  "id": "1948aee",
+                  "id": "d9beb72",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -429,9 +465,27 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -440,7 +494,7 @@
               "isInner": true
             },
             {
-              "id": "076505b",
+              "id": "cfb23bb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -451,7 +505,7 @@
               },
               "elements": [
                 {
-                  "id": "520ca23",
+                  "id": "251aad1",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -462,9 +516,27 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -473,7 +545,7 @@
               "isInner": true
             },
             {
-              "id": "faf364b",
+              "id": "04dbaea",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -484,7 +556,7 @@
               },
               "elements": [
                 {
-                  "id": "234c3f8",
+                  "id": "ce995e7",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -495,9 +567,27 @@
                     "description_text": "",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#1E2A22",
-                    "description_color": "#6B7280"
+                    "description_color": "#6B7280",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
@@ -509,7 +599,7 @@
           "isInner": true
         },
         {
-          "id": "7fb8fab",
+          "id": "e8af496",
           "elType": "widget",
           "settings": {
             "editor": "<p>Podem arreglar vores de jardí descuidats, podar arbres, flors mortes, escampar fertilitzants, manteniment de gespa i donarem assessorament de quines accions són les millors en cada moment.</p>",
@@ -526,7 +616,7 @@
           "widgetType": "text-editor"
         },
         {
-          "id": "e394e22",
+          "id": "550a4ab",
           "elType": "widget",
           "settings": {
             "editor": "<p>New Tree ofereix un manteniment expert per garantir que el jardí de casa tingui una vista impressionant.</p>",
@@ -546,7 +636,7 @@
       "isInner": false
     },
     {
-      "id": "7ec10f5",
+      "id": "038a772",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -568,7 +658,7 @@
       },
       "elements": [
         {
-          "id": "1b12c7a",
+          "id": "fb8a58c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -585,7 +675,7 @@
           },
           "elements": [
             {
-              "id": "3439802",
+              "id": "5133b3b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -596,7 +686,7 @@
               },
               "elements": [
                 {
-                  "id": "524c5c1",
+                  "id": "dd81647",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -619,7 +709,7 @@
       "isInner": false
     },
     {
-      "id": "b56b4b7",
+      "id": "1ef231d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -641,7 +731,7 @@
       },
       "elements": [
         {
-          "id": "63466b8",
+          "id": "03c5810",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -658,7 +748,7 @@
           },
           "elements": [
             {
-              "id": "91d5b1a",
+              "id": "c7b9d26",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -677,7 +767,7 @@
               },
               "elements": [
                 {
-                  "id": "fc996f8",
+                  "id": "d5bf994",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -696,7 +786,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "c8f901f",
+                  "id": "090f5f9",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -713,7 +803,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "85bffb1",
+                  "id": "4dd7695",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -747,7 +837,7 @@
               "isInner": true
             },
             {
-              "id": "2dc9137",
+              "id": "70f3716",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -768,7 +858,7 @@
               },
               "elements": [
                 {
-                  "id": "6a1ce5e",
+                  "id": "fc198ce",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -779,15 +869,33 @@
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "f9451f2",
+                  "id": "d4a6afe",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -798,15 +906,33 @@
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "0081222",
+                  "id": "f14330a",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -817,9 +943,27 @@
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
-                    "description_color": "#D7DED9"
+                    "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    }
                   },
                   "elements": [],
                   "widgetType": "icon-box"

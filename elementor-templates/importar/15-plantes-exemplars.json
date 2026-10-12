@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "1f7b43b",
+      "id": "025e669",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -57,7 +57,7 @@
       },
       "elements": [
         {
-          "id": "797ec5b",
+          "id": "e175fc0",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -87,7 +87,7 @@
           },
           "elements": [
             {
-              "id": "eac2ca3",
+              "id": "ab921f5",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -114,7 +114,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "4fe623f",
+              "id": "715da7b",
               "elType": "widget",
               "settings": {
                 "title": "Plantes <span style=\"color:#4E8C3F\">exemplars</span>",
@@ -136,7 +136,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "cec26ee",
+              "id": "1754a8e",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -156,7 +156,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "25892a5",
+              "id": "ac652d0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -177,7 +177,7 @@
               },
               "elements": [
                 {
-                  "id": "c3ab29a",
+                  "id": "d4763ef",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -220,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "7d6248a",
+      "id": "7bb2e43",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -259,7 +259,7 @@
       },
       "elements": [
         {
-          "id": "9d08c35",
+          "id": "dd4f63c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -280,7 +280,7 @@
           },
           "elements": [
             {
-              "id": "54e19a5",
+              "id": "4ad8d8b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -310,7 +310,7 @@
               },
               "elements": [
                 {
-                  "id": "8a57b30",
+                  "id": "c46e8b4",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Oferim un servei de disseny i creació de jardins a mida, per adaptar-nos a les vostres necessitats i poder oferir un servei totalment personalitzat.</p>",
@@ -333,7 +333,7 @@
               "isInner": true
             },
             {
-              "id": "efe5c91",
+              "id": "8c640ec",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -355,7 +355,7 @@
               },
               "elements": [
                 {
-                  "id": "93a4375",
+                  "id": "4f56a52",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -379,7 +379,7 @@
       "isInner": false
     },
     {
-      "id": "315b8f0",
+      "id": "5476798",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -418,7 +418,7 @@
       },
       "elements": [
         {
-          "id": "23ddb46",
+          "id": "76561dd",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -439,7 +439,7 @@
           },
           "elements": [
             {
-              "id": "31589a7",
+              "id": "f46f50a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -469,7 +469,7 @@
               },
               "elements": [
                 {
-                  "id": "86005d9",
+                  "id": "b25b1a5",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -491,7 +491,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "7f20ce0",
+                  "id": "05a3f7d",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -511,7 +511,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "d634861",
+                  "id": "175bde8",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -548,7 +548,7 @@
               "isInner": true
             },
             {
-              "id": "3084024",
+              "id": "0896406",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -583,7 +583,7 @@
               },
               "elements": [
                 {
-                  "id": "71bda4a",
+                  "id": "6e16568",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -594,21 +594,37 @@
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "86779c6",
+                  "id": "91cae2d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -619,21 +635,37 @@
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "0db42d2",
+                  "id": "3008852",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -644,14 +676,30 @@
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],

@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "c585406",
+      "id": "a193654",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -57,7 +57,7 @@
       },
       "elements": [
         {
-          "id": "e474d90",
+          "id": "8287c7e",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -87,7 +87,7 @@
           },
           "elements": [
             {
-              "id": "ed80573",
+              "id": "1cff096",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -114,7 +114,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "4fcca1f",
+              "id": "125c393",
               "elType": "widget",
               "settings": {
                 "title": "<span style=\"color:#4E8C3F\">Galeria</span>",
@@ -136,7 +136,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "9998b8c",
+              "id": "4d643d1",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -156,7 +156,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "4879339",
+              "id": "a9f0f28",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -177,7 +177,7 @@
               },
               "elements": [
                 {
-                  "id": "31c8391",
+                  "id": "7704560",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -220,7 +220,7 @@
       "isInner": false
     },
     {
-      "id": "436b8c0",
+      "id": "1320ce9",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -259,7 +259,7 @@
       },
       "elements": [
         {
-          "id": "5a4720e",
+          "id": "00a6581",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -280,7 +280,7 @@
           },
           "elements": [
             {
-              "id": "9c744a4",
+              "id": "068d9b0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -302,7 +302,7 @@
               },
               "elements": [
                 {
-                  "id": "8439c73",
+                  "id": "f388cbc",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -320,7 +320,7 @@
               "isInner": true
             },
             {
-              "id": "f58c584",
+              "id": "1c653e9",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -342,7 +342,7 @@
               },
               "elements": [
                 {
-                  "id": "73ff7f9",
+                  "id": "b11c3a1",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -360,7 +360,7 @@
               "isInner": true
             },
             {
-              "id": "c9990bd",
+              "id": "811e811",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -382,7 +382,7 @@
               },
               "elements": [
                 {
-                  "id": "a5d131c",
+                  "id": "40adffe",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -400,7 +400,7 @@
               "isInner": true
             },
             {
-              "id": "a144d9d",
+              "id": "e05fe6d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -422,7 +422,7 @@
               },
               "elements": [
                 {
-                  "id": "8f9d320",
+                  "id": "225bf31",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -440,7 +440,7 @@
               "isInner": true
             },
             {
-              "id": "3dc029a",
+              "id": "89ca9f3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -462,7 +462,7 @@
               },
               "elements": [
                 {
-                  "id": "fe23bdc",
+                  "id": "9053368",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -480,7 +480,7 @@
               "isInner": true
             },
             {
-              "id": "b1ee939",
+              "id": "d286bfe",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -502,7 +502,7 @@
               },
               "elements": [
                 {
-                  "id": "20a8b8b",
+                  "id": "149597b",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -520,7 +520,7 @@
               "isInner": true
             },
             {
-              "id": "7cf9ec1",
+              "id": "fd6e806",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -542,7 +542,7 @@
               },
               "elements": [
                 {
-                  "id": "79a8de5",
+                  "id": "70d35aa",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -560,7 +560,7 @@
               "isInner": true
             },
             {
-              "id": "0bdca3f",
+              "id": "90c0a1d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -582,7 +582,7 @@
               },
               "elements": [
                 {
-                  "id": "55bcf98",
+                  "id": "7607c1c",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -600,7 +600,7 @@
               "isInner": true
             },
             {
-              "id": "97ec26c",
+              "id": "a619f63",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -622,7 +622,7 @@
               },
               "elements": [
                 {
-                  "id": "6593825",
+                  "id": "1fe5c36",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -640,7 +640,7 @@
               "isInner": true
             },
             {
-              "id": "30aa1c6",
+              "id": "3afaaa0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -662,7 +662,7 @@
               },
               "elements": [
                 {
-                  "id": "9a16f0f",
+                  "id": "48f233f",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -680,7 +680,7 @@
               "isInner": true
             },
             {
-              "id": "c869beb",
+              "id": "7cc9ef8",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -702,7 +702,7 @@
               },
               "elements": [
                 {
-                  "id": "fdf07c0",
+                  "id": "6310a10",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -720,7 +720,7 @@
               "isInner": true
             },
             {
-              "id": "5cebd28",
+              "id": "af2c8b9",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -742,7 +742,7 @@
               },
               "elements": [
                 {
-                  "id": "1dbdc49",
+                  "id": "e2b93bc",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -760,7 +760,7 @@
               "isInner": true
             },
             {
-              "id": "7973d80",
+              "id": "08827f5",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -782,7 +782,7 @@
               },
               "elements": [
                 {
-                  "id": "cacb4bb",
+                  "id": "48ca02a",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -800,7 +800,7 @@
               "isInner": true
             },
             {
-              "id": "97e8bd2",
+              "id": "8c40e82",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -822,7 +822,7 @@
               },
               "elements": [
                 {
-                  "id": "4c398c3",
+                  "id": "3528505",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -840,7 +840,7 @@
               "isInner": true
             },
             {
-              "id": "5aa53fd",
+              "id": "03c6f5c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -862,7 +862,7 @@
               },
               "elements": [
                 {
-                  "id": "48c38d8",
+                  "id": "e154979",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -880,7 +880,7 @@
               "isInner": true
             },
             {
-              "id": "56d8792",
+              "id": "646f9e3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -902,7 +902,7 @@
               },
               "elements": [
                 {
-                  "id": "419fe5c",
+                  "id": "2e03d03",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -920,7 +920,7 @@
               "isInner": true
             },
             {
-              "id": "dd22eb3",
+              "id": "716048b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -942,7 +942,7 @@
               },
               "elements": [
                 {
-                  "id": "94f087a",
+                  "id": "ea16cac",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -960,7 +960,7 @@
               "isInner": true
             },
             {
-              "id": "4967b40",
+              "id": "2004f8c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -982,7 +982,7 @@
               },
               "elements": [
                 {
-                  "id": "66371f9",
+                  "id": "2aea654",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1000,7 +1000,7 @@
               "isInner": true
             },
             {
-              "id": "2272a8e",
+              "id": "fb75987",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1022,7 +1022,7 @@
               },
               "elements": [
                 {
-                  "id": "28812f6",
+                  "id": "b107da3",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1040,7 +1040,7 @@
               "isInner": true
             },
             {
-              "id": "55757b8",
+              "id": "a50afcb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1062,7 +1062,7 @@
               },
               "elements": [
                 {
-                  "id": "386cc08",
+                  "id": "cdbaae2",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1086,7 +1086,7 @@
       "isInner": false
     },
     {
-      "id": "3045b3b",
+      "id": "69e50df",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1125,7 +1125,7 @@
       },
       "elements": [
         {
-          "id": "4df9366",
+          "id": "9a072ed",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1146,7 +1146,7 @@
           },
           "elements": [
             {
-              "id": "a981a49",
+              "id": "5fb635f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1176,7 +1176,7 @@
               },
               "elements": [
                 {
-                  "id": "3d0abeb",
+                  "id": "ed80680",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1198,7 +1198,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "9a74696",
+                  "id": "1f0a9a3",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1218,7 +1218,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "c565b53",
+                  "id": "0391ca9",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1255,7 +1255,7 @@
               "isInner": true
             },
             {
-              "id": "336605b",
+              "id": "5997abb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1290,7 +1290,7 @@
               },
               "elements": [
                 {
-                  "id": "d588f11",
+                  "id": "5d7d545",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1301,21 +1301,37 @@
                     "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "76982ab",
+                  "id": "3188112",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1326,21 +1342,37 @@
                     "description_text": "info@newtree.cat",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "bd1cb55",
+                  "id": "95a8264",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1351,14 +1383,30 @@
                     "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                     "position": "left",
                     "title_size": "h4",
-                    "icon_color": "#4E8C3F",
+                    "primary_color": "#4E8C3F",
                     "title_color": "#FFFFFF",
                     "description_color": "#D7DED9",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 26,
+                      "sizes": []
+                    },
+                    "title_typography_typography": "custom",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 18,
+                      "sizes": []
+                    },
+                    "title_typography_font_weight": "700",
+                    "description_typography_typography": "custom",
+                    "description_typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
                     "position_mobile": "top",
                     "text_align_mobile": "center",
-                    "title_typography_typography": "custom",
                     "title_typography_font_family": "Nunito",
-                    "description_typography_typography": "custom",
                     "description_typography_font_family": "Nunito"
                   },
                   "elements": [],

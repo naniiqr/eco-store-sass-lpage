@@ -70,6 +70,19 @@ def plantes():
 
 
 # ---------------- SITUACIÓ I CONTACTE ----------------
+def _radius(r):
+    return {"unit": "px", "top": str(r), "right": str(r), "bottom": str(r), "left": str(r), "isLinked": True}
+
+
+def badge_item(ic, title, desc):
+    """Dato de contacto con icono en círculo verde (colores de marca)."""
+    w = icon_box(ic, title, desc, icon_color=GREEN, title_color=WHITE, desc_color="#D7DED9", position="left")
+    w["settings"].update({"view": "stacked", "shape": "circle", "secondary_color": WHITE,
+                          "icon_size": {"unit": "px", "size": 18, "sizes": []},
+                          "icon_padding": {"unit": "px", "size": 14, "sizes": []}})
+    return w
+
+
 def contacte():
     p = dict(title="Situació i contacte")
     info = [("map-marker-alt", "Adreça", ADDRESS),
@@ -81,26 +94,54 @@ def contacte():
         {"_id": "f_email", "custom_id": "email", "field_type": "email", "field_label": "Email",
          "placeholder": "Email", "required": "true", "width": "100"},
         {"_id": "f_msg", "custom_id": "message", "field_type": "textarea", "field_label": "Missatge",
-         "placeholder": "Missatge", "required": "true", "width": "100", "rows": 5},
+         "placeholder": "Missatge", "required": "true", "width": "100", "rows": 6},
     ]
-    form = W("form", {"form_name": "Contacte", "form_fields": fields, "button_text": "Enviar",
-                      "button_background_color": GREEN, "button_text_color": WHITE,
-                      "email_to": "info@newtree.cat", "email_subject": "Nou missatge des de newtree.cat",
-                      "success_message": "Missatge enviat. Gràcies!"})
-    left = col(settings={"width": {"unit": "%", "size": 45}}, gap="20", elements=[
-        eyebrow("CONTACTE"),
-        col(gap="14", elements=[icon_box(i, t, d, position="left") for i, t, d in info]),
-    ])
-    right = col(settings={"width": {"unit": "%", "size": 50}}, gap="16", elements=[form])
-    contact_sec = section(settings={"background_background": "classic", "background_color": WHITE,
-                                    "padding": pad(80, 40, 40, 40)},
-                          elements=[row(elements=[left, right], gap="40", justify="space-between",
-                                        align="flex-start")])
-    map_sec = section(settings={"background_background": "classic", "background_color": WHITE,
-                                "padding": pad(20, 40, 80, 40)},
-                      elements=[W("google_maps", {"address": ADDRESS,
-                                                  "zoom": {"unit": "px", "size": 13, "sizes": []},
-                                                  "height": {"unit": "px", "size": 380, "sizes": []}})])
+    border = {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": True}
+    form = W("form", {
+        "form_name": "Contacte", "form_fields": fields, "button_text": "Enviar",
+        "email_to": "info@newtree.cat", "email_subject": "Nou missatge des de newtree.cat",
+        "success_message": "Missatge enviat. Gràcies!",
+        "show_labels": "", "input_size": "md",
+        "column_gap": {"unit": "px", "size": 16, "sizes": []}, "row_gap": {"unit": "px", "size": 16, "sizes": []},
+        # camps: blancs, cantonades arrodonides, sense vora
+        "field_text_color": TEXT_DARK, "field_background_color": WHITE,
+        "field_border_border": "solid", "field_border_width": border, "field_border_radius": _radius(10),
+        "field_typography_typography": "custom", "field_typography_font_family": "Nunito",
+        "field_typography_font_size": {"unit": "px", "size": 15, "sizes": []},
+        # botó: verd molt fosc de la marca, ample complet
+        "button_background_color": DARKGREEN, "button_text_color": WHITE, "button_width": "100",
+        "button_border_radius": _radius(10),
+        "button_typography_typography": "custom", "button_typography_font_family": "Nunito",
+        "button_typography_font_weight": "700",
+    })
+    left = col(settings={
+        "width": {"unit": "%", "size": 40}, "background_background": "classic", "background_color": DARKGREEN,
+        "padding": pad(48, 40, 48, 40), "padding_mobile": pad(32, 24, 32, 24), "padding_tablet": pad(40, 32, 40, 32)},
+        gap="22", elements=[
+            eyebrow("CONTACTE"),
+            heading(SLOGAN, size="h2", color=WHITE, font_size=28),
+            col(gap="20", elements=[badge_item(i, t, d) for i, t, d in info]),
+        ])
+    right = col(settings={
+        "width": {"unit": "%", "size": 60}, "background_background": "classic", "background_color": GREEN,
+        "padding": pad(48, 40, 48, 40), "padding_mobile": pad(32, 24, 32, 24), "padding_tablet": pad(40, 32, 40, 32),
+        "flex_justify_content": "center"}, gap="16", elements=[form])
+    card = row(settings={"border_radius": _radius(24), "overflow": "hidden",
+                         "box_shadow_box_shadow_type": "yes",
+                         "box_shadow_box_shadow": {"horizontal": 0, "vertical": 20, "blur": 50, "spread": 0,
+                                                   "color": "rgba(18,35,24,0.18)"}},
+               elements=[left, right], gap="0", justify="center", align="stretch")
+    contact_sec = section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
+                                    "padding": pad(90, 40, 40, 40)}, elements=[card])
+    gmap = col(settings={"border_radius": _radius(20), "overflow": "hidden",
+                         "box_shadow_box_shadow_type": "yes",
+                         "box_shadow_box_shadow": {"horizontal": 0, "vertical": 10, "blur": 30, "spread": 0,
+                                                   "color": "rgba(18,35,24,0.12)"}},
+               elements=[W("google_maps", {"address": ADDRESS,
+                                           "zoom": {"unit": "px", "size": 13, "sizes": []},
+                                           "height": {"unit": "px", "size": 380, "sizes": []}})])
+    map_sec = section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
+                                "padding": pad(20, 40, 90, 40)}, elements=[gmap])
     return wrap("Situació i contacte", [hero_section(p), contact_sec, map_sec])
 
 

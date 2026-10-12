@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "2404df5",
+      "id": "ecf481f",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -35,7 +35,7 @@
       },
       "elements": [
         {
-          "id": "82e4731",
+          "id": "fe2edeb",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -54,7 +54,7 @@
           },
           "elements": [
             {
-              "id": "3ba214c",
+              "id": "bfb443f",
               "elType": "widget",
               "settings": {
                 "title": "NEW TREE · JARDINERIA",
@@ -78,7 +78,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "5b4801f",
+              "id": "84e707e",
               "elType": "widget",
               "settings": {
                 "title": "Situació i <span style=\"color:#4E8C3F\">contacte</span>",
@@ -97,7 +97,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "fbbb0a3",
+              "id": "58e54a6",
               "elType": "widget",
               "settings": {
                 "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -114,7 +114,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "e4df5c3",
+              "id": "7770184",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -131,7 +131,7 @@
               },
               "elements": [
                 {
-                  "id": "57a638d",
+                  "id": "bb39aff",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -171,7 +171,7 @@
       "isInner": false
     },
     {
-      "id": "9194f9c",
+      "id": "9ab5223",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -181,10 +181,10 @@
           "size": 100
         },
         "background_background": "classic",
-        "background_color": "#FFFFFF",
+        "background_color": "#F6F7F5",
         "padding": {
           "unit": "px",
-          "top": "80",
+          "top": "90",
           "right": "40",
           "bottom": "40",
           "left": "40",
@@ -193,43 +193,86 @@
       },
       "elements": [
         {
-          "id": "976f352",
+          "id": "9a8486d",
           "elType": "container",
           "settings": {
             "content_width": "full",
             "flex_direction": "row",
             "flex_wrap": "wrap",
             "flex_gap": {
-              "column": "40",
-              "row": "40",
+              "column": "0",
+              "row": "0",
               "unit": "px",
               "isLinked": true
             },
-            "flex_justify_content": "space-between",
-            "flex_align_items": "flex-start"
+            "flex_justify_content": "center",
+            "flex_align_items": "stretch",
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "overflow": "hidden",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 20,
+              "blur": 50,
+              "spread": 0,
+              "color": "rgba(18,35,24,0.18)"
+            }
           },
           "elements": [
             {
-              "id": "76f55fc",
+              "id": "4fc46c8",
               "elType": "container",
               "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
                 "flex_gap": {
-                  "column": "20",
-                  "row": "20",
+                  "column": "22",
+                  "row": "22",
                   "unit": "px",
                   "isLinked": true
                 },
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 45
+                  "size": 40
+                },
+                "background_background": "classic",
+                "background_color": "#122318",
+                "padding": {
+                  "unit": "px",
+                  "top": "48",
+                  "right": "40",
+                  "bottom": "48",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "32",
+                  "bottom": "40",
+                  "left": "32",
+                  "isLinked": false
                 }
               },
               "elements": [
                 {
-                  "id": "cb49280",
+                  "id": "1cd34c9",
                   "elType": "widget",
                   "settings": {
                     "title": "CONTACTE",
@@ -253,14 +296,33 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "063e8f5",
+                  "id": "7086af8",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "New Tree convertim un desert en un jardí",
+                    "header_size": "h2",
+                    "align": "left",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "3636f9a",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
                     "flex_direction": "column",
                     "flex_gap": {
-                      "column": "14",
-                      "row": "14",
+                      "column": "20",
+                      "row": "20",
                       "unit": "px",
                       "isLinked": true
                     },
@@ -268,7 +330,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3b6bd3d",
+                      "id": "33a252a",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -279,15 +341,41 @@
                         "description_text": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
                         "position": "left",
                         "title_size": "h4",
-                        "icon_color": "#4E8C3F",
-                        "title_color": "#1E2A22",
-                        "description_color": "#6B7280"
+                        "primary_color": "#4E8C3F",
+                        "title_color": "#FFFFFF",
+                        "description_color": "#D7DED9",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "stacked",
+                        "shape": "circle",
+                        "secondary_color": "#FFFFFF",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        }
                       },
                       "elements": [],
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "425d8b0",
+                      "id": "e3bea2d",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -298,15 +386,41 @@
                         "description_text": "(+34) 972 560 033 · (+34) 607 484 646",
                         "position": "left",
                         "title_size": "h4",
-                        "icon_color": "#4E8C3F",
-                        "title_color": "#1E2A22",
-                        "description_color": "#6B7280"
+                        "primary_color": "#4E8C3F",
+                        "title_color": "#FFFFFF",
+                        "description_color": "#D7DED9",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "stacked",
+                        "shape": "circle",
+                        "secondary_color": "#FFFFFF",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        }
                       },
                       "elements": [],
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "2510d6b",
+                      "id": "bde0c8e",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -317,9 +431,35 @@
                         "description_text": "info@newtree.cat",
                         "position": "left",
                         "title_size": "h4",
-                        "icon_color": "#4E8C3F",
-                        "title_color": "#1E2A22",
-                        "description_color": "#6B7280"
+                        "primary_color": "#4E8C3F",
+                        "title_color": "#FFFFFF",
+                        "description_color": "#D7DED9",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_typography": "custom",
+                        "title_typography_font_size": {
+                          "unit": "px",
+                          "size": 18,
+                          "sizes": []
+                        },
+                        "title_typography_font_weight": "700",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_size": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        },
+                        "view": "stacked",
+                        "shape": "circle",
+                        "secondary_color": "#FFFFFF",
+                        "icon_padding": {
+                          "unit": "px",
+                          "size": 14,
+                          "sizes": []
+                        }
                       },
                       "elements": [],
                       "widgetType": "icon-box"
@@ -331,7 +471,7 @@
               "isInner": true
             },
             {
-              "id": "c62705a",
+              "id": "93a9e31",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -345,12 +485,39 @@
                 "flex_align_items": "flex-start",
                 "width": {
                   "unit": "%",
-                  "size": 50
-                }
+                  "size": 60
+                },
+                "background_background": "classic",
+                "background_color": "#4E8C3F",
+                "padding": {
+                  "unit": "px",
+                  "top": "48",
+                  "right": "40",
+                  "bottom": "48",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "32",
+                  "bottom": "40",
+                  "left": "32",
+                  "isLinked": false
+                },
+                "flex_justify_content": "center"
               },
               "elements": [
                 {
-                  "id": "ca4c3e2",
+                  "id": "87cdf29",
                   "elType": "widget",
                   "settings": {
                     "form_name": "Contacte",
@@ -381,15 +548,65 @@
                         "placeholder": "Missatge",
                         "required": "true",
                         "width": "100",
-                        "rows": 5
+                        "rows": 6
                       }
                     ],
                     "button_text": "Enviar",
-                    "button_background_color": "#4E8C3F",
-                    "button_text_color": "#FFFFFF",
                     "email_to": "info@newtree.cat",
                     "email_subject": "Nou missatge des de newtree.cat",
-                    "success_message": "Missatge enviat. Gràcies!"
+                    "success_message": "Missatge enviat. Gràcies!",
+                    "show_labels": "",
+                    "input_size": "md",
+                    "column_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "row_gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "field_text_color": "#1E2A22",
+                    "field_background_color": "#FFFFFF",
+                    "field_border_border": "solid",
+                    "field_border_width": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "field_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "field_typography_typography": "custom",
+                    "field_typography_font_family": "Nunito",
+                    "field_typography_font_size": {
+                      "unit": "px",
+                      "size": 15,
+                      "sizes": []
+                    },
+                    "button_background_color": "#122318",
+                    "button_text_color": "#FFFFFF",
+                    "button_width": "100",
+                    "button_border_radius": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "10",
+                      "bottom": "10",
+                      "left": "10",
+                      "isLinked": true
+                    },
+                    "button_typography_typography": "custom",
+                    "button_typography_font_family": "Nunito",
+                    "button_typography_font_weight": "700"
                   },
                   "elements": [],
                   "widgetType": "form"
@@ -404,7 +621,7 @@
       "isInner": false
     },
     {
-      "id": "3f2017d",
+      "id": "d846462",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -414,35 +631,70 @@
           "size": 100
         },
         "background_background": "classic",
-        "background_color": "#FFFFFF",
+        "background_color": "#F6F7F5",
         "padding": {
           "unit": "px",
           "top": "20",
           "right": "40",
-          "bottom": "80",
+          "bottom": "90",
           "left": "40",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "fec4965",
-          "elType": "widget",
+          "id": "fb71c49",
+          "elType": "container",
           "settings": {
-            "address": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
-            "zoom": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "16",
+              "row": "16",
               "unit": "px",
-              "size": 13,
-              "sizes": []
+              "isLinked": true
             },
-            "height": {
+            "flex_align_items": "flex-start",
+            "border_radius": {
               "unit": "px",
-              "size": 380,
-              "sizes": []
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            },
+            "overflow": "hidden",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 30,
+              "spread": 0,
+              "color": "rgba(18,35,24,0.12)"
             }
           },
-          "elements": [],
-          "widgetType": "google_maps"
+          "elements": [
+            {
+              "id": "f523d89",
+              "elType": "widget",
+              "settings": {
+                "address": "Camí de Reg de la Vinya s/n, Calabuig – Bàscara, Girona 17483",
+                "zoom": {
+                  "unit": "px",
+                  "size": 13,
+                  "sizes": []
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 380,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "google_maps"
+            }
+          ],
+          "isInner": true
         }
       ],
       "isInner": false

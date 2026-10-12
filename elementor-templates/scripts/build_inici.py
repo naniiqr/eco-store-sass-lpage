@@ -72,7 +72,7 @@ def icon_box(icon, title, desc, icon_color=GREEN, title_color=TEXT_DARK, desc_co
         "description_text": desc,
         "position": "top",
         "title_size": "h4",
-        "icon_color": icon_color,
+        "primary_color": icon_color,
         "title_color": title_color,
         "description_color": desc_color,
     })
