@@ -1,6 +1,6 @@
 # Fichas SEO (Yoast + local) — New Tree
 
-Cada keyphrase lleva la ciudad (Girona; Inici: l'Empordà), ≤4 palabras, exacta al **inicio** de title y meta description, y también en slug, H1, primera frase y alt. Title ≤58 car., description 120–156 car. Páginas en catalán (idioma por defecto del sitio).
+Cada keyphrase lleva la ciudad (Girona; Inici: l'Empordà), ≤4 palabras, exacta al **inicio** de title y meta description, y también en slug, H1, primera frase y alt. Title ≤58 car., description 120–156 car. Páginas en catalán (idioma por defecto del sitio). La ficha completa de la galería está en `SEO-GALERIA.md`.
 
 ## Inici
 
@@ -163,11 +163,11 @@ Alt imagen: Obra pública Girona de jardineria feta per New Tree
 ```
 Keyphrase: galeria de jardins Girona
 URL: /galeria-de-jardins-girona/   (actual: /galeria/ → 301)
-Title (48): Galeria de jardins Girona i projectes | New Tree
-Meta description (151): Galeria de jardins Girona i l'Empordà: projectes de disseny, gespa, murs, jardins verticals i molt més de New Tree. Inspira't amb els nostres treballs.
+Title (55): Galeria de jardins Girona i projectes | New Tree Girona
+Meta description (156): Galeria de jardins Girona i l'Empordà: piscines, gespa natural i artificial, reg, jardins verticals i podes de New Tree. Inspira't amb els nostres treballs.
 H1: Galeria de jardins Girona
 Primera frase: Galeria de jardins Girona: alguns dels projectes que hem fet a Girona i l'Empordà.
-Alt imagen: Galeria de jardins Girona, projecte de New Tree
+Alt imagen: Galeria de jardins Girona: casa blanca amb piscina i palmeres
 ```
 
 ## Plantes exemplars

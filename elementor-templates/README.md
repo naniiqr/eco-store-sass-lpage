@@ -166,3 +166,7 @@ Todas las páginas se construyen con los mismos componentes (`design.py`), fiele
 ## Peso de las imágenes al importar
 
 Al importar una plantilla, Elementor descarga a la biblioteca de medios **todas** las imágenes que lleva. Con las PNG originales de la galería (1,5-1,9 MB cada una) Empresa sumaba 15 MB y Galeria 24 MB, y la importación podía agotar el tiempo del servidor. Empresa y Galeria usan ahora las miniaturas de 300 px que genera WordPress (`9-300x218.png`, etc.). Si una importación falla por tiempo, comprueba el peso con `grep -o 'wp-content/uploads[^"]*'` y usa miniaturas.
+
+## Galeria (página nueva con SEO)
+
+`importar/14-galeria.json` se rehízo a partir de la página original `/galeria/` (título «Galería», galería de 20 fotos con lightbox, feed de Instagram): hero con H1 «Galeria de jardins Girona», cuadrícula 4×4 de 16 fotos distintas (se omiten duplicados) con alt único, texto SEO de ~310 palabras con datos reales y 9 enlaces a los servicios, sección de Instagram (shortcode `[instagram-feed]`, requiere el plugin «Instagram Feed»; bórrala si no lo tienes) y banner final. La ficha SEO completa (campos de Yoast, alt y nombres de archivo de las imágenes, enlazado interno, JSON-LD y comprobaciones) está en `SEO-GALERIA.md` (`scripts/seo_galeria.py`).

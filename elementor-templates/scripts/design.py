@@ -33,7 +33,7 @@ def real(path):
 
 
 def eyebrow(t, color=RED):
-    return heading(t, size="p", color=color, font_size=13,
+    return heading(t, size="div", color=color, font_size=13,
                    extra={"typography_typography": "custom", "typography_font_weight": "600",
                           "letter_spacing": {"unit": "px", "size": 2, "sizes": []}})
 
@@ -50,8 +50,11 @@ def brush(align="flex-end"):
               "background_color": GREEN, "border_radius": R(4)}, [])
 
 
-def pic(img, alt="", radius=10, height=None, shadow=False):
+def pic(img, alt="", radius=10, height=None, shadow=False, link=None):
     s = {"image": img, "image_size": "large", "alt": alt, "image_border_radius": R(radius)}
+    if link:
+        s["link_to"] = "custom"
+        s["link"] = {"url": link, "is_external": "on", "nofollow": "", "custom_attributes": ""}
     if height:
         s["height"] = {"unit": "px", "size": height, "sizes": []}
         s["object-fit"] = "cover"
@@ -74,8 +77,8 @@ def ibox(ic, title, desc="", icon_color=GREEN, title_color=TEXT_DARK, desc_color
     return w
 
 
-GRAD_SIDE = {"background_overlay_background": "gradient", "background_overlay_color": "rgba(14,20,12,0.80)",
-             "background_overlay_color_b": "rgba(14,20,12,0.18)",
+GRAD_SIDE = {"background_overlay_background": "gradient", "background_overlay_color": "rgba(14,20,12,0.84)",
+             "background_overlay_color_b": "rgba(14,20,12,0.38)",
              "background_overlay_gradient_type": "linear",
              "background_overlay_gradient_angle": {"unit": "deg", "size": 90, "sizes": []}}
 GRAD_UP = {"background_overlay_background": "gradient", "background_overlay_color": "rgba(14,20,12,0.0)",
@@ -84,9 +87,9 @@ GRAD_UP = {"background_overlay_background": "gradient", "background_overlay_colo
            "background_overlay_gradient_angle": {"unit": "deg", "size": 180, "sizes": []}}
 
 
-def hero(eyebrow_txt, h1, lead_txt, bg, decor=True, min_h=540, buttons=True):
+def hero(eyebrow_txt, h1, lead_txt, bg, decor=True, min_h=540, buttons=True, btn2=("VEURE PROJECTES", GALERIA)):
     btns = [button("DEMANA PRESSUPOST", bg=GREEN, color=WHITE, link=MAIL),
-            button("VEURE PROJECTES", border=WHITE, link=GALERIA)]
+            button(btn2[0], border=WHITE, link=btn2[1])]
     left = col(settings={"width": {"unit": "%", "size": 62}}, gap="22", elements=[
         eyebrow(eyebrow_txt, WHITE),
         heading(h1, size="h1", color=WHITE, font_size=56),

@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "c8a413b",
+      "id": "8e7d305",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -31,8 +31,8 @@
           "sizes": []
         },
         "background_overlay_background": "gradient",
-        "background_overlay_color": "rgba(14,20,12,0.80)",
-        "background_overlay_color_b": "rgba(14,20,12,0.18)",
+        "background_overlay_color": "rgba(14,20,12,0.84)",
+        "background_overlay_color_b": "rgba(14,20,12,0.38)",
         "background_overlay_gradient_type": "linear",
         "background_overlay_gradient_angle": {
           "unit": "deg",
@@ -64,7 +64,7 @@
       },
       "elements": [
         {
-          "id": "e6521c4",
+          "id": "98decda",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -85,7 +85,7 @@
           },
           "elements": [
             {
-              "id": "890efa7",
+              "id": "c6fe632",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -115,11 +115,11 @@
               },
               "elements": [
                 {
-                  "id": "e1abcc1",
+                  "id": "e8db9df",
                   "elType": "widget",
                   "settings": {
                     "title": "NEW TREE · JARDINERIA",
-                    "header_size": "p",
+                    "header_size": "div",
                     "align": "left",
                     "title_color": "#FFFFFF",
                     "typography_typography": "custom",
@@ -142,7 +142,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "7ac8f7c",
+                  "id": "bf73704",
                   "elType": "widget",
                   "settings": {
                     "title": "Jardins <span style=\"color:#6EA83C\">verticals</span>",
@@ -164,7 +164,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "a252982",
+                  "id": "2823e98",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -184,7 +184,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "02918f6",
+                  "id": "8be07d9",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -205,7 +205,7 @@
                   },
                   "elements": [
                     {
-                      "id": "a2eb302",
+                      "id": "2fd0411",
                       "elType": "widget",
                       "settings": {
                         "text": "DEMANA PRESSUPOST",
@@ -239,7 +239,7 @@
                       "widgetType": "button"
                     },
                     {
-                      "id": "814a6ff",
+                      "id": "c623ea4",
                       "elType": "widget",
                       "settings": {
                         "text": "VEURE PROJECTES",
@@ -289,7 +289,7 @@
               "isInner": true
             },
             {
-              "id": "fad7c85",
+              "id": "d83079b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -321,7 +321,7 @@
               },
               "elements": [
                 {
-                  "id": "84deaa8",
+                  "id": "cf7c062",
                   "elType": "widget",
                   "settings": {
                     "title": "Natura<br>Benestar<br>Vida",
@@ -344,7 +344,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "d9be006",
+                  "id": "02d6d68",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -383,7 +383,7 @@
       "isInner": false
     },
     {
-      "id": "c9e4f71",
+      "id": "423185d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -432,7 +432,7 @@
       },
       "elements": [
         {
-          "id": "7fbea0d",
+          "id": "167026a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -453,7 +453,7 @@
           },
           "elements": [
             {
-              "id": "d200e56",
+              "id": "3a93574",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -494,7 +494,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "2291d52",
+              "id": "de7c7d5",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -535,7 +535,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "398550e",
+              "id": "ec9bc41",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -576,7 +576,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "aad4ac0",
+              "id": "f9103a0",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -617,7 +617,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "f5ca57d",
+              "id": "c8665d7",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -664,7 +664,7 @@
       "isInner": false
     },
     {
-      "id": "4b24e26",
+      "id": "e2d21dc",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -703,7 +703,7 @@
       },
       "elements": [
         {
-          "id": "e347590",
+          "id": "c6f1bcb",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -724,7 +724,7 @@
           },
           "elements": [
             {
-              "id": "0311200",
+              "id": "f2e7cde",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -754,7 +754,7 @@
               },
               "elements": [
                 {
-                  "id": "cf64c38",
+                  "id": "0983659",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Una nova tendència són els jardins verticals, pots donar un ambient diferent i acollidor tant en interior com exteriors, restaurants, sales d'espera, escoles, empreses… Oferim infinits dissenys amb nombrosos beneficis a nivell econòmic, ecològic i social.</p>",
@@ -774,7 +774,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "83774e4",
+                  "id": "5fe47b6",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Una façana vegetal ajuda a purificar l'aire, reduir la temperatura ambient, regular la temperatura i promou la biodiversitat a la ciutat. Els jardins verticals formen part de la construcció bioclimàtica. I, és més, la gent és més feliç en un entorn verd que en un entorn gris.</p>",
@@ -794,7 +794,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "f9c0cec",
+                  "id": "94c4056",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -831,7 +831,7 @@
               "isInner": true
             },
             {
-              "id": "9a4f8c3",
+              "id": "965e037",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -853,7 +853,7 @@
               },
               "elements": [
                 {
-                  "id": "242584f",
+                  "id": "bfaa449",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -899,7 +899,7 @@
       "isInner": false
     },
     {
-      "id": "b0bba83",
+      "id": "d1151ce",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -951,7 +951,7 @@
       },
       "elements": [
         {
-          "id": "084d4f3",
+          "id": "d1079e8",
           "elType": "widget",
           "settings": {
             "title": "<span style=\"color:#FC2144\">Beneficis</span>",
@@ -973,7 +973,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "5f18b2b",
+          "id": "d29305a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -994,7 +994,7 @@
           },
           "elements": [
             {
-              "id": "ac2f0b6",
+              "id": "be4f3d5",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1016,7 +1016,7 @@
               },
               "elements": [
                 {
-                  "id": "e53fc32",
+                  "id": "b4ce546",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1067,7 +1067,7 @@
               "isInner": true
             },
             {
-              "id": "cf5d0f5",
+              "id": "f0bb54a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1089,7 +1089,7 @@
               },
               "elements": [
                 {
-                  "id": "09a7c52",
+                  "id": "f4a9f01",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1140,7 +1140,7 @@
               "isInner": true
             },
             {
-              "id": "796bab6",
+              "id": "8b65106",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1162,7 +1162,7 @@
               },
               "elements": [
                 {
-                  "id": "46e6149",
+                  "id": "86ab0b0",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1213,7 +1213,7 @@
               "isInner": true
             },
             {
-              "id": "60c68f7",
+              "id": "7cd66ac",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1235,7 +1235,7 @@
               },
               "elements": [
                 {
-                  "id": "751fd4c",
+                  "id": "cea6647",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1292,7 +1292,7 @@
       "isInner": false
     },
     {
-      "id": "2016ca7",
+      "id": "0d3961e",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1331,7 +1331,7 @@
       },
       "elements": [
         {
-          "id": "0161868",
+          "id": "0114cc5",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1352,7 +1352,7 @@
           },
           "elements": [
             {
-              "id": "f2844c2",
+              "id": "ea94214",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1374,7 +1374,7 @@
               },
               "elements": [
                 {
-                  "id": "819162d",
+                  "id": "37c5c08",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1406,7 +1406,7 @@
               "isInner": true
             },
             {
-              "id": "c571a7a",
+              "id": "9803d35",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1428,7 +1428,7 @@
               },
               "elements": [
                 {
-                  "id": "0f25f79",
+                  "id": "c034a95",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1460,7 +1460,7 @@
               "isInner": true
             },
             {
-              "id": "fefd3d7",
+              "id": "f328f5b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1482,7 +1482,7 @@
               },
               "elements": [
                 {
-                  "id": "22428ca",
+                  "id": "91f9ac2",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1520,7 +1520,7 @@
       "isInner": false
     },
     {
-      "id": "e8636bc",
+      "id": "f01bfe6",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1566,7 +1566,7 @@
       },
       "elements": [
         {
-          "id": "f7610f7",
+          "id": "1ffd7d1",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1587,7 +1587,7 @@
           },
           "elements": [
             {
-              "id": "c75e7e2",
+              "id": "c911ff7",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1617,7 +1617,7 @@
               },
               "elements": [
                 {
-                  "id": "b98d433",
+                  "id": "ae6ef5f",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1639,7 +1639,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "75478ea",
+                  "id": "f7760cd",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1659,7 +1659,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "12ed39c",
+                  "id": "535703c",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1696,7 +1696,7 @@
               "isInner": true
             },
             {
-              "id": "a96bfbd",
+              "id": "b09387c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1731,7 +1731,7 @@
               },
               "elements": [
                 {
-                  "id": "072c946",
+                  "id": "95f5c4b",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1772,7 +1772,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "94b6a9f",
+                  "id": "b1dc2e6",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1816,7 +1816,7 @@
               "isInner": true
             },
             {
-              "id": "5f74246",
+              "id": "bed6642",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1848,7 +1848,7 @@
               },
               "elements": [
                 {
-                  "id": "44e2b2d",
+                  "id": "9bed5bd",
                   "elType": "widget",
                   "settings": {
                     "title": "Fem créixer espais,<br>fem créixer persones",
@@ -1871,7 +1871,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "5feb287",
+                  "id": "6779314",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",

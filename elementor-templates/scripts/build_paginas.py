@@ -62,15 +62,96 @@ def empresa():
 
 
 # ---------------- GALERIA ----------------
+KW = "galeria de jardins Girona"
+# 16 fotos distintas de la galería original (se omiten duplicados: 5-2, 18 y 3; y la 8, que lleva una etiqueta suelta)
+GALLERY = [
+    ("11", "Galeria de jardins Girona: casa blanca amb piscina i palmeres"),
+    ("10", "Jardinera metàl·lica amb plantes al costat d'una piscina"),
+    ("16", "Jardineres negres amb plantes al voltant d'una piscina"),
+    ("9", "Palmeres sobre grava blanca davant d'un mur"),
+    ("13", "Gespa natural i jardí davant d'una casa moderna"),
+    ("12", "Zona verda amb gespa natural i arbres plantats"),
+    ("14", "Jardí amb gespa, olivera i pèrgola de fusta"),
+    ("17", "Galeria de jardins Girona: gespa artificial amb olivera i grava blanca"),
+    ("15", "Olivera podada com un bonsai davant d'un jardí vertical"),
+    ("5", "Jardí vertical amb plantes de colors"),
+    ("2", "Aspersors de reg automàtic regant la gespa"),
+    ("1", "Rotlle de gespa artificial"),
+    ("4", "Jardiner tallant la gespa amb una desbrossadora"),
+    ("20", "Podador amb motoserra pujat a un arbre"),
+    ("19", "Galeria de jardins Girona: poda d'arbres amb plataforma elevadora"),
+    ("7", "Obra d'un jardí amb terra, grava i plantes noves"),
+]
+SVC = {"disseny i construcció de jardins": "disseny-i-construccio-de-jardins", "gespa natural i artificial": "instal%c2%b7lacio-de-gespa",
+       "sistemes de reg": "sistemes-de-reg", "jardins verticals": "jardins-verticals", "podes": "podes",
+       "manteniment de jardins": "manteniment-de-jardins", "terres i substrats": "terres-i-substrats",
+       "neteja de parcel·les": "nateja-parceles", "tanques i murs de contenció": "tanques-murs"}
+
+
+def lnk(t):
+    return '<a href="%s%s/" style="color:%s;font-weight:700">%s</a>' % (SITE, SVC[t], GREEN, t)
+
+
+MAPS = "https://www.google.com/maps/search/?api=1&query=Cam%C3%AD+de+Reg+de+la+Vinya+Calabuig+B%C3%A0scara+Girona"
+SEO_TEXT = [
+    ("h2", "Galeria de jardins Girona: què hi trobaràs"),
+    ("p", "Aquesta galeria de jardins Girona reuneix imatges de la nostra feina. New Tree és una empresa de jardineria "
+          "fundada l'any 1977, dedicada a la jardineria privada i pública. Per això, tenim més de 50 anys d'experiència "
+          "a Girona i l'Empordà."),
+    ("p", "Hi trobaràs %s, %s, %s, %s i %s. També fem %s, %s, %s i %s." % (
+        lnk("disseny i construcció de jardins"), lnk("gespa natural i artificial"), lnk("sistemes de reg"),
+        lnk("jardins verticals"), lnk("podes"), lnk("manteniment de jardins"), lnk("terres i substrats"),
+        lnk("neteja de parcel·les"), lnk("tanques i murs de contenció"))),
+    ("h3", "Del disseny al manteniment"),
+    ("p", "Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. A més, oferim "
+          "serveis que van des de l'assessorament i el disseny fins a l'execució i el manteniment. Disposem dels "
+          "recursos humans, tècnics i de maquinària necessaris per a qualsevol feina de jardineria pública, privada "
+          "o de gestió del paisatge."),
+    ("h3", "La nostra principal vocació"),
+    ("p", "Volem crear espais integrats amb l'entorn natural de la zona. Busquem jardins de baix manteniment i "
+          "sostenibles amb els recursos hídrics. També volem portar part de la natura a cada jardí que dissenyem. "
+          "I, el més important, crear espais per poder gaudir."),
+    ("h2", "Treballem a tota la província de Girona"),
+    ("p", "Oferim servei a Girona, Figueres, Roses, L'Escala, Empuriabrava, Peralada, Castelló d'Empúries, Llançà i "
+          "Port de la Selva. Treballem per a particulars i per a ajuntaments: molts ajuntaments confien en New Tree "
+          "per a la seva obra pública."),
+    ("p", "Si t'agrada algun jardí d'aquesta galeria de jardins Girona, parlem-ne. Demana pressupost i t'assessorarem. "
+          'Escriu-nos a info@newtree.cat, truca\'ns al (+34) 972 560 033 o <a href="%s" style="color:%s;font-weight:700">'
+          "visita'ns a Calabuig – Bàscara</a>." % (MAPS, GREEN)),
+]
+
+
 def galeria():
-    nums = ["11", "10", "9", "12", "13", "14", "15", "16", "17", "2", "1", "4", "3",
-            "18", "20", "19", "5", "7", "8", "5-2"]
+    p = dict(
+        title="Galeria de jardins Girona",
+        h1='Galeria de jardins <span style="color:%s">Girona</span>' % GREEN_ACCENT,
+        lead="Galeria de jardins Girona: alguns dels projectes que hem fet a Girona i l'Empordà.",
+        btn2=("VEURE SERVEIS", SITE + "jardineria/"),
+    )
     cells = [C({"content_width": "full", "width": {"unit": "%", "size": 23}},
-               [pic(img(thumb(n)), "Galeria New Tree", radius=10, height=210)]) for n in nums]
+               [pic(img(thumb(n)), alt, radius=12, height=220, link=BASE + "2020/04/%s.png" % n)])
+             for n, alt in GALLERY]
     grid = section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
                              "padding": pad(80, 40, 80, 40)},
-                   elements=[row(elements=cells, gap="18", justify="center", align="flex-start")])
-    return wrap("Galeria", [hero_section(dict(title="Galeria")), grid, cta_banner()])
+                   elements=[heading(acc("Projectes que", "inspiren"), size="h2", font_size=36),
+                             row(elements=cells, gap="18", justify="center", align="flex-start")])
+    body = []
+    for kind, t in SEO_TEXT:
+        if kind == "p":
+            body.append(text(t, font_size=17))
+        else:
+            body.append(heading(t, size=kind, font_size=30 if kind == "h2" else 22))
+    body.append(button("DEMANA PRESSUPOST", bg=RED, color=WHITE, link=MAIL))
+    seo = section(settings={"background_background": "classic", "background_color": WHITE,
+                            "padding": pad(80, 40, 80, 40)},
+                  elements=[col(settings={"width": {"unit": "%", "size": 72}, "flex_align_items": "flex-start"},
+                                gap="18", elements=body)])
+    insta = section(settings={"background_background": "classic", "background_color": LIGHTGRAY_BG,
+                              "padding": pad(70, 40, 70, 40)},
+                    elements=[heading(acc("Segueix-nos a", "Instagram"), size="h2", font_size=34),
+                              # requereix el plugin «Instagram Feed» (a la web actual és el shortcode [instagram-feed])
+                              W("shortcode", {"shortcode": "[instagram-feed]"})])
+    return wrap("Galeria de jardins Girona", [hero_section(p), grid, seo, insta, cta_banner()])
 
 
 # ---------------- PLANTES EXEMPLARS ----------------

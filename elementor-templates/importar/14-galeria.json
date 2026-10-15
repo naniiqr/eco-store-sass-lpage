@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "ef9771b",
+      "id": "357b4de",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -31,8 +31,8 @@
           "sizes": []
         },
         "background_overlay_background": "gradient",
-        "background_overlay_color": "rgba(14,20,12,0.80)",
-        "background_overlay_color_b": "rgba(14,20,12,0.18)",
+        "background_overlay_color": "rgba(14,20,12,0.84)",
+        "background_overlay_color_b": "rgba(14,20,12,0.38)",
         "background_overlay_gradient_type": "linear",
         "background_overlay_gradient_angle": {
           "unit": "deg",
@@ -64,7 +64,7 @@
       },
       "elements": [
         {
-          "id": "bb0d67c",
+          "id": "5f324bb",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -85,7 +85,7 @@
           },
           "elements": [
             {
-              "id": "6510b2b",
+              "id": "288bd71",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -115,11 +115,11 @@
               },
               "elements": [
                 {
-                  "id": "13d47ce",
+                  "id": "12ef6b5",
                   "elType": "widget",
                   "settings": {
                     "title": "NEW TREE · JARDINERIA",
-                    "header_size": "p",
+                    "header_size": "div",
                     "align": "left",
                     "title_color": "#FFFFFF",
                     "typography_typography": "custom",
@@ -142,10 +142,10 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "ad23151",
+                  "id": "066068b",
                   "elType": "widget",
                   "settings": {
-                    "title": "<span style=\"color:#6EA83C\">Galeria</span>",
+                    "title": "Galeria de jardins <span style=\"color:#6EA83C\">Girona</span>",
                     "header_size": "h1",
                     "align": "left",
                     "title_color": "#FFFFFF",
@@ -164,10 +164,10 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "59eb416",
+                  "id": "8e1e20c",
                   "elType": "widget",
                   "settings": {
-                    "editor": "<p>New Tree convertim un desert en un jardí</p>",
+                    "editor": "<p>Galeria de jardins Girona: alguns dels projectes que hem fet a Girona i l'Empordà.</p>",
                     "text_color": "#E5E5E5",
                     "align": "left",
                     "typography_typography": "custom",
@@ -184,7 +184,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "622a7af",
+                  "id": "1c22194",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -205,7 +205,7 @@
                   },
                   "elements": [
                     {
-                      "id": "62f245c",
+                      "id": "fa2979f",
                       "elType": "widget",
                       "settings": {
                         "text": "DEMANA PRESSUPOST",
@@ -239,10 +239,10 @@
                       "widgetType": "button"
                     },
                     {
-                      "id": "1055f5c",
+                      "id": "472b842",
                       "elType": "widget",
                       "settings": {
-                        "text": "VEURE PROJECTES",
+                        "text": "VEURE SERVEIS",
                         "button_text_color": "#FFFFFF",
                         "background_color": "transparent",
                         "border_radius": {
@@ -270,7 +270,7 @@
                         },
                         "border_color": "#FFFFFF",
                         "link": {
-                          "url": "https://newtree.cat/galeria/",
+                          "url": "https://newtree.cat/jardineria/",
                           "is_external": "",
                           "nofollow": "",
                           "custom_attributes": ""
@@ -289,7 +289,7 @@
               "isInner": true
             },
             {
-              "id": "d5dc56c",
+              "id": "adcfe18",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -321,7 +321,7 @@
               },
               "elements": [
                 {
-                  "id": "4471455",
+                  "id": "d28a72f",
                   "elType": "widget",
                   "settings": {
                     "title": "Natura<br>Benestar<br>Vida",
@@ -344,7 +344,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "7477efd",
+                  "id": "db167a6",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -383,7 +383,7 @@
       "isInner": false
     },
     {
-      "id": "f46858c",
+      "id": "da48776",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -422,7 +422,29 @@
       },
       "elements": [
         {
-          "id": "fc3a5b8",
+          "id": "cfc56f0",
+          "elType": "widget",
+          "settings": {
+            "title": "Projectes que <span style=\"color:#FC2144\">inspiren</span>",
+            "header_size": "h2",
+            "align": "left",
+            "title_color": "#111111",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36,
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "_element_width": "inherit",
+            "align_mobile": "center",
+            "typography_font_family": "Nunito"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "8b20f57",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -443,7 +465,7 @@
           },
           "elements": [
             {
-              "id": "4181ed2",
+              "id": "6fd99e9",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -465,7 +487,7 @@
               },
               "elements": [
                 {
-                  "id": "88e9edb",
+                  "id": "24d7c29",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -473,18 +495,25 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree",
+                    "alt": "Galeria de jardins Girona: casa blanca amb piscina i palmeres",
                     "image_border_radius": {
                       "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
                       "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/11.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
                     },
                     "height": {
                       "unit": "px",
-                      "size": 210,
+                      "size": 220,
                       "sizes": []
                     },
                     "object-fit": "cover",
@@ -497,7 +526,7 @@
               "isInner": true
             },
             {
-              "id": "cba6b56",
+              "id": "e5b3401",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -519,7 +548,7 @@
               },
               "elements": [
                 {
-                  "id": "bd2d25d",
+                  "id": "d40c9d9",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -527,18 +556,25 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree",
+                    "alt": "Jardinera metàl·lica amb plantes al costat d'una piscina",
                     "image_border_radius": {
                       "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
                       "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/10.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
                     },
                     "height": {
                       "unit": "px",
-                      "size": 210,
+                      "size": 220,
                       "sizes": []
                     },
                     "object-fit": "cover",
@@ -551,7 +587,7 @@
               "isInner": true
             },
             {
-              "id": "879ea08",
+              "id": "263654e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -573,277 +609,7 @@
               },
               "elements": [
                 {
-                  "id": "6e3625e",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/9-300x218.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "8ff02d0",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "2dee9c0",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/12-300x225.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "9e5d5e0",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "fa7530e",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/13-300x224.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "1612892",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "6a08af7",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/14-300x222.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "6150bab",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "309edd7",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/15-300x225.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "a7d12f6",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "737f38d",
+                  "id": "acd49c1",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -851,18 +617,25 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree",
+                    "alt": "Jardineres negres amb plantes al voltant d'una piscina",
                     "image_border_radius": {
                       "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
                       "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/16.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
                     },
                     "height": {
                       "unit": "px",
-                      "size": 210,
+                      "size": 220,
                       "sizes": []
                     },
                     "object-fit": "cover",
@@ -875,7 +648,7 @@
               "isInner": true
             },
             {
-              "id": "296b775",
+              "id": "c7393b6",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -897,7 +670,251 @@
               },
               "elements": [
                 {
-                  "id": "8bf86b8",
+                  "id": "34079d5",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/9-300x218.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Palmeres sobre grava blanca davant d'un mur",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/9.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover",
+                    "_element_width": "inherit"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "25c1ca0",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
+              },
+              "elements": [
+                {
+                  "id": "4b52bdc",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/13-300x224.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Gespa natural i jardí davant d'una casa moderna",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/13.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover",
+                    "_element_width": "inherit"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "a90f83f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
+              },
+              "elements": [
+                {
+                  "id": "1571e37",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/12-300x225.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Zona verda amb gespa natural i arbres plantats",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/12.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover",
+                    "_element_width": "inherit"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "3c413a0",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
+              },
+              "elements": [
+                {
+                  "id": "26b0e28",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/14-300x222.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Jardí amb gespa, olivera i pèrgola de fusta",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/14.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover",
+                    "_element_width": "inherit"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "5997b2d",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
+              },
+              "elements": [
+                {
+                  "id": "bc76fc9",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -905,18 +922,25 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree",
+                    "alt": "Galeria de jardins Girona: gespa artificial amb olivera i grava blanca",
                     "image_border_radius": {
                       "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
                       "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/17.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
                     },
                     "height": {
                       "unit": "px",
-                      "size": 210,
+                      "size": 220,
                       "sizes": []
                     },
                     "object-fit": "cover",
@@ -929,7 +953,7 @@
               "isInner": true
             },
             {
-              "id": "e7d06f2",
+              "id": "0fd8223",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -951,26 +975,33 @@
               },
               "elements": [
                 {
-                  "id": "75bd24e",
+                  "id": "c2f877a",
                   "elType": "widget",
                   "settings": {
                     "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/2-300x200.png",
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/15-300x225.png",
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree",
+                    "alt": "Olivera podada com un bonsai davant d'un jardí vertical",
                     "image_border_radius": {
                       "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
                       "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/15.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
                     },
                     "height": {
                       "unit": "px",
-                      "size": 210,
+                      "size": 220,
                       "sizes": []
                     },
                     "object-fit": "cover",
@@ -983,7 +1014,7 @@
               "isInner": true
             },
             {
-              "id": "cc88393",
+              "id": "927f18e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1005,331 +1036,7 @@
               },
               "elements": [
                 {
-                  "id": "c357d8f",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/1-300x200.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "020f46f",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "3705fbe",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/4-300x200.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "f7ddc2f",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "dcab82d",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/3-300x200.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "27a651e",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "d34f8ce",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/18.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "58a498c",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "a06ec9e",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/20-300x255.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "e3a957e",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "97d0d79",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/19-300x254.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "716823e",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "06f2d27",
+                  "id": "8727a11",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1337,18 +1044,25 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree",
+                    "alt": "Jardí vertical amb plantes de colors",
                     "image_border_radius": {
                       "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
                       "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/5.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
                     },
                     "height": {
                       "unit": "px",
-                      "size": 210,
+                      "size": 220,
                       "sizes": []
                     },
                     "object-fit": "cover",
@@ -1361,7 +1075,7 @@
               "isInner": true
             },
             {
-              "id": "1e4a46b",
+              "id": "355bd93",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1383,7 +1097,312 @@
               },
               "elements": [
                 {
-                  "id": "be900aa",
+                  "id": "0192e64",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/2-300x200.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Aspersors de reg automàtic regant la gespa",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/2.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover",
+                    "_element_width": "inherit"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "f25f8f1",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
+              },
+              "elements": [
+                {
+                  "id": "7a7380d",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/1-300x200.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Rotlle de gespa artificial",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/1.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover",
+                    "_element_width": "inherit"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0dde63e",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
+              },
+              "elements": [
+                {
+                  "id": "aac2d24",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/4-300x200.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Jardiner tallant la gespa amb una desbrossadora",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/4.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover",
+                    "_element_width": "inherit"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "ec0574e",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
+              },
+              "elements": [
+                {
+                  "id": "2b3f777",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/20-300x255.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Podador amb motoserra pujat a un arbre",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/20.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover",
+                    "_element_width": "inherit"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "614f204",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
+              },
+              "elements": [
+                {
+                  "id": "84f4e47",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/19-300x254.png",
+                      "id": ""
+                    },
+                    "image_size": "large",
+                    "alt": "Galeria de jardins Girona: poda d'arbres amb plataforma elevadora",
+                    "image_border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/19.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 220,
+                      "sizes": []
+                    },
+                    "object-fit": "cover",
+                    "_element_width": "inherit"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "9e232a8",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48,
+                  "sizes": []
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "flex_align_items_mobile": "center"
+              },
+              "elements": [
+                {
+                  "id": "352ae32",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1391,126 +1410,25 @@
                       "id": ""
                     },
                     "image_size": "large",
-                    "alt": "Galeria New Tree",
+                    "alt": "Obra d'un jardí amb terra, grava i plantes noves",
                     "image_border_radius": {
                       "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
                       "isLinked": true
+                    },
+                    "link_to": "custom",
+                    "link": {
+                      "url": "https://newtree.cat/wp-content/uploads/2020/04/7.png",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
                     },
                     "height": {
                       "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "95c6b88",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "47da433",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/8-300x200.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
-                      "sizes": []
-                    },
-                    "object-fit": "cover",
-                    "_element_width": "inherit"
-                  },
-                  "elements": [],
-                  "widgetType": "image"
-                }
-              ],
-              "isInner": true
-            },
-            {
-              "id": "092a102",
-              "elType": "container",
-              "settings": {
-                "content_width": "full",
-                "width": {
-                  "unit": "%",
-                  "size": 23
-                },
-                "width_tablet": {
-                  "unit": "%",
-                  "size": 48,
-                  "sizes": []
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100,
-                  "sizes": []
-                },
-                "flex_align_items_mobile": "center"
-              },
-              "elements": [
-                {
-                  "id": "1e7fe6b",
-                  "elType": "widget",
-                  "settings": {
-                    "image": {
-                      "url": "https://newtree.cat/wp-content/uploads/2020/04/5-2-300x200.png",
-                      "id": ""
-                    },
-                    "image_size": "large",
-                    "alt": "Galeria New Tree",
-                    "image_border_radius": {
-                      "unit": "px",
-                      "top": "10",
-                      "right": "10",
-                      "bottom": "10",
-                      "left": "10",
-                      "isLinked": true
-                    },
-                    "height": {
-                      "unit": "px",
-                      "size": 210,
+                      "size": 220,
                       "sizes": []
                     },
                     "object-fit": "cover",
@@ -1529,7 +1447,397 @@
       "isInner": false
     },
     {
-      "id": "f048f99",
+      "id": "a8b8d35",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "52",
+          "right": "20",
+          "bottom": "52",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
+      },
+      "elements": [
+        {
+          "id": "ff6070e",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "18",
+              "row": "18",
+              "unit": "px",
+              "isLinked": true
+            },
+            "flex_align_items": "flex-start",
+            "width": {
+              "unit": "%",
+              "size": 72
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100,
+              "sizes": []
+            },
+            "flex_align_items_mobile": "center"
+          },
+          "elements": [
+            {
+              "id": "ba4f722",
+              "elType": "widget",
+              "settings": {
+                "title": "Galeria de jardins Girona: què hi trobaràs",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#111111",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "dc38916",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Aquesta galeria de jardins Girona reuneix imatges de la nostra feina. New Tree és una empresa de jardineria fundada l'any 1977, dedicada a la jardineria privada i pública. Per això, tenim més de 50 anys d'experiència a Girona i l'Empordà.</p>",
+                "text_color": "#4A4A4A",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "6c40afe",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Hi trobaràs <a href=\"https://newtree.cat/disseny-i-construccio-de-jardins/\" style=\"color:#659246;font-weight:700\">disseny i construcció de jardins</a>, <a href=\"https://newtree.cat/instal%c2%b7lacio-de-gespa/\" style=\"color:#659246;font-weight:700\">gespa natural i artificial</a>, <a href=\"https://newtree.cat/sistemes-de-reg/\" style=\"color:#659246;font-weight:700\">sistemes de reg</a>, <a href=\"https://newtree.cat/jardins-verticals/\" style=\"color:#659246;font-weight:700\">jardins verticals</a> i <a href=\"https://newtree.cat/podes/\" style=\"color:#659246;font-weight:700\">podes</a>. També fem <a href=\"https://newtree.cat/manteniment-de-jardins/\" style=\"color:#659246;font-weight:700\">manteniment de jardins</a>, <a href=\"https://newtree.cat/terres-i-substrats/\" style=\"color:#659246;font-weight:700\">terres i substrats</a>, <a href=\"https://newtree.cat/nateja-parceles/\" style=\"color:#659246;font-weight:700\">neteja de parcel·les</a> i <a href=\"https://newtree.cat/tanques-murs/\" style=\"color:#659246;font-weight:700\">tanques i murs de contenció</a>.</p>",
+                "text_color": "#4A4A4A",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "4a0f6af",
+              "elType": "widget",
+              "settings": {
+                "title": "Del disseny al manteniment",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#111111",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "ad98feb",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. A més, oferim serveis que van des de l'assessorament i el disseny fins a l'execució i el manteniment. Disposem dels recursos humans, tècnics i de maquinària necessaris per a qualsevol feina de jardineria pública, privada o de gestió del paisatge.</p>",
+                "text_color": "#4A4A4A",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "21d683c",
+              "elType": "widget",
+              "settings": {
+                "title": "La nostra principal vocació",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#111111",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "1cc3354",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Volem crear espais integrats amb l'entorn natural de la zona. Busquem jardins de baix manteniment i sostenibles amb els recursos hídrics. També volem portar part de la natura a cada jardí que dissenyem. I, el més important, crear espais per poder gaudir.</p>",
+                "text_color": "#4A4A4A",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "f3ed910",
+              "elType": "widget",
+              "settings": {
+                "title": "Treballem a tota la província de Girona",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#111111",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "02cae3a",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Oferim servei a Girona, Figueres, Roses, L'Escala, Empuriabrava, Peralada, Castelló d'Empúries, Llançà i Port de la Selva. Treballem per a particulars i per a ajuntaments: molts ajuntaments confien en New Tree per a la seva obra pública.</p>",
+                "text_color": "#4A4A4A",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "5a1b26f",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Si t'agrada algun jardí d'aquesta galeria de jardins Girona, parlem-ne. Demana pressupost i t'assessorarem. Escriu-nos a info@newtree.cat, truca'ns al (+34) 972 560 033 o <a href=\"https://www.google.com/maps/search/?api=1&query=Cam%C3%AD+de+Reg+de+la+Vinya+Calabuig+B%C3%A0scara+Girona\" style=\"color:#659246;font-weight:700\">visita'ns a Calabuig – Bàscara</a>.</p>",
+                "text_color": "#4A4A4A",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "_element_width": "inherit",
+                "align_mobile": "center",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "8599bdb",
+              "elType": "widget",
+              "settings": {
+                "text": "DEMANA PRESSUPOST",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#FC2144",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                },
+                "size": "md",
+                "icon": {
+                  "value": "fas fa-arrow-right",
+                  "library": "fa-solid"
+                },
+                "icon_align": "right",
+                "link": {
+                  "url": "https://newtree.cat/situacio-i-contacte/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "align_mobile": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Nunito"
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "28b3a3b",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "background_background": "classic",
+        "background_color": "#F5F5F5",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "56",
+          "right": "24",
+          "bottom": "56",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "46",
+          "right": "20",
+          "bottom": "46",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_align_items_mobile": "center"
+      },
+      "elements": [
+        {
+          "id": "aaca0ed",
+          "elType": "widget",
+          "settings": {
+            "title": "Segueix-nos a <span style=\"color:#FC2144\">Instagram</span>",
+            "header_size": "h2",
+            "align": "left",
+            "title_color": "#111111",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 34,
+              "sizes": []
+            },
+            "typography_font_weight": "700",
+            "_element_width": "inherit",
+            "align_mobile": "center",
+            "typography_font_family": "Nunito"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "68bcb37",
+          "elType": "widget",
+          "settings": {
+            "shortcode": "[instagram-feed]"
+          },
+          "elements": [],
+          "widgetType": "shortcode"
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "c3fb9e7",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1575,7 +1883,7 @@
       },
       "elements": [
         {
-          "id": "2b16eba",
+          "id": "6f1466e",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1596,7 +1904,7 @@
           },
           "elements": [
             {
-              "id": "a587dde",
+              "id": "a14be58",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1626,7 +1934,7 @@
               },
               "elements": [
                 {
-                  "id": "937726d",
+                  "id": "c2d2136",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1648,7 +1956,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "a23c270",
+                  "id": "2e84a88",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1668,7 +1976,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "edd786c",
+                  "id": "a6032a2",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1705,7 +2013,7 @@
               "isInner": true
             },
             {
-              "id": "85374df",
+              "id": "a8f63eb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1740,7 +2048,7 @@
               },
               "elements": [
                 {
-                  "id": "071441e",
+                  "id": "e9b54c1",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1781,7 +2089,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "7bb7c8f",
+                  "id": "63bf471",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1825,7 +2133,7 @@
               "isInner": true
             },
             {
-              "id": "298879d",
+              "id": "d066bb1",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1857,7 +2165,7 @@
               },
               "elements": [
                 {
-                  "id": "c47770f",
+                  "id": "61c96a2",
                   "elType": "widget",
                   "settings": {
                     "title": "Fem créixer espais,<br>fem créixer persones",
@@ -1880,7 +2188,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "7a86827",
+                  "id": "cb9bcd1",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1921,6 +2229,6 @@
   ],
   "page_settings": [],
   "version": "0.4",
-  "title": "Galeria - New Tree",
+  "title": "Galeria de jardins Girona - New Tree",
   "type": "page"
 }

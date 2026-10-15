@@ -138,7 +138,8 @@ def acc_last(title, color=RED):
 
 def hero_section(p):
     h1 = p.get("h1") or h1_green(p["title"])
-    return hero("NEW TREE · JARDINERIA", h1, p.get("lead", SLOGAN), HERO_IMG, min_h=460)
+    return hero("NEW TREE · JARDINERIA", h1, p.get("lead", SLOGAN), HERO_IMG, min_h=460,
+                btn2=p.get("btn2", ("VEURE PROJECTES", GALERIA)))
 
 
 def intro_section(p):
