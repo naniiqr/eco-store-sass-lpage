@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "fa2d27a",
+      "id": "d7a4861",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -64,7 +64,7 @@
       },
       "elements": [
         {
-          "id": "3e70045",
+          "id": "540c688",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -85,7 +85,7 @@
           },
           "elements": [
             {
-              "id": "e87bfbd",
+              "id": "fd738b7",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -115,7 +115,7 @@
               },
               "elements": [
                 {
-                  "id": "6dda75d",
+                  "id": "1ebd774",
                   "elType": "widget",
                   "settings": {
                     "title": "NEW TREE · JARDINERIA",
@@ -142,7 +142,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "f533db1",
+                  "id": "a0ec569",
                   "elType": "widget",
                   "settings": {
                     "title": "Instal·lació de gespa natural i <span style=\"color:#6EA83C\">artificial</span>",
@@ -164,7 +164,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "6434061",
+                  "id": "92431dc",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -184,7 +184,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "2d5ff2f",
+                  "id": "abe9e7d",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -205,7 +205,7 @@
                   },
                   "elements": [
                     {
-                      "id": "e5dcf2a",
+                      "id": "22c20fb",
                       "elType": "widget",
                       "settings": {
                         "text": "DEMANA PRESSUPOST",
@@ -239,7 +239,7 @@
                       "widgetType": "button"
                     },
                     {
-                      "id": "20a7513",
+                      "id": "d10fcb7",
                       "elType": "widget",
                       "settings": {
                         "text": "VEURE PROJECTES",
@@ -289,7 +289,7 @@
               "isInner": true
             },
             {
-              "id": "8e34389",
+              "id": "6c97d5b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -321,7 +321,7 @@
               },
               "elements": [
                 {
-                  "id": "f68c25f",
+                  "id": "b97823c",
                   "elType": "widget",
                   "settings": {
                     "title": "Natura<br>Benestar<br>Vida",
@@ -344,7 +344,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "6840b47",
+                  "id": "ff5e493",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -383,7 +383,7 @@
       "isInner": false
     },
     {
-      "id": "5737343",
+      "id": "3c63c0e",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -432,7 +432,7 @@
       },
       "elements": [
         {
-          "id": "e0c5b7e",
+          "id": "6b9b7f1",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -453,7 +453,7 @@
           },
           "elements": [
             {
-              "id": "5ef00b1",
+              "id": "8214703",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -494,7 +494,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "b227af4",
+              "id": "12fed9a",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -535,7 +535,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "0fad1df",
+              "id": "9c86cc9",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -576,7 +576,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "f5f4d66",
+              "id": "a5d810c",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -617,7 +617,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "ef174bf",
+              "id": "ddbef7a",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -664,7 +664,7 @@
       "isInner": false
     },
     {
-      "id": "d9ea4ee",
+      "id": "666713e",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -703,7 +703,7 @@
       },
       "elements": [
         {
-          "id": "09e25ff",
+          "id": "c8bd19a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -724,7 +724,7 @@
           },
           "elements": [
             {
-              "id": "90aa0ea",
+              "id": "bf10a78",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -754,7 +754,7 @@
               },
               "elements": [
                 {
-                  "id": "5bd7100",
+                  "id": "53e3341",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Com a imatge clàssica de qualsevol casa, la gespa és una de les parts més importants de qualsevol jardí i la primera impressió. A part de l'estètica visual, la gespa serveix com un espai ideal perquè juguin els nens i les mascotes.</p>",
@@ -774,7 +774,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "630744b",
+                  "id": "d9fafcb",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Gràcies als avenços tecnològics, tenim l'opció de tenir una gespa natural o gespa artificial de molt bona qualitat.</p>",
@@ -794,7 +794,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "cf5fc9a",
+                  "id": "7202cdd",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Prendre la decisió entre una gespa artificial o gespa natural per a molts propietaris necessita assessorament de professionals per decidir quina opció és la més adient en cada cas. Per ajudar-lo a decidir quin és millor per a vostè, li podrem dir els avantatges en cada cas.</p>",
@@ -814,7 +814,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "b281e63",
+                  "id": "6b842d7",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -851,7 +851,7 @@
               "isInner": true
             },
             {
-              "id": "fd5b8c0",
+              "id": "c11b06e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -873,7 +873,7 @@
               },
               "elements": [
                 {
-                  "id": "6a9eafd",
+                  "id": "8aabcde",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -919,7 +919,7 @@
       "isInner": false
     },
     {
-      "id": "527d04a",
+      "id": "f48b20f",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -958,7 +958,7 @@
       },
       "elements": [
         {
-          "id": "f46d069",
+          "id": "694725c",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -979,7 +979,7 @@
           },
           "elements": [
             {
-              "id": "5e76799",
+              "id": "123af98",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1001,7 +1001,7 @@
               },
               "elements": [
                 {
-                  "id": "70687c4",
+                  "id": "8cd261e",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1033,7 +1033,7 @@
               "isInner": true
             },
             {
-              "id": "810c48a",
+              "id": "f270183",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1055,7 +1055,7 @@
               },
               "elements": [
                 {
-                  "id": "4db1c62",
+                  "id": "4eb4692",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1087,7 +1087,7 @@
               "isInner": true
             },
             {
-              "id": "ca6eb10",
+              "id": "a4426bf",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1109,7 +1109,7 @@
               },
               "elements": [
                 {
-                  "id": "c03a7b2",
+                  "id": "d054157",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1141,7 +1141,7 @@
               "isInner": true
             },
             {
-              "id": "a0ee68d",
+              "id": "316aa66",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1163,7 +1163,7 @@
               },
               "elements": [
                 {
-                  "id": "c309b97",
+                  "id": "50516f0",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1195,7 +1195,7 @@
               "isInner": true
             },
             {
-              "id": "8286b0c",
+              "id": "6f2671d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1217,7 +1217,7 @@
               },
               "elements": [
                 {
-                  "id": "9982597",
+                  "id": "17673b1",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1249,7 +1249,7 @@
               "isInner": true
             },
             {
-              "id": "583aa4d",
+              "id": "1c4a586",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1271,7 +1271,7 @@
               },
               "elements": [
                 {
-                  "id": "309936f",
+                  "id": "f34bf95",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1309,7 +1309,7 @@
       "isInner": false
     },
     {
-      "id": "4da0146",
+      "id": "9ad107d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1355,7 +1355,7 @@
       },
       "elements": [
         {
-          "id": "714ec78",
+          "id": "0b2a394",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1376,7 +1376,7 @@
           },
           "elements": [
             {
-              "id": "ea100e8",
+              "id": "a5f85b0",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1406,7 +1406,7 @@
               },
               "elements": [
                 {
-                  "id": "b8d8c2d",
+                  "id": "83b1857",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1428,7 +1428,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "694a11a",
+                  "id": "3f40297",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1448,7 +1448,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "fc21e02",
+                  "id": "83ed716",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1485,7 +1485,7 @@
               "isInner": true
             },
             {
-              "id": "15f589a",
+              "id": "d4216f8",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1520,7 +1520,7 @@
               },
               "elements": [
                 {
-                  "id": "b62e225",
+                  "id": "aa1a698",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1561,7 +1561,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "a1e99d1",
+                  "id": "ef80f9d",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1605,7 +1605,7 @@
               "isInner": true
             },
             {
-              "id": "dfc0563",
+              "id": "ae481d6",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1637,7 +1637,7 @@
               },
               "elements": [
                 {
-                  "id": "66ca356",
+                  "id": "8dd8db2",
                   "elType": "widget",
                   "settings": {
                     "title": "Fem créixer espais,<br>fem créixer persones",
@@ -1660,7 +1660,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "429af1b",
+                  "id": "e535124",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",

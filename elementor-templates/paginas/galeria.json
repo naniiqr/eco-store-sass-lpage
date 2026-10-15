@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "357b4de",
+      "id": "6688b3b",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -42,7 +42,7 @@
       },
       "elements": [
         {
-          "id": "5f324bb",
+          "id": "f3cb036",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -59,7 +59,7 @@
           },
           "elements": [
             {
-              "id": "288bd71",
+              "id": "0885f25",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -78,7 +78,7 @@
               },
               "elements": [
                 {
-                  "id": "12ef6b5",
+                  "id": "e4aea4b",
                   "elType": "widget",
                   "settings": {
                     "title": "NEW TREE · JARDINERIA",
@@ -102,7 +102,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "066068b",
+                  "id": "9e749e5",
                   "elType": "widget",
                   "settings": {
                     "title": "Galeria de jardins <span style=\"color:#6EA83C\">Girona</span>",
@@ -121,7 +121,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "8e1e20c",
+                  "id": "8244165",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Galeria de jardins Girona: alguns dels projectes que hem fet a Girona i l'Empordà.</p>",
@@ -138,7 +138,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "1c22194",
+                  "id": "ebdfcdb",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -155,7 +155,7 @@
                   },
                   "elements": [
                     {
-                      "id": "fa2979f",
+                      "id": "0da42e2",
                       "elType": "widget",
                       "settings": {
                         "text": "DEMANA PRESSUPOST",
@@ -186,7 +186,7 @@
                       "widgetType": "button"
                     },
                     {
-                      "id": "472b842",
+                      "id": "3ec9683",
                       "elType": "widget",
                       "settings": {
                         "text": "VEURE SERVEIS",
@@ -233,7 +233,7 @@
               "isInner": true
             },
             {
-              "id": "adcfe18",
+              "id": "ff99910",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -254,7 +254,7 @@
               },
               "elements": [
                 {
-                  "id": "d28a72f",
+                  "id": "27dfc43",
                   "elType": "widget",
                   "settings": {
                     "title": "Natura<br>Benestar<br>Vida",
@@ -275,7 +275,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "db167a6",
+                  "id": "ee9993d",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -313,7 +313,7 @@
       "isInner": false
     },
     {
-      "id": "da48776",
+      "id": "0cec379",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -335,7 +335,7 @@
       },
       "elements": [
         {
-          "id": "cfc56f0",
+          "id": "37eb244",
           "elType": "widget",
           "settings": {
             "title": "Projectes que <span style=\"color:#FC2144\">inspiren</span>",
@@ -354,7 +354,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "8b20f57",
+          "id": "f4d2159",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -371,7 +371,7 @@
           },
           "elements": [
             {
-              "id": "6fd99e9",
+              "id": "fcfaf55",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -382,7 +382,7 @@
               },
               "elements": [
                 {
-                  "id": "24d7c29",
+                  "id": "81bfe4e",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -420,7 +420,7 @@
               "isInner": true
             },
             {
-              "id": "e5b3401",
+              "id": "5d6f02e",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -431,7 +431,7 @@
               },
               "elements": [
                 {
-                  "id": "d40c9d9",
+                  "id": "46ea7dd",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -469,7 +469,7 @@
               "isInner": true
             },
             {
-              "id": "263654e",
+              "id": "96f1b6b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -480,7 +480,7 @@
               },
               "elements": [
                 {
-                  "id": "acd49c1",
+                  "id": "955c5a8",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -518,7 +518,7 @@
               "isInner": true
             },
             {
-              "id": "c7393b6",
+              "id": "ca76b61",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -529,7 +529,7 @@
               },
               "elements": [
                 {
-                  "id": "34079d5",
+                  "id": "c45389f",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -567,7 +567,7 @@
               "isInner": true
             },
             {
-              "id": "25c1ca0",
+              "id": "eb0d15c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -578,7 +578,7 @@
               },
               "elements": [
                 {
-                  "id": "4b52bdc",
+                  "id": "ac2d281",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -616,7 +616,7 @@
               "isInner": true
             },
             {
-              "id": "a90f83f",
+              "id": "289cb23",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -627,7 +627,7 @@
               },
               "elements": [
                 {
-                  "id": "1571e37",
+                  "id": "355cbad",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -665,7 +665,7 @@
               "isInner": true
             },
             {
-              "id": "3c413a0",
+              "id": "0504f83",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -676,7 +676,7 @@
               },
               "elements": [
                 {
-                  "id": "26b0e28",
+                  "id": "e71febc",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -714,7 +714,7 @@
               "isInner": true
             },
             {
-              "id": "5997b2d",
+              "id": "2e63a2d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -725,7 +725,7 @@
               },
               "elements": [
                 {
-                  "id": "bc76fc9",
+                  "id": "227f051",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -763,7 +763,7 @@
               "isInner": true
             },
             {
-              "id": "0fd8223",
+              "id": "f500807",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -774,7 +774,7 @@
               },
               "elements": [
                 {
-                  "id": "c2f877a",
+                  "id": "9aff4a8",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -812,7 +812,7 @@
               "isInner": true
             },
             {
-              "id": "927f18e",
+              "id": "c510c39",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -823,7 +823,7 @@
               },
               "elements": [
                 {
-                  "id": "8727a11",
+                  "id": "63166ec",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -861,7 +861,7 @@
               "isInner": true
             },
             {
-              "id": "355bd93",
+              "id": "a3ae9ad",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -872,7 +872,7 @@
               },
               "elements": [
                 {
-                  "id": "0192e64",
+                  "id": "122953e",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -910,7 +910,7 @@
               "isInner": true
             },
             {
-              "id": "f25f8f1",
+              "id": "0e6b9ab",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -921,7 +921,7 @@
               },
               "elements": [
                 {
-                  "id": "7a7380d",
+                  "id": "6e00d0a",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -959,7 +959,7 @@
               "isInner": true
             },
             {
-              "id": "0dde63e",
+              "id": "4a97b8d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -970,7 +970,7 @@
               },
               "elements": [
                 {
-                  "id": "aac2d24",
+                  "id": "3ff66c9",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1008,7 +1008,7 @@
               "isInner": true
             },
             {
-              "id": "ec0574e",
+              "id": "460b93d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1019,7 +1019,7 @@
               },
               "elements": [
                 {
-                  "id": "2b3f777",
+                  "id": "6fc2424",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1057,7 +1057,7 @@
               "isInner": true
             },
             {
-              "id": "614f204",
+              "id": "923c85c",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1068,7 +1068,7 @@
               },
               "elements": [
                 {
-                  "id": "84f4e47",
+                  "id": "70a799b",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1106,7 +1106,7 @@
               "isInner": true
             },
             {
-              "id": "9e232a8",
+              "id": "aa151e9",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1117,7 +1117,7 @@
               },
               "elements": [
                 {
-                  "id": "352ae32",
+                  "id": "3fb901d",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1161,7 +1161,7 @@
       "isInner": false
     },
     {
-      "id": "a8b8d35",
+      "id": "054ca8b",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1183,7 +1183,7 @@
       },
       "elements": [
         {
-          "id": "ff6070e",
+          "id": "40b6c1a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1202,7 +1202,7 @@
           },
           "elements": [
             {
-              "id": "ba4f722",
+              "id": "84fe5ee",
               "elType": "widget",
               "settings": {
                 "title": "Galeria de jardins Girona: què hi trobaràs",
@@ -1221,7 +1221,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "dc38916",
+              "id": "bcc7ac0",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Aquesta galeria de jardins Girona reuneix imatges de la nostra feina. New Tree és una empresa de jardineria fundada l'any 1977, dedicada a la jardineria privada i pública. Per això, tenim més de 50 anys d'experiència a Girona i l'Empordà.</p>",
@@ -1238,7 +1238,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "6c40afe",
+              "id": "88fd7ea",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Hi trobaràs <a href=\"https://newtree.cat/disseny-i-construccio-de-jardins/\" style=\"color:#659246;font-weight:700\">disseny i construcció de jardins</a>, <a href=\"https://newtree.cat/instal%c2%b7lacio-de-gespa/\" style=\"color:#659246;font-weight:700\">gespa natural i artificial</a>, <a href=\"https://newtree.cat/sistemes-de-reg/\" style=\"color:#659246;font-weight:700\">sistemes de reg</a>, <a href=\"https://newtree.cat/jardins-verticals/\" style=\"color:#659246;font-weight:700\">jardins verticals</a> i <a href=\"https://newtree.cat/podes/\" style=\"color:#659246;font-weight:700\">podes</a>. També fem <a href=\"https://newtree.cat/manteniment-de-jardins/\" style=\"color:#659246;font-weight:700\">manteniment de jardins</a>, <a href=\"https://newtree.cat/terres-i-substrats/\" style=\"color:#659246;font-weight:700\">terres i substrats</a>, <a href=\"https://newtree.cat/nateja-parceles/\" style=\"color:#659246;font-weight:700\">neteja de parcel·les</a> i <a href=\"https://newtree.cat/tanques-murs/\" style=\"color:#659246;font-weight:700\">tanques i murs de contenció</a>.</p>",
@@ -1255,7 +1255,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "4a0f6af",
+              "id": "f9fb59a",
               "elType": "widget",
               "settings": {
                 "title": "Del disseny al manteniment",
@@ -1274,7 +1274,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "ad98feb",
+              "id": "5f1919d",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. A més, oferim serveis que van des de l'assessorament i el disseny fins a l'execució i el manteniment. Disposem dels recursos humans, tècnics i de maquinària necessaris per a qualsevol feina de jardineria pública, privada o de gestió del paisatge.</p>",
@@ -1291,7 +1291,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "21d683c",
+              "id": "aa53cae",
               "elType": "widget",
               "settings": {
                 "title": "La nostra principal vocació",
@@ -1310,7 +1310,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "1cc3354",
+              "id": "c1166e9",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Volem crear espais integrats amb l'entorn natural de la zona. Busquem jardins de baix manteniment i sostenibles amb els recursos hídrics. També volem portar part de la natura a cada jardí que dissenyem. I, el més important, crear espais per poder gaudir.</p>",
@@ -1327,7 +1327,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "f3ed910",
+              "id": "99677de",
               "elType": "widget",
               "settings": {
                 "title": "Treballem a tota la província de Girona",
@@ -1346,7 +1346,7 @@
               "widgetType": "heading"
             },
             {
-              "id": "02cae3a",
+              "id": "9071f85",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Oferim servei a Girona, Figueres, Roses, L'Escala, Empuriabrava, Peralada, Castelló d'Empúries, Llançà i Port de la Selva. Treballem per a particulars i per a ajuntaments: molts ajuntaments confien en New Tree per a la seva obra pública.</p>",
@@ -1363,7 +1363,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "5a1b26f",
+              "id": "d48f6ce",
               "elType": "widget",
               "settings": {
                 "editor": "<p>Si t'agrada algun jardí d'aquesta galeria de jardins Girona, parlem-ne. Demana pressupost i t'assessorarem. Escriu-nos a info@newtree.cat, truca'ns al (+34) 972 560 033 o <a href=\"https://www.google.com/maps/search/?api=1&query=Cam%C3%AD+de+Reg+de+la+Vinya+Calabuig+B%C3%A0scara+Girona\" style=\"color:#659246;font-weight:700\">visita'ns a Calabuig – Bàscara</a>.</p>",
@@ -1380,7 +1380,7 @@
               "widgetType": "text-editor"
             },
             {
-              "id": "8599bdb",
+              "id": "cf1796a",
               "elType": "widget",
               "settings": {
                 "text": "DEMANA PRESSUPOST",
@@ -1417,7 +1417,7 @@
       "isInner": false
     },
     {
-      "id": "28b3a3b",
+      "id": "9ae7eb3",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1439,7 +1439,7 @@
       },
       "elements": [
         {
-          "id": "aaca0ed",
+          "id": "05dd8e0",
           "elType": "widget",
           "settings": {
             "title": "Segueix-nos a <span style=\"color:#FC2144\">Instagram</span>",
@@ -1458,7 +1458,7 @@
           "widgetType": "heading"
         },
         {
-          "id": "68bcb37",
+          "id": "4361d6f",
           "elType": "widget",
           "settings": {
             "shortcode": "[instagram-feed]"
@@ -1470,7 +1470,7 @@
       "isInner": false
     },
     {
-      "id": "c3fb9e7",
+      "id": "dfcdf4f",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1499,7 +1499,7 @@
       },
       "elements": [
         {
-          "id": "6f1466e",
+          "id": "e137a9f",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1516,7 +1516,7 @@
           },
           "elements": [
             {
-              "id": "a14be58",
+              "id": "ccb2227",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1535,7 +1535,7 @@
               },
               "elements": [
                 {
-                  "id": "c2d2136",
+                  "id": "513f4e8",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1554,7 +1554,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "2e84a88",
+                  "id": "491301c",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1571,7 +1571,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "a6032a2",
+                  "id": "118abfc",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1605,7 +1605,7 @@
               "isInner": true
             },
             {
-              "id": "a8f63eb",
+              "id": "f846747",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1626,7 +1626,7 @@
               },
               "elements": [
                 {
-                  "id": "e9b54c1",
+                  "id": "8072d38",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1663,7 +1663,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "63bf471",
+                  "id": "23fc9f4",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1703,7 +1703,7 @@
               "isInner": true
             },
             {
-              "id": "d066bb1",
+              "id": "6e69d4f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1724,7 +1724,7 @@
               },
               "elements": [
                 {
-                  "id": "61c96a2",
+                  "id": "c51a834",
                   "elType": "widget",
                   "settings": {
                     "title": "Fem créixer espais,<br>fem créixer persones",
@@ -1745,7 +1745,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "cb9bcd1",
+                  "id": "b053c11",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",

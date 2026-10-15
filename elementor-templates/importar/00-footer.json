@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "fd01026",
+      "id": "88f36ef",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -40,7 +40,7 @@
       },
       "elements": [
         {
-          "id": "d863d66",
+          "id": "6fc119d",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -56,7 +56,7 @@
           },
           "elements": [
             {
-              "id": "b5055b3",
+              "id": "803c6c7",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -77,7 +77,7 @@
               },
               "elements": [
                 {
-                  "id": "b24f737",
+                  "id": "074b7eb",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -107,7 +107,7 @@
                   },
                   "elements": [
                     {
-                      "id": "ba838b9",
+                      "id": "9396d3f",
                       "elType": "widget",
                       "settings": {
                         "width": {
@@ -122,7 +122,7 @@
                       "widgetType": "theme-site-logo"
                     },
                     {
-                      "id": "ff814e0",
+                      "id": "692bc21",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -145,7 +145,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "7f196e2",
+                  "id": "e959522",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -175,7 +175,7 @@
                   },
                   "elements": [
                     {
-                      "id": "827a945",
+                      "id": "25a0ad6",
                       "elType": "widget",
                       "settings": {
                         "title": "Contacte",
@@ -197,7 +197,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "749a4fb",
+                      "id": "f817577",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -238,7 +238,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "3ab5eed",
+                      "id": "7431fc2",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -279,7 +279,7 @@
                       "widgetType": "icon-box"
                     },
                     {
-                      "id": "9191e75",
+                      "id": "149fcc6",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -323,7 +323,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "515fab4",
+                  "id": "c29c294",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -353,7 +353,7 @@
                   },
                   "elements": [
                     {
-                      "id": "68aa0e4",
+                      "id": "34e4eda",
                       "elType": "widget",
                       "settings": {
                         "title": "Jardineria",
@@ -375,7 +375,7 @@
                       "widgetType": "heading"
                     },
                     {
-                      "id": "60fe701",
+                      "id": "0dea5e2",
                       "elType": "widget",
                       "settings": {
                         "editor": "<p><a href=\"https://newtree.cat/disseny-i-construccio-de-jardins/\" style=\"color:#4A4A4A\">Disseny i Construcció de Jardins</a><br><a href=\"https://newtree.cat/sistemes-de-reg/\" style=\"color:#4A4A4A\">Sistemes de Reg</a><br><a href=\"https://newtree.cat/instal%c2%b7lacio-de-gespa/\" style=\"color:#4A4A4A\">Instal·lació de Gespa</a><br><a href=\"https://newtree.cat/manteniment-de-jardins/\" style=\"color:#4A4A4A\">Manteniment de jardins</a><br><a href=\"https://newtree.cat/jardins-verticals/\" style=\"color:#4A4A4A\">Jardins verticals</a><br><a href=\"https://newtree.cat/jardineria-2/\" style=\"color:#4A4A4A\">Obra pública</a><br><a href=\"https://newtree.cat/terres-i-substrats/\" style=\"color:#4A4A4A\">Terres i substrats</a><br><a href=\"https://newtree.cat/nateja-parceles/\" style=\"color:#4A4A4A\">Nateja Parcel·les</a><br><a href=\"https://newtree.cat/tanques-murs/\" style=\"color:#4A4A4A\">Tanques i Murs</a><br><a href=\"https://newtree.cat/podes/\" style=\"color:#4A4A4A\">Podes</a></p>",
@@ -401,7 +401,7 @@
               "isInner": true
             },
             {
-              "id": "77986ee",
+              "id": "f67893a",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -440,7 +440,7 @@
               },
               "elements": [
                 {
-                  "id": "7291a9b",
+                  "id": "58fd565",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p><a href=\"#\" style=\"color:#4A4A4A\">Avís legal</a> &nbsp;|&nbsp; <a href=\"#\" style=\"color:#4A4A4A\">Política de privacitat</a></p>",
@@ -459,7 +459,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "d63c6d7",
+                  "id": "667b399",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {

@@ -1,7 +1,7 @@
 {
   "content": [
     {
-      "id": "6930ccb",
+      "id": "1b54f9d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -42,7 +42,7 @@
       },
       "elements": [
         {
-          "id": "1bef2ac",
+          "id": "8eef5bc",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -59,7 +59,7 @@
           },
           "elements": [
             {
-              "id": "1871352",
+              "id": "08ddfb3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -78,7 +78,7 @@
               },
               "elements": [
                 {
-                  "id": "44f01b3",
+                  "id": "cd0ac2c",
                   "elType": "widget",
                   "settings": {
                     "title": "NEW TREE · JARDINERIA",
@@ -102,7 +102,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "d19be09",
+                  "id": "89cb612",
                   "elType": "widget",
                   "settings": {
                     "title": "<span style=\"color:#6EA83C\">Empresa</span>",
@@ -121,7 +121,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "4883e93",
+                  "id": "1da7ba7",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>New Tree convertim un desert en un jardí</p>",
@@ -138,7 +138,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "16ef14d",
+                  "id": "c12bb24",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -155,7 +155,7 @@
                   },
                   "elements": [
                     {
-                      "id": "b58b7cf",
+                      "id": "0c0e217",
                       "elType": "widget",
                       "settings": {
                         "text": "DEMANA PRESSUPOST",
@@ -186,7 +186,7 @@
                       "widgetType": "button"
                     },
                     {
-                      "id": "9f9afcd",
+                      "id": "f365152",
                       "elType": "widget",
                       "settings": {
                         "text": "VEURE PROJECTES",
@@ -233,7 +233,7 @@
               "isInner": true
             },
             {
-              "id": "a5ec8c6",
+              "id": "244bbeb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -254,7 +254,7 @@
               },
               "elements": [
                 {
-                  "id": "3e3038d",
+                  "id": "aaa8dbb",
                   "elType": "widget",
                   "settings": {
                     "title": "Natura<br>Benestar<br>Vida",
@@ -275,7 +275,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "79ffddb",
+                  "id": "72ac483",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -313,7 +313,7 @@
       "isInner": false
     },
     {
-      "id": "298ef7b",
+      "id": "9cc12db",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -345,7 +345,7 @@
       },
       "elements": [
         {
-          "id": "620a160",
+          "id": "e9ed008",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -362,7 +362,7 @@
           },
           "elements": [
             {
-              "id": "71487c5",
+              "id": "bda9a6f",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -399,7 +399,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "1dae66f",
+              "id": "6350ce5",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -436,7 +436,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "c1a81ea",
+              "id": "fed4c34",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -473,7 +473,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "a937616",
+              "id": "72a53ed",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -510,7 +510,7 @@
               "widgetType": "icon-box"
             },
             {
-              "id": "3ee2c1b",
+              "id": "1999e69",
               "elType": "widget",
               "settings": {
                 "selected_icon": {
@@ -553,7 +553,7 @@
       "isInner": false
     },
     {
-      "id": "715468a",
+      "id": "b94eb3b",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -575,7 +575,7 @@
       },
       "elements": [
         {
-          "id": "290ae01",
+          "id": "e3954e6",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -592,7 +592,7 @@
           },
           "elements": [
             {
-              "id": "59b5e26",
+              "id": "cdd9afb",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -611,7 +611,7 @@
               },
               "elements": [
                 {
-                  "id": "69ae3e0",
+                  "id": "dc69251",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Empresa de jardineria privada i pública oferim servei a tota la província de Girona: Figueres, Roses, L'Escala, Empuriabrava, Peralada, Castelló d'Empúries, Llançà.</p>",
@@ -628,7 +628,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "344df83",
+                  "id": "e01a886",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Partint des de zero podem dissenyar i construir el teu jardí segons les teves necessitats. New Tree, empresa fundada l'any 1977 dedicada a la jardineria privada i pública.</p>",
@@ -645,7 +645,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "82221e3",
+                  "id": "76185fb",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Ofereix serveis que van des de l'assessorament i disseny de jardins fins a l'execució i el manteniment d'aquests.</p>",
@@ -662,7 +662,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "36787c7",
+                  "id": "0b3d8cf",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Disposem dels recursos humans, tècnics i de maquinària necessaris per a la realització de qualsevol feina de jardineria pública, privada o de gestió del paisatge.</p>",
@@ -679,7 +679,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "0a41c00",
+                  "id": "ff4be11",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Oferim serveis a tot Girona, Figueres, Empuriabrava, Castelló d'Empúries, Port de la Selva.</p>",
@@ -696,7 +696,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "8bbbbed",
+                  "id": "488981d",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -730,7 +730,7 @@
               "isInner": true
             },
             {
-              "id": "19fe468",
+              "id": "b3df576",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -741,7 +741,7 @@
               },
               "elements": [
                 {
-                  "id": "4c52b10",
+                  "id": "a4dbc15",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -786,7 +786,7 @@
       "isInner": false
     },
     {
-      "id": "d50eb1b",
+      "id": "0a750ba",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -815,7 +815,7 @@
       },
       "elements": [
         {
-          "id": "ebcee1d",
+          "id": "df48f1f",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -832,7 +832,7 @@
           },
           "elements": [
             {
-              "id": "11f8cb0",
+              "id": "b4c747b",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -851,7 +851,7 @@
               },
               "elements": [
                 {
-                  "id": "afa0a96",
+                  "id": "ed21b47",
                   "elType": "widget",
                   "settings": {
                     "title": "La nostra principal vocació",
@@ -873,7 +873,7 @@
               "isInner": true
             },
             {
-              "id": "c0bc91e",
+              "id": "05d0b80",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -894,7 +894,7 @@
               },
               "elements": [
                 {
-                  "id": "c9b33e8",
+                  "id": "0c80089",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -905,7 +905,7 @@
                   },
                   "elements": [
                     {
-                      "id": "967f074",
+                      "id": "0179c22",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -952,7 +952,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "557d9a7",
+                  "id": "1edcf05",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -963,7 +963,7 @@
                   },
                   "elements": [
                     {
-                      "id": "8c65bfd",
+                      "id": "f6fc323",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1010,7 +1010,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "a98570b",
+                  "id": "0b2b52f",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1021,7 +1021,7 @@
                   },
                   "elements": [
                     {
-                      "id": "cd16d9e",
+                      "id": "608a111",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1068,7 +1068,7 @@
                   "isInner": true
                 },
                 {
-                  "id": "03afbc4",
+                  "id": "3860767",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",
@@ -1079,7 +1079,7 @@
                   },
                   "elements": [
                     {
-                      "id": "6550f48",
+                      "id": "c44b98d",
                       "elType": "widget",
                       "settings": {
                         "selected_icon": {
@@ -1135,7 +1135,7 @@
       "isInner": false
     },
     {
-      "id": "c7d524b",
+      "id": "d09d480",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1157,7 +1157,7 @@
       },
       "elements": [
         {
-          "id": "d9dff57",
+          "id": "dd2336a",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1174,7 +1174,7 @@
           },
           "elements": [
             {
-              "id": "4e2ac02",
+              "id": "c43f44d",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1185,7 +1185,7 @@
               },
               "elements": [
                 {
-                  "id": "ff7ea8c",
+                  "id": "596295e",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1216,7 +1216,7 @@
               "isInner": true
             },
             {
-              "id": "3f8ed74",
+              "id": "07189a3",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1227,7 +1227,7 @@
               },
               "elements": [
                 {
-                  "id": "e096cee",
+                  "id": "01ee89c",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1258,7 +1258,7 @@
               "isInner": true
             },
             {
-              "id": "4d38b44",
+              "id": "7d59d70",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1269,7 +1269,7 @@
               },
               "elements": [
                 {
-                  "id": "d0ed08f",
+                  "id": "da496e1",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1300,7 +1300,7 @@
               "isInner": true
             },
             {
-              "id": "51717a0",
+              "id": "efde658",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1311,7 +1311,7 @@
               },
               "elements": [
                 {
-                  "id": "8bda35a",
+                  "id": "62675ba",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1342,7 +1342,7 @@
               "isInner": true
             },
             {
-              "id": "8a45738",
+              "id": "cf5446f",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1353,7 +1353,7 @@
               },
               "elements": [
                 {
-                  "id": "b0a2ed3",
+                  "id": "20b39b9",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1384,7 +1384,7 @@
               "isInner": true
             },
             {
-              "id": "f3beaed",
+              "id": "a0af5a4",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1395,7 +1395,7 @@
               },
               "elements": [
                 {
-                  "id": "a886dcf",
+                  "id": "68d7643",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1426,7 +1426,7 @@
               "isInner": true
             },
             {
-              "id": "b2fc9bc",
+              "id": "4635cc2",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1437,7 +1437,7 @@
               },
               "elements": [
                 {
-                  "id": "d4154f8",
+                  "id": "38b195a",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1468,7 +1468,7 @@
               "isInner": true
             },
             {
-              "id": "ab32e7b",
+              "id": "b70a879",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1479,7 +1479,7 @@
               },
               "elements": [
                 {
-                  "id": "f1034a1",
+                  "id": "c0ce6ea",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1510,7 +1510,7 @@
               "isInner": true
             },
             {
-              "id": "fa89852",
+              "id": "1a1e987",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1521,7 +1521,7 @@
               },
               "elements": [
                 {
-                  "id": "842313a",
+                  "id": "cb25e8a",
                   "elType": "widget",
                   "settings": {
                     "image": {
@@ -1558,7 +1558,7 @@
       "isInner": false
     },
     {
-      "id": "54b702d",
+      "id": "a182750",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -1587,7 +1587,7 @@
       },
       "elements": [
         {
-          "id": "f5ba91c",
+          "id": "f2220c1",
           "elType": "container",
           "settings": {
             "content_width": "full",
@@ -1604,7 +1604,7 @@
           },
           "elements": [
             {
-              "id": "2eabe02",
+              "id": "75fb006",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1623,7 +1623,7 @@
               },
               "elements": [
                 {
-                  "id": "f310499",
+                  "id": "cd65a3d",
                   "elType": "widget",
                   "settings": {
                     "title": "Tens un projecte de jardí?",
@@ -1642,7 +1642,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "976855e",
+                  "id": "c2e4ccd",
                   "elType": "widget",
                   "settings": {
                     "editor": "<p>Parlem-ne i t'ajudem a fer-lo realitat.</p>",
@@ -1659,7 +1659,7 @@
                   "widgetType": "text-editor"
                 },
                 {
-                  "id": "c4d6aac",
+                  "id": "da0552f",
                   "elType": "widget",
                   "settings": {
                     "text": "DEMANA PRESSUPOST",
@@ -1693,7 +1693,7 @@
               "isInner": true
             },
             {
-              "id": "3472e94",
+              "id": "cd5e042",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1714,7 +1714,7 @@
               },
               "elements": [
                 {
-                  "id": "feaba0b",
+                  "id": "b2b6001",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1751,7 +1751,7 @@
                   "widgetType": "icon-box"
                 },
                 {
-                  "id": "4f2882b",
+                  "id": "de411a2",
                   "elType": "widget",
                   "settings": {
                     "selected_icon": {
@@ -1791,7 +1791,7 @@
               "isInner": true
             },
             {
-              "id": "ae2a373",
+              "id": "1653298",
               "elType": "container",
               "settings": {
                 "content_width": "full",
@@ -1812,7 +1812,7 @@
               },
               "elements": [
                 {
-                  "id": "e64b76a",
+                  "id": "ce39954",
                   "elType": "widget",
                   "settings": {
                     "title": "Fem créixer espais,<br>fem créixer persones",
@@ -1833,7 +1833,7 @@
                   "widgetType": "heading"
                 },
                 {
-                  "id": "e63ee7f",
+                  "id": "c948929",
                   "elType": "container",
                   "settings": {
                     "content_width": "full",

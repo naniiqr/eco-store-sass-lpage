@@ -59,17 +59,17 @@ PAGES = [
          paras=[
              "Una de les millors formes de donar-li a la seva propietat un toc professional és amb els serveis de jardineria. Durant la primavera i l'estiu, les flors fragants i saludables faran que la seva propietat sigui encara més agradable i atractiva. Potser ja tingui excel·lents flors, però de vegades el manteniment de jardí és més fàcil de dir que de fer. New Tree són aquí per ajudar.",
          ],
-         side=img("2021/08/mantenimet.jpg"),
+         side=img("2020/04/11-768x577.png"),   # mantenimet.jpg es idéntica a la portada (f3.jpg); 11.png en 768 px pesa la mitad
          list_title="Manteniment de jardins dels experts", list_icon="check",
          items=[("Control de males herbes invasives", ""), ("Prevenció de sòls compactats", ""),
                 ("Serveis de cobertura", ""), ("Serveis de reg", ""),
-                ("Prevenció de danys per neu o gel…", "")],
+                ("Prevenció de danys per neu o gel...", "")],
          after=["Podem arreglar vores de jardí descuidats, podar arbres, flors mortes, escampar fertilitzants, manteniment de gespa i donarem assessorament de quines accions són les millors en cada moment.",
                 "New Tree ofereix un manteniment expert per garantir que el jardí de casa tingui una vista impressionant."],
-         gallery=["2020/04/11.png"]),
+         gallery=[]),
     dict(file="jardins-verticals", title="Jardins verticals",
          paras=[
-             "Una nova tendència són els jardins verticals, pots donar un ambient diferent i acollidor tant en interior com exteriors, restaurants, sales d'espera, escoles, empreses… Oferim infinits dissenys amb nombrosos beneficis a nivell econòmic, ecològic i social.",
+             "Una nova tendència són els jardins verticals, pots donar un ambient diferent i acollidor tant en interior com exteriors, restaurants, sales d'espera, escoles, empreses... Oferim infinits dissenys amb nombrosos beneficis a nivell econòmic, ecològic i social.",
              "Una façana vegetal ajuda a purificar l'aire, reduir la temperatura ambient, regular la temperatura i promou la biodiversitat a la ciutat. Els jardins verticals formen part de la construcció bioclimàtica. I, és més, la gent és més feliç en un entorn verd que en un entorn gris.",
          ],
          side=img("2021/08/vertical-jpg.jpeg"),
@@ -104,7 +104,7 @@ PAGES = [
          items=[("Mantenir un desenvolupament correcte dels arbres, millora de la seva salut i estructura.", ""),
                 ("Adequar l'arbre a l'espai on es desenvolupa.", ""),
                 ("Evitar la caiguda de branques que podrien fer mal a les persones o els béns, i descarregar de pes el brancatge.", ""),
-                ("Evitar que el brancatge afecti el pas de vianants, vehicles, senyals viàries…", ""),
+                ("Evitar que el brancatge afecti el pas de vianants, vehicles, senyals viàries...", ""),
                 ("Reequilibrar els arbres o les copes mal formades, millorant la seva bellesa.", ""),
                 ("Evitar que s'estenguin les malalties.", "")],
          gallery=["2020/04/19.png", "2020/04/20.png"]),
@@ -160,12 +160,20 @@ def list_section(p):
                      title_px=17, desc_px=14)]) for t, d in p["items"]]
     els = [heading(acc_last(p["list_title"]).replace('color:%s' % RED, 'color:%s' % RED), size="h2", color=WHITE, font_size=34),
            row(elements=boxes, gap="28", justify="center", align="flex-start")]
-    els += [text(t, color=SOFT, font_size=17) for t in p.get("after", [])]
     return section(settings={"background_background": "gradient", "background_color": DARKGREEN,
                              "background_color_b": DARKGREEN2, "background_gradient_type": "linear",
                              "background_gradient_angle": {"unit": "deg", "size": 135, "sizes": []},
                              "flex_gap": {"column": "36", "row": "36", "unit": "px", "isLinked": True},
                              "padding": pad(80, 40, 80, 40)}, elements=els)
+
+
+def after_section(p):
+    paras = p["after"]
+    return section(settings={"background_background": "classic", "background_color": WHITE,
+                             "padding": pad(70, 40, 70, 40)},
+                   elements=[col(settings={"width": {"unit": "%", "size": 72}, "flex_align_items": "flex-start"}, gap="18",
+                                 elements=[text(paras[0], color=TEXT_DARK, font_size=20)] +
+                                          [text(t, font_size=17) for t in paras[1:]])])
 
 
 def gallery_section(p):
@@ -195,6 +203,8 @@ def build(p):
     secs = [hero_section(p), features_strip(), intro_section(p)]
     if p["items"]:
         secs.append(list_section(p))
+    if p.get("after"):
+        secs.append(after_section(p))
     if p["gallery"]:
         secs.append(gallery_section(p))
     if p.get("hub"):
